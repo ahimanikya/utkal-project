@@ -464,3 +464,7 @@ Reconciled five B05 research checkpoints into the existing review candidate. Sev
 ## 2026-10-08 · B06 research checkpoint
 
 Reconciled three B06 profiles into the existing review candidate. Eight narrative checkpoints and sixteen research notes. Sita and Rambha have no established local menu. No merge or publication.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Reconciled accumulated Osha research:39 profiles,10 narrative checkpoints and29 research notes, plus an identity guide. No merge or publication.

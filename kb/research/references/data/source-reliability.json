@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-08T01:15:40.768038+00:00",
+  "updated_at": "2026-10-09T10:24:29.876536+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -7082,6 +7082,1110 @@
         }
       ],
       "note": "Rambha original printed text and Odisha scope comparison. Not a weekly release check; no measured practice or food availability inferred."
+    },
+    {
+      "run_id": "2026-10-08-nagala-chaturthi",
+      "at": "2026-10-08T02:17:25.091956+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-nagala-chaturthi",
+          "checked_at": "2026-10-08T02:17:25.091956+00:00",
+          "locator": "Printed55–56 / PDF71–72, joint Naga Panchami/Nagala entry",
+          "method": "Saved text and original page images inspected",
+          "scope": "Selected new reading of existing publication; not independent corroboration.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-nagala-chaturthi",
+          "checked_at": "2026-10-08T02:17:25.091956+00:00",
+          "locator": "Printed15–16 / PDF1–2 inventory; printed17 / PDF3 snake and food passages",
+          "method": "Saved text; original PDF3 image inspected",
+          "scope": "Selected new reading of existing publication; not independent corroboration.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-nmm-catalogue",
+          "run_id": "2026-10-08-nagala-chaturthi",
+          "checked_at": "2026-10-08T02:17:25.091956+00:00",
+          "locator": "PDF19,21,36,61 selected Nagala title rows",
+          "method": "Publisher PDF text extraction; page-image and binary download unavailable",
+          "scope": "Selected new reading of existing publication; not independent corroboration.",
+          "status": "retrieved_text_only",
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf"
+        },
+        {
+          "source_id": "osha-nagala-samal2019",
+          "url": "https://thesrinibash.wordpress.com/2019/10/29/nagala-chaturthi-brata-and-its-associated-rituals-believes-with-some-stories/",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T02:17:25.091956+00:00",
+          "locator": "Opening ritual description and Story 2",
+          "scope": "Author-published modern retelling; no fieldwork sample or original katha edition established. Substantial wording overlaps Mahanti; not independent corroboration. Astika calendar ending differs. Medical, income and universal-practice assertions not adopted."
+        },
+        {
+          "source_id": "osha-nagala-odiaportal",
+          "url": "https://www.odiaportal.in/2015/11/Naga-Chaturthi-Osa-Bahi-Odia-PDF.html",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T02:17:25.091956+00:00",
+          "locator": "Introductory calendar, The Legend, and Android-app availability note",
+          "scope": "Directly read publisher landing-page description only. Full book is app-only and was not inspected. The separate2017 list attributes a14-page book to Raghunath Das; author identity and imprint remain unverified."
+        },
+        {
+          "source_id": "osha-astika-ganguli",
+          "url": "https://www.gutenberg.org/ebooks/15474",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T02:17:25.091956+00:00",
+          "locator": "Adi Parva, Astika Parva, sections LIV–LVIII; ebook header",
+          "scope": "Public-domain literary translation read directly in downloaded text. Not an Odisha ritual manual, historical event or manuscript facsimile. Digital dates do not date the epic or local observance."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.gutenberg.org/cache/epub/15474/pg15474-images.html",
+          "status": "unavailable",
+          "reason": "Web extraction exceeded content size; downloaded plain-text edition used instead."
+        },
+        {
+          "url": "https://sacred-texts.com/hin/m01/m01059.htm",
+          "status": "unavailable",
+          "reason": "Web Internal Error; not adopted."
+        },
+        {
+          "url": "https://sacred-texts.com/hin/m01/m01058.htm",
+          "status": "unavailable",
+          "reason": "Web Internal Error; not adopted."
+        },
+        {
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+          "status": "unavailable",
+          "reason": "Page screenshots cache miss; binary download timed out. Publisher text extraction only available."
+        },
+        {
+          "url": "https://www.odiaportal.in/2015/11/Naga-Chaturthi-Osa-Bahi-Odia-PDF.html",
+          "status": "unavailable",
+          "reason": "Full advertised book is Android-app-only; landing page available, book not retrieved."
+        }
+      ],
+      "note": "New Nagala identity/textual comparison; no weekly release check or measured local practice."
+    },
+    {
+      "run_id": "2026-10-08-naga-panchami",
+      "at": "2026-10-08T03:22:25.078713+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-naga-panchami",
+          "checked_at": "2026-10-08T03:22:25.078713+00:00",
+          "locator": "Printed55–56 / PDF71–72, joint Naga Panchami/Nagala account",
+          "method": "Saved evidence reused; no new independent witness",
+          "local_path": "work/osha-deep-study/mahanti.txt",
+          "scope": "Retain prior narrative comparison and calendar distinction.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-astika-ganguli",
+          "run_id": "2026-10-08-naga-panchami",
+          "checked_at": "2026-10-08T03:22:25.078713+00:00",
+          "locator": "Adi Parva, Astika Parva LIV–LVIII; prior selected reading",
+          "method": "Saved evidence reused; no new independent witness",
+          "local_path": "work/osha-nagala/astika-selected.txt",
+          "scope": "Retain prior narrative comparison and calendar distinction.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.gutenberg.org/ebooks/15474"
+        },
+        {
+          "source_id": "osha-naga-panda2004",
+          "url": "https://magazines.odisha.gov.in/Journal/jounalvol1/pdf/orhj-4.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T03:22:25.078713+00:00",
+          "locator": "Printed22 / PDF7; printed34 / PDF19 note46; printed36 / PDF21 Plate11",
+          "scope": "Original article text and selected page images inspected. Author identifies and iconographically dates the Deogaon Astika–Jaratkaru sculpture; this does not date Naga Panchami or establish a food tradition. Note46 points to the same author’s1995 report, not independent corroboration. Earlier1995 original and underlying chronology not independently verified."
+        },
+        {
+          "source_id": "osha-naga-osm-archaeology",
+          "url": "https://odishamuseum.nic.in/?q=dept/archaelogy",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T03:22:25.078713+00:00",
+          "locator": "Archaeology introduction",
+          "scope": "Museum’s own collection description: Naga and Yaksha images from around Bhubaneswar. No exact date for these individual objects, link to a particular festival, fresh object-location verification or visitor access established."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://magazines.odisha.gov.in/Journal/jounalvol1/pdf/orhj-4.pdf",
+          "status": "unavailable",
+          "reason": "Initial web fetch timed out; sandbox DNS and verified TLS download failed (expired certificate). Recovered same public PDF with per-request TLS verification disabled; transport limitation retained."
+        },
+        {
+          "url": "https://nmma.nic.in/nmma/exploreMusObject.do?musname=GM-OSM&object=10",
+          "status": "unavailable",
+          "reason": "Web Internal Error; search result not promoted to inspected object record."
+        },
+        {
+          "url": "https://www.jstor.org/stable/44155757",
+          "status": "unavailable",
+          "reason": "Article and PDF route yielded tag-manager-only shell. Indexed volume table of contents identifies publication metadata only; article contents unread."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Object attribution does not date a festival."
+    },
+    {
+      "run_id": "2026-10-08-ananta",
+      "at": "2026-10-08T04:27:24.591664+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-ananta",
+          "checked_at": "2026-10-08T04:27:24.591664+00:00",
+          "locator": "Printed46–47 / PDF62–63, Ananta Brata and footnote34",
+          "method": "Saved PDF text and page images inspected; no independent new witness",
+          "scope": "Source-specific calendar, dedication and food roles retained.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-ananta",
+          "checked_at": "2026-10-08T04:27:24.591664+00:00",
+          "locator": "Printed16 / PDF2, Ananta inventory",
+          "method": "Saved PDF text and page images inspected; no independent new witness",
+          "scope": "Source-specific calendar, dedication and food roles retained.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-ananta-bhavishya",
+          "url": "https://sa.wikisource.org/wiki/भविष्यपुराणम्_/पर्व_४_(उत्तरपर्व)/अध्यायः_०९४",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T04:27:24.591664+00:00",
+          "locator": "Chapter94 verses1–73, before the appended Shabdakalpadruma passage",
+          "scope": "Digital transcription of a primary textual work, not a verified printed edition or dated manuscript. Chapter read; appended dictionary quotation not collated. No Odisha location or earliest local observance established."
+        },
+        {
+          "source_id": "osha-ananta-agni",
+          "url": "https://www.transliteral.org/pages/z200918052459/view",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T04:27:24.591664+00:00",
+          "locator": "Chapter192 verses7–11",
+          "scope": "Selected digital Sanskrit passage only; underlying print edition unidentified. Textual food and thread prescription is not an Odisha household record."
+        },
+        {
+          "source_id": "osha-ananta-kamakoti",
+          "url": "https://www.kamakoti.org/kamakoti/bhavishya/bookview.php?chapnum=34",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T04:27:24.591664+00:00",
+          "locator": "Chapter34 webpage, Ananta Chaturdashi Vrata section",
+          "scope": "Institutional modern English retelling; responsibility for discarding the thread differs from the inspected Sanskrit chapter. Not a critical edition or independent Odisha witness."
+        },
+        {
+          "source_id": "osha-ananta-manual",
+          "url": "https://sanskritdocuments.org/mirrors/puja/texts/anant.htm",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T04:27:24.591664+00:00",
+          "locator": "Section47 katha, English story",
+          "scope": "Modern puja manual; named locality and underlying edition unidentified. Burning-thread story and Atiras prescription retained as source-specific, not an Odisha menu."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.odiaportal.in/2017/09/Anant-Chaturdashi-Vrat-Download-Free-Odia-eBook.pdf.html",
+          "status": "unavailable",
+          "scope": "Full Odia book only",
+          "reason": "Landing page available, but book offered through Android app; no full text, author or print imprint verified. No app installed."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-rabinarayana",
+      "at": "2026-10-08T05:25:52.157769+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-rabinarayana",
+          "checked_at": "2026-10-08T05:25:52.157769+00:00",
+          "locator": "Printed 44–45 / PDF 60–61, Rabinarayana entry; printed 63 / PDF 79, separate Rabibara entry",
+          "method": "Saved PDF text and Rabinarayana page images inspected; no independent new witness",
+          "scope": "Calendar and ritual roles or catalogue metadata only; no completed history.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-rabinarayana",
+          "checked_at": "2026-10-08T05:25:52.157769+00:00",
+          "locator": "Printed 16 / PDF 2, Rabinarayan and Pusa Rabibara inventory entries",
+          "method": "Saved text and page image inspected",
+          "scope": "Calendar and ritual roles or catalogue metadata only; no completed history.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-nmm-catalogue",
+          "run_id": "2026-10-08-rabinarayana",
+          "checked_at": "2026-10-08T05:25:52.157769+00:00",
+          "locator": "PDF 21, ORPR-218 and ORPR-236; PDF 55, CY-1847,1848",
+          "method": "New title rows inspected through publisher PDF web text extraction; manuscript contents and page images not inspected this run",
+          "scope": "Calendar and ritual roles or catalogue metadata only; no completed history.",
+          "status": "retrieved",
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf"
+        },
+        {
+          "source_id": "osha-rabinarayana-adhikari2020",
+          "url": "https://antarangakalinga.org/ରବିନାରାୟଣ-ଏକାଦଶୀ/",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T05:25:52.157769+00:00",
+          "locator": "Calendar paragraph and final offering paragraph",
+          "scope": "Named Odia cultural account, not a government record or documented household survey. Retain seven mua and seven manda as attributed offering names; no ingredients or cooking method given. Temple claims are leads, not current event or access verification. No photo reuse rights established."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://odiabibhaba.in/en/books/",
+          "status": "unavailable",
+          "reason": "Web retrieval returned Internal Error; indexed third-party list entry2267 is a discovery lead only. No book contents recovered."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-somnath",
+      "at": "2026-10-08T06:29:19.536213+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-somnath",
+          "checked_at": "2026-10-08T06:29:19.536213+00:00",
+          "locator": "Printed 48–49 / PDF 64–65, Somnath and Kukkuti entry",
+          "method": "Saved text and both page images inspected",
+          "scope": "Ritual description or catalogue metadata only; not independent dating.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-somnath",
+          "checked_at": "2026-10-08T06:29:19.536213+00:00",
+          "locator": "Printed 15 / PDF 1, Somanath and separate Kukkuti inventory entries",
+          "method": "Saved text and page image inspected",
+          "scope": "Ritual description or catalogue metadata only; not independent dating.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-nmm-catalogue",
+          "run_id": "2026-10-08-somnath",
+          "checked_at": "2026-10-08T06:29:19.536213+00:00",
+          "locator": "PDF 15,21,23,24,53; eight selected Somanatha title rows",
+          "method": "Publisher PDF web text inspected; original manuscript contents and catalogue page images not inspected",
+          "scope": "Ritual description or catalogue metadata only; not independent dating.",
+          "status": "retrieved",
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf"
+        },
+        {
+          "source_id": "osha-somnath-odia-text",
+          "url": "https://instapdfhome.files.wordpress.com/2021/04/somanath-vrat-katha-oriya.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T06:29:19.536213+00:00",
+          "locator": "PDF pp.1–3, all pages visually inspected",
+          "scope": "Modern typed Odia narrative copy. Undated edition and composition; the hosting path is not an edition date. Footer credit is not a verified author attribution. Research paraphrase only; no republication rights established."
+        },
+        {
+          "source_id": "osha-prusty2014-prose",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2014/mar/engpdf/5-14.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T06:29:19.536213+00:00",
+          "locator": "Printed p.10 / PDF p.7; title and author printed p.4 / PDF p.1",
+          "scope": "Literary-history discussion with an attributed thirteenth-century dating and an excerpt citing Kunja Bihari Tripathy, Prachina Odia Gadya Sankalan, Odisha Sahitya Akademy, 1982, p.92. The cited original has not been inspected; no independently verified manuscript date or festival origin established. Download recovered with certificate validation disabled for this single public request after the publisher certificate failed validation."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/2014/mar/engpdf/5-14.pdf",
+          "status": "unavailable",
+          "scope": "Initial web and verified-TLS download attempts",
+          "reason": "Web timed out; sandbox DNS failed; publisher certificate validation failed. Public PDF subsequently recovered with single-request certificate bypass and visually inspected; not an unchanged release check."
+        },
+        {
+          "url": "https://hindunidhi.com/languages/odia/",
+          "status": "unavailable",
+          "reason": "Bot verification; no bypass attempted."
+        },
+        {
+          "url": "https://satyapanda.wordpress.com/wp-content/uploads/2020/10/image-1.png?w=541",
+          "status": "unavailable",
+          "reason": "Web cache miss; same result for image-2 and image-12 preview requests. Underlying illustrated copy not inspected."
+        },
+        {
+          "url": "https://instapdf.in/preview/?pdfid=19620",
+          "status": "unavailable",
+          "scope": "Preview images only",
+          "reason": "Web image cache misses; actual three-page PDF subsequently recovered from the observed download link."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-kukkuti",
+      "at": "2026-10-08T07:24:46.240962+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-kukkuti",
+          "checked_at": "2026-10-08T07:24:46.240962+00:00",
+          "locator": "Printed49 / PDF65, final sentence of Somnath and Kukkuti entry; printed48 / PDF64 for Somnath start",
+          "method": "Saved text and previously inspected page images reused",
+          "scope": "Odisha name, relative timing and dedication; no Kukkuti food specification.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-kukkuti",
+          "checked_at": "2026-10-08T07:24:46.240962+00:00",
+          "locator": "Printed15 / PDF1, Kukkuti inventory entry",
+          "method": "Saved text and previously inspected page images reused",
+          "scope": "Odisha name, relative timing and dedication; no Kukkuti food specification.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-kukkuti-shabdakalpa",
+          "url": "https://sa.wikisource.org/wiki/शब्दकल्पद्रुमः/ल",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T07:24:46.240962+00:00",
+          "locator": "Volume 4, displayed pp.209–210, Lalitasaptami entry; web lines2633–2760",
+          "scope": "Primary textual passage as a digital transcription, not a checked printed facsimile or an Odisha household account. Calendar, narrative and food terms are comparative evidence only. Linked permanent revision313013 failed to fetch; current entry read. Text does not establish composition date, historical events or ritual origin."
+        },
+        {
+          "source_id": "osha-kukkuti-ignca",
+          "url": "https://ignca.gov.in/PDF_data/Vedanga-Kalpa%28Grihyaprayoga%29-Vol-II-Part-VI.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T07:24:46.240962+00:00",
+          "locator": "Printed108–109 / PDF126–127; records6281,6286,6287,6288",
+          "scope": "Catalogue descriptions and page images inspected. Four selected Sanskrit texts in Bangla script at Saraswati Bhawan Library, Varanasi; comparative witnesses, not Odisha field evidence. No manuscript contents or copying dates verified."
+        },
+        {
+          "source_id": "osha-kukkuti-osm-smrti",
+          "url": "https://jainqq.org/booktext/Descriptive_Catalogue_of_Palmleaf_and_Paper_Manuscripts/020182",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T07:24:46.240962+00:00",
+          "locator": "Printed85 / viewer139, item148; preface viewer9",
+          "scope": "Mirror OCR inspected; title-page imprint and page image unavailable. Item148 describes a composite palm-leaf Vratakatha in Oriya script, with Kukkuti among its subjects. Accession OCR reads B.S.17(bi.; exact suffix needs facsimile verification. Twelve folia belong to the combined record. Script is not proof of Odia language; no copy date, findspot or colophon supplied."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://uccik.in/ab_files/L/V2-L.%20Notices%20of%20Sanskrit%20Manuscripts%20First%20Series%202%20-%20Rajendralal%20Mittra%20%20%281874%29.pdf",
+          "status": "unavailable",
+          "reason": "Web internal error and direct HTTP404. Indexed p.64 lead not read."
+        },
+        {
+          "url": "https://searcharchives.bl.uk/catalog/040-004072260",
+          "status": "unavailable",
+          "reason": "Catalogue web internal error; alternate EAP921-6-3-152 route also internal error. Indexed metadata only, not adopted as inspected record."
+        },
+        {
+          "url": "https://ignca.gov.in/PDF_data/Vedanga-Kalpa%28Grihyaprayoga%29-Vol-II-Part-VI.pdf",
+          "status": "unavailable",
+          "scope": "Initial web fetch only",
+          "reason": "Web timeout; direct public PDF download subsequently succeeded. PDF126–127 visually inspected."
+        },
+        {
+          "url": "https://jainqq.org/explore/020182/139/",
+          "status": "unavailable",
+          "scope": "Web page and facsimile",
+          "reason": "Web cache miss; direct HTML and alternative booktext recovered. Linked facsimile image inaccessible through web tool; accession suffix remains held."
+        },
+        {
+          "url": "https://sa.wikisource.org/w/index.php?oldid=313013&title=शब्दकल्पद्रुमः%2Fल",
+          "status": "unavailable",
+          "reason": "Permanent-link web cache miss; current transcription read, not a verified immutable capture."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-santoshi",
+      "at": "2026-10-08T08:33:31.267161+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-santoshi",
+          "checked_at": "2026-10-08T08:33:31.267161+00:00",
+          "locator": "Printed109–110 / PDF125–126, Santoshi maa puja; printed64 / PDF80 Sukrabara",
+          "method": "Saved text reused; Mahanti PDF125–126 visually inspected this run, Dash PDF1 previously inspected",
+          "scope": "Attributed Odisha descriptions of weekly vow, offering, abstention and completion; no dated origin or household fieldwork.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-santoshi",
+          "checked_at": "2026-10-08T08:33:31.267161+00:00",
+          "locator": "Printed15 / PDF1, Santoshi Mata Brata inventory entry",
+          "method": "Saved text reused; Mahanti PDF125–126 visually inspected this run, Dash PDF1 previously inspected",
+          "scope": "Attributed Odisha descriptions of weekly vow, offering, abstention and completion; no dated origin or household fieldwork.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-santoshi-lutgendorf",
+          "url": "https://manushi.in/wp-content/uploads/2022/11/pdfs_issues/PDF%20ISSUE%20131%283.4%29/5.%20A%20Made%20to%20Satisfaction%20Goddess.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T08:33:31.267161+00:00",
+          "locator": "Issue131, printed24–26 / PDF1–3; printed36–37 / PDF13–14 notes and references",
+          "scope": "Scholarly study, not Odisha fieldwork. Selected pages visually inspected; ritual/story synopsis cites Simha and Agnihotri2000 pp338–339, not independently recovered. Film not viewed in this run. Same-work edited transcription at Frances Pritchett archive confirms issue period; not independent corroboration."
+        },
+        {
+          "source_id": "osha-santoshi-odia-lead",
+          "url": "https://www.odiabook.in/2023/03/santoshi-maa-brata-katha-odia-book-pdf_6.html",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T08:33:31.267161+00:00",
+          "locator": "Description of Book table and download links",
+          "scope": "Discovery metadata only: lists Shri Sarada Store in a combined author/publisher field, 33 pages and Archive.org as origin. Book not retrieved; imprint, edition date, authorship, contents and rights unverified. Landing date is not book publication date. No new digital witness counted."
+        },
+        {
+          "source_id": "osha-santoshi-lutgendorf",
+          "url": "https://franpritchett.com/00generallinks/lutgendorf_santoshi/txt_lutgendorf_santoshi.html",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T08:33:31.267161+00:00",
+          "locator": "Opening metadata lines0–19",
+          "scope": "Same-work transcription confirms issue date; not independent corroboration."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.odiabook.in/2023/03/santoshi-maa-brata-katha-odia-book-pdf_6.html",
+          "status": "unavailable",
+          "scope": "Linked Google Drive book via landing link11",
+          "reason": "Web click returned internal error; book not read."
+        },
+        {
+          "url": "https://load.odiabook.in/downloading.php",
+          "status": "unavailable",
+          "scope": "Alternate download route, landing link12",
+          "reason": "Redirect to a one-line downloading page; no book text retrieved."
+        },
+        {
+          "url": "https://www.odiabook.in/2023/03/santoshi-maa-brata-katha-odia-book-pdf_6.html",
+          "status": "unavailable",
+          "scope": "Direct shell landing-page retrieval only",
+          "reason": "curl certificate-chain validation failed; web landing text was readable. No certificate bypass used."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-kedar",
+      "at": "2026-10-08T09:27:49.466924+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-kedar",
+          "checked_at": "2026-10-08T09:27:49.466924+00:00",
+          "locator": "Printed52 / PDF68, Kedara brata paragraph",
+          "method": "Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected",
+          "scope": "Odisha dedication and counted offering description; Mahanti gives Kartika purnima and an attributed Kunti story.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-kedar",
+          "checked_at": "2026-10-08T09:27:49.466924+00:00",
+          "locator": "Printed15 / PDF1, Kedar Brata inventory entry",
+          "method": "Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected",
+          "scope": "Odisha dedication and counted offering description; Mahanti gives Kartika purnima and an attributed Kunti story.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-kedar-pothi",
+          "url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kedara_Brata.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T09:27:49.466924+00:00",
+          "locator": "PDF1 digital cover; PDF2–11 narrative and ritual directions; printed page numbers not visible",
+          "scope": "All eleven PDF pages visually inspected. Primary Odia textual witness, not fieldwork. The digital cover is not an original imprint. Repository claims a seventeenth-century text and publication2August1917; neither date established from inspected scan, so both remain metadata leads. Prateek Pattanaik credited for supplying/scanning. No independent edition comparison or full diplomatic transcription."
+        },
+        {
+          "source_id": "osha-kedar-pothi",
+          "url": "https://commons.wikimedia.org/wiki/File:Kedara_Brata.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T09:27:49.466924+00:00",
+          "locator": "Summary, publication fields, file history",
+          "scope": "Digitisation provenance and unverified dating labels; not independent textual corroboration."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://law.odisha.gov.in/sites/default/files/2021-01/Appendix%20to%20the%20Odisha%20Gazette%201937%20No.1%20of%20October%2029%2C1937.pdf",
+          "status": "unavailable",
+          "scope": "Original Gazette PDF",
+          "reason": "Web fetch timed out; direct public download also timed out after40seconds. Search-index passage is a lead, not inspected facsimile."
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-rai-damodara",
+      "at": "2026-10-08T10:34:56.057368+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-rai-damodara",
+          "checked_at": "2026-10-08T10:34:56.057368+00:00",
+          "locator": "Printed25,51–52 / PDF41,67–68",
+          "method": "Saved text reused; Mahanti PDF41,67,68 visually inspected this run; Dash inventory text reused",
+          "scope": "Name, legend, calendar and food roles; Mahanti internal start-date conflict retained.",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-rai-damodara",
+          "checked_at": "2026-10-08T10:34:56.057368+00:00",
+          "locator": "Printed16 / PDF2, Rai Damodara inventory",
+          "method": "Saved text reused; Mahanti PDF41,67,68 visually inspected this run; Dash inventory text reused",
+          "scope": "Name, legend, calendar and food roles; Mahanti internal start-date conflict retained.",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-kartika-patra-punit2018",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2018/Nov/engpdf/33-38.pdf",
+          "status": "retrieved_text",
+          "checked_at": "2026-10-08T10:34:56.057368+00:00",
+          "locator": "Printed33–38 / PDF1–6; food and panchaka printed36; references printed38",
+          "scope": "Publisher-hosted scholarly interpretation, read through web PDF text. Underlying Puranic passages were not independently inspected. Download failed certificate validation; screenshots unavailable. No original PDF image inspection claimed. Historical social descriptions are not a current survey or participant testimony."
+        },
+        {
+          "source_id": "osha-habisha-city-cuisine",
+          "url": "https://visit.bhubaneswar.me/taste/eat-exclusive/odia-cuisine",
+          "status": "retrieved_text",
+          "checked_at": "2026-10-08T10:34:56.057368+00:00",
+          "locator": "Dalma section, Habisha paragraphs immediately before Where to eat",
+          "scope": "Institutional visitor description of one preparation. No publication date visible. Generic restaurant wording is not a dated Habisha menu or current serving verification; health and universal claims excluded."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/2018/Nov/engpdf/33-38.pdf",
+          "status": "unavailable",
+          "method": "curl PDF download",
+          "reason": "TLS certificate validation failed: certificate expired",
+          "checked_at": "2026-10-08T10:34:56.057368+00:00",
+          "recovery": "Web PDF text readable; no local PDF or visual verification"
+        },
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/2018/Nov/engpdf/33-38.pdf",
+          "status": "unavailable",
+          "method": "Web screenshots PDF4 and6",
+          "reason": "Cache miss",
+          "checked_at": "2026-10-08T10:34:56.057368+00:00",
+          "recovery": "Retain text-only inspection status"
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-magha",
+      "at": "2026-10-08T11:36:17.713923+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-magha",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "locator": "Printed26,52 / PDF42,68",
+          "method": "Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused",
+          "scope": "Month-long observance, start rule, meal description and attributed Samba legend",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-magha",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "locator": "Printed16 / PDF2",
+          "method": "Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused",
+          "scope": "Inventory name only; no food or chronology supplied",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-konark2015",
+          "run_id": "2026-10-08-magha",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "locator": "Printed93–94 / PDF2–3",
+          "method": "Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused",
+          "scope": "Separate Saptami and Dashami calendars; literary-history lead, not earliest observance proof",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2015/August/engpdf/93-97.pdf"
+        },
+        {
+          "source_id": "osha-magha-swarup1910",
+          "url": "https://ignca.gov.in/Asi_data/8428.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "locator": "Title PDF4; preface PDF6; printed41–42 / PDF48–49",
+          "scope": "Selected facsimile pages visually inspected. The 1910 book discusses the fair while summarising sacred texts; a dated published reference, not proof of earliest observance or a witness to every annual gathering. Underlying Prachi Mahatmyam not independently inspected."
+        },
+        {
+          "source_id": "osha-chandrabhaga-tourism",
+          "url": "https://odishatourism.gov.in/w/chandrabhaga-beach",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "locator": "Discover the Heritage, introductory paragraph; Key Information location",
+          "scope": "Official destination description confirms Magha Saptami association and Konark/Puri setting only. No source publication date shown. Access hours, prices, health claims, visitor counts and current annual date not adopted."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/2015/August/engpdf/93-97.pdf",
+          "status": "unavailable",
+          "method": "Web PDF refresh",
+          "reason": "Internal error",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "recovery": "Saved PDF pages reused and visually inspected; no fresh publisher revision check"
+        },
+        {
+          "url": "https://odishatourism.gov.in/web/guest/events",
+          "status": "unavailable",
+          "method": "Web fetch",
+          "reason": "Timeout",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "recovery": "Indexed date range not adopted"
+        },
+        {
+          "url": "https://ignca.gov.in/Asi_data/8428.pdf",
+          "status": "unavailable",
+          "method": "Initial sandbox curl and web screenshots",
+          "reason": "Sandbox DNS failure; web screenshots timed out",
+          "checked_at": "2026-10-08T11:36:17.713923+00:00",
+          "recovery": "Authorised direct download succeeded; selected local pages visually inspected"
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-baisakha",
+      "at": "2026-10-08T22:55:15.459809+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-baisakha",
+          "checked_at": "2026-10-08T22:55:15.459809+00:00",
+          "locator": "Printed 45 / PDF61, Baisakha brata paragraph",
+          "method": "Saved source reused; Mahanti PDF61 visually inspected this run; Dash inventory text reused",
+          "scope": "Vishnu devotion, whole-month observance, reading and named evening meal",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-baisakha",
+          "checked_at": "2026-10-08T22:55:15.459809+00:00",
+          "locator": "Printed16 / PDF2, Baisakha inventory name",
+          "method": "Saved source reused; Mahanti PDF61 visually inspected this run; Dash inventory text reused",
+          "scope": "Name only; no food detail or dated origin",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-baisakha-kamakoti",
+          "url": "https://www.kamakoti.org/kamakoti/details/skandapurana28.html",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T22:55:15.459809+00:00",
+          "locator": "Chapter 28 webpage: water-charity paragraphs and King Kirtiman narrative",
+          "scope": "Institutional devotional condensation, not a critical Sanskrit edition or Odisha ethnography. Used as an attributed comparative telling only; no local transmission date, historical king or promised religious/medical outcome established. Chapter 28 is the website summary chapter, not asserted to be an original Purana chapter number."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+          "status": "unavailable",
+          "method": "Web open/find and direct curl download",
+          "reason": "Web timed out/no text returned; direct download timed out after 40 seconds without data",
+          "checked_at": "2026-10-08T22:55:15.459809+00:00",
+          "recovery": "Only indexed catalogue leads retained; no manuscript or original row inspection claimed"
+        },
+        {
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Orissa.pdf",
+          "status": "unavailable",
+          "method": "Web open alternate catalogue filename",
+          "reason": "Timeout",
+          "checked_at": "2026-10-08T22:55:15.459809+00:00",
+          "recovery": "Alternate filename is not an independent manuscript witness"
+        }
+      ],
+      "note": "Cultural research scope only; not a weekly release/revision check. Textual witnesses do not establish earliest Odisha history."
+    },
+    {
+      "run_id": "2026-10-08-guru-panchami",
+      "at": "2026-10-08T23:04:41.606719+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-08-guru-panchami",
+          "checked_at": "2026-10-08T23:04:41.606719+00:00",
+          "locator": "Printed47–48 / PDF63–64",
+          "method": "Saved evidence reused; Mahanti PDF63–64 visually inspected; Dash saved text searched",
+          "scope": "Teacher/disciples account, women and seven sages, fasting; unsupported extinction claim retained only as author’s statement",
+          "status": "saved_evidence_reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-guru-panchami",
+          "checked_at": "2026-10-08T23:04:41.606719+00:00",
+          "locator": "Printed16 / PDF2",
+          "method": "Saved evidence reused; Mahanti PDF63–64 visually inspected; Dash saved text searched",
+          "scope": "Guru Panchami Ashwina placement and separate Roosi Panchami inventory name",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-panchami-ojha2022",
+          "url": "https://fliphtml5.com/aukd/fzar/February_2022/",
+          "status": "retrieved",
+          "checked_at": "2026-10-08T23:04:41.606719+00:00",
+          "locator": "Printed102 / viewer104 author and title; printed107–108 / viewer109–110 Guru section; printed108–109 / viewer110–111 Rishi section; printed1 / viewer3 masthead",
+          "scope": "Original Odia authored cultural essay, read through the issue’s HTML text layer. No page-image inspection or critical textual collation claimed. Used for the author’s distinction and devotional account, not demonstrated local practice, origin chronology or astrological outcomes. Issue date differs from platform upload date."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://fliphtml5.com/aukd/fzar/February_2022/109/",
+          "status": "unavailable",
+          "method": "Web open individual page",
+          "reason": "Cache miss",
+          "checked_at": "2026-10-08T23:04:41.606719+00:00",
+          "recovery": "Full-issue HTML text subsequently retrieved; no page-image inspection claimed"
+        },
+        {
+          "url": "https://samanyakathan.com/ତିଥି-ବାର-ବେଳା-ଅକ୍ଟୋବର-୩-୯-୨/",
+          "status": "unavailable",
+          "method": "Web open indexed Odia calendar column",
+          "reason": "Cache miss",
+          "checked_at": "2026-10-08T23:04:41.606719+00:00",
+          "recovery": "Do not adopt indexed calendar dates or infer living practice"
+        },
+        {
+          "url": "https://samanyakathan.com/ତିଥି-ବାର-ବେଳା-ଜୁନ-୬-୧୨-୨୦୧୬/",
+          "status": "unavailable",
+          "method": "Web open indexed Odia calendar column",
+          "reason": "Cache miss",
+          "checked_at": "2026-10-08T23:04:41.606719+00:00",
+          "recovery": "Do not adopt indexed calendar dates or infer living practice"
+        }
+      ],
+      "note": "Scoped cultural research reading; not weekly release/revision monitoring or independent field verification."
+    },
+    {
+      "run_id": "2026-10-08-rushi-panchami",
+      "at": "2026-10-09T00:07:30.415998+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-jagannath-festivals2003",
+          "url": "https://magazines.odisha.gov.in/Orissareview/july2003/englishchpter/The%20Festivals%20of%20Lord%20Jagannath.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "locator": "Printed39 / PDF3, Rishi Panchami row; title and author printed37 / PDF1",
+          "scope": "Published temple calendar description. Used only for Bhadraba bright fifth-day rule; no current-year date, origin or food inferred.",
+          "capture": {
+            "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-rushi/festivals2003.pdf",
+            "sha256": "fe5972126a9be4f27cc63108bc30dbb5c66d6e030d7300b50338c2fde201e62a",
+            "retrieved_at": "2026-10-09T00:07:30.415998+00:00",
+            "method": "Publisher PDF retrieved; cited PDF pages rendered and visually inspected",
+            "transport_note": "Public-document-only request with certificate verification disabled after expiry errors; no persistent TLS change. Publisher URL, issue date and byline checked against document."
+          }
+        },
+        {
+          "source_id": "osha-markandeswar2013",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2013/jul/engpdf/105-109.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "locator": "Printed106–107 / PDF3–4, Jagamohan painting and Festivals & Rituals; title/author printed104 / PDF1",
+          "scope": "Authored temple description, not an institutional ritual register. Records a painting and ritual connection as described in2013; not proof of current condition or earliest observance. URL numbering differs from printed pagination.",
+          "capture": {
+            "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-rushi/markandeswar2013.pdf",
+            "sha256": "36da9734f0a27bc49a89a4530e64b657410c86a2b0dbb0c308c39d355f3468db",
+            "retrieved_at": "2026-10-09T00:07:30.415998+00:00",
+            "method": "Publisher PDF retrieved; cited PDF pages rendered and visually inspected",
+            "transport_note": "Public-document-only request with certificate verification disabled after expiry errors; no persistent TLS change. Publisher URL, issue date and byline checked against document."
+          }
+        },
+        {
+          "source_id": "osha-panchami-ojha2022",
+          "run_id": "2026-10-08-rushi-panchami",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "locator": "Printed108–109 / viewer110–111, Rishi Panchami section",
+          "method": "Full-issue HTML text layer reread; no magazine page-image inspection",
+          "scope": "Attributed seven-sages story, temple offering and katha description; not origin or household menu",
+          "status": "retrieved_text_layer",
+          "url": "https://fliphtml5.com/aukd/fzar/February_2022/"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-08-rushi-panchami",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "locator": "Printed16 / PDF2",
+          "method": "Saved publication text reused",
+          "scope": "Roosi Panchami name separately listed from Guru Panchami",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf"
+        },
+        {
+          "source_id": "osha-lakshmi2021",
+          "run_id": "2026-10-08-rushi-panchami",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "locator": "Printed22 / PDF2",
+          "method": "Saved publication text reused",
+          "scope": "Rishipanchami appears among Lakshmi temple festivals; no food or date supplied",
+          "status": "saved_evidence_reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2021/June-July/engpdf/page-21-25.pdf"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/2013/jul/engpdf/july_or_2013.pdf",
+          "status": "unavailable",
+          "method": "Web or verified-TLS retrieval attempt",
+          "reason": "Web full-issue retrieval timeout",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "recovery": "Individual publisher PDFs subsequently recovered through request-scoped certificate exception; original failed attempts retained"
+        },
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/july2003/englishchpter/The%20Festivals%20of%20Lord%20Jagannath.pdf",
+          "status": "unavailable",
+          "method": "Web or verified-TLS retrieval attempt",
+          "reason": "Web retrieval inaccessible; initial local DNS restriction; verified-TLS fetch failed due expired certificate",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "recovery": "Individual publisher PDFs subsequently recovered through request-scoped certificate exception; original failed attempts retained"
+        },
+        {
+          "url": "https://magazines.odisha.gov.in/Orissareview/2013/jul/engpdf/105-109.pdf",
+          "status": "unavailable",
+          "method": "Web or verified-TLS retrieval attempt",
+          "reason": "Web article retrieval timeout; verified-TLS fetch failed due expired certificate",
+          "checked_at": "2026-10-09T00:07:30.415998+00:00",
+          "recovery": "Individual publisher PDFs subsequently recovered through request-scoped certificate exception; original failed attempts retained"
+        }
+      ],
+      "note": "Scoped cultural research capture; not weekly revision monitoring or independent field verification."
+    },
+    {
+      "run_id": "2026-10-09-gouri-brata",
+      "at": "2026-10-09T03:11:09.655994+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-gouri-malik2021",
+          "url": "https://journalcpriir.com/wp-content/uploads/2022/09/28th-issue-jihc-2021-online.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "locator": "Printed/PDF403 title and author; printed/PDF412 Gouribrata passage; printed/PDF432 bibliography item20",
+          "scope": "Original scholarly article inspected; secondary account of Chaturvinoda, not the original literary edition. The article’s historical interpretation is not direct observation or a date of origin for the vow.",
+          "capture": {
+            "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-gouri/malik2021.pdf",
+            "sha256": "9e742147f7f7d30c2fdc554c8db3562d3183cf07f3b87a0a1be2b130866f6ed8",
+            "retrieved_at": "2026-10-09T03:11:09.655994+00:00",
+            "method": "Publisher PDF downloaded; cited pages rendered and visually inspected"
+          }
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-gouri-brata",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "locator": "Printed46 / PDF62; printed75 / PDF91",
+          "scope": "Mangala Gauri/Srabani fasting and offerings; separate Jagulai description",
+          "method": "Saved PDF pages visually inspected",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+          "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-gouri-brata",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "locator": "Printed16 / PDF2",
+          "scope": "Gouri Brata appears in inventory; calendar and food not specified",
+          "method": "Saved text reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+          "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-panchami-ojha2022",
+          "run_id": "2026-10-09-gouri-brata",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "locator": "Printed109 / viewer111, Gouri Panchami section",
+          "scope": "Attributed Parvati transformation story and Jagulei interpretation; not identified household Gouri Brata katha",
+          "method": "Existing issue HTML text layer reread; page images not inspected",
+          "url": "https://fliphtml5.com/aukd/fzar/February_2022/",
+          "status": "retrieved"
+        },
+        {
+          "source_id": "osha-jhoti-biswal-dash2020",
+          "run_id": "2026-10-09-gouri-brata",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "locator": "Printed116–117 / PDF117–118, item8",
+          "scope": "Aswina Gouri Brata and Durgastami drawing association; same-name identity remains unresolved",
+          "method": "University PDF downloaded; selected pages rendered and visually inspected",
+          "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+          "status": "retrieved"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.namami.gov.in/sites/default/files/Orissa_State_Museum_Bhubaneswar_Odisha.pdf",
+          "status": "unavailable",
+          "method": "Web original and non-www route; direct verified-TLS download",
+          "reason": "Web timeout/internal error and download timeout",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "recovery": "Indexed ORPR-230 title is discovery only; retry16October. No manuscript or catalogue page claimed inspected."
+        },
+        {
+          "url": "https://utkaluniversity.ac.in/wp-content/uploads/2023/08/Man-in-Society-Anthropology.pdf",
+          "status": "unavailable",
+          "method": "Web screenshots PDF117–118",
+          "reason": "Cache miss",
+          "checked_at": "2026-10-09T03:11:09.655994+00:00",
+          "recovery": "Verified-TLS publisher download succeeded; local renders visually inspected"
+        }
+      ],
+      "note": "Scoped cultural research; not weekly revision monitoring or field verification."
+    },
+    {
+      "run_id": "2026-10-09-bipattarini-brata",
+      "at": "2026-10-09T03:18:55.461686+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-bipattarini-bhattacharyya2011",
+          "url": "https://indiantribalheritage.org/wp-content/uploads/Folklore-and-Folkloristics-Vol.-4-No.-1-2010-National-Folklore-Support-1046-4304-1-PB.pdf",
+          "status": "retrieved",
+          "checked_at": "2026-10-09T03:18:55.461686+00:00",
+          "locator": "PDF14 title/byline; PDF16–17 Bipattarini passage; PDF19 notes and author affiliation; no printed page numbers shown",
+          "scope": "Original scholarly article, secondary interpretation of Bengali household stories. This is a hosted journal copy, not a government record or Odisha field study. Use article byline Bhattacharyya; editorial separately names Amrita Mukherjee without resolving that discrepancy.",
+          "capture": {
+            "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-bipattarini/folklore.pdf",
+            "sha256": "5a8c8186c472a4ca39410ddcfb824982e78e7b556d23cc96837f4ac19552d16c",
+            "retrieved_at": "2026-10-09T03:18:55.461686+00:00",
+            "method": "Public hosted PDF downloaded; PDF14,16,17,19 rendered and visually inspected"
+          }
+        },
+        {
+          "source_id": "osha-bipattarini-rajpur",
+          "url": "https://www.bipadtarinichandibari.org/about-us.php",
+          "status": "retrieved",
+          "checked_at": "2026-10-09T03:18:55.461686+00:00",
+          "locator": "About Bipattarini Chandibari: annual festival and previous-day/puja paragraphs; address footer; dated announcement banner",
+          "scope": "Temple self-description of its own devotional narrative and observance at Rajpur, West Bengal. Not evidence of Odisha household practice, origin chronology or currently available visitor food.",
+          "capture": {
+            "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-bipattarini/rajpur.html",
+            "sha256": "6ea8e3a235bef4eb862a050c7bce211e6f759f841bf39a6c8186936e8183800b",
+            "retrieved_at": "2026-10-09T03:18:55.461686+00:00",
+            "method": "Temple HTML and web text inspected"
+          }
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-bipattarini-brata",
+          "checked_at": "2026-10-09T03:18:55.461686+00:00",
+          "locator": "Printed16 / PDF2",
+          "scope": "Bipattarini Brata is named in Odisha inventory; calendar, foods and story are not specified.",
+          "method": "Saved evidence reused",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+          "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-bipattarini-brata",
+          "checked_at": "2026-10-09T03:18:55.461686+00:00",
+          "locator": "Printed46 / PDF62, Tarini Brata paragraph",
+          "scope": "Tarini Brata is a separately named observance; no automatic equivalence with Bipattarini.",
+          "method": "Saved evidence reused",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+          "status": "saved_evidence_reused"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://indiantribalheritage.org/wp-content/uploads/Folklore-and-Folkloristics-Vol.-4-No.-1-2010-National-Folklore-Support-1046-4304-1-PB.pdf",
+          "status": "unavailable",
+          "method": "Web open",
+          "reason": "Internal fetch error",
+          "checked_at": "2026-10-09T03:18:55.461686+00:00",
+          "recovery": "Direct public PDF download succeeded; PDF14,16,17,19 visually inspected."
+        }
+      ],
+      "note": "Scoped cultural research; not weekly revision monitoring or field verification."
+    },
+    {
+      "run_id": "2026-10-09-osha-identity-audit",
+      "at": "2026-10-09T10:20:30.651528+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-review2006",
+          "url": "https://magazines.odisha.gov.in/Orissareview/April2006/engpdf/The_perishing_tradition_of_osha.pdf",
+          "run_id": "2026-10-09-osha-identity-audit",
+          "checked_at": "2026-10-09T10:20:30.651528+00:00",
+          "locator": "Printed15 / PDF1, right column inventory",
+          "scope": "Benatia and Purnima are named without individual dates, stories or foods. The nearby Kartika/Shiva parenthesis follows Bada Osha.",
+          "method": "Saved original PDF page rendered and visually inspected",
+          "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+          "run_id": "2026-10-09-osha-identity-audit",
+          "checked_at": "2026-10-09T10:20:30.651528+00:00",
+          "locator": "Printed24,26 / PDF40,42; saved Pandu and Rai Damodara profiles retain their additional locators",
+          "scope": "Distinct full-moon names and months; not proof of what Dash meant by unnamed Purnima Osha.",
+          "method": "Saved original PDF40,42 rendered and visually inspected",
+          "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-kumar2015",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2015/Oct/engpdf/october-or-2015.pdf",
+          "run_id": "2026-10-09-osha-identity-audit",
+          "checked_at": "2026-10-09T10:20:30.651528+00:00",
+          "locator": "Printed45–46 / PDF54–55",
+          "scope": "Kumar Purnima kakara and sharing account reused through existing Janhi profile; not daily Janhi menu.",
+          "method": "Existing source-bounded profile reused",
+          "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-pandu-puriwaves",
+          "url": "https://puriwaves.nirmalya.in/festivals/pandu-osha-in-odisha",
+          "run_id": "2026-10-09-osha-identity-audit",
+          "checked_at": "2026-10-09T10:20:30.651528+00:00",
+          "locator": "Food paragraph and Chanda Chakata caption",
+          "scope": "Pandu food description reused with existing terminology and recipe uncertainties.",
+          "method": "Existing source-bounded profile reused",
+          "status": "saved_evidence_reused"
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://magazines.odisha.gov.in/orissareview/2013/jun/engpdf/June%20or%202013.pdf",
+          "status": "unavailable",
+          "checked_at": "2026-10-09T10:20:30.651528+00:00",
+          "attempts": [
+            {
+              "method": "Web open",
+              "reason": "Timeout fetching"
+            },
+            {
+              "method": "Direct verified-TLS public download",
+              "reason": "Certificate verification failed: certificate has expired"
+            }
+          ],
+          "recovery": "No original recovered after two approaches. Search-index list remains discovery only. Retry2026-10-16."
+        }
+      ],
+      "note": "Identity audit and saved-source reuse; not weekly revision monitoring, new local observation or field verification."
     }
   ]
 }

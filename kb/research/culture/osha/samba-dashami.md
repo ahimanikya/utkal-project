@@ -46,3 +46,11 @@ Our interpretive question is how an offering in someone’s name becomes a house
 Preparation reading: [manda pitha](../../food/manda-pitha.md), [kakara pitha](../../food/kakara-pitha.md), [arisa pitha](../../food/arisa-pitha.md).
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.
+
+## 2026-10-08 · Related solar observance
+
+[Rabinarayana Brata](rabinarayana-brata.md). Both observances involve solar devotion, but their sources describe distinct calendar rules and food roles; a shared deity does not establish a shared menu or origin.
+
+## 2026-10-08 · Magha: vow and pilgrimage
+
+[Magha Brata](magha-brata.md). Magha Saptami and Samba Dashami share solar narrative context but have different calendar rules; one observance’s food list does not establish the other’s menu.

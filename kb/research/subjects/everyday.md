@@ -143,3 +143,18 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-08 · Rambha Trutiya and household objects
 
 [Rambha Trutiya](../culture/osha/rambha-trutiya.md) examines bangles in an attributed Odisha account and compares a different-scope textual vow. Local story and menu remain open.
+
+
+## 2026-10-09 · Gouri Brata: art, stories and household work
+
+[Gouri Brata](../culture/osha/gouri-brata.md) records a literary night vigil and ritual drawing context, with related names and food roles kept distinct.
+
+
+## 2026-10-09 · Bipattarini Brata: protection and household food
+
+[Bipattarini Brata](../culture/osha/bipattarini-brata.md) separates Odisha inventory evidence from Bengali storytelling and a named temple’s food practices.
+
+
+## 2026-10-09 · Osha names and local knowledge
+
+[Which Osha?](../culture/osha-identity-guide.md) explains why shared calendar words do not establish a shared observance, story or menu.

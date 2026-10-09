@@ -433,3 +433,7 @@ B05 identities reconciled: Bada, Kanji Anla, Bata, Pandu and Shani/Tota. Twenty-
 ## 2026-10-08 · B06 research checkpoint
 
 Bali Trutiya, Sita Navami and Rambha Trutiya reconciled with scoped original-text evidence. Twenty-four profiles remain incomplete histories.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Fifteen additional profiles and the Osha identity guide reconciled. Related names and cultural comparisons remain distinct.

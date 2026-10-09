@@ -46,3 +46,63 @@ Printed16 / PDF2, left column Sita Nabami Brata in Jyestha; right column general
 ## 2026-10-08 · Rambha Trutiya reuse
 
 Printed16 / PDF2, left column Ramba trutiya in Jyestha. Original image inspected. [Rambha Trutiya](../culture/osha/rambha-trutiya.md) preserves the Jyestha account; general or adjacent foods are not transferred.
+
+## 2026-10-08 · Nagala source reading
+
+Printed15–16 / PDF1–2 inventory; printed17 / PDF3 snake and food passages. Saved text; original PDF3 image inspected. [Profile](../culture/osha/nagala-chaturthi.md); claims remain limited to the inspected scope.
+
+## 2026-10-08 · Ananta reuse
+
+Printed16 / PDF2, Ananta inventory. Saved evidence inspected for [Ananta Brata](../culture/osha/ananta-brata.md); not a new independent witness.
+
+## 2026-10-08 · Rabinarayana reading
+
+Printed 16 / PDF 2, Rabinarayan and Pusa Rabibara inventory entries. Saved text and page image inspected. [Rabinarayana Brata](../culture/osha/rabinarayana-brata.md); claims retain their stated scope.
+
+## 2026-10-08 · Somnath reading
+
+Printed 15 / PDF 1, Somanath and separate Kukkuti inventory entries. Saved text and page image inspected. [Somnath Brata](../culture/osha/somnath-brata.md); retain source scope.
+
+## 2026-10-08 · Kukkuti reading
+
+Printed15 / PDF1, Kukkuti inventory entry. Saved text and previously inspected page images reused. [Kukkuti Brata](../culture/osha/kukkuti-brata.md); neither source supplies a separate local menu.
+
+## 2026-10-08 · Santoshi reading
+
+Printed15 / PDF1, Santoshi Mata Brata inventory entry. Saved text reused; Mahanti PDF125–126 visually inspected this run, Dash PDF1 previously inspected. [Santoshi Mata Brata](../culture/osha/santoshi-mata-brata.md).
+
+## 2026-10-08 · Kedar reading
+
+Printed15 / PDF1, Kedar Brata inventory entry. Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected. [Kedar Brata](../culture/osha/kedar-brata.md).
+
+## 2026-10-08 · Rai Damodara reading
+
+Printed16 / PDF2, Rai Damodara inventory. Saved text reused; Mahanti PDF41,67,68 visually inspected this run; Dash inventory text reused. [Rai Damodara Brata](../culture/osha/rai-damodara-brata.md).
+
+## 2026-10-08 · Magha reading
+
+Printed16 / PDF2. Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused. [Magha Brata](../culture/osha/magha-brata.md).
+
+## 2026-10-08 · Baisakha reading
+
+Printed16 / PDF2, Baisakha inventory name. Saved source reused; Mahanti PDF61 visually inspected this run; Dash inventory text reused. [Baisakha Brata](../culture/osha/baisakha-brata.md).
+
+## 2026-10-08 · Guru Panchami reading
+
+Printed16 / PDF2. Saved evidence reused; Mahanti PDF63–64 visually inspected; Dash saved text searched. [Identity comparison](../culture/osha/guru-panchami.md).
+
+## 2026-10-08 · Rushi Panchami reading
+
+Printed16 / PDF2. Roosi Panchami name separately listed from Guru Panchami. [Scoped profile](../culture/osha/rushi-panchami.md).
+
+## 2026-10-09 · Gouri Brata reading
+
+Printed16 / PDF2. Gouri Brata appears in inventory; calendar and food not specified. Saved text reused. [Scoped profile](../culture/osha/gouri-brata.md).
+
+## 2026-10-09 · Bipattarini Brata reading
+
+Printed16 / PDF2. Bipattarini Brata is named in Odisha inventory; calendar, foods and story are not specified. [Scoped profile](../culture/osha/bipattarini-brata.md).
+
+## 2026-10-09 · Osha identity audit
+
+Printed15 / PDF1, right column inventory — Benatia and Purnima are named without individual dates, stories or foods. The nearby Kartika/Shiva parenthesis follows Bada Osha. [Identity guide](../culture/osha-identity-guide.md).

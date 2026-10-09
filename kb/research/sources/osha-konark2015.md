@@ -18,3 +18,7 @@ Author: Chirashree Srabani Rath, Rashmi Ranjan Behera, Subhomay Jana, Priyadarsh
 Original multidisciplinary study; only its recorded ritual association is used here. URL filename differs from printed first page 92.
 
 The source supports only the passages cited in the [osha collection](../culture/osha-brata-seasonal-food.md). It does not establish current serving arrangements, image rights or human review.
+
+## 2026-10-08 · Magha reading
+
+Printed93–94 / PDF2–3. Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused. [Magha Brata](../culture/osha/magha-brata.md).

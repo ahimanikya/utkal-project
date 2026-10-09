@@ -11,7 +11,7 @@ human_review_claimed: false
 
 # Osha texts and manuscript references
 
-Sudasa, Budhei and Dutiya have identifiable catalogue references at the Odisha State Museum. The selected register records twelve accessions and two recovered Sudasa digital texts. None establishes an earliest date for these observances.
+Sudasa, Budhei, Dutiya, Nagala, Rabinarayana and Somnath have identifiable catalogue references at the Odisha State Museum. The selected register now contains thirty-two catalogue records, including four comparative Varanasi records, and four recovered digital texts: two Sudasa, one Somnath and one Kedar. Some catalogue rows combine several works; none establishes an earliest date for an observance. The original twelve-record table below is followed by the Nagala, Rabinarayana and Somnath extensions.
 
 ## Catalogue references
 
@@ -51,3 +51,38 @@ A [seven-dimension comparison](osha/sudasa-text-comparison.md) now distinguishes
 [Structured register](../references/data/osha-text-witnesses.json) retains identifiers, failed access routes and quarantined claims. [Back to the collection](osha-brata-seasonal-food.md).
 
 [Sudasa stories and offerings](osha/sudasa-text-comparison.md). Side-by-side narrative and food evidence from two recovered Sudasa texts.
+
+## 2026-10-08 · Nagala catalogue extension
+
+Five selected title-bearing records are now linked to [Nagala Chaturthi](osha/nagala-chaturthi.md): CY-666, ORPR-66, ORPR-209, composite CY-1293/1295/1298/1299 and CY-2106. Publisher PDF text inspected at pp.19,21,36,61; images unavailable. Text witnesses provide research leads for a local katha; a catalogue record alone does not establish its contents, date or an independently verified variant.
+
+## 2026-10-08 · Rabinarayana catalogue leads
+
+[Rabinarayana Brata](osha/rabinarayana-brata.md) adds three catalogue records: ORPR-218 and ORPR-236 (PDF21), and combined CY-1847,1848 (PDF55). Their texts, dates and independence remain unverified. The combined record’s 122 listed pages cannot be assigned to its brata component alone.
+
+## 2026-10-08 · Somnath narrative and catalogue extension
+
+[Somnath Brata](osha/somnath-brata.md) has one recovered three-page typed Odia copy, visually inspected in full; its footer credits oriyanari.com but supplies no edition date. Eight selected museum records are retained below. They have not been read as manuscripts or established as separate versions.
+
+| Accession | Listed Pages | PDF page |
+|---|---:|---:|
+| ORPR-207 | 74 | 15 |
+| ORPR-77 | 162 | 21 |
+| ORPR-104 | 92 | 21 |
+| ORPR-240 | 40 | 21 |
+| ORPR-252 | 70 | 21 |
+| P-440 | 238 | 23 |
+| ORPR-11 | 108 | 24 |
+| CY-1730,1732,1733 | 413 | 53 |
+
+CY-1730,1732,1733 is a combined record, and its manuscript ID is repeated for a different following title. Neither its 413 Pages nor the repeated ID uniquely describes the brata alone. The structured register preserves this conflict. A separate 2014 literary-history article cites a 1982 edition; its thirteenth-century attribution is not verified ritual chronology.
+
+## 2026-10-08 · Kukkuti comparative witnesses
+
+[Kukkuti Brata](osha/kukkuti-brata.md) adds four IGNCA catalogue records from Saraswati Bhawan Library, Varanasi: P.S.10375 (3 Folios, incomplete), P.S-10380/D-4125 (Folios1–7), D-4127 (Folios1–8) and P.S.10376/D-4126 (Folios1–5). The last three are catalogued complete; none was read as an original manuscript. Printed108–109 / PDF126–127 inspected. These are Sanskrit in Bangla script, not Odisha field evidence.
+
+A separate museum-catalogue OCR lead, item148 on printed85, includes Kukkuti in a twelve-folio composite text in Oriya script. Exact accession suffix and original page image remain unresolved, so it is retained in the scoped research file rather than assigned a verified witness ID. The Sanskrit lexicon transcription is a comparison, not a recovered Odia edition.
+
+## 2026-10-08 · Kedar digital witness
+
+[Kedar Brata](osha/kedar-brata.md) adds OSHA-T004, the eleven-page Project Pothi scan. All pages visually inspected; narrative/directions occupy PDF2–11. Repository author and dating fields are not an original imprint. One recovered file does not establish an independent textual variant or early historical origin.

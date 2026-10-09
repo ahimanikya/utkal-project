@@ -75,3 +75,39 @@ The [tentuli](tentuli-tamarind.md) and [chara](chara-chironji.md) profiles now h
 ## Germinated palm interior
 
 The [Talagaja entry](talagaja.md) distinguishes reported fresh consumption from experimental drying/milling. Laboratory powder results and sprout/tuber recipes cannot be transferred to the fresh seed interior without evidence. Full local recipe and storage validation remain open.
+
+## 2026-10-08 · Somnath pitha evidence
+
+[Somnath Brata](../culture/osha/somnath-brata.md). Connects source-specific Somnath pitha counts with questions about preparation and local variation; no standard recipe or verified serving place is inferred.
+
+## 2026-10-08 · Santoshi: offering and meal
+
+[Santoshi Mata Brata](../culture/osha/santoshi-mata-brata.md). Santoshi’s named roasted-chickpea offering connects to preparation research; it does not establish a standard recipe for the completion meal.
+
+## 2026-10-08 · Kedar: offerings and preparation
+
+[Kedar Brata](../culture/osha/kedar-brata.md). Kedar’s textual offerings connect to preparation research, but named ingredients alone do not establish a cooked dish or household recipe.
+
+## 2026-10-08 · Magha: vow and pilgrimage
+
+[Magha Brata](../culture/osha/magha-brata.md). Magha’s named havishanna meal needs an attributed preparation account; recipes from another vow cannot fill that gap.
+
+## 2026-10-08 · Baisakha: related vows and meal research
+
+[Baisakha Brata](../culture/osha/baisakha-brata.md). Baisakha names havishanna and kechudi but supplies no recipe; preparation research should document an attributed local version.
+
+## 2026-10-08 · Guru Panchami: identify the food context
+
+[Guru Panchami](../culture/osha/guru-panchami.md). Guru Panchami has a published fasting description but no established menu; food research must identify the local observance before assigning dishes.
+
+## 2026-10-08 · Rushi Panchami: ritual and food context
+
+[Rushi Panchami](../culture/osha/rushi-panchami.md). Rushi Panchami distinguishes named temple offerings from unverified household meals and recipes.
+
+## 2026-10-09 · Gouri Brata: identify the observance
+
+[Gouri Brata](../culture/osha/gouri-brata.md). Gouri research keeps Srabani fruit and pitha offerings separate from an unresolved Aswina observance; ritual drawing materials are not meals.
+
+## 2026-10-09 · Bipattarini Brata: regional food roles
+
+[Bipattarini Brata](../culture/osha/bipattarini-brata.md). Bipattarini research distinguishes offerings from fast-breaking foods and keeps a Rajpur, West Bengal account separate from unverified Odisha recipes.

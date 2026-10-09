@@ -74,3 +74,7 @@ History comparison: [scan catalogue](https://commons.wikimedia.org/wiki/File:Bal
 ## 2026-10-08 · Rambha Trutiya comparison
 
 [Rambha Trutiya](rambha-trutiya.md). Both profiles mention Parvati and Shiva, but their inspected texts, calendar rules and food evidence differ; related reading does not establish identical vows.
+
+## 2026-10-09 · Gouri Brata: identify the observance
+
+[Gouri Brata](gouri-brata.md). Some discovery accounts associate Gouri Brata with Bali Trutiya; compare the saved Bali narrative before accepting an alias or transferring its calendar and foods.

@@ -1070,3 +1070,7 @@ Three new and two expanded profiles join the existing review candidate with sour
 ## UTP-HIS-OSHA-B06-20261008 · Three vows and the boundaries of food evidence
 
 Bali Trutiya, Sita Navami and Rambha Trutiya join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-b06-checkpoint-2026-10-08.json).
+
+## UTP-HIS-OSHA-EXPANSION-20261009 · More observances and distinct food contexts
+
+Fifteen additional profiles and an Osha identity guide join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-expansion-checkpoint-2026-10-09.json).

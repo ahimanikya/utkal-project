@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The twenty-four selected profiles include eight narrative checkpoints and sixteen early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The thirty-nine selected profiles include ten narrative checkpoints and twenty-nine early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -43,6 +43,21 @@ The twenty-four selected profiles include eight narrative checkpoints and sixtee
 | [Bali Trutiya](osha/bali-trutiya.md) | Bhadraba | Odia narrative, fruit roles and unresolved chronology |
 | [Sita Navami](osha/sita-navami.md) | Baisakha / Jyestha accounts differ | Epic context and organiser listing; foods unknown |
 | [Rambha Trutiya](osha/rambha-trutiya.md) | Jyestha in Odisha accounts | Bangles and marital devotion; annual textual vow compared separately |
+| [Nagala Chaturthi](osha/nagala-chaturthi.md) | Kartika | Serpent devotion, offering roles and an unresolved story-calendar link |
+| [Naga Panchami](osha/naga-panchami.md) | Sravana | Astika story, a sculptural witness and offering roles |
+| [Ananta Brata](osha/ananta-brata.md) | Bhadrava / Ashwina conflict | Counted offerings, sacred thread and differing retellings |
+| [Rabinarayana Brata](osha/rabinarayana-brata.md) | Sunday–Ekadashi; Margasira scope unresolved | Fruit, mua and manda accounts; three textual leads |
+| [Somnath Brata](osha/somnath-brata.md) | Bhadrava to Aswina | Queen’s vow, counted pitha offerings and literary evidence |
+| [Kukkuti Brata](osha/kukkuti-brata.md) | Bhadrava; local rule to confirm | Sanskrit story comparison; Odisha food practice still unknown |
+| [Santoshi Mata Brata](osha/santoshi-mata-brata.md) | Friday sequence; no fixed month | Gur-chana, completion meal and modern devotional history |
+| [Kedar Brata](osha/kedar-brata.md) | Kartika purnima | Kunti, two sisters and counted offerings in an Odia telling |
+| [Rai Damodara Brata](osha/rai-damodara-brata.md) | Kartika; start rule unresolved | Legend, habishanna, Mahaprasad and Habisha Dalma |
+| [Magha Brata](osha/magha-brata.md) | Magha month; related Saptami pilgrimage | Havishanna meal and a 1910 reference to the Chandrabhaga fair |
+| [Baisakha Brata](osha/baisakha-brata.md) | Baisakha month | Havishanna or kechudi; comparative hospitality narrative |
+| [Guru Panchami](osha/guru-panchami.md) | Calendar and same-name identity unresolved | Teachers, sages and Brihaspati; fasting described, menu unknown |
+| [Rushi Panchami](osha/rushi-panchami.md) | Bhadrava bright fifth | Seven sages and Puri temple story; milk and fruit offerings, household menu unknown |
+| [Gouri Brata](osha/gouri-brata.md) | Aswina account; related Srabani identity held | Ritual drawings and literary vigil; food comparison scoped to Mangala Gauri |
+| [Bipattarini Brata](osha/bipattarini-brata.md) | Odisha calendar unresolved; Bengali Ashar comparison | Protection narrative and Rajpur fruit/sweets account; Odisha menu unknown |
 
 ## What the collection connects
 
@@ -81,3 +96,7 @@ The expanded [Janhi profile](osha/janhi.md) records flowers, a song fragment, pl
 ## 2026-10-07 · Kanji Anla checkpoint
 
 [Kanji Anla](osha/kanji-anla.md) now includes an attributed modern Odia retelling, cooking comparison and an explicit calendar disagreement. Its historical textual lineage remains incomplete; the modern retelling does not establish the origin date.
+
+## 2026-10-09 · Benatia and Purnima: identity checkpoint
+
+[Which Osha?](osha-identity-guide.md) records the Benatia gap and distinguishes three existing full-moon reading routes. No additional festival profile or menu is inferred. The collection remains39 profiles; original identities return on16October.

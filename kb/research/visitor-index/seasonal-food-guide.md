@@ -90,3 +90,67 @@ Read the [Janhi profile](../culture/osha/janhi.md) before treating its culminati
 ## 2026-10-08 · Rambha Trutiya: food evidence remains local
 
 [Rambha Trutiya](../culture/osha/rambha-trutiya.md) compares an Odisha description with a printed annual textual vow. Its textual food prescriptions do not establish local dishes or serving places. An empty local food list means evidence is missing, not that no food is prepared.
+
+## 2026-10-08 · Nagala offerings and food availability
+
+[Nagala Chaturthi](../culture/osha/nagala-chaturthi.md) adds Kartika reading with source-attributed offerings. Offerings to a deity do not establish a visitor meal, venue or invitation; preparation and post-fast food remain unknown.
+
+## 2026-10-08 · Naga Panchami: ask about preparation
+
+[Naga Panchami](../culture/osha/naga-panchami.md) adds Sravana reading. Milk and rice are described as offerings; a household recipe, post-fast meal and serving place remain unverified. Ask locally about preparation and sharing before planning a food visit.
+
+## 2026-10-08 · Ananta: counted offerings
+
+[Ananta Brata](../culture/osha/ananta-brata.md) records puris, manda and panchamruta, with offerings shared after worship. Calendar descriptions conflict and no public host or serving place is verified.
+
+## 2026-10-08 · Rabinarayana: separate food roles
+
+[Rabinarayana Brata](../culture/osha/rabinarayana-brata.md) distinguishes fruit offerings, ritual-thread rice and a named account of mua and manda. No date, host or serving venue is verified; calendar descriptions need local reconciliation.
+
+## 2026-10-08 · Somnath: offerings and local variation
+
+[Somnath Brata](../culture/osha/somnath-brata.md) distinguishes ten types of pitha from ten filled pithas in different accounts. Ingredients and local names need research; no host, annual date or food venue verified.
+
+## 2026-10-08 · Kukkuti: local menu remains open
+
+[Kukkuti Brata](../culture/osha/kukkuti-brata.md) records a Sanskrit food comparison separately from Odisha household practice. No serving place, date or public food offer verified.
+
+## 2026-10-08 · Santoshi: weekly cultural browsing
+
+[Santoshi Mata Brata](../culture/osha/santoshi-mata-brata.md) has a Friday sequence rather than a fixed annual season. Its published offering association does not establish a public meal or serving place.
+
+## 2026-10-08 · Kedar: textual foods and visitor limits
+
+[Kedar Brata](../culture/osha/kedar-brata.md) records banana, coconut and sugarcane in an Odia telling. Kartika browsing is supported; a public meal, serving venue and current date remain unverified.
+
+## 2026-10-08 · Rai Damodara: Kartika food inquiry
+
+[Rai Damodara Brata](../culture/osha/rai-damodara-brata.md) adds food associations for seasonal browsing. Confirm a serving place and date before recommending a meal; calendar conflict and local preparation questions remain open.
+
+## 2026-10-08 · Magha: meal and pilgrimage scopes
+
+[Magha Brata](../culture/osha/magha-brata.md) distinguishes the month-long vow from the Saptami gathering. Havishanna ingredients and public serving availability remain unverified; no fair menu is transferred to the household vow.
+
+## 2026-10-08 · Baisakha: named meal, recipe still open
+
+[Baisakha Brata](../culture/osha/baisakha-brata.md) records havishanna or kechudi as an evening meal. This does not establish a serving venue or justify importing Pana Sankranti dishes into the vow.
+
+## 2026-10-08 · Guru Panchami: calendar and menu held
+
+[Guru Panchami](../culture/osha/guru-panchami.md) has conflicting published identities and no named meal. Resolve the local observance before adding annual dates or food venues.
+
+## 2026-10-08 · Rushi Panchami: an offering context
+
+[Rushi Panchami](../culture/osha/rushi-panchami.md) has a documented traditional Bhadrava calendar and Puri temple offering account. Current dates, household menus and places serving food need separate verification.
+
+## 2026-10-09 · Gouri Brata: local identity first
+
+[Gouri Brata](../culture/osha/gouri-brata.md) compares an Aswina drawing account with a separately named Srabani offering description. The page does not combine them into one season or menu; current dates and serving remain unknown.
+
+## 2026-10-09 · Bipattarini Brata: regional evidence first
+
+[Bipattarini Brata](../culture/osha/bipattarini-brata.md) includes a Rajpur, West Bengal comparison involving fruit and sweets. Odisha dates, dishes and serving places remain unknown; the comparison is not a local menu recommendation.
+
+## 2026-10-09 · Ask which full moon
+
+[Which Osha?](../culture/osha-identity-guide.md) separates Kumar Purnima offerings, Pandu food descriptions and the Kartika vow. Match name, month and locality before looking for food; current dates and serving places remain unverified.

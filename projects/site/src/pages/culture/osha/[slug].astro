@@ -5,12 +5,13 @@ import foods from '../../../../../../kb/research/food/collection.json';
 import {allowsPage} from '../../../data/edition';
 export function getStaticPaths(){return study.pages.map(page=>({params:{slug:page.slug},props:{page}}));}
 const {page}=Astro.props;
+const description=page.lead.length<=250?page.lead:`${page.name}: sourced stories, significance and food traditions, with regional differences and unresolved history kept visible.`;
 const labels={ritual_narrative:'The story as told',documented_description:'A source-attributed account',editorial_interpretation:'A reading of its meaning',research_limit:'What remains to be established',visitor_context:'Reading before a visit'};
 const sourceIds=page.source_ids;
 const foodLinks=page.related_food_paths.map(path=>foods.pages.find(p=>p.slug===path.split('/')[1].replace(/\.md$/,''))).filter(p=>p&&allowsPage('/food/'+p.slug+'/'));
 const related=study.pages.filter(p=>p.slug!==page.slug&&p.traditional_month===page.traditional_month).slice(0,3);
 ---
-<Shell title={page.name+' · Stories & seasonal food'} description={page.lead} active="explore" related={false}>
+<Shell title={page.name+' · Stories & seasonal food'} description={description} active="explore" related={false}>
 <div class="wrap">
 <article class="osha-article"><header><a href="/culture/osha/">← Osha, stories & the food year</a><p class="eyebrow">{page.traditional_month||'Recurring calendar condition'} · {page.observance_type}</p><h1>{page.name}</h1><p class="deck">{page.lead}</p><p class="stage">{page.coverage_status==='narrative_checkpoint'?'A narrative research checkpoint':'Early research notes · history and local narrative incomplete'}</p></header>
 <div class="article-body">{page.sections.map((s,i)=><section aria-labelledby={'section-'+i}><p class="eyebrow">{labels[s.evidence_class]}</p><h2 id={'section-'+i}>{s.title}</h2><p>{s.text}</p>{s.source_ids.length>0&&<p class="source-line">{s.source_ids.map((id,j)=><><a href={'#source-'+id}>{study.sources[id].author||study.sources[id].title}</a>{j<s.source_ids.length-1?' · ':''}</>)}<span> {s.locator}.</span></p>}</section>)}

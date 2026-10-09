@@ -50,3 +50,63 @@ Printed54 / PDF70, Sita navami osha and note37. Saved text and existing rendered
 ## 2026-10-08 · Rambha Trutiya reuse
 
 Printed54 / PDF70, Rambha trutiya osha paragraph. Original image inspected. [Rambha Trutiya](../culture/osha/rambha-trutiya.md) preserves the Jyestha account; general or adjacent foods are not transferred.
+
+## 2026-10-08 · Nagala source reading
+
+Printed55–56 / PDF71–72, joint Naga Panchami/Nagala entry. Saved text and original page images inspected. [Profile](../culture/osha/nagala-chaturthi.md); claims remain limited to the inspected scope.
+
+## 2026-10-08 · Naga Panchami reuse
+
+Printed55–56 / PDF71–72, joint Naga Panchami/Nagala account. Saved evidence reused in [Naga Panchami](../culture/osha/naga-panchami.md); not a new independent witness.
+
+## 2026-10-08 · Ananta reuse
+
+Printed46–47 / PDF62–63, Ananta Brata and footnote34. Saved evidence inspected for [Ananta Brata](../culture/osha/ananta-brata.md); not a new independent witness.
+
+## 2026-10-08 · Rabinarayana reading
+
+Printed 44–45 / PDF 60–61, Rabinarayana entry; printed 63 / PDF 79, separate Rabibara entry. Saved PDF text and Rabinarayana page images inspected; no independent new witness. [Rabinarayana Brata](../culture/osha/rabinarayana-brata.md); claims retain their stated scope.
+
+## 2026-10-08 · Somnath reading
+
+Printed 48–49 / PDF 64–65, Somnath and Kukkuti entry. Saved text and both page images inspected. [Somnath Brata](../culture/osha/somnath-brata.md); retain source scope.
+
+## 2026-10-08 · Kukkuti reading
+
+Printed49 / PDF65, final sentence of Somnath and Kukkuti entry; printed48 / PDF64 for Somnath start. Saved text and previously inspected page images reused. [Kukkuti Brata](../culture/osha/kukkuti-brata.md); neither source supplies a separate local menu.
+
+## 2026-10-08 · Santoshi reading
+
+Printed109–110 / PDF125–126, Santoshi maa puja; printed64 / PDF80 Sukrabara. Saved text reused; Mahanti PDF125–126 visually inspected this run, Dash PDF1 previously inspected. [Santoshi Mata Brata](../culture/osha/santoshi-mata-brata.md).
+
+## 2026-10-08 · Kedar reading
+
+Printed52 / PDF68, Kedara brata paragraph. Saved text reused; Mahanti PDF68 visually inspected this run, Dash PDF1 previously inspected. [Kedar Brata](../culture/osha/kedar-brata.md).
+
+## 2026-10-08 · Rai Damodara reading
+
+Printed25,51–52 / PDF41,67–68. Saved text reused; Mahanti PDF41,67,68 visually inspected this run; Dash inventory text reused. [Rai Damodara Brata](../culture/osha/rai-damodara-brata.md).
+
+## 2026-10-08 · Magha reading
+
+Printed26,52 / PDF42,68. Saved source reused; Mahanti and Konark selected PDF pages visually inspected this run; Dash inventory text reused. [Magha Brata](../culture/osha/magha-brata.md).
+
+## 2026-10-08 · Baisakha reading
+
+Printed 45 / PDF61, Baisakha brata paragraph. Saved source reused; Mahanti PDF61 visually inspected this run; Dash inventory text reused. [Baisakha Brata](../culture/osha/baisakha-brata.md).
+
+## 2026-10-08 · Guru Panchami reading
+
+Printed47–48 / PDF63–64. Saved evidence reused; Mahanti PDF63–64 visually inspected; Dash saved text searched. [Identity comparison](../culture/osha/guru-panchami.md).
+
+## 2026-10-09 · Gouri Brata reading
+
+Printed46 / PDF62; printed75 / PDF91. Mangala Gauri/Srabani fasting and offerings; separate Jagulai description. Saved PDF pages visually inspected. [Scoped profile](../culture/osha/gouri-brata.md).
+
+## 2026-10-09 · Bipattarini Brata reading
+
+Printed46 / PDF62, Tarini Brata paragraph. Tarini Brata is a separately named observance; no automatic equivalence with Bipattarini. [Scoped profile](../culture/osha/bipattarini-brata.md).
+
+## 2026-10-09 · Osha identity audit
+
+Printed24,26 / PDF40,42; saved Pandu and Rai Damodara profiles retain their additional locators — Distinct full-moon names and months; not proof of what Dash meant by unnamed Purnima Osha. [Identity guide](../culture/osha-identity-guide.md).

@@ -18,3 +18,15 @@ Publisher or host: National Mission for Manuscripts. Publication date unestablis
 Institutional catalogue text inspected through web extraction. Direct download timed out; screenshots unavailable. Title, accession and listed page counts only; manuscript contents and dating not inspected.
 
 [Text witness register](../culture/osha-text-witnesses.md).
+
+## 2026-10-08 · Nagala source reading
+
+PDF19,21,36,61 selected Nagala title rows. Publisher PDF text extraction; page-image and binary download unavailable. [Profile](../culture/osha/nagala-chaturthi.md); claims remain limited to the inspected scope.
+
+## 2026-10-08 · Rabinarayana reading
+
+PDF 21, ORPR-218 and ORPR-236; PDF 55, CY-1847,1848. New title rows inspected through publisher PDF web text extraction; manuscript contents and page images not inspected this run. [Rabinarayana Brata](../culture/osha/rabinarayana-brata.md); claims retain their stated scope.
+
+## 2026-10-08 · Somnath reading
+
+PDF 15,21,23,24,53; eight selected Somanatha title rows. Publisher PDF web text inspected; original manuscript contents and catalogue page images not inspected. [Somnath Brata](../culture/osha/somnath-brata.md); retain source scope.

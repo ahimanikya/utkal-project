@@ -22,3 +22,7 @@ Locator: Printed113 / PDF114: title, authors and introduction; printed117 / PDF1
 ## 2026-10-07 · B06 evidence check
 
 Printed116 / PDF117 item7. University-hosted original PDF text inspected; boat/trade interpretation quarantined. See [Bali Trutiya evidence](../references/data/bali-trutiya-research.json). Boat/trade claims remain quarantined; source reuse is not independent corroboration.
+
+## 2026-10-09 · Gouri Brata reading
+
+Printed116–117 / PDF117–118, item8. Aswina Gouri Brata and Durgastami drawing association; same-name identity remains unresolved. University PDF downloaded; selected pages rendered and visually inspected. [Scoped profile](../culture/osha/gouri-brata.md).

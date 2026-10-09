@@ -18,3 +18,7 @@ Author: Dr. P. C. Mohanty and Swadhin Mohanty. Publication: 2021-06/07. Publishe
 Signed cultural/devotional essay; not a practice census or a primary manuscript edition.
 
 The source supports only the passages cited in the [osha collection](../culture/osha-brata-seasonal-food.md). It does not establish current serving arrangements, image rights or human review.
+
+## 2026-10-08 · Rushi Panchami reading
+
+Printed22 / PDF2. Rishipanchami appears among Lakshmi temple festivals; no food or date supplied. [Scoped profile](../culture/osha/rushi-panchami.md).

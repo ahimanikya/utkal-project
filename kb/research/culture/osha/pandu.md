@@ -77,3 +77,7 @@ The reported manda name does not identify the specific sijha manda preparation i
 [Bata Osha](bata.md). Compare related road-sweeping accounts without merging their identities or resolving the disputed sequence.
 
 [Osha collection](../osha-brata-seasonal-food.md) · [Seasonal food guide](../../visitor-index/seasonal-food-guide.md). No interviews, human cultural review or image permissions claimed.
+
+## 2026-10-09 · Identifying a full-moon observance
+
+[Which Osha?](../osha-identity-guide.md) A specifically named Margasira observance; not automatically an alias of every Purnima Osha.

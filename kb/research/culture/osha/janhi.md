@@ -55,3 +55,7 @@ The 2015 article preserves a song fragment, not a complete Janhi katha or a date
 [Seasonal food guide](../../visitor-index/seasonal-food-guide.md). Separates cultural food associations from verified visitor availability.
 
 [Back to the collection](../osha-brata-seasonal-food.md). Cultural association does not establish a serving venue or access to private worship. No local interviews or human editorial review are claimed.
+
+## 2026-10-09 · Identifying a full-moon observance
+
+[Which Osha?](../osha-identity-guide.md) Janhi is a related observance ending at Kumar Purnima in the cited accounts; neither is established as Dash’s unqualified Purnima Osha.

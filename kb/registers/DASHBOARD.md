@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `03b2bb2cf7b429343141a98dad2ac94088c461c16578f9907722e1185aa485b1`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `1f5b8827de21dec796028b6acee8178bf154795c3531dfff704590249f221c2e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,7 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
-| UTP-WORK-2026100701 · Osha, stories and the food year: twenty-four profiles with textual and local food distinctions | in_progress | draft | Ahimanikya Satapathy | Continue OSHA-B06 with Nagala Chaturthi, checking identity against Naga Panchami before adding a profile. Earlier textual/locality gaps retain14October retries; Rambha gaps15October. Source workspace remains scheduling authority. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: thirty-nine profiles and an identity guide | in_progress | draft | Ahimanikya Satapathy | Review the 39-profile candidate and identity guide; prepare a bounded source-grounded coverage audit for still-absent observances rather than repeat held identity searches. Existing textual/local/annual-date holds remain dated14–16October. Source workspace remains scheduling authority; no publication approval inferred. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 
@@ -763,7 +763,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-2026100603 | 2026-10-07T04:23:34.523081+00:00 | Replaced superseded Chilika sharing candidate with newly generated Human Natural Konark artwork following Founder clarification; AI provenance, source credit and same-licence adaptation recorded. Full and coastal checks passed; not published. | Present new artwork for Founder publication decision. |
 | UTP-EVT-2026100604 | 2026-10-07T04:44:39.739070+00:00 | Founder approved publication with Yes. PR143 merged and publication workflow 37572605182 succeeded. Live homepage Open Graph/Twitter tags and image hash match the approved Konark artwork. | Complete; external sharing caches may take time to update. |
 | UTP-EVT-259 | 2026-10-07T05:09:18.412523+00:00 | Founder-approved PR144 merged and Pages deployment succeeded. Three live plans, nine photographs, discovery links and three-item journey payloads verified. | Continue authorized research; provider-confirmed itinerary work remains separate. |
 | UTP-EVT-2026100701 | 2026-10-07T05:41:21.326668+00:00 | Prepared twelve source-linked observance profiles, seasonal food connections and thirteen website routes. Preserved deity/calendar disagreements and a sequential expansion inventory. | Continue katha evidence research and review website candidate. |
@@ -773,6 +772,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026100703 | 2026-10-07T14:11:19.648903+00:00 | Reconciled B04 research, eighteen profiles and nineteen website routes. Native food-story publication records preserved; no osha publication. | Continue OSHA-B05 using saved Bada/Kanji Anla and Mahanti accounts first; retry unresolved B02/B03/B04 evidence on/after2026-10-14. Source workspace remains scheduling authority. |
 | UTP-EVT-2026100704 | 2026-10-07T21:09:30.553967+00:00 | Reconciled B05 research, twenty-one profiles and twenty-two website routes. Native publication records preserved; no osha publication. | Continue OSHA-B06 with Sukutuni Osha, the earliest eligible remaining inventory lead, using saved Dash and Mahanti first. Retry unresolved B02–B05 texts, calendars and local variants on/after2026-10-14. Source workspace remains scheduling authority. |
 | UTP-EVT-2026100801 | 2026-10-08T01:15:40.768038+00:00 | Reconciled three B06 profiles;24 selected observance pages and a collection route prepared for review. No merge or publication. | Continue OSHA-B06 with Nagala Chaturthi, checking identity against Naga Panchami before adding a profile. Earlier textual/locality gaps retain14October retries; Rambha gaps15October. Source workspace remains scheduling authority. |
+| UTP-EVT-2026100901 | 2026-10-09T10:24:29.876536+00:00 | Reconciled fifteen additional profiles and identity guide;39 observance pages prepared for review. No merge or publication. | Review the 39-profile candidate and identity guide; prepare a bounded source-grounded coverage audit for still-absent observances rather than repeat held identity searches. Existing textual/local/annual-date holds remain dated14–16October. Source workspace remains scheduling authority; no publication approval inferred. |
 
 ## Deferred extensions
 

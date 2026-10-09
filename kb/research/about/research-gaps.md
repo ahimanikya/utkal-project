@@ -422,3 +422,7 @@ Full kathas, dated histories, calendar conflicts, Danda identity and local food 
 ## 2026-10-08 · B06 research checkpoint
 
 Sukutuni, complete local kathas, calendar conflicts, textual dates and food locality remain open. Prior retries14October; Rambha15October. The1908 Garuda textual food prescriptions are not an Odisha visitor menu.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Original texts, local food preparation, unresolved names and current visitor evidence retain their14–16October retry dates. Benatia and unqualified Purnima remain unidentified.
