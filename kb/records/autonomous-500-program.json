@@ -266,6 +266,16 @@
         "records/boita-discussion-framework-merged-2026-10-09.json"
       ],
       "completed_at": "2026-10-09T17:22:56.316407+00:00"
+    },
+    {
+      "id": "UTP-A500-022",
+      "title": "Reject ambiguous and malformed program authority records",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-207",
+      "acceptance": "The read-only autonomous checker rejects duplicate or malformed work/decision registries and invalid program authority/owner or decision actors with actionable findings, never uncaught exceptions or last-record-wins lookup. Current records and shared receipts stay valid. Fault-injection and read-only tests, required PR checks, exact-head merge and tooling receipt; no website deployment required.",
+      "evidence": [
+        "records/program-record-shapes-review-2026-10-10.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -285,5 +295,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T17:22:56.316407+00:00"
+  "updated_at": "2026-10-09T22:23:21.355695+00:00"
 }

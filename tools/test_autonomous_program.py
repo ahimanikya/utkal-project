@@ -70,6 +70,45 @@ class ProgramEvidenceTests(unittest.TestCase):
         next(d for d in self.registers['decisions'] if d['id'] == self.program['authorization'])['actor']['kind'] = 'persona'
         self.rejects('approved decision by its human owner')
 
+    def test_duplicate_registry_ids(self):
+        for key in ('work', 'decisions'):
+            with self.subTest(registry=key):
+                self.registers[key].append(copy.deepcopy(self.registers[key][-1]))
+                self.rejects('duplicate ' + key + ' ID')
+                self.registers[key].pop()
+
+    def test_registry_shapes(self):
+        for key in ('work', 'decisions'):
+            original = self.registers[key]
+            for value in (None, {}, [None], ['record'], [{}], [{'id': []}], [{'id': ''}], [{'id': '  '}]):
+                with self.subTest(registry=key, value=value):
+                    self.registers[key] = value
+                    self.rejects(key)
+            self.registers[key] = original
+
+    def test_program_authority_shapes(self):
+        for field in ('authorization', 'human_owner'):
+            original = self.program[field]
+            for value in (None, [], {}, '', '  '):
+                with self.subTest(field=field, value=value):
+                    self.program[field] = value
+                    self.rejects(field)
+            self.program[field] = original
+
+    def test_actor_shapes(self):
+        decision = next(d for d in self.registers['decisions'] if d['id'] == self.program['authorization'])
+        for value in (None, [], 'human', {}, {'kind': 'human', 'name': []}):
+            with self.subTest(actor=value):
+                decision['actor'] = value
+                self.rejects('approved decision by its human owner')
+
+    def test_invalid_registry_check_is_read_only(self):
+        self.registers['work'].append(copy.deepcopy(self.registers['work'][-1]))
+        self.run_check()
+        before = {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        self.assertTrue(check(self.root))
+        self.assertEqual(before, {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()})
+
     def test_missing_evidence(self):
         (self.root / 'kb' / self.receipt_path).unlink()
         self.rejects('evidence missing')
