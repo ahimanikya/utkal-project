@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 30,
+  "completed_items": 31,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -384,13 +384,15 @@
     {
       "id": "UTP-A500-031",
       "title": "Develop the loom-to-market story around cloth and named creators",
-      "status": "in_progress",
+      "status": "completed",
       "work_id": "UTP-WORK-216",
       "acceptance": "Expand the existing loom-to-market draft into a connected reader article with source-attributed textile construction, named documented creators, the dated Boyanika institutional account and useful visitor questions. Reuse existing identities and mark retrieval limitations; no invented interviews, income, current stock, authenticity guarantee or image rights. Preserve earlier draft material, save claim/reuse review, validate KB links, pass PR checks and merge exact reviewed documentation. No website deployment or search eligibility change.",
       "evidence": [
         "records/loom-market-story-review-2026-10-10.json",
-        "research/stories/handlooms-from-loom-to-market.md"
-      ]
+        "research/stories/handlooms-from-loom-to-market.md",
+        "records/loom-market-story-merged-2026-10-10.json"
+      ],
+      "completed_at": "2026-10-10T07:01:59.984552+00:00"
     }
   ],
   "followup_candidates": [
@@ -410,5 +412,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-10T06:53:52.886313+00:00"
+  "updated_at": "2026-10-10T07:01:59.984552+00:00"
 }
