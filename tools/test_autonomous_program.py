@@ -144,6 +144,77 @@ class ProgramEvidenceTests(unittest.TestCase):
                 self.write(self.receipt_path, dict(original, **{field: value}))
                 self.rejects(message)
 
+    def test_deployment_commit_and_workflow(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        for field, value, message in (
+            ('head', 'a' * 40, 'deployment head must match'),
+            ('head', None, 'deployment head must match'),
+            ('workflow', 'unreviewed.yml', 'publish-site.yml'),
+            ('publish_approved', False, 'publish_approved must be true'),
+            ('publish_approved', 1, 'publish_approved must be true'),
+            ('input', {'publish_approved': False}, 'publish_approved must be true'),
+            ('input', [], 'deployment input must be an object'),
+        ):
+            with self.subTest(field=field, value=value):
+                candidate = copy.deepcopy(original)
+                candidate['deployment'][field] = value
+                self.write(self.receipt_path, candidate)
+                self.rejects(message)
+
+    def test_failed_or_malformed_validation(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        for key in ('validation', 'required_checks'):
+            for value in (None, [], {}, {'conclusion': 'failure'},
+                          {'conclusion': 'success', 'result': 'failure'}):
+                with self.subTest(key=key, value=value):
+                    self.write(self.receipt_path, dict(original, **{key: value}))
+                    self.rejects(key + ' must record success')
+
+    def test_run_urls_reject_other_repositories_and_non_runs(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        for key in ('validation', 'required_checks', 'deployment'):
+            for field in ('url', 'run'):
+                for value in ('https://github.com/example/elsewhere/actions/runs/1',
+                              'https://github.com/ahimanikya/utkal-project/pull/1', None):
+                    with self.subTest(key=key, field=field, value=value):
+                        candidate = copy.deepcopy(original)
+                        candidate.setdefault(key, {'conclusion': 'success'})[field] = value
+                        self.write(self.receipt_path, candidate)
+                        self.rejects('repository’s Actions run URL')
+
+    def test_legacy_deployment_url_checked(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        self.write(self.receipt_path, dict(original, deployment='https://example.com/run',
+                                         deployment_conclusion='success'))
+        self.rejects('repository’s Actions run URL')
+
+    def test_conflicting_deployment_results(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        for legacy in (False, True):
+            candidate = copy.deepcopy(original)
+            if legacy:
+                candidate['deployment_conclusion'] = 'failure'
+            else:
+                candidate['deployment']['result'] = 'failure'
+            self.write(self.receipt_path, candidate)
+            self.rejects('deployment outcomes must all be success')
+
+    def test_document_receipt_validation_is_not_exempt(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        original['deployment'] = {'required': False, 'reason': 'Tooling only'}
+        original['validation'] = {'conclusion': 'failure'}
+        self.write(self.receipt_path, original)
+        self.rejects('validation must record success')
+
+    def test_delivery_failure_check_is_read_only(self):
+        original = json.loads((self.root / 'kb' / self.receipt_path).read_text())
+        original['deployment']['head'] = 'a' * 40
+        self.write(self.receipt_path, original)
+        self.run_check()
+        before = {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()}
+        self.assertTrue(check(self.root))
+        self.assertEqual(before, {p: p.read_bytes() for p in self.root.rglob('*') if p.is_file()})
+
     def test_missing_review(self):
         self.program['items'][12]['evidence'] = [self.receipt_path]
         self.rejects('missing linked passing review')
