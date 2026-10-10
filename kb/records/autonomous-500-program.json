@@ -355,6 +355,16 @@
         "records/conference-route-drafts-merged-2026-10-10.json"
       ],
       "completed_at": "2026-10-10T03:48:33.894991+00:00"
+    },
+    {
+      "id": "UTP-A500-029",
+      "title": "Keep manual page links available while device sharing is pending",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-214",
+      "acceptance": "Expose a read-only current page link before native sharing or clipboard work settles, retaining a usable manual fallback on cancellation or failure. Test unresolved actions, success, failure, cancellation and subsequent URLs; verify actual browser fallback and restored atlas selection on desktop/mobile, full/coastal suites, exact-head PR, approved deployment and live evidence. No new data sharing, search eligibility or factual changes.",
+      "evidence": [
+        "records/share-fallback-review-2026-10-10.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -374,5 +384,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-10T03:48:33.894991+00:00"
+  "updated_at": "2026-10-10T04:47:38.430277+00:00"
 }
