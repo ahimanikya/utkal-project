@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 STATES = {'proposed', 'in_progress', 'blocked', 'deferred', 'failed', 'completed'}
 SHA = re.compile(r'[0-9a-f]{40}')
+RUN = re.compile(r'https://github\.com/ahimanikya/utkal-project/actions/runs/[1-9][0-9]*')
 PR = re.compile(r'https://github\.com/ahimanikya/utkal-project/pull/[1-9][0-9]*')
 
 
@@ -53,6 +54,56 @@ def record_index(registers, key):
             raise ValueError(f'duplicate {key} ID: {ident}')
         indexed[ident] = row
     return indexed
+
+
+def delivery_consistency(receipt):
+    """Check supplied evidence for contradictions; never query GitHub or infer missing facts.
+
+    Older receipts use run/result or a bare deployment URL. Keep these shapes
+    readable, but do not let one successful alias hide another failed value.
+    """
+    errors = []
+
+    def run_urls(record, label):
+        for key in ('url', 'run'):
+            if key in record and (not isinstance(record[key], str)
+                                  or not RUN.fullmatch(record[key])):
+                errors.append(f'{label} {key} requires this repository’s Actions run URL')
+
+    for key in ('validation', 'required_checks'):
+        if key not in receipt:
+            continue
+        record = receipt[key]
+        outcomes = [record[k] for k in ('conclusion', 'result') if k in record] if isinstance(record, dict) else []
+        if not outcomes or any(v != 'success' for v in outcomes):
+            errors.append(f'{key} must record success without contradictory outcomes')
+        if isinstance(record, dict):
+            run_urls(record, key)
+
+    deployment = receipt.get('deployment')
+    if isinstance(deployment, str):
+        if not RUN.fullmatch(deployment):
+            errors.append('deployment requires this repository’s Actions run URL')
+    elif isinstance(deployment, dict):
+        run_urls(deployment, 'deployment')
+        if 'head' in deployment and deployment['head'] != receipt.get('merge_commit'):
+            errors.append('deployment head must match merge_commit')
+        if 'workflow' in deployment and deployment['workflow'] != 'publish-site.yml':
+            errors.append('deployment workflow must be publish-site.yml')
+        if 'publish_approved' in deployment and deployment['publish_approved'] is not True:
+            errors.append('deployment publish_approved must be true')
+        if 'input' in deployment:
+            inputs = deployment['input']
+            if not isinstance(inputs, dict):
+                errors.append('deployment input must be an object')
+            elif 'publish_approved' in inputs and inputs['publish_approved'] is not True:
+                errors.append('deployment input publish_approved must be true')
+    outcomes = [deployment[k] for k in ('conclusion', 'result') if k in deployment] if isinstance(deployment, dict) else []
+    if 'deployment_conclusion' in receipt:
+        outcomes.append(receipt['deployment_conclusion'])
+    if any(value != 'success' for value in outcomes):
+        errors.append('deployment outcomes must all be success')
+    return errors
 
 
 def check(root=ROOT):
@@ -146,6 +197,8 @@ def check(root=ROOT):
             if 'work_id' in record and record['work_id'] != work_id:
                 fail('linked evidence work_id differs from item')
         for receipt in receipts:
+            for finding in delivery_consistency(receipt):
+                fail(finding)
             if not PR.fullmatch(str(receipt.get('pull_request', ''))):
                 fail('delivery receipt requires this repository’s PR URL')
             for field in ('reviewed_head', 'merge_commit'):

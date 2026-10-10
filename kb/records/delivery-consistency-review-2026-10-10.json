@@ -1,0 +1,25 @@
+{
+  "recorded_at": "2026-10-10T00:40:46.949773+00:00",
+  "program_item": "UTP-A500-025",
+  "work_id": "UTP-WORK-210",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "verification": {
+    "gap": "Prior checker accepted a supplied deployment head different from merge_commit, failed validation and contradictory publication approval/workflow/outcomes.",
+    "regressions": "29 test methods; seven added methods exercised 39 invalid cases rejected only after fix. All 29 pass, including current shared-batch/document receipts and read-only checks.",
+    "scope": "Supplied validation/required_checks outcomes must succeed; supplied Actions URLs must identify this repository; supplied deployment head/workflow/approval must be consistent. Conflicting aliases cannot hide failure. Legacy missing fields are not invented or backfilled.",
+    "current_records": "All 24 delivered items remain valid. New item remains in progress until actual merge receipt.",
+    "visual": "Not applicable: repository checker and evidence only; no website output changed."
+  },
+  "limitations": [
+    "Same-assistant review, not independent human review.",
+    "Offline consistency checks cannot establish that a GitHub run, approval, deployment or live observation actually occurred.",
+    "Historical receipts with absent optional fields remain supported; this change rejects supplied contradictions, not every omission."
+  ],
+  "delivery": "Pending required PR checks and exact-head merge; no website deployment required."
+}

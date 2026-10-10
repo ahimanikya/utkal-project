@@ -304,6 +304,16 @@
         "records/global-town-learning-publication-2026-10-10.json"
       ],
       "completed_at": "2026-10-09T23:46:56.857225+00:00"
+    },
+    {
+      "id": "UTP-A500-025",
+      "title": "Reject contradictory publication evidence before counting delivery",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-210",
+      "acceptance": "Reject contradictory delivery evidence: a supplied deployment head must match the merge, recorded workflow and approval must match the authorized publication path, supplied CI/deployment run URLs must belong to UTP, and supplied validation must pass. Preserve legacy receipt shapes and docs-only exemptions. Fault-injection and read-only tests, passing required PR check, exact-head merge and tooling delivery receipt; no website deployment required.",
+      "evidence": [
+        "records/delivery-consistency-review-2026-10-10.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -323,5 +333,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-09T23:46:56.857225+00:00"
+  "updated_at": "2026-10-10T00:39:11.572348+00:00"
 }
