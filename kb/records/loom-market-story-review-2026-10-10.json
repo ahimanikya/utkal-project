@@ -1,0 +1,69 @@
+{
+  "recorded_at": "2026-10-10T06:53:52.886313+00:00",
+  "program_item": "UTP-A500-031",
+  "work_id": "UTP-WORK-216",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/handlooms-from-loom-to-market.md",
+  "reuse": {
+    "research_map_read": true,
+    "existing_query": "tarakasi and loom market; inspected existing handloom story, collection and structured maker records",
+    "inputs": [
+      "research/references/data/handloom-markets.json",
+      "research/handlooms/garments-and-markets.md",
+      "research/handlooms/khandua.md",
+      "research/handlooms/bomkai.md"
+    ],
+    "earlier_draft_sha256": "9e454a94dfacdfcb99e73176725771fb260e0a50e75fc7e2bcf37aaa8b5bacb7",
+    "earlier_draft_preserved": "Git parent97da4dff; visual ideas retained in an editorial development note."
+  },
+  "sources": [
+    {
+      "id": "handloom-boyanika70-2026",
+      "url": "https://boyanika.com/boyanika-wear-your-heritage/",
+      "method": "Web reader",
+      "inspection": "Dated institutional account14May2026; origin1956 and milestone retained; retail/online/exhibition role attributed. Promotional impact and turnover omitted."
+    },
+    {
+      "id": "handloom-ihb-bomkai",
+      "url": "https://www.indiahandloombrand.gov.in/pages/downloadFile/bomkai-saree.pdf",
+      "method": "Web reader PDF",
+      "locator": "page1 techniques",
+      "inspection": "Additional border warp and body/pallu weft; no universal authentication test adopted."
+    },
+    {
+      "id": "handloom-ihb-khandua",
+      "url": "https://www.indiahandloombrand.gov.in/pages/downloadFile/khandua-saree.pdf",
+      "method": "Web reader timed out; direct HTTP200 PDF succeeded",
+      "sha256": "a323962a19f75d4158001d619229bd5a50517581d9d4aca7a248dce17a5c973e",
+      "locator": "page1 technique",
+      "inspection": "Grouped weft yarn tying/dyeing before weaving; temple chronology and loom-percentage claims not adopted."
+    },
+    {
+      "id": "handloom-weaver-directory",
+      "url": "https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf",
+      "method": "Web reader502; direct HTTP200 PDF succeeded. Text extraction plus rendered page inspection.",
+      "sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0",
+      "locator": "PDF pages10–11",
+      "inspection": "Swarnalata Meher and Debaki Meher names, illustrated works and technique descriptions checked. Duration estimates, contact details and photo rights not adopted."
+    }
+  ],
+  "verification": {
+    "claims": "Factual paragraphs map to the four existing source identities; reflective opening and visitor questions are original editorial suggestions, not observed scenes or testimony.",
+    "continuity": "Existing story expanded in place; original metadata retained with revision date. Structured datasets and research automation queue untouched.",
+    "media": "PDF images inspected for named-work attribution only; no imagery copied into public Git.",
+    "checks": "PASS: catalogue current, 4972 local KB links, register/program consistency, editorial workbench and whitespace checks."
+  },
+  "limitations": [
+    "Same-assistant editorial and source review; no independent textile specialist, maker or language review.",
+    "No interview, field visit, current stock, authenticity certification, workshop availability, income or measured livelihood impact claimed.",
+    "Directory is undated. Product examples do not establish other retail-piece makers, present lead times or image reuse rights. No PDF image reproduced.",
+    "KB article draft only; no website deployment, search eligibility change, outreach, commercial activation or source-dataset rewrite."
+  ],
+  "delivery": "Pending checked exact-head documentation merge; no website release required."
+}
