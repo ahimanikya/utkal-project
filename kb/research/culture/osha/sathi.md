@@ -67,3 +67,11 @@ Sources: [ଷଷ୍ଠୀ ଓଷା (Sasthi Osha)](https://shubhapallaba.in/sast
 [Osha collection](../osha-brata-seasonal-food.md). Individual observance narrative, food context and source boundaries.
 
 Published testimony was read; no new local interviews, human Odia review or media permissions are claimed.
+
+## 2026-10-10 · Related Skanda reading
+
+[Skanda Sasthi Brata](skanda-sasthi-brata.md). Skanda Sasthi and Sathi Osha share sixth-day terminology; their deity, season, narrative and food evidence remain separately identified.
+
+## 2026-10-10 · Related family-care narrative
+
+[Bajra Mahakali](bajra-mahakali-brata.md). Bajra Mahakali and Sathi both bring children and household care into ritual stories; compare their separately sourced narratives without merging deities, foods or calendars.

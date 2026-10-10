@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_on": "2026-10-09",
+  "updated_on": "2026-10-10",
   "scope": "Editorial subject classification of canonical knowledge, evidence and story entries; excludes sources, methods, product/technology governance and generic coverage pages. Does not grant public-release approval.",
   "subjects": [
     {
@@ -5080,6 +5080,160 @@
       "content_type": "Research Guide",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha-coverage-audit",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Research Guide",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/sankata-chaturthi",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/radhastami-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/shibaratri-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/janmastami-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/pusa-rabibara-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/binayaka-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/skanda-sasthi-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/guru-purnima-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/shiva-pradosha-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/tarini-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/bajra-mahakali-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/mahastami-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/ashoka-astami-brata",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -8106,6 +8260,335 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Month-long vow and five-day option are distinguished from a single full-moon day; existing calendar conflict remains unresolved."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha-coverage-audit",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Inventory coverage guides future research without treating names as verified aliases, local menus or a statewide festival count."
+    },
+    {
+      "from": "culture/osha/sankata-chaturthi",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Sankata Chaturthi research preserves differing rice treatments and food names without turning partial descriptions into a single tested recipe."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/sankata-chaturthi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Sankata Chaturthi research preserves differing rice treatments and food names without turning partial descriptions into a single tested recipe."
+    },
+    {
+      "from": "culture/osha/radhastami-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Radhastami research separates a narrative meal, textual offerings and fast-breaking prasada before seeking locally named dishes and preparation."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/radhastami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Radhastami research separates a narrative meal, textual offerings and fast-breaking prasada before seeking locally named dishes and preparation."
+    },
+    {
+      "from": "culture/osha/shibaratri-brata",
+      "to": "food/gaja-kanti-evidence",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Shibaratri names gaja pitha as an offering; the Gaja dossier keeps its unresolved preparation separate from Puri, dairy and Bada Osha foods with related names."
+    },
+    {
+      "from": "food/gaja-kanti-evidence",
+      "to": "culture/osha/shibaratri-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Shibaratri names gaja pitha as an offering; the Gaja dossier keeps its unresolved preparation separate from Puri, dairy and Bada Osha foods with related names."
+    },
+    {
+      "from": "culture/osha/janmastami-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Janmastami connects fasting and shared prasada with preparation research; narrative dairy, unnamed household offerings and later Puri rituals require separate food evidence."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/janmastami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Janmastami connects fasting and shared prasada with preparation research; narrative dairy, unnamed household offerings and later Puri rituals require separate food evidence."
+    },
+    {
+      "from": "culture/osha/pusa-rabibara-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Pusa Rabibara’s textual pitha offering and reported muan market name connect to preparation research; neither establishes a universal recipe or current serving place."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/pusa-rabibara-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Pusa Rabibara’s textual pitha offering and reported muan market name connect to preparation research; neither establishes a universal recipe or current serving place."
+    },
+    {
+      "from": "culture/osha/pusa-rabibara-brata",
+      "to": "culture/osha/rabinarayana-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Solar dedication provides comparison; separate calendar descriptions prevent treating these vows as aliases."
+    },
+    {
+      "from": "culture/osha/rabinarayana-brata",
+      "to": "culture/osha/pusa-rabibara-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Solar dedication provides comparison; separate calendar descriptions prevent treating these vows as aliases."
+    },
+    {
+      "from": "culture/osha/binayaka-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Binayaka’s modaka prescription connects to preparation research; its food name and ghee reference do not establish a complete local recipe."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/binayaka-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Binayaka’s modaka prescription connects to preparation research; its food name and ghee reference do not establish a complete local recipe."
+    },
+    {
+      "from": "culture/osha/binayaka-brata",
+      "to": "culture/osha/sankata-chaturthi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Bright-fortnight Binayaka and dark-fortnight Sankati are compared without merging their calendar rules or the unresolved Sankata food identities."
+    },
+    {
+      "from": "culture/osha/sankata-chaturthi",
+      "to": "culture/osha/binayaka-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Bright-fortnight Binayaka and dark-fortnight Sankati are compared without merging their calendar rules or the unresolved Sankata food identities."
+    },
+    {
+      "from": "culture/osha/skanda-sasthi-brata",
+      "to": "culture/osha/sathi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Skanda Sasthi and Sathi Osha share sixth-day terminology; their deity, season, narrative and food evidence remain separately identified."
+    },
+    {
+      "from": "culture/osha/sathi",
+      "to": "culture/osha/skanda-sasthi-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Skanda Sasthi and Sathi Osha share sixth-day terminology; their deity, season, narrative and food evidence remain separately identified."
+    },
+    {
+      "from": "culture/osha/guru-purnima-brata",
+      "to": "culture/osha/guru-panchami",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Guru Purnima and Guru Panchami both invite questions about teachers and disciples; their calendar, local identity and food evidence must be checked separately."
+    },
+    {
+      "from": "culture/osha/guru-panchami",
+      "to": "culture/osha/guru-purnima-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Guru Purnima and Guru Panchami both invite questions about teachers and disciples; their calendar, local identity and food evidence must be checked separately."
+    },
+    {
+      "from": "culture/osha/guru-purnima-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reported prasad and announced cooked prasad do not identify dishes or recipes; preparation research must preserve each event and food role."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/guru-purnima-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reported prasad and announced cooked prasad do not identify dishes or recipes; preparation research must preserve each event and food role."
+    },
+    {
+      "from": "culture/osha/shiva-pradosha-brata",
+      "to": "culture/osha/shibaratri-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Recurring Shiva Pradosha and annual Shibaratri share Shiva devotion; their stories, timing and food evidence remain separately attributed."
+    },
+    {
+      "from": "culture/osha/shibaratri-brata",
+      "to": "culture/osha/shiva-pradosha-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Recurring Shiva Pradosha and annual Shibaratri share Shiva devotion; their stories, timing and food evidence remain separately attributed."
+    },
+    {
+      "from": "culture/osha/shiva-pradosha-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A translated ritual offering list does not establish an Odisha dish or recipe; preparation research must identify the local food and its role before comparison."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/shiva-pradosha-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A translated ritual offering list does not establish an Odisha dish or recipe; preparation research must identify the local food and its role before comparison."
+    },
+    {
+      "from": "culture/osha/tarini-brata",
+      "to": "culture/osha/bipattarini-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Tarini and Bipattarini share protective themes, but name similarity does not establish identical vows, calendars, narratives or foods."
+    },
+    {
+      "from": "culture/osha/bipattarini-brata",
+      "to": "culture/osha/tarini-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Tarini and Bipattarini share protective themes, but name similarity does not establish identical vows, calendars, narratives or foods."
+    },
+    {
+      "from": "culture/osha/tarini-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Tarini research separates household fasting, shrine offerings, cooked prasad and a local sweet; each food role needs its own preparation and locality evidence."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/tarini-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Tarini research separates household fasting, shrine offerings, cooked prasad and a local sweet; each food role needs its own preparation and locality evidence."
+    },
+    {
+      "from": "culture/osha/gouri-brata",
+      "to": "culture/osha/chaitra-mangala",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare the separately sourced calendars and food roles before treating Mangala Gauri and Chaitra Mangala as related observances; a shared deity name does not establish a common vow."
+    },
+    {
+      "from": "culture/osha/chaitra-mangala",
+      "to": "culture/osha/gouri-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare the separately sourced calendars and food roles before treating Mangala Gauri and Chaitra Mangala as related observances; a shared deity name does not establish a common vow."
+    },
+    {
+      "from": "culture/osha/bajra-mahakali-brata",
+      "to": "culture/osha/sathi",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Bajra Mahakali and Sathi both bring children and household care into ritual stories; compare their separately sourced narratives without merging deities, foods or calendars."
+    },
+    {
+      "from": "culture/osha/sathi",
+      "to": "culture/osha/bajra-mahakali-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Bajra Mahakali and Sathi both bring children and household care into ritual stories; compare their separately sourced narratives without merging deities, foods or calendars."
+    },
+    {
+      "from": "culture/osha/bajra-mahakali-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Bajra Mahakali’s text names aradra and seven greens, but a textual food name is not a complete recipe or verified current preparation."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/bajra-mahakali-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Bajra Mahakali’s text names aradra and seven greens, but a textual food name is not a complete recipe or verified current preparation."
+    },
+    {
+      "from": "culture/osha/mahastami-brata",
+      "to": "culture/osha/bhai-jiuntia",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Mahastami and Bhai Jiuntia share an autumn Durga context in the consulted accounts; linked book titles invite comparison without establishing one statewide katha or menu."
+    },
+    {
+      "from": "culture/osha/bhai-jiuntia",
+      "to": "culture/osha/mahastami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Mahastami and Bhai Jiuntia share an autumn Durga context in the consulted accounts; linked book titles invite comparison without establishing one statewide katha or menu."
+    },
+    {
+      "from": "culture/osha/mahastami-brata",
+      "to": "culture/osha/gouri-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Gouri research page preserves an Aswina drawing account alongside other Gouri traditions. Compare that saved scope with Mahastami without transferring its foods or treating the names as proven synonyms."
+    },
+    {
+      "from": "culture/osha/gouri-brata",
+      "to": "culture/osha/mahastami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Gouri research page preserves an Aswina drawing account alongside other Gouri traditions. Compare that saved scope with Mahastami without transferring its foods or treating the names as proven synonyms."
+    },
+    {
+      "from": "culture/osha/mahastami-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare offered food, shared prasad and the meal ending a fast; a broad bhoga label does not identify a recipe."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/mahastami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Compare offered food, shared prasad and the meal ending a fast; a broad bhoga label does not identify a recipe."
+    },
+    {
+      "from": "culture/osha/ashoka-astami-brata",
+      "to": "culture/osha/samba-dashami",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Ashoka Astami’s described Surya vow can be read beside Samba Dashami’s family-care account; shared solar devotion does not transfer a katha, calendar or menu."
+    },
+    {
+      "from": "culture/osha/samba-dashami",
+      "to": "culture/osha/ashoka-astami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Ashoka Astami’s described Surya vow can be read beside Samba Dashami’s family-care account; shared solar devotion does not transfer a katha, calendar or menu."
+    },
+    {
+      "from": "culture/osha/ashoka-astami-brata",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A textual item consumed in a rite is not automatically a household recipe or visitor dish; Ashoka Astami keeps those food roles distinct."
+    },
+    {
+      "from": "food/preparation-and-variation",
+      "to": "culture/osha/ashoka-astami-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A textual item consumed in a rite is not automatically a household recipe or visitor dish; Ashoka Astami keeps those food roles distinct."
     }
   ],
   "relationship_types": {

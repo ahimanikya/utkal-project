@@ -52,3 +52,8 @@ Source recovery and identity clarification are scheduled for 12 October. Indepen
 ## 2026-10-07 · Bada Osha is a separate food context
 
 [Bada Osha](../culture/osha/bada.md) now distinguishes Mahanti’s steamed rice-and-coconut gaja bhoga from the gazetteer’s shaped offering. Atakali is separately named. Compare names and preparation methods without treating different foods as aliases. No Puri GI scope or universal recipe follows from the Bada account. [Mahanti source](../sources/osha-mahanti.md), printed59 / PDF75.
+
+
+## 2026-10-09 · Shibaratri: another named offering
+
+[Shibaratri Brata](../culture/osha/shibaratri-brata.md). Shibaratri names gaja pitha as an offering; the Gaja dossier keeps its unresolved preparation separate from Puri, dairy and Bada Osha foods with related names. [Mahanti](../sources/osha-mahanti.md), printed 105/PDF 121, names this offering without a recipe.

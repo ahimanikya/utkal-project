@@ -69,3 +69,7 @@ This entry is a reading lead. Its unresolved identity and month prevent a depend
 ## 2026-10-08 · Rushi Panchami: ritual and food context
 
 [Rushi Panchami](rushi-panchami.md). Separate Rushi and Guru entries preserve the unresolved identity overlap in published Panchami accounts; shared sages do not establish equivalence.
+
+## 2026-10-10 · Related Guru Purnima reading
+
+[Guru Purnima Brata](guru-purnima-brata.md). Guru Purnima and Guru Panchami both invite questions about teachers and disciples; their calendar, local identity and food evidence must be checked separately.

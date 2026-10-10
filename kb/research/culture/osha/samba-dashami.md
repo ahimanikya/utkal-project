@@ -54,3 +54,7 @@ Preparation reading: [manda pitha](../../food/manda-pitha.md), [kakara pitha](..
 ## 2026-10-08 · Magha: vow and pilgrimage
 
 [Magha Brata](magha-brata.md). Magha Saptami and Samba Dashami share solar narrative context but have different calendar rules; one observance’s food list does not establish the other’s menu.
+
+## 2026-10-10 · Ashoka Astami comparison
+
+[Ashoka Astami](ashoka-astami-brata.md). Ashoka Astami’s described Surya vow can be read beside Samba Dashami’s family-care account; shared solar devotion does not transfer a katha, calendar or menu.

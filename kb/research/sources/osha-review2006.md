@@ -106,3 +106,35 @@ Printed16 / PDF2. Bipattarini Brata is named in Odisha inventory; calendar, food
 ## 2026-10-09 · Osha identity audit
 
 Printed15 / PDF1, right column inventory — Benatia and Purnima are named without individual dates, stories or foods. The nearby Kartika/Shiva parenthesis follows Bada Osha. [Identity guide](../culture/osha-identity-guide.md).
+
+## 2026-10-09 · Sankata Chaturthi reading
+
+Printed16–18 / PDF2–4. Magha and Shiva–Parvati; body prints Bundi and note17 Bindi, with fried-rice, molasses and coconut account. [Scoped profile](../culture/osha/sankata-chaturthi.md).
+
+## 2026-10-09 · Radhastami reading
+
+Printed16 / PDF2. Radhastami listed as worship of Radha; no dedicated story or food. [Profile](../culture/osha/radhastami-brata.md).
+
+## 2026-10-09 · Shibaratri reading
+
+Printed 16 / PDF 2. Inventory identifies Shibaratri Brata in Phalguna as Shiva worship; no dedicated food or story. [Profile](../culture/osha/shibaratri-brata.md).
+
+## 2026-10-09 · Janmastami reading
+
+Printed 16 / PDF 2. Inventory identifies Shri Krishna Janmastami Brata in Bhadrab as Krishna worship. [Profile](../culture/osha/janmastami-brata.md).
+
+## 2026-10-09 · Pusa Rabibara comparison
+
+Printed16/PDF2. Pusa Rabibara in Pausa, sun worship; separate Rabinarayan entry in Margasira. [Profile](../culture/osha/pusa-rabibara-brata.md).
+
+## 2026-10-10 · Binayaka comparison
+
+Printed16/PDF2. Binayaka Brata in Bhadrab, dedicated to Ganesh. [Profile](../culture/osha/binayaka-brata.md).
+
+## 2026-10-10 · Skanda Sasthi comparison
+
+Printed16/PDF2. Skanda Sasthi Brata listed in Chaitra; no named food or narrative in this entry. [Profile](../culture/osha/skanda-sasthi-brata.md).
+
+## 2026-10-10 · Guru Purnima reading
+
+Printed16/PDF2. Guru Purnima Brata assigned to Pausa; no specific story or food in entry. [Profile](../culture/osha/guru-purnima-brata.md).

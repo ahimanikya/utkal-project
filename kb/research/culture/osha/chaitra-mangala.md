@@ -63,3 +63,7 @@ The traditional month and named foods provide a reading route. No year-specific 
 [Osha collection](../osha-brata-seasonal-food.md). Individual observance narrative, food context and source boundaries.
 
 No interviews, human Odia review or current serving arrangements were completed by this project.
+
+## 2026-10-10 · Related Gouri reading
+
+[Gouri and Srabani research](gouri-brata.md). Compare the separately sourced calendars and food roles before treating Mangala Gauri and Chaitra Mangala as related observances; a shared deity name does not establish a common vow.

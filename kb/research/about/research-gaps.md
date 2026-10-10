@@ -426,3 +426,7 @@ Sukutuni, complete local kathas, calendar conflicts, textual dates and food loca
 ## 2026-10-09 · Osha expansion checkpoint
 
 Original texts, local food preparation, unresolved names and current visitor evidence retain their14–16October retry dates. Benatia and unqualified Purnima remain unidentified.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Original texts, local food preparation, unresolved names and current visitor evidence retain their14–17October retry dates. Benatia and unqualified Purnima remain unidentified.

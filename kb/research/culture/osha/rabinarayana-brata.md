@@ -67,3 +67,9 @@ Manda and mua are useful names to ask about, with the source limitations kept vi
 [Samba Dashami](samba-dashami.md). Both observances involve solar devotion, but their sources describe distinct calendar rules and food roles; a shared deity does not establish a shared menu or origin.
 
 [Text witnesses](../osha-text-witnesses.md) · [Osha collection](../osha-brata-seasonal-food.md) · [Seasonal food guide](../../visitor-index/seasonal-food-guide.md). No local interviews or human review claimed.
+
+## 2026-10-09 · Related Pusa Rabibara reading
+
+[Pusa Rabibara Brata](pusa-rabibara-brata.md) now has a separate Odia narrative and offering checkpoint. Dash distinguishes the seasonal entries; solar dedication alone does not establish identical vows or menus.
+
+Solar dedication provides comparison; separate calendar descriptions prevent treating these vows as aliases.

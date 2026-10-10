@@ -69,3 +69,7 @@ Text witnesses provide research leads for a local katha; a catalogue record alon
 ## 2026-10-08 · Related Naga Panchami study
 
 [Naga Panchami](naga-panchami.md) adds an attributed Deogaon sculptural witness. Shared serpent narratives invite comparison, while the sources distinguish Sravana Panchami from Kartika Chaturthi; neither image dates nor shared ingredients erase that distinction.
+
+## 2026-10-09 · Sankata comparison now documented
+
+[Sankata Chaturthi](sankata-chaturthi.md) now has a dedicated food-and-identity note. The rice-cake association remains attached to that source heading and is not transferred to Nagala.

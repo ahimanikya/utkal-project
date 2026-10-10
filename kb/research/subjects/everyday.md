@@ -158,3 +158,78 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-09 · Osha names and local knowledge
 
 [Which Osha?](../culture/osha-identity-guide.md) explains why shared calendar words do not establish a shared observance, story or menu.
+
+
+## 2026-10-09 · Osha coverage audit
+
+[Osha coverage and next questions](../culture/osha-coverage-audit.md) explains which source names have reading routes, which identities remain held and what will be researched next.
+
+
+## 2026-10-09 · Sankata Chaturthi: household questions
+
+[Sankata Chaturthi](../culture/osha/sankata-chaturthi.md) links written rice-cake descriptions with questions about household preparation, ritual food roles and differing calendar accounts.
+
+
+## 2026-10-09 · Radhastami: stories, songs and food
+
+[Radhastami Brata](../culture/osha/radhastami-brata.md) distinguishes Odia storytelling, textual offerings, temple ritual and the meal after fasting.
+
+
+## 2026-10-09 · Shibaratri: fasting, stories and poetry
+
+[Shibaratri Brata](../culture/osha/shibaratri-brata.md) connects Jagara, distinct hunter narratives, a named offering and Gopabandhu Das’s attributed literary reflection.
+
+
+## 2026-10-09 · Janmastami: waiting and welcoming
+
+[Janmastami Brata](../culture/osha/janmastami-brata.md) links the sacred birth story with fasting, shared prasada and the Puri ritual sequence, preserving differing fast-breaking descriptions.
+
+
+## 2026-10-09 · Pusa Rabibara: story, courtyard and offerings
+
+[Pusa Rabibara Brata](../culture/osha/pusa-rabibara-brata.md) follows an Odia story of a bride and the sun into directions for worship and food offerings.
+
+
+## 2026-10-10 · Binayaka: devotion and shared food
+
+[Binayaka Brata](../culture/osha/binayaka-brata.md) connects a recovered vow narrative, food distribution and a separate 1936 publication record.
+
+
+## 2026-10-10 · Skanda Sasthi: calendars and living practice
+
+[Skanda Sasthi Brata](../culture/osha/skanda-sasthi-brata.md) distinguishes an inventory entry, an author’s non-observance claim and a separate regional comparison.
+
+
+## 2026-10-10 · Guru Purnima: teachers, parents and shared food
+
+[Guru Purnima Brata](../culture/osha/guru-purnima-brata.md) compares religious memory, a qualified monastic reminiscence and dated local institutional reports without merging their food roles.
+
+
+## 2026-10-10 · Pradosha: care, restraint and worship
+
+[Shiva Pradosha Brata](../culture/osha/shiva-pradosha-brata.md) separates an Odisha practice account from a comparative textual story. Local narrative transmission and food preparation remain open.
+
+
+## 2026-10-10 · Tarini: stories and distinct food roles
+
+[Tarini Brata](../culture/osha/tarini-brata.md) connects the named vow with carefully scoped shrine research; historical food change and household practice remain separate evidence questions.
+
+
+## 2026-10-10 · Gouri names and local practice
+
+[Gouri and Srabani research](../culture/osha/gouri-brata.md) compares distinct source settings while leaving household identity and transmission open. The existing profile is expanded; no duplicate observance is counted.
+
+
+## 2026-10-10 · Bajra Mahakali: household story and sharing
+
+[Bajra Mahakali](../culture/osha/bajra-mahakali-brata.md) connects an attributed story of family separation and reunion with food preparation and neighbourhood sharing in the text.
+
+
+## 2026-10-10 · Mahastami and Bhai Jiuntia
+
+[Mahastami](../culture/osha/mahastami-brata.md) offers a reading route through household devotion and food roles; [Bhai Jiuntia](../culture/osha/bhai-jiuntia.md) adds an attributed sister–brother story from published ethnography.
+
+
+## 2026-10-10 · Ashoka Astami: household and public settings
+
+[Ashoka Astami](../culture/osha/ashoka-astami-brata.md) distinguishes care for children, a textual prayer against sorrow and a festival legend. Their relationship remains a question for local and textual research.

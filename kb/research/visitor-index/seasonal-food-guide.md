@@ -154,3 +154,59 @@ Read the [Janhi profile](../culture/osha/janhi.md) before treating its culminati
 ## 2026-10-09 · Ask which full moon
 
 [Which Osha?](../culture/osha-identity-guide.md) separates Kumar Purnima offerings, Pandu food descriptions and the Kartika vow. Match name, month and locality before looking for food; current dates and serving places remain unverified.
+
+## 2026-10-09 · Sankata Chaturthi: a food lead with open questions
+
+[Sankata Chaturthi](../culture/osha/sankata-chaturthi.md) preserves rice-cake accounts alongside unresolved identity and preparation. Magha is an attributed lead; no annual date or serving place is verified.
+
+## 2026-10-09 · Radhastami: prasada without an invented menu
+
+[Radhastami Brata](../culture/osha/radhastami-brata.md) documents fasting and prasada but no particular local dish or serving place. The saved Konark notice is a past programme announcement, not a current food offer.
+
+## 2026-10-09 · Shibaratri: ask about the local offering
+
+[Shibaratri Brata](../culture/osha/shibaratri-brata.md) connects the Phalguna vigil with a named gaja pitha offering. Preparation, post-fast meal and public serving places remain unverified; related names do not establish identical dishes.
+
+## 2026-10-09 · Janmastami: ask which occasion
+
+[Janmastami Brata](../culture/osha/janmastami-brata.md) distinguishes birth-night worship, next-day Nandotsava and later Krishna-lila rites. Local dishes, serving places and access remain unverified; the Bhubaneswar 2026 calendar entry is an announcement only.
+
+## 2026-10-09 · Pausa Sundays: a muan name to investigate
+
+[Pusa Rabibara Brata](../culture/osha/pusa-rabibara-brata.md) now distinguishes textual offerings from Nanda’s reported Pusha Rabibara muan market name. Ask a maker about local preparation; no seller or current availability is verified.
+
+## 2026-10-10 · Bhadrava: ask about local modaka
+
+[Binayaka Brata](../culture/osha/binayaka-brata.md) records 21 sweets and their textual division. Its ghee reference leaves recipe and shape open. Ask a willing maker about local practice; no annual date or current serving offer is verified.
+
+## 2026-10-10 · Skanda Sasthi: an unresolved food lead
+
+[Skanda Sasthi Brata](../culture/osha/skanda-sasthi-brata.md) remains a calendar and identity research lead. No Odisha food or serving offer is established. Milk/sugar in a 1921 South Indian kavadi account is not inserted into the Odisha menu.
+
+## 2026-10-10 · Guru Purnima: reported prasad, unnamed dishes
+
+[Guru Purnima Brata](../culture/osha/guru-purnima-brata.md) records organiser-reported prasad in Rourkela in 2024 and a separate Bhubaneswar Math cooked-prasad announcement for 2026. Neither supplies a menu or a present serving offer; the Pausa household-brata identity remains unresolved.
+
+## 2026-10-10 · Pradosha: recurring worship, no verified food trail
+
+[Shiva Pradosha Brata](../culture/osha/shiva-pradosha-brata.md) adds a recurring lunar observance. Its timing discrepancy and unverified local menu remain visible; no seasonal dish, serving venue or visitor access is inferred.
+
+## 2026-10-10 · Tarini: place food is not a seasonal menu
+
+[Tarini Brata](../culture/osha/tarini-brata.md) separates the household vow from Ghatagaon shrine offerings and historical local sweet evidence. No current serving venue, annual date or visitor access is verified.
+
+## 2026-10-10 · Srabani food research
+
+[Gouri and Srabani research](../culture/osha/gouri-brata.md) now includes a separate textual comparison. No additional seasonal tasting date, dish or serving venue is established.
+
+## 2026-10-10 · Bajra Mahakali: textual food and open preparation questions
+
+[Bajra Mahakali](../culture/osha/bajra-mahakali-brata.md) names aradra, seven greens and shared prasad in an Odia narrative. These are food-research leads; no current recipe, host, venue or annual date verified.
+
+## 2026-10-10 · Autumn Durga food contexts
+
+[Mahastami](../culture/osha/mahastami-brata.md) distinguishes household fruit from public-festival bhoga. [Bhai Jiuntia](../culture/osha/bhai-jiuntia.md) retains its own rice preparation and now a scoped narrative synopsis. These overlapping traditions do not establish a common menu, current date or visitor invitation.
+
+## 2026-10-10 · Ashoka Astami: enquiry before a menu
+
+[Ashoka Astami](../culture/osha/ashoka-astami-brata.md) separates a household vow, a flower-bud prescription and Rukuna Ratha. The comparison does not verify an edible local preparation, serving place, current date or invitation.

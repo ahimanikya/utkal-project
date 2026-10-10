@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-09-osha-identity-audit",
-  "checked_at": "2026-10-09T10:20:30.651528+00:00",
+  "run_id": "2026-10-10-ashoka-astami",
+  "checked_at": "2026-10-10T05:33:53.174138+00:00",
   "title": "Bara Masa, Tera Parba: osha, story and food",
-  "scope": "Thirty-nine selected profiles: ten narrative checkpoints and twenty-nine research notes. Not an exhaustive inventory or completed origin histories.",
+  "scope": "Fifty-two selected profiles: thirteen narrative checkpoints and thirty-nine research notes. Selected additional Mahanti lead coverage saved; histories, local practice and release incomplete.",
   "pages": [
     {
       "id": "OSHA-001",
@@ -1377,6 +1377,15 @@
           "locator": "Printed pp.15,31–35 / PDF1,17–21"
         },
         {
+          "title": "Malathi and Mathana Kumar: a story in recitation",
+          "text": "Kesavan records an elderly participant’s story of Malathi, whose prayers to Durga save her brother Mathana Kumar from death. The participant associates it with a Bhai Jiuntia osa-katha booklet; the researcher also observed married sisters gathering to recite the story on the festival evening. This is an attributed narrative synopsis and witnessed recitation, not a complete recovered text or historical event.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-kesavan-jiuntia"
+          ],
+          "locator": "Printed22/PDF8, second story paragraph"
+        },
+        {
           "title": "From paddy to lia jugar",
           "text": "Kesavan describes an older woman collecting household paddy, roasting and redistributing it. Stored parched rice is mixed with melted jaggery into conical lia jugar for worship, then shared. This documents collective processing and skilled labour; temperatures and proportions are not supplied.",
           "evidence_class": "documented_description",
@@ -1396,7 +1405,7 @@
         },
         {
           "title": "What kind of history is this?",
-          "text": "The study explains contemporary practice; it does not establish an ancient founding date. We have not recovered a complete Bhai Jiuntia katha. Its rice-centred account should guide further questions about local histories, preparation and exchange rather than stand in for missing texts.",
+          "text": "The ethnographic account documents a narrated story and contemporary practice; it does not establish an ancient founding date. A complete Bhai Jiuntia booklet and its edition history remain unrecovered. The Malathi synopsis must not be expanded into invented episodes or treated as every community’s version.",
           "evidence_class": "research_limit",
           "source_ids": [],
           "locator": ""
@@ -1437,7 +1446,7 @@
       ],
       "canonical_path": "culture/osha/bhai-jiuntia.md",
       "route": "/culture/osha/bhai-jiuntia/",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-10"
     },
     {
       "id": "OSHA-018",
@@ -3582,6 +3591,32 @@
           "locator": "Printed46 / PDF62"
         },
         {
+          "title": "A Kashi narrative as a comparison",
+          "text": "In the Kashi-khanda account, the Sun installs Gabhastishvara and Mangala Gauri at Panchanada. His penance radiates unbearable heat; Shiva restores his awareness by touch. The Sun then praises the goddess in the Mangalashtaka. This is an attributed sacred narrative, not a dated history of Odisha’s Srabani vow.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mangala-gauri-kashi"
+          ],
+          "locator": "Chapter49 verses26–44,55–69a"
+        },
+        {
+          "title": "Different calendar, different food roles",
+          "text": "The same text prescribes worship and a night vigil on Chaitra’s bright third day. Next morning, twelve unmarried girls receive sweet cooked food and a Brahmin couple is fed; the devotee then breaks the fast. Sesame and ghee are fire offerings, not a meal. These Kashi prescriptions remain separate from Mahanti’s Srabana-Tuesday fruit and pitha offerings. Neither account identifies a particular Odisha pitha recipe.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mangala-gauri-kashi",
+            "osha-mahanti"
+          ],
+          "locator": "Kashi chapter49 verses80b–93; Mahanti printed46/PDF62"
+        },
+        {
+          "title": "What the comparison establishes",
+          "text": "A shared goddess name does not establish a shared household vow. The Kashi passage supplies a comparative narrative and prescription, but an original Odia text and named local practice are still needed to explain Srabani’s own story, transmission and meal. Its presence here deepens the existing research page without adding a duplicate observance or resolving the Aswina identity.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
           "title": "A Gouri story from another context",
           "text": "Under Gouri Panchami, Ojha retells Parvati’s response to Shiva calling her Kali: she undertakes austerities, and Brahma grants a golden complexion, making a blue lotus from the discarded dark colour. This is an attributed myth about the deity, not verified history or a judgment about skin colour. Ojha then discusses Jagulei worship. Mahanti separately describes Jagulai/Jagrata Gauri on Srabana’s dark fifth. These accounts do not establish that Gouri Panchami, Jagulai and Gouri Brata are interchangeable.",
           "evidence_class": "ritual_narrative",
@@ -3623,7 +3658,8 @@
         "Can the indexed museum lead Gouri Brata Katha, ORPR-230, be retrieved and its contents and dating inspected?",
         "Which story is actually read in each household observance?",
         "Which offerings, pitha varieties, recipes and fast-breaking foods belong to each named local practice?",
-        "Which materials and motifs belong to Gouri drawings, rather than adjacent Durgastami/Dusshera descriptions?"
+        "Which materials and motifs belong to Gouri drawings, rather than adjacent Durgastami/Dusshera descriptions?",
+        "Can an identifiable Odia Srabani text establish its narrative and relationship, if any, to the Kashi Mangala Gauri prescription?"
       ],
       "coverage_status": "research_note",
       "origin_date": null,
@@ -3635,11 +3671,12 @@
         "osha-mahanti",
         "osha-jhoti-biswal-dash2020",
         "osha-panchami-ojha2022",
-        "osha-gouri-malik2021"
+        "osha-gouri-malik2021",
+        "osha-mangala-gauri-kashi"
       ],
       "canonical_path": "culture/osha/gouri-brata.md",
       "route": "/culture/osha/gouri-brata/",
-      "checked_on": "2026-10-09"
+      "checked_on": "2026-10-10"
     },
     {
       "id": "OSHA-039",
@@ -3743,6 +3780,1525 @@
       "canonical_path": "culture/osha/bipattarini-brata.md",
       "route": "/culture/osha/bipattarini-brata/",
       "checked_on": "2026-10-09"
+    },
+    {
+      "id": "OSHA-040",
+      "slug": "sankata-chaturthi",
+      "name": "Sankata Chaturthi",
+      "traditional_month": "Magha account; relation to monthly Ganesh vow unresolved",
+      "observance_type": "brata / chaturthi observance under identity research",
+      "lead": "A rice cake shaped in the hand offers one way into Sankata Chaturthi’s food culture. The written accounts preserve both kitchen detail and uncertainty: the cake’s name and preparation vary, and descriptions of the observance do not all name the same deity or calendar rule.",
+      "sections": [
+        {
+          "title": "An Odisha account in Magha",
+          "text": "Pratap Kumar Dash’s April 2006 survey places Sankata Chaturthi in Magha and names Shiva and Parvati as the deities worshipped. This is a published description without a named household or locality. It establishes an account to investigate, rather than a uniform rule for Odisha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed16 / PDF2"
+        },
+        {
+          "title": "Bundi in the paragraph, Bindi in the note",
+          "text": "The April article’s food paragraph prints Bundi; its note 17 prints Bindi. The note describes a handful-sized cake of powdered fried unboiled rice, molasses and coconut scraps. The spelling difference remains visible. This rice preparation cannot be silently replaced by a familiar sweet sold under a similar name, nor transferred to the separately listed Nagala Chaturthi.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006"
+          ],
+          "locator": "Printed17 / PDF3 food paragraph and printed18 / PDF4 note17; editorial identity boundary appended"
+        },
+        {
+          "title": "A second kitchen description from the same author",
+          "text": "In December 2006, Dash calls the food Bindi, also known as hundi. He describes khali, a boiled dough of sundried rice powder, with molasses, coconut, black pepper, ajowan and cardamom; ghee helps form handful-sized cakes. This account associates the observance with Shiva. It gives no quantities or complete cooking sequence, and differs from April’s fried-rice wording. The two articles share an author and are not independent corroboration.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-dash-festivals2006"
+          ],
+          "locator": "Printed48 / PDF48 byline; printed49 / PDF49 Sankata paragraph. Web-extracted text; page images unavailable."
+        },
+        {
+          "title": "A recurring Ganesh vow in another account",
+          "text": "Mahanti describes Sankati Chaturthi and Binayak Chaturthi as recurring vows on the fourth lunar day of the dark and bright fortnights respectively. Women and men fast and worship Ganesh; the Sankati account waits for the Moon in the evening. A Tuesday occurrence is called Angarki, associated devotionally with relief from danger. The inspected passage names no food. Its relation to Dash’s Magha Shiva–Parvati account remains unresolved.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed43–44 / PDF59–60, Sankati and Binayak heading"
+        },
+        {
+          "title": "What the food can help us ask",
+          "text": "The handful-sized cake brings attention to preparation as an act of care: whose hands shape it, who teaches the method, and how is it shared? Those are questions for local accounts. The sources inspected here do not establish whether this particular cake is first offered, eaten to end a fast, or served as a household meal. Those roles should be recorded separately.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "History and the story still need an identifiable text",
+          "text": "The 2006 publications document descriptions; they do not date the beginning of this observance. No complete, identifiable Odia brata-katha was recovered in this pass. A historical book scan by B. A. Gupte was recovered as a wider comparison lead, but its relevant story pages have not been inspected. Neither similar names nor an older general book establish a line of transmission into Odisha.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For seasonal visitors",
+          "text": "Treat Magha as an attributed cultural lead, not a confirmed annual event date or guarantee that a shop will sell this food. There is no verified serving place, public meal or host invitation attached to this entry. Ask a willing local host which name, recipe and calendar their household follows before turning the association into a visitor recommendation.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Bundi / Bindi (April2006 spellings)",
+        "Bindi / hundi (December2006 account)"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Does a named locality identify the Magha Shiva–Parvati observance and monthly Ganesh vow as related or distinct?",
+        "Which identifiable Odia brata-katha is read, and what are its edition and manuscript witnesses?",
+        "Are Bundi, Bindi and hundi local variants, editorial spellings or different preparations?",
+        "How do cooks describe the rice treatment, complete cooking sequence and ingredient amounts?",
+        "What is offered, eaten after the fast and shared as a meal?",
+        "Can a current annual date and any consented public food availability be verified separately?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-dash-festivals2006"
+      ],
+      "canonical_path": "culture/osha/sankata-chaturthi.md",
+      "route": "/culture/osha/sankata-chaturthi/",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "id": "OSHA-041",
+      "slug": "radhastami-brata",
+      "name": "Radhastami Brata",
+      "traditional_month": "Bhadrava, bright fortnight, eighth lunar day",
+      "observance_type": "brata / celebration of Radha’s appearance",
+      "lead": "Radhastami brings the celebration of Radha’s appearance into songs, worship and the rhythm of fasting and eating. Its food culture is not yet a reliable list of special dishes: the evidence takes us through a meal inside a sacred story, offerings in a text, and prasada shared after a fast.",
+      "sections": [
+        {
+          "title": "The observance and its season",
+          "text": "Dash’s Odisha inventory identifies Radhastami with Radha worship. Mahanti places it on Bhadrava’s bright eighth lunar day and describes flower-decorated Radha–Krishna images, fasting and devotional song. Tripathy’s 2003 Jagannath festival list gives the same lunar-day rule. These are source descriptions, not evidence that every household follows an identical practice.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-jagannath-festivals2003"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed48/PDF64; Tripathy printed39/PDF3"
+        },
+        {
+          "title": "An Odia story told through questions",
+          "text": "In Shubhapallaba’s verse text, Rukmini asks Krishna about Radha; Satyabhama asks how the eternal Radha relates to her earthly life. Radha accompanies Krishna’s descent and appears as a child on a lotus in Kalindi. Vrishabhanu brings her home to Queen Chanchala. When Narada assures her that Krishna has come to earth, she asks for food, and her mother hurries to her. This is an attributed sacred narrative, not a verified historical birth.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-radhastami-shubhapallaba2020"
+          ],
+          "locator": "Opening dialogue; Krishna’s answer; lotus-child episode; Narada and Chanchala meal episode"
+        },
+        {
+          "title": "Another textual account",
+          "text": "The Padma Purana translation tells of Lilavati joining a Radhastami observance and later being rescued by Vishnu’s messengers. In its Radha appearance passage, Vrishabhanu finds her on sacrificial ground. This differs from the lotus setting in the Odia text. The accounts remain distinct; their relationship and transmission into particular Odisha households have not been established.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-radhastami-padma",
+            "osha-radhastami-shubhapallaba2020"
+          ],
+          "locator": "Padma Brahma-khanda chapter7, verses13–24 and25–42; Odia lotus-child episode"
+        },
+        {
+          "title": "Food inside the story is not a festival recipe",
+          "text": "The Odia episode describes Chanchala bringing food of six tastes, without naming dishes. Its ritual directions include fasting, flowers, akshata, shriphala and tambula. These are textual categories, not a recovered cooked menu. The story’s meal cannot be promoted to a household recipe or claim about current offerings.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-radhastami-shubhapallaba2020"
+          ],
+          "locator": "Narada/meal episode; Brata Bidhana ending"
+        },
+        {
+          "title": "Offerings and the meal after fasting",
+          "text": "Mahanti describes devotees ending the fast towards midday with temple prasada, explained as cooked food offered to the deities. The passage names no dishes, quantities or kitchen. The Padma chapter describes fruit among the offerings, but supplies no fruit varieties or Odisha preparation. Prasada names a ritual relationship to food; it does not by itself identify a sweet, pitha or complete menu.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-radhastami-padma"
+          ],
+          "locator": "Mahanti printed48/PDF64; Padma Brahma-khanda7, verses13–20"
+        },
+        {
+          "title": "Puri and Sakhigopal need their own context",
+          "text": "Behera’s 2019 Puri account describes taking Sudarsan to four ashrams on Radhastami. It does not specify a household menu. Mahanti separately places Radha-pada darshana at Sakhigopal on Kartika’s Aonla Navami. That foot-viewing occasion should not be moved into a Bhadrava itinerary simply because both observances concern Radha. Current routes and visitor access remain unverified.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jagannath-behera2019",
+            "osha-mahanti"
+          ],
+          "locator": "Behera printed103/PDF4; Mahanti printed48/PDF64"
+        },
+        {
+          "title": "What is known about textual history",
+          "text": "The Odia post is dated 25 August 2020 and carries differing verse signatures: Kshetramohan, Kshetra and Kshetrabasi. The printed exemplar and author identity remain unverified. Modern publication dates do not date the beginning of the vow. Manuscript-catalogue search leads were found, but the original catalogue could not be recovered for this pass; they remain unverified leads in the research record.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "A recent Konark announcement, kept in its scope",
+          "text": "Radha Govind Dham Konark advertised Radhashtami sankirtan for 19 September 2026, 9:30 AM–2:00 PM. On 9 October its page still labelled this upcoming. The announcement establishes an advertised programme at a named Odisha institution; it does not show that the programme occurred, identify a meal, or confirm current visitor access.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-radhastami-rgd2026"
+          ],
+          "locator": "Home-page Upcoming Event banner and address footer, read9October2026"
+        },
+        {
+          "title": "Why the distinctions matter",
+          "text": "Read together, these accounts invite attention to several ways food enters devotion: a parent’s care in a story, something offered to a deity, and a meal received after abstaining. This is an editorial reading of the records, not a claim that one caused the others. A useful local account would explain who cooks, who offers, who shares and which names the household uses.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For seasonal visitors",
+          "text": "Use Bhadrava’s bright eighth as a cultural research window. Confirm the year’s local date and ask the host what, if anything, is open to visitors. No particular Radhastami dish, serving venue or invitation is verified here. General prasada descriptions and a past programme notice are not food-booking information.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Which printed edition underlies the Odia transcription, and how should its differing verse signatures be attributed?",
+        "Can OL-1457, OL-3117 and ORPR-199 catalogue leads be verified against original pages and manuscript colophons?",
+        "Which narrative is used in a named Odisha household or temple, and in which language?",
+        "Which dishes are offered and eaten after the fast, with what local names and preparation?",
+        "How do household observance, Puri ritual and Sakhigopal practice differ?",
+        "Can an annual local date, consented visitor access and any public meal be verified separately?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-jagannath-festivals2003",
+        "osha-radhastami-shubhapallaba2020",
+        "osha-radhastami-padma",
+        "osha-jagannath-behera2019",
+        "osha-radhastami-rgd2026"
+      ],
+      "canonical_path": "culture/osha/radhastami-brata.md",
+      "route": "/culture/osha/radhastami-brata/",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "id": "OSHA-042",
+      "slug": "shibaratri-brata",
+      "name": "Shibaratri Brata",
+      "traditional_month": "Phalguna, dark fortnight; night associated with the fourteenth lunar day",
+      "observance_type": "brata / Jagara night vigil",
+      "lead": "A day without food leads into a night of wakefulness. Shibaratri’s cultural story connects hunger, leaves, lamps and the hope that worship can change a life. To understand its food culture, we need to ask what is withheld, what is offered and what is eaten afterwards.",
+      "sections": [
+        {
+          "title": "Names and season",
+          "text": "Dash lists Shibaratri Brata in Phalguna as Shiva worship. Mahanti discusses Maha Shivaratri as Jagara, spanning the dark-fortnight thirteenth/fourteenth night. His recurring Shiva Pradosha entry is separate. These descriptions do not establish an annual date or one rule for every household.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed 16/PDF 2; Mahanti printed 44/PDF 60 and 103–105/PDF 119–121"
+        },
+        {
+          "title": "A vigil, then a meal",
+          "text": "Mahanti describes daylong fasting and night vigil, with devotees breaking the fast after the Mahadipa is lit atop the temple. A particular temple’s annual timing still needs confirmation.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105–106/PDF 121–122"
+        },
+        {
+          "title": "The hunter in Mahanti’s telling",
+          "text": "Mahanti tells of Chitrabhanu’s previous life as a hunter. Stranded at night, he takes shelter in a bilva tree, dropping leaves onto an unseen linga below. Hunger keeps him awake. The unwitting worship brings him to Shiva’s abode and eventual rebirth as a king. This is a sacred story, not a dated historical event.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 106/PDF 122"
+        },
+        {
+          "title": "Gurudruha and the deer",
+          "text": "The Shiva Purana translation’s chapter 40 begins with Gurudruha seeking food for his hungry family. From a bilva tree he watches a watering place; his movements drop water and leaves onto a linga. The deer ask leave to care for their young and promise to return. Their return changes him: he lowers his weapon and releases them. Shiva appears and names him Guha. This account differs from Mahanti’s Chitrabhanu ending; no textual genealogy between them has been demonstrated.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-shivaratri-shiva40"
+          ],
+          "locator": "Kotirudra-samhita 40, verses 4–20, 27–39, 49–85 and 89–95"
+        },
+        {
+          "title": "Gaja pitha: a name with an unfinished recipe",
+          "text": "Mahanti names gaja pitha as a Shiva offering, but gives no recipe here. The name does not identify it with chhena gaja, Puri Gaja or the separately documented Bada Osha preparation.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105/PDF 121; comparison boundary explained in the linked Gaja dossier"
+        },
+        {
+          "title": "Ingredients used in worship",
+          "text": "Mahanti describes milk, yoghurt, ghee, honey, bilva leaves and water in the linga’s bathing sequence. Ritual bathing materials are not a verified fast-breaking menu.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105/PDF 121"
+        },
+        {
+          "title": "An Odia poem looks inward",
+          "text": "The Wikisource text of Gopabandhu Das’s Shibaratri, in Abakash Chinta, begins with fasting, a lamp and a planned night vigil. Its speaker then asks whether outward light can dispel inward darkness. The ending turns wakefulness into an appeal for awareness and worthy action throughout life. This is a reading of the attributed poem, not evidence that households recite it as their brata katha. The scanned edition and composition date remain to be checked.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-shibaratri-gopabandhu"
+          ],
+          "locator": "Opening couplet, inward questioning and concluding verses; chapter oldid=58885 and collection attribution"
+        },
+        {
+          "title": "One divine story can belong to different occasions",
+          "text": "Mahanti separately describes Sitala Sasthi in Jyestha as Shiva–Parvati’s marriage observance in Puri sasana villages and Sambalpur. A marriage explanation alone cannot identify a festival’s local date.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 105/PDF 121"
+        },
+        {
+          "title": "History and local practice still to recover",
+          "text": "The inspected sources establish named accounts and literary reflections, not the earliest Odisha observance. Two Odia book listings were discovered, but their detail pages failed to load; neither edition nor contents is verified. Original Odia katha, manuscript dates, local preparation and household variation remain open. Government tourism and endowment pages also failed direct retrieval; their indexed descriptions have not been promoted into current schedules or food offers.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Reading the food culture",
+          "text": "Hunger drives the hunter narratives; abstaining from food shapes the vigil; an offering receives a particular name. These connections make food central even when a full menu is missing. They suggest questions about care, restraint and sharing, rather than permission to invent a standard festival plate. This is an editorial interpretation of the saved accounts.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For a seasonal visitor",
+          "text": "Treat Phalguna as a research window and confirm the local year’s date and permitted participation. Ask specifically about the locally named gaja pitha, its maker, ingredients and whether it is offered or served to visitors. No venue, invitation, portion, price or current food availability is verified here.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Gaja pitha — offering named by Mahanti; preparation unresolved"
+      ],
+      "related_food_paths": [
+        "food/gaja-kanti-evidence"
+      ],
+      "questions": [
+        "Which original Odia Shibaratri katha edition is used by a named household or temple?",
+        "What is the earliest dated Odisha witness, and what precisely does it establish?",
+        "How do Chitrabhanu and Gurudruha narratives appear in Odia texts and performances?",
+        "What ingredients, shaping and cooking define the gaja pitha named in this observance?",
+        "What is eaten after the vigil in a named locality, and how does that differ from abhisheka materials?",
+        "Can the Gopabandhu poem be checked against a scanned edition and reliable publication record?",
+        "Which annual date, temple sequence and consented public food offer can be independently confirmed?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-shivaratri-shiva40",
+        "osha-shibaratri-gopabandhu"
+      ],
+      "canonical_path": "culture/osha/shibaratri-brata.md",
+      "route": "/culture/osha/shibaratri-brata/",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "id": "OSHA-043",
+      "slug": "janmastami-brata",
+      "name": "Shri Krishna Janmastami Brata",
+      "traditional_month": "Bhadrava, dark fortnight, eighth lunar day",
+      "observance_type": "brata / Krishna birth observance",
+      "lead": "Janmastami gathers attention around a child’s arrival at night. Fasting gives way to celebration, and food becomes part of welcoming and sharing. Its Odisha story moves between the household shrine and Jagannath’s ritual calendar, with differences that deserve to be remembered.",
+      "sections": [
+        {
+          "title": "A brata in the Odisha calendar",
+          "text": "Dash lists Shri Krishna Janmastami Brata in Bhadrab. Mahanti places it on Bhadrava’s dark eighth and describes observance in some Odisha homes and temples, with fasting and wakefulness until midnight. He notes that no formal brata is worn.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed 16/PDF 2; Mahanti printed 47/PDF 63"
+        },
+        {
+          "title": "The birth story: fear, protection and an exchange",
+          "text": "In the Bhagavata translation, Krishna appears to Devaki and Vasudeva with divine attributes. Afraid of Kamsa, Devaki asks him to conceal that form. He becomes an infant; the guards sleep and the locked doors open. Vasudeva crosses the Yamuna and places Krishna beside the sleeping Yasoda, returning with her daughter. This is an attributed sacred narrative, not a verified birth chronology.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bhagavata-krishna-birth"
+          ],
+          "locator": "10.3 chapter summary and verses 7–10, 28–30, 46–51"
+        },
+        {
+          "title": "When does the fast end?",
+          "text": "The Odisha government overview says devotees break the fast after the symbolic midnight birth. Mahanti describes breaking it with the following day’s Nandotsava. These broad accounts do not establish one clock time or rule for every household; a named local practice must be checked before giving instructions.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-odisha-festivals-overview",
+            "osha-mahanti"
+          ],
+          "locator": "Government Janmastami subsection; Mahanti printed 47, 82/PDF 63, 98"
+        },
+        {
+          "title": "The cradle and the shared offering",
+          "text": "Mahanti’s general puja description has the infant image rocked in a cradle after midnight amid devotional singing. For Nandotsava he describes foods prepared at homes and temples, offered to Krishna and then taken as prasada. He names no dishes in this passage.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed 81–82/PDF 97–98; general puja description distinguished from Odisha-specific brata entry"
+        },
+        {
+          "title": "Milk foods in the sacred narrative",
+          "text": "Bhagavata 10.5.14 describes cowherds celebrating by splashing and smearing dairy substances. The inspected English translation names curd, condensed milk, butter and water. This is festive play within the story; it does not establish a household recipe or an Odisha fast-breaking plate.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bhagavata-krishna-birth"
+          ],
+          "locator": "10.5.14 translation; English terms retained with translation-specific scope"
+        },
+        {
+          "title": "Puri: a sequence of occasions",
+          "text": "Mahimohan Tripathy’s 2003 temple account places Krishna Janma on Bhadraba’s dark eighth, Nandotsav the next day, and a series of Krishna-lila observances afterwards, including Banabhoji and Kolibika. The calendar connects the birth to enacted childhood episodes; it does not make their offerings interchangeable with Janmastami food.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-jagannath-festivals2003"
+          ],
+          "locator": "Printed 39/PDF 3, Krishna Janma & Lila"
+        },
+        {
+          "title": "Food leads that still need the original evidence",
+          "text": "Search results identified accounts of Jeuta or Jeuda Bhoga before the birth ritual and a 2013 Odisha Review article on Banabhoji’s picnic dress. The institutional article and original PDF could not be retrieved in this run. Their indexed ingredient and food details remain research leads, not adopted recipes or visitor recommendations.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "A local calendar entry, with a limited claim",
+          "text": "ISKCON Bhubaneswar’s website lists Janmastami on 4 September 2026. This establishes the institution’s announced date only. It does not verify the event took place or that a particular dish was available.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-iskcon-bhubaneswar-calendar2026"
+          ],
+          "locator": "Homepage events calendar, Janmastami entry; read 9 October 2026"
+        },
+        {
+          "title": "What the food culture helps us see",
+          "text": "Read together, the accounts make food part of waiting, welcoming and sharing. A fast can give the moment of birth a bodily rhythm; an offering becomes something received after worship. Dairy’s presence in the cowherd story adds another layer of meaning. This is an editorial reading of the sources, not a claim that all families explain their practice in these terms.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "History and regional differences remain open",
+          "text": "These sources document descriptions and sacred narratives, not the earliest Odisha observance. An original Odia Janmastami brata text, dated local witnesses and named household food accounts still need study. Mahanti places his dahi-handi description in Maharashtra and north India; that passage cannot supply an Odisha event or menu.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For a seasonal visitor",
+          "text": "Use Bhadrava as a research window, then confirm the local year’s date, the particular occasion and permission to participate. Ask whether food belongs to the midnight worship, Nandotsava or a later Krishna-lila rite. A cultural association does not establish a public meal. No serving place, invitation, price or current availability is verified here.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Which original Odia Janmastami brata katha is used in a named locality, and what are its edition and manuscript witnesses?",
+        "What is the earliest dated evidence for this observance in Odisha, separately from Krishna’s sacred narrative?",
+        "When does a named household or temple break its fast, and what foods does it actually prepare?",
+        "Can the original Jeuta/Jeuda Bhoga institutional account and Odisha Review May 2013 page 80 be recovered and compared with temple evidence?",
+        "How do offerings differ across Janma, Nandotsava and subsequent Krishna-lila rites?",
+        "Which annual event and consented public food offer can be verified for a visitor?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-bhagavata-krishna-birth",
+        "osha-odisha-festivals-overview",
+        "osha-jagannath-festivals2003",
+        "osha-iskcon-bhubaneswar-calendar2026"
+      ],
+      "canonical_path": "culture/osha/janmastami-brata.md",
+      "route": "/culture/osha/janmastami-brata/",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "id": "OSHA-044",
+      "slug": "pusa-rabibara-brata",
+      "name": "Pusa Rabibara Brata",
+      "traditional_month": "Pausa; Sundays in the inspected Odia text",
+      "observance_type": "brata / seasonal Sunday sun worship",
+      "lead": "A wedding procession is still on the road and daylight is slipping away. In the Pusha Rabibara story, a bride asks the sun to wait. The request begins a tale that brings a royal household to the tulsi courtyard, where flowers, food and a Sunday vow become part of making amends.",
+      "sections": [
+        {
+          "title": "A seasonal Sunday vow",
+          "text": "Dash lists Pusa Rabibara Brata in Pausa as worship of the sun. The Odia text’s directions specify Sundays in Pusha. Dash separately lists Rabinarayan in Margasira; a shared solar dedication does not make these entries interchangeable.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-pusa-pothi"
+          ],
+          "locator": "Dash printed16/PDF2; scan PDF7, directions beginning after the account of the curse"
+        },
+        {
+          "title": "The prince and the merchant’s daughter",
+          "text": "The scanned katha opens with a king, queen and their son, who wants to marry after his companions have done so. A Brahmin intermediary finds a merchant’s daughter in Karnataka, and a wedding is arranged. These places and characters belong to the story; the text supplies no verified historical itinerary.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF2–5, opening royal household through marriage and return procession"
+        },
+        {
+          "title": "The sun is asked to pause",
+          "text": "On the return journey, the bride fears darkness will fall before the gifts and procession reach home. She asks Aditya to pause until they enter the palace. He grants the request. His mother, waiting for him, angrily curses whoever delayed his journey. When she learns why he is late, she tells him that the bride can seek relief through the Pusha Sunday vow.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF5–7, request to Aditya, delayed return and the mother’s response"
+        },
+        {
+          "title": "The story reaches the courtyard",
+          "text": "The bride becomes afflicted; the royal household seeks guidance from its religious advisers. She undertakes the vow and, in the story’s ending, recovers and prospers. The narrative presents devotion as the remedy. It is a sacred healing story, not medical evidence or advice to replace treatment.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF7–8, affliction, advice and concluding observance"
+        },
+        {
+          "title": "Preparing a place before sunrise",
+          "text": "The directions call for rising before sunrise on Pusha Sundays, bathing, preparing the area at the tulsi plant with cow dung, establishing a sun mandala, decorating with flowers and inviting a Brahmin for worship. These are directions in this textual witness; present-day household adaptations have not been documented here.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF7, ritual directions"
+        },
+        {
+          "title": "What the text offers",
+          "text": "The clearly legible offering terms on PDF7 include sugar, pitha, ripe fruit, bananas and coconut. The passage gives no named pitha variety, quantities or cooking method. Its list describes offerings for worship, not a verified fasting diet or public meal.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "PDF7, offering lines after the instruction to invite a Brahmin; selected terms only, not full transcription"
+        },
+        {
+          "title": "A food name carried into the market",
+          "text": "In her essay Muan, Dr Jayashree Nanda reports that seasonal sweets are sold under names including Pusha Rabibara muan, Dhanu muan and Makara muan. This is an attributed cultural account. The shared naming context does not prove identical ingredients, and the essay does not identify a current seller for this observance.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-muan-nanda2023"
+          ],
+          "locator": "Opening market-name paragraph, after visible author credit"
+        },
+        {
+          "title": "A wider Sunday practice, kept separate",
+          "text": "Mahanti’s weekly Rabibara entry describes sun worship, fasting with one meal towards evening and almsgiving. It does not explicitly identify those rules as Pusa Rabibara Brata. The Pausa profile therefore leaves the actual fast-breaking time and meal open.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed63/PDF79, separate weekly Rabibara entry"
+        },
+        {
+          "title": "History: a recovered text, an unresolved date",
+          "text": "Project Pothi’s scan gives us a readable textual witness. The Commons page credits Prateek Pattanaik with providing and scanning it, calls the author unknown and labels it part of Bratabali. Its eighteenth-century description and 8 February 1917 publication field have not been confirmed from an original imprint. They cannot establish when this vow began in Odisha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pusa-pothi"
+          ],
+          "locator": "Commons Summary and file history; PDF1–8 inspected without a verified original imprint"
+        },
+        {
+          "title": "How to read its significance",
+          "text": "The story places a bride’s journey within the sun’s daily movement, then brings the consequences into household worship. Food is part of the act of devotion, alongside a prepared courtyard, flowers and spoken guidance. The seasonal market name adds a different kind of memory: how an observance may help people name a sweet. This is an editorial interpretation, not a universal account of belief.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For a seasonal visitor",
+          "text": "Ask about Pusha Rabibara muan during the locally observed Pausa season, and ask the maker what that name means in their practice. Confirm ingredients, preparation and current availability before planning a visit. Household worship requires an invitation; the textual offering list is not a restaurant menu. No seller, annual date or public serving arrangement is verified here.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Sugar, pitha, ripe fruit, bananas and coconut — selected textual offerings",
+        "Pusha Rabibara muan — market name in Nanda’s cultural essay; preparation unresolved"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Can the parent Bratabali volume, imprint and author attribution be recovered for this seven-page textual fragment?",
+        "What is the basis for the Commons eighteenth-century and 8 February 1917 metadata?",
+        "Can manuscript CY-1907, Pausa Rabibara o Anyanya, be inspected and compared with this printed witness?",
+        "Which pitha varieties are used by a named household, and what is eaten when the fast ends?",
+        "How does a maker define Pusha Rabibara muan relative to Dhanu and Makara muan?",
+        "Which locality-specific calendar and consented public food offer can be verified?"
+      ],
+      "coverage_status": "narrative_checkpoint",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-pusa-pothi",
+        "osha-muan-nanda2023",
+        "osha-mahanti"
+      ],
+      "canonical_path": "culture/osha/pusa-rabibara-brata.md",
+      "route": "/culture/osha/pusa-rabibara-brata/",
+      "checked_on": "2026-10-09"
+    },
+    {
+      "id": "OSHA-045",
+      "slug": "binayaka-brata",
+      "name": "Binayaka Brata",
+      "traditional_month": "Bhadrab/Bhadrava; annual bright-fortnight fourth, distinguished from recurring Chaturthi vows",
+      "observance_type": "brata / Ganesh Chaturthi household vow",
+      "lead": "Twenty-one sweets become a small map of giving: one for Ganesha, ten for a Brahmin and ten for the person observing the vow. A recovered Binayaka booklet makes this division explicit. It offers a way to explore devotion through food, while a separate government record takes the printed history of a same-titled work back to 1936.",
+      "sections": [
+        {
+          "title": "The annual vow and its neighbours",
+          "text": "Dash lists Binayaka Brata in Bhadrab as Ganesh worship. Mahanti places annual Ganesh Puja on Bhadrava’s bright fourth and distinguishes it from recurring bright-fortnight Binayak and dark-fortnight Sankati vows. Their similar names do not establish identical menus or fasting rules.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed43–44/PDF59–60 and79/PDF95"
+        },
+        {
+          "title": "A booklet with more than one calendar passage",
+          "text": "The recovered booklet opens with Bhadraba bright-fortnight Chaturthi and a rule involving midday. Its later katha also names other months, including Srabana and Margasira. These passages need fuller textual comparison before their calendar relationships can be explained. No annual Gregorian date is calculated here.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha"
+          ],
+          "locator": "PDF3/printed1 opening directions; PDF7–8/printed5–6 Sanskrit verses and Odia explanation"
+        },
+        {
+          "title": "Yudhishthira asks how to recover what was lost",
+          "text": "The katha frames its teaching through Suta’s narration to sages. Yudhishthira asks Krishna which deity he should worship to overcome his troubles and regain his kingdom. Krishna directs him to Ganapati and explains the vow. The text draws on a wider sacred world of exemplary devotees, then says Yudhishthira followed the teaching and recovered his kingdom. This is a devotional account of the vow’s power, not evidence that these events occurred historically or that the practice began in Odisha at that time.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha"
+          ],
+          "locator": "PDF6–8/printed4–6 opening dialogue; PDF11–14/printed9–12 examples and conclusion"
+        },
+        {
+          "title": "A birth story is a different narrative layer",
+          "text": "Mahanti recounts another story: Parvati gives life to a boy made from sandalwood paste and asks him to guard her bath. A confrontation with Shiva leads to his beheading; he is revived with an elephant’s head. This attributed birth story explains Ganesha’s form. It is kept separate from the booklet’s dialogue about performing the vow.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed80–81/PDF96–97; short synopsis of this author’s version"
+        },
+        {
+          "title": "Twenty-one modaka and their distribution",
+          "text": "The booklet instructs the observer to prepare 21 modaka: ten go to a Brahmin, ten are eaten by the observer and one is offered to the deity. The later Odia directions describe the sweets as cooked with ghee. Flowers and fruit also appear in groups of 21. This is a prescription in one printed witness; it does not establish a universal household practice.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha"
+          ],
+          "locator": "PDF6/printed4 directions; PDF9–10/printed7–8 Odia explanation, continuing over the page"
+        },
+        {
+          "title": "The recipe is still missing",
+          "text": "The inspected directions name modaka and ghee but do not give a complete ingredient list, measurements, shape or cooking sequence. A familiar modern modak recipe cannot simply fill these gaps. Neither the booklet’s name nor its allocation of sweets proves that every Odisha household makes the same preparation.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "From a household vow to a shared school meal",
+          "text": "Mahanti describes students decorating clay images, fasting before midday worship and breaking coconuts. Teachers and students later share an evening feast after arati. He also describes household pujas and women observing Vinayaka Brata. The feast’s dishes are unnamed; it cannot be treated as the booklet’s modaka distribution or a verified public meal today.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed79–80/PDF95–96; school and household settings"
+        },
+        {
+          "title": "What a 1937 record tells us",
+          "text": "A government catalogue published on 29 October 1937 lists Binayaka Brata Katha as an 8-page work published by Gobind Sahu of Ganjam in 1936. Entry 172 describes Sanskrit worship directions and an Odia vow story. It identifies Pharmacy Press, Berhampur, names Keshab Narayan Patnaik and records 1,000 copies. This documents a printed witness by 1936; it does not date the tradition’s beginning or measure readership.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-gazette1937-binayaka"
+          ],
+          "locator": "Printed17/PDF17, entry 172; catalogue covers registrations in the quarter ending 31 March 1937"
+        },
+        {
+          "title": "Two book identities, not one dated scan",
+          "text": "The Gazette entry and the recovered Dharmagrantha Store booklet have not been matched as editions. The scan has two cover images, 12 printed text pages and an advertisement; no publication year or named author has been verified. Its cover says new impression. The 1936 date belongs to the separately catalogued work and must not be assigned to this scan.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-binayaka-dharmagrantha",
+            "osha-gazette1937-binayaka"
+          ],
+          "locator": "Scan PDF1–2 cover, PDF14/printed12 ending and PDF15 advertisement; Gazette printed17/PDF17 entry 172"
+        },
+        {
+          "title": "Reading the significance through food",
+          "text": "The division of sweets makes food both an offering and a relationship between deity, ritual specialist and observer. The school feast presents a different setting of shared eating. Together they suggest questions about how devotion moves between household and institution, without assuming that one setting grew historically from the other. This is an editorial reading of the evidence.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For the seasonal food guide",
+          "text": "Use Bhadrava Ganesh Chaturthi as a cultural browsing lead. Ask a willing maker what their household calls modaka, how it is prepared and how it is shared. Confirm the local date and any public food offer separately. School and household observances do not by themselves establish visitor admission. No serving venue or current availability is verified.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Modaka —21 prescribed, with a 10/10/1 division; ghee preparation mentioned",
+        "Fruit — textual offering; varieties unspecified",
+        "Coconut — Mahanti’s school-puja ritual account; feast menu unspecified"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Can a physical copy of the 1936 Gobind Sahu edition be located and compared with the undated Dharmagrantha Store scan?",
+        "Can the recovered booklet’s impression date, printer and named author or compiler be verified?",
+        "How should the opening Bhadraba rule and later month alternatives be read together in this edition?",
+        "Can ORPR-231 and ORPR-214 catalogue leads be inspected in their original record and then as manuscripts?",
+        "Which local modaka ingredients, shape and cooking method correspond to these textual directions?",
+        "How do named households and institutions describe offerings, fast-breaking food and shared meals separately?",
+        "Which local annual date and consented public serving offer can be verified?"
+      ],
+      "coverage_status": "narrative_checkpoint",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-binayaka-dharmagrantha",
+        "osha-gazette1937-binayaka",
+        "osha-mahanti"
+      ],
+      "canonical_path": "culture/osha/binayaka-brata.md",
+      "route": "/culture/osha/binayaka-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-046",
+      "slug": "skanda-sasthi-brata",
+      "name": "Skanda Sasthi Brata",
+      "traditional_month": "Chaitra in Dash; Chaitra dark sixth in Mahanti, awaiting local almanac verification",
+      "observance_type": "brata / Kartikeya observance; Odisha practice unresolved",
+      "lead": "A festival name can survive in a calendar even when its place in everyday life is uncertain. Skanda Sasthi appears in an Odisha inventory, yet another writer says it is listed in almanacs without being observed in the state. Following that discrepancy reveals why the history of a deity, a vow and a seasonal meal must each be investigated.",
+      "sections": [
+        {
+          "title": "A name in the inventory, a question about practice",
+          "text": "Pratap Kumar Dash lists Skanda Sasthi Brata in Chaitra. J. C. Mahanti gives Chaitra’s dark-fortnight sixth, associates it with Kartikeya and says many panjis mention it, but that it is not observed in Odisha. His broad statement is an author’s account, not a present-day statewide survey. The two sources leave actual local practice unresolved.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed53/PDF69"
+        },
+        {
+          "title": "The deity has an Odisha history; the vow still needs one",
+          "text": "Kalyan Kumar Panda discusses a two-armed Karttikeya Mahasena image at the Kosalesvara temple, Baidyanath, riding a peacock and holding a vel. Panda favours a sixth-century date, while explicitly noting Vidya Dehejia’s disagreement with Charles Fabri’s dating. This is attributed art-historical context with a dating dispute. It cannot establish when Skanda Sasthi Brata began in Odisha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-karttikeya-panda2010"
+          ],
+          "locator": "Printed37–38/PDF1–2; cited archaeological studies not independently inspected"
+        },
+        {
+          "title": "A 1921 comparison from South India",
+          "text": "P. V. Jagadisa Ayyar’s South Indian Festivities was published in Madras in 1921. Its Skanda Sashti chapter places the festival on the bright-fortnight sixth in Arpisi, approximately October–November, and relates it to Subrahmanyam’s victory over Surapadma. That seasonal setting differs from the Chaitra entry in the Odisha accounts. It is retained as regional comparison, not used to replace their calendar.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Title page PDF6; chapter XXIII printed146/PDF151"
+        },
+        {
+          "title": "Six sparks and a divine child: Ayyar’s version",
+          "text": "In Ayyar’s telling, the gods ask Shiva for relief from Surapadma. Shiva emits six sparks; Agni and Vayu temper their intensity and carry them towards the Ganges. The sparks gather among reeds and become a radiant child with six faces and twelve hands. The Krithika nurses are then linked to the name Kartikeya. This is a synopsis of a sacred narrative in a South Indian book, not a recovered Odia brata-katha or historical event.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed147–148/PDF152–153; selected birth narrative within the chapter"
+        },
+        {
+          "title": "What the comparison says about offerings",
+          "text": "A footnote explains kavadi as a shoulder-borne pole whose ends carry pots containing milk or sugar according to the vow. The surrounding passage concerns devotion to Subrahmanyam and the Idumban story. It is not an Odisha food description, a complete Skanda Sasthi menu or a recipe. These items are therefore excluded from the Odisha seasonal-food association.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed148/PDF153 footnote2 and surrounding passage; Idumban account continues printed149/PDF154"
+        },
+        {
+          "title": "Where the Odisha food record is still blank",
+          "text": "Neither inspected Odisha calendar entry names an offering, fasting food or fast-breaking dish for this vow. No Odia katha or named household account was recovered in this batch. A generic list of fruit offerings, a South Indian temple food, or a dish from another Sasthi cannot fill that gap. The local food association remains unestablished.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Do not merge Skanda Sasthi with Sathi Osha",
+          "text": "The existing Sathi Osha record concerns goddess Shashthi and Bhadraba’s bright sixth, with a separately sourced household food account. The shared sixth-day language is a reason to compare identities carefully, not evidence that the two observances share their deity, season, story or menu.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Why this uncertainty belongs in the cultural story",
+          "text": "This entry offers a way to ask how printed calendars, deity worship and household observance relate. It would be premature to call Skanda Sasthi either a widespread living Odisha tradition or an extinct one. The next useful evidence is a dated local panji entry paired with a willing practitioner’s account, followed by inspection of any text they identify.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For the seasonal food guide",
+          "text": "This is a research lead, not a recommendation to travel for a meal. Confirm the observance’s local identity and annual date before asking about its food. No Odisha dish, serving place, current availability, visitor access or host consent has been verified.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [],
+      "related_food_paths": [],
+      "questions": [
+        "Which dated Odisha panjis list Skanda Sasthi, and with what month and fortnight rule?",
+        "Can a named Odisha household or institution document present or remembered observance, with consent?",
+        "Is an Odia brata-katha or ritual manual recoverable for this precise identity?",
+        "Which offering, fasting and fast-breaking foods are separately documented locally?",
+        "Can the original dictionary page behind the online Sasthi calendar transcription be identified and its differing calendar rules checked?",
+        "Can the original archaeological studies resolve the Kosalesvara image dating disagreement without conflating it with vow chronology?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-karttikeya-panda2010",
+        "osha-ayyar1921-skanda"
+      ],
+      "canonical_path": "culture/osha/skanda-sasthi-brata.md",
+      "route": "/culture/osha/skanda-sasthi-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-047",
+      "slug": "guru-purnima-brata",
+      "name": "Guru Purnima Brata",
+      "traditional_month": "Ashadha full moon in Mahanti and Bhubaneswar Math; Dash separately prints Pausa, unresolved",
+      "observance_type": "guru-honouring full-moon observance / brata identity under comparison",
+      "lead": "At two Rourkela-area gatherings in July 2024, reverence for a guru took different forms: students sought their teachers’ blessings at one, while children honoured their parents at the other. Prasad followed both programmes. These situated accounts give Guru Purnima a place in Odisha’s lived culture, while leaving open the history and menu of the household brata named in an older inventory.",
+      "sections": [
+        {
+          "title": "Ashadha and Pausa: retain the disagreement",
+          "text": "Dash’s 2006 inventory prints Guru Purnima Brata in Pausa. Mahanti identifies Ashadha’s full moon as Vyasa or Guru Purnima, and Bhubaneswar Math’s 2026–2027 list likewise uses Ashadha Purnima. The institution’s calendar supports its own observance; it does not decide whether Dash’s Pausa entry is an error or a different local identity. Guru Panchami remains a separate research entry.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-review2006",
+            "osha-mahanti",
+            "osha-guru-rkm2026"
+          ],
+          "locator": "Dash printed16/PDF2; Mahanti printed22/PDF38; Math calendar PDF2 row6"
+        },
+        {
+          "title": "Why Vyasa is honoured",
+          "text": "Mahanti attributes this full moon to the birth of Vyasa, son of Parasara and Satyabati, traditionally revered for arranging the Vedas and composing the Mahabharata. In this account, remembering Vyasa becomes an occasion to honour spiritual teachers and the relationships through which learning is passed on. This is a religious explanation of significance, not an independently dated biography or proof of the festival’s beginning.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed22/PDF38; the religious chronology footnote is not adopted as historical dating"
+        },
+        {
+          "title": "A historical comparison: monastic Vyasa Puja in 1921",
+          "text": "In South Indian Festivities, published in Madras in 1921, P. V. Jagadisa Ayyar describes Vyasa Puja on Ashadha’s full moon, especially among renunciants. His explanation links veneration of Vyasa with Adi Shankara and concern for the welfare of the wider world. The publication documents this interpretation by 1921; it does not establish the ceremony’s origin or an Odisha household lineage.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed85/PDF94; title page PDF6. Only opening two pages of chapter XIV inspected for this profile"
+        },
+        {
+          "title": "Rice and limes in the South Indian comparison",
+          "text": "Ayyar describes rice laid on new cloth with lime fruits placed above it for invoking Shankara and his four disciples. After worship, the rice is distributed to be taken home and mixed with household stocks. His next page interprets rice and new cloth through Lakshmi and limes through wishes for success. These are his ritual description and symbolic reading. They are neither a cooked meal recipe nor verified Odisha practice.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ayyar1921-skanda"
+          ],
+          "locator": "Printed85–86/PDF94–95; regional comparison, not an Odisha food association"
+        },
+        {
+          "title": "A Bhubaneswar memory with an uncertain festival date",
+          "text": "The Math’s institutional history quotes Swami Brahmeswarananda remembering an ordination during a 1924 stay by Mahapurush Maharaj. He qualifies the occasion as probably Guru Purnima. That uncertainty must remain: the reminiscence is a lead for local monastic history, not a securely dated festival witness. The large prasad distribution described immediately before it belongs to a separate 1923 Vasanti Puja account and is not assigned to Guru Purnima.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-guru-rkm-history"
+          ],
+          "locator": "Printed45/PDF25; title and author printed21/PDF1; original memoir not independently inspected"
+        },
+        {
+          "title": "Teachers, parents and prasad in Rourkela",
+          "text": "Vivekananda Kendra reports celebrations on 21 July 2024 at Vedvyas Sanskrit College and the GRP Training School in Rourkela. At the college, students sought teachers’ blessings after ritual worship. At the school programme, children washed their parents’ feet and sought blessings. The organiser records prasad distribution at both gatherings. These are specific reported events, not proof that every Odisha family follows the same form.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-guru-vk2024"
+          ],
+          "locator": "Dated post; Vedvyas and Rourkela programme paragraphs"
+        },
+        {
+          "title": "Cooked prasad: a dated plan, not a confirmed meal",
+          "text": "Bhubaneswar Math’s 2026–2027 calendar lists Guru Purnima on 29 July 2026 and marks it C.P., explained as cooked prasad to be distributed. This provides a named institutional food plan. The inspected calendar does not identify dishes, document completed distribution or confirm a serving offer now. Its date is kept in the evidence record rather than presented as a recurring date for all Odisha observances.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-guru-rkm2026"
+          ],
+          "locator": "PDF2 row6 and C.P. legend; Odia PDF1 row6 and anna-prasad note"
+        },
+        {
+          "title": "What food means here—and what is still unknown",
+          "text": "The evidence shows food in different roles: ritual grain in a historical South Indian account, reported prasad after teacher-honouring events in Odisha, and an announced cooked-prasad distribution at a Bhubaneswar institution. These roles should not be collapsed into one festival menu. The Odisha dishes, preparation, household fasting rules and relationship to Dash’s Pausa brata remain unverified.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For seasonal visitors",
+          "text": "Read this as a route into teacher-disciple culture and shared devotional food. A willing institution can explain its own observance, but an old event report or calendar is not a current invitation. Confirm the next local date, access and any prasad arrangement directly before travel. No bookable host or present food service is verified.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Prasad — reported at two 2024 Odisha events; dishes unnamed",
+        "Cooked prasad — announced for Bhubaneswar Math Guru Purnima 2026; fulfilment and menu unverified"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Does Dash’s Pausa Guru Purnima name denote a separate local vow, or is it an editorial error?",
+        "Can a dated Odia brata-katha, panji entry and named household account establish this identity?",
+        "Can the original Brahmeswarananda reminiscence and ordination chronology clarify the probable 1924 festival reference?",
+        "Which dishes were distributed at the reported 2024 events, and how were they prepared?",
+        "Was the Math’s announced 29 July 2026 distribution carried out, and what was served?",
+        "What local fasting, offering and fast-breaking roles are distinct from institutional shared prasad?",
+        "Can future dates, visitor access and a public food arrangement be verified with a willing host?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-ayyar1921-skanda",
+        "osha-guru-rkm-history",
+        "osha-guru-vk2024",
+        "osha-guru-rkm2026"
+      ],
+      "canonical_path": "culture/osha/guru-purnima-brata.md",
+      "route": "/culture/osha/guru-purnima-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-048",
+      "slug": "shiva-pradosha-brata",
+      "name": "Shiva Pradosha Brata",
+      "traditional_month": "Recurring trayodashi in both lunar fortnights; local timing unresolved",
+      "observance_type": "recurring Shiva twilight vow / brata",
+      "lead": "A recurring vow makes room for worship within the ordinary month. Shiva Pradosha Brata links restraint from food with devotion to Shiva. Its textual story also makes hunger and care visible through a widow raising two children. For Odisha, the named observance is documented, but a household story tradition and a distinctive local menu still need evidence.",
+      "sections": [
+        {
+          "title": "A recurring observance in the Odisha account",
+          "text": "Mahanti describes Shiva Pradosha on trayodashi, the thirteenth lunar day, in both fortnights of each month. He records fasting, Shiva worship, a night vigil and mantra recitation. His paragraph also connects the Phalguna observance with Maha Shivaratri. This is an author’s account of practice; his assertion that few now observe it is not a measured finding about Odisha today.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed44/PDF60"
+        },
+        {
+          "title": "Evening, sunset or moonrise?",
+          "text": "Mahanti’s printed page defines a period around moonrise and associates it with the transition from dwadashi to trayodashi. The translated Skanda Purana instead calls Pradosha dusk on the thirteenth day; its procedure places bathing three ghatis before sunset. These descriptions are retained separately. No local worship time is calculated from them.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Mahanti printed44/PDF60, visually checked; Skanda 6.5 and 7.2"
+        },
+        {
+          "title": "The widow and the orphaned prince",
+          "text": "In chapter 6, King Satyaratha dies in war. His queen gives birth while fleeing and is killed by a crocodile. A widow named Uma finds the orphan and, encouraged by Shiva in a mendicant’s form, raises him alongside her own son through alms. The sage Shandilya later teaches them Shiva worship. The chapter frames Pradosha as a time when Shiva dances and the gods gather. This is a religious narrative, not a dated account of Odisha’s past.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Chapter6, verses6–8,16–75 and76–79"
+        },
+        {
+          "title": "How the story ends",
+          "text": "Chapter 7 names the boys Sucivrata and Dharmagupta. After worship, Sucivrata finds treasure. Dharmagupta later marries the Gandharva daughter Amsumati, receives her father’s support and recovers his kingdom. The widow remains his mother and her son his brother. The narrative presents these changes as Shiva’s favour.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Chapter7, verses78–96 and97–159"
+        },
+        {
+          "title": "Textual offerings, without an Odisha recipe",
+          "text": "The translated procedure lists milk pudding, ghee, sweet preparations, sugar and jaggery among offerings; it also directs feeding Brahmins. It allows worship according to one’s means, even with a flower. These are prescriptions in the comparative text, not a verified Odisha menu. Its translated term “cooked pie” is not identified here with any named Odia pitha.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pradosha-skanda"
+          ],
+          "locator": "Chapter7, verses52–56 and71"
+        },
+        {
+          "title": "Food, care and the limits of interpretation",
+          "text": "Read together, restraint, offerings and the widow’s care suggest questions about how devotion and feeding others meet. That is an editorial reading, not a claim that all households understand the vow alike. The story’s explanations of poverty and promised rewards belong to its religious framework; they do not establish causes of real hardship or guaranteed benefits from fasting.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "What the history and food evidence cannot yet tell us",
+          "text": "No composition date for these chapters, earliest Odisha observance, dated Odia Pradosha katha or named local household account was established in this pass. The translation is a comparison, not proof that the same story was recited locally. Mahanti’s paragraph names fasting but supplies neither a dish nor a fast-breaking recipe. Food from the separate annual Shibaratri profile is not transferred to this recurring vow.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For visitors following the ritual year",
+          "text": "This recurring lunar observance does not by itself define a seasonal food trail. Use the profile to ask a willing local host about their own calendar, story and food roles. A household invitation, temple access, next date and any public serving arrangement all need direct confirmation. No current serving venue or visitor arrangement is verified.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Which dated Odia Pradosha katha or ritual manual documents a local narrative and its transmission?",
+        "Does a named Odisha panji or temple manual resolve the printed moonrise and tithi-transition wording?",
+        "What is the earliest securely dated Odisha witness, distinct from a general Puranic account?",
+        "Which foods, if any, belong to offering, fasting allowance and fast-breaking in a named household or temple?",
+        "How do local recurring Pradosha practices differ from annual Jagara or Maha Shivaratri?",
+        "Can a willing host verify a future date, visitor access and any public food service?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-pradosha-skanda"
+      ],
+      "canonical_path": "culture/osha/shiva-pradosha-brata.md",
+      "route": "/culture/osha/shiva-pradosha-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-049",
+      "slug": "tarini-brata",
+      "name": "Tarini Brata",
+      "traditional_month": "Ashadha, shukla chaturthi in Mahanti; local annual date unverified",
+      "observance_type": "regional Shakti brata / household vow distinct from shrine festivals",
+      "lead": "Tarini Brata brings a hope of protection into the ritual year. Its food story needs several separate strands: fasting in the vow, coconut offerings at Ghatagaon, cooked temple offerings and a coconut sweet associated with the surrounding area. Evidence for one strand does not automatically establish the others.",
+      "sections": [
+        {
+          "title": "The vow named in an Odisha account",
+          "text": "Mahanti places Tarini Brata on Ashadha’s bright fourth lunar day. He describes women fasting and worshipping the goddess, with some tying a red thread on the arm, in the hope of relief from difficulties. He locates the observance around Tarini shrines and names Ghatagaon in Keonjhar as the principal shrine. This description gives neither a complete katha nor a food or fast-breaking menu.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed46/PDF62"
+        },
+        {
+          "title": "Keep three identities distinct",
+          "text": "The Tarini vow named here is not automatically an alias for Bipattarini. Nor is it the Tara-Tarini yatra that Mahanti separately describes on Chaitra Tuesdays at the hill shrine near the Rushikulya in Ganjam. Names, deities, locality and calendar must be matched before stories or food rules are joined.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed46/PDF62 and printed158/PDF174; Bipattarini comparison retained in its existing profile"
+        },
+        {
+          "title": "The story of the backward glance",
+          "text": "Mallebrein records a shrine legend in which Tarini agrees to follow Gobinda Bhanja from Puri provided he never looks back. When her bells fall silent at Ghatagaon, he turns; she becomes stone and stays there. This is an attributed shrine narrative, not a recovered household brata-katha.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed158–159, Kanchi-war narrative; author-copy text"
+        },
+        {
+          "title": "Dating the shrine is not dating the vow",
+          "text": "The paper questions the royal chronology behind the familiar 1480 story, citing a tentative seventeenth-century alternative in Senapati’s district history. Neither date establishes the beginning of Tarini Brata. The cited historical work was not independently inspected here.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed162–164, historical discussion and note23; claim limited to author’s reported comparison"
+        },
+        {
+          "title": "Coconut as an offering",
+          "text": "Kendujhar’s official district page describes devotees offering coconuts to Tarini at Ghatagaon. That supports a shrine-offering association. It does not identify the food of Ashadha’s household vow or show what visitors can obtain today.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-kendujhar"
+          ],
+          "locator": "Culture & Heritage introduction, coconut sentence"
+        },
+        {
+          "title": "A historical food change with two starting years",
+          "text": "Mallebrein’s 2004 paper, based on 2002 fieldwork, reports the introduction of cooked anna bhoga and prasad distribution after an earlier fruit-and-coconut practice. It gives 1978 on printed 157 but 1975 on printed 158. Both readings remain unresolved; no single starting year is adopted.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed157–158; fieldwork year in printed164 note1"
+        },
+        {
+          "title": "Nadia kora belongs to the place evidence",
+          "text": "The same study associates Ghatagaon with nadia kora, a coconut sweet. This is historical place-food evidence, not a verified Tarini Brata dish, complete recipe or present shop recommendation.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-tarini-mallebrein2004"
+          ],
+          "locator": "Printed158, coconut distribution and local sweet paragraph"
+        },
+        {
+          "title": "Why these distinctions matter",
+          "text": "Food can be withheld during a vow, offered to a deity, distributed as prasad or sold as a local sweet. Those roles tell different stories about care, devotion and livelihoods. Joining them too quickly would manufacture a festival menu. Here the household vow and shrine food practices remain connected questions, with each source’s setting visible.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "What remains to be recovered",
+          "text": "A dated Odia Tarini brata-katha, its edition or manuscript witness, a named locality’s ritual calendar and household preparation remain missing. An online page titled Maa Tarini Brata Katha repeats the saved Mahanti description, mixes in Tara-Tarini material and states that the PDF is unavailable; its title and ten-page label do not establish a recovered text. The original study’s page images and the underlying temple records are also needed to resolve its conflicting food dates.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For visitors exploring food and faith",
+          "text": "Treat Ghatagaon as a place to investigate the relationship between offerings, prasad and local sweets, with a willing local guide or host. Confirm dates, access and any food arrangement directly before travel. No shop, meal service, household invitation or annual Brata date has been verified for visitors. Coconut offerings do not by themselves create a seasonal tasting itinerary.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Can an original Odia Tarini Brata text be recovered with author, edition or manuscript identity?",
+        "What local evidence distinguishes Tarini, Bipattarini and Tara-Tarini practices?",
+        "Which temple records resolve1975 versus1978 for the introduction of anna bhoga?",
+        "Can Senapati’s cited chronology and the original shrine pamphlets be inspected without treating legend as dated events?",
+        "What is offered and eaten during Ashadha Tarini Brata in a named, consenting household?",
+        "What are the ingredients and preparation of locally made nadia kora, and is any specific Brata association documented?",
+        "Can a willing custodian verify dates, visitor access and actual food service?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-tarini-mallebrein2004",
+        "osha-tarini-kendujhar"
+      ],
+      "canonical_path": "culture/osha/tarini-brata.md",
+      "route": "/culture/osha/tarini-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-050",
+      "slug": "bajra-mahakali-brata",
+      "name": "Bajra Mahakali Brata",
+      "traditional_month": "Aswina amabasya in Mahanti and the inspected Odia story; local annual date unverified",
+      "observance_type": "brata / Kali household vow; Phuleri and Polari names in the inspected text",
+      "lead": "In the Bajra Mahakali story, a household prepares an offering while a young daughter-in-law makes a small, consequential mistake: she tastes two grains of rice. Food becomes the thread connecting fear, a difficult promise, separation and a return home. The recovered Odia text also remembers work around the kitchen and the sharing of prasad beyond the family.",
+      "sections": [
+        {
+          "title": "The observance in a published Odisha account",
+          "text": "Mahanti places Bajra Mahakali Brata on Aswina amabasya. He describes married women fasting, preparing the household space, offering varieties of pitha to Kali and listening to the brata-katha. Hopes for children are part of his account of devotion, not evidence of a fertility effect. His statement that few people now observe the vow has no stated survey denominator and is not adopted as a current prevalence measure.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed49/PDF65"
+        },
+        {
+          "title": "A promise made beside the rice",
+          "text": "The inspected story opens in a prosperous sadhaba, or merchant, household with seven sons and seven daughters-in-law. As the women prepare for the goddess’s worship, the youngest daughter-in-law tastes two grains of soaked rice. Bajra Mahakali confronts her for tasting the unoffered food. Afraid her mother-in-law will hear, she promises the goddess her future sons. The narrative’s accusation and punishment belong to its ritual world; they are not a judgment on women today.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF2–3"
+        },
+        {
+          "title": "The loss and the return",
+          "text": "The goddess takes six sons in succession. During the seventh pregnancy, the mother-in-law drives the young woman out on the observance day. In the rain and darkness, the goddess meets her as an old woman, hears her suffering and shelters her. After the seventh birth, she returns the six earlier sons too. The mother comes home with all seven children and explains what happened. The ending presents continued observance as the outcome of the goddess’s test and mercy. These are events within the katha, not verified historical events.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF6–11"
+        },
+        {
+          "title": "What the kitchen passages actually say",
+          "text": "The women soak rice and biri, and the rice is to be pounded into flour. A preparation called aradra in the transcription is cooked in a handi; at first it fails to cook, then succeeds after the daughter-in-law appeals to the goddess. The text does not provide ingredient proportions, the complete method or enough detail to identify this preparation with a familiar modern pitha. That identification remains an open food-history question.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF3–4; aradra spelling compared with Wikisource transcription"
+        },
+        {
+          "title": "Offerings and food shared with neighbours",
+          "text": "The worship scene places aradra on seven pumpkin leaves. It names banana, coconut and a preparation of seven kinds of greens, without naming the greens individually. It also uses the categories nishankhudi and shankhudi; their precise contents here require local explanation. After the worship and story, the prasad is shared among those present and given to neighbours. Plants and branches arranged for worship are recorded separately from edible dishes; their presence does not make every plant an ingredient.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "PDF5"
+        },
+        {
+          "title": "Names and dates need their own evidence",
+          "text": "The title pairs Bajra Mahakali Brata with Phuleri Osha, while the body uses Polari/Polori forms and names Aswina amabasya. This supports an association within this particular text, not a universal equivalence with every similarly named Pithori observance elsewhere. No Gregorian date or named locality’s present calendar has been verified.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bajra-pothi",
+            "osha-mahanti"
+          ],
+          "locator": "PDF1–2,7,10–11; Mahanti printed49/PDF65"
+        },
+        {
+          "title": "History: a recovered witness with an undated imprint",
+          "text": "Project Pothi’s repository credits Prateek Pattanaik with providing and scanning the booklet and records its upload in2017. Its description gives a1934 date and claims a sixteenth-century or sixteenth-to-seventeenth-century author, but the supplied pages show no original imprint establishing these claims. The anonymous scan is a recoverable textual witness; neither the composition date nor the beginning of the observance is established. Its merchant-family setting alone is not evidence of an overseas-trade origin.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-bajra-pothi"
+          ],
+          "locator": "Commons description/date/author and file-history fields; all11 PDF pages inspected for imprint"
+        },
+        {
+          "title": "Significance: household labour and belonging",
+          "text": "Read as a story, the katha brings a young woman’s vulnerability into the same space as ritual discipline, cooking and family authority. The reunion changes the course of blame and exclusion. The food scene adds a social dimension: offerings become something the family and neighbours share. This is an editorial interpretation of one narrative, not a claim that all participants explain the vow this way. A future account from willing local practitioners should be allowed to differ.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For a seasonal food journey",
+          "text": "The text provides questions for a guide or food researcher: what is aradra called locally, which greens are used, who prepares the offering, and how is it shared? It does not verify a tasting venue, public invitation, purchasable meal or current household practice. Keep the food association visible, and confirm a willing host and local date before planning an encounter.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Aradra — textual name; recipe and modern identification unresolved",
+        "Seven kinds of greens — species unspecified",
+        "Banana and coconut — narrative offerings",
+        "Pitha — varieties unspecified in Mahanti"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Can an original dated edition, publisher record or manuscript establish the composition and print history?",
+        "How do named local participants distinguish Phuleri, Polari/Polori and other Pithori names and calendars?",
+        "What preparation does aradra denote here, and what are its ingredients, method and local variants?",
+        "Which seven greens and which nishankhudi/shankhudi foods are meant in a named household?",
+        "What food breaks the fast, as distinct from the story’s offered and shared prasad?",
+        "How do participants interpret the daughter-in-law’s vulnerability, the goddess’s test and the family reunion?",
+        "Can a willing host verify an annual date, access and an actual food arrangement?"
+      ],
+      "coverage_status": "narrative_checkpoint",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-bajra-pothi"
+      ],
+      "canonical_path": "culture/osha/bajra-mahakali-brata.md",
+      "route": "/culture/osha/bajra-mahakali-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-051",
+      "slug": "mahastami-brata",
+      "name": "Mahastami Brata",
+      "traditional_month": "Aswina bright-fortnight eighth day during autumn Durga Puja",
+      "observance_type": "household Durga brata within the autumn festival; relationship to regional Durgastami names unresolved",
+      "lead": "Mahastami brings the household vow into the wider season of Durga worship. Its short published account places fruit, fasting and a brata worn after worship at the centre. Understanding that small ritual scene also requires asking which story a household reads and how its food differs from the neighbouring traditions of Bhai Jiuntia and public Durga Puja.",
+      "sections": [
+        {
+          "title": "The household account",
+          "text": "Mahanti places Mahastami Brata on Aswina’s bright eighth day. Married women fast, worship a brata before Durga with fruit, then wear it; he also mentions reading Durgastami brata-katha. He supplies neither named fruit varieties nor a complete story.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed51/PDF67, Mahastami brata paragraph"
+        },
+        {
+          "title": "A festival meal is a separate food setting",
+          "text": "In his wider Durga Puja chapter, Mahanti describes devotees bringing bhoga for offering and eating after pushpanjali and arati. This is a public-festival description. It does not establish the household vow’s fast-breaking time, exact dishes or a menu shared by every locality.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed86/PDF102, Mahastami paragraph"
+        },
+        {
+          "title": "Why the names need comparison",
+          "text": "One seller lists a22-page Odia booklet titled Bhai Jiuntia Osha Katha ba Durgastami Brata o Durgashrimala, attributed to Dharma Grantha Store, Cuttack. That linked title is a useful lead for comparing names. The book’s contents and imprint have not been recovered, so it cannot yet establish that every Mahastami household follows the same katha as Bhai Jiuntia.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-durgastami-book-lead"
+          ],
+          "locator": "Product title and Specifications, item HAR390"
+        },
+        {
+          "title": "What can be narrated, and where it belongs",
+          "text": "The saved Bhai Jiuntia study now supplies a short, attributed Malathi and Mathana Kumar narrative and an account of group recitation. Read it on the linked Bhai Jiuntia page in its western Odisha setting. Transferring that story to this household entry would require the actual Durgastami text or situated evidence of its use. No complete Mahastami katha is narrated here.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "History still to establish",
+          "text": "A present-day catalogue entry cannot date a story’s composition or the beginning of a vow. The next historical step is to recover an identifiable edition, inspect its imprint and narrative, and compare it with dated manuscripts and situated accounts. A shared lunar day or deity alone cannot demonstrate one origin.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Significance through household practice",
+          "text": "The account invites a reading of devotion as preparation, restraint, storytelling and something carried on the body after worship. Food has several possible roles: an offering, something shared, and a meal that ends a fast. Keeping those roles separate makes space for households to explain their own practice. This is an editorial interpretation and a research agenda, not a claim that all participants give the vow one meaning.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For a seasonal food journey",
+          "text": "Use the autumn lunar season as a reading and enquiry cue. Ask a willing local host which name they use, what is offered, what is eaten afterwards and whether visitors are welcome. Fruit in an account does not establish a special dish sold nearby; a public festival does not establish access to a private household. No current Gregorian date, serving venue or host arrangement has been verified.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Fruit — varieties unspecified in the household account",
+        "Bhoga — dishes unspecified in the separate public-festival account"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Can the Dharma Grantha Store booklet be recovered with its imprint and complete text?",
+        "Which Durgastami katha is read in a named Mahastami household, and how does it relate to Bhai Jiuntia versions?",
+        "Which fruit varieties and prepared foods are offered, shared and used to break the fast in a named locality?",
+        "How do participants distinguish the household vow, Bhai Jiuntia and public Durga Puja?",
+        "What dated textual or local evidence establishes the history of each form?",
+        "Can a willing host verify an annual date, visitor access and an actual food arrangement?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-durgastami-book-lead"
+      ],
+      "canonical_path": "culture/osha/mahastami-brata.md",
+      "route": "/culture/osha/mahastami-brata/",
+      "checked_on": "2026-10-10"
+    },
+    {
+      "id": "OSHA-052",
+      "slug": "ashoka-astami-brata",
+      "name": "Ashoka Astami Brata",
+      "traditional_month": "Chaitra bright-fortnight eighth; textual bud prescription additionally specifies Punarvasu",
+      "observance_type": "household Surya brata in Mahanti; distinct textual and Rukuna Ratha comparisons",
+      "lead": "Ashoka Astami opens three related but different lines of enquiry: a household vow for children, a prayer involving spring flower buds, and Bhubaneswar’s Rukuna Ratha festival. Their shared name invites comparison. It does not yet establish one story, one deity or one meal across all three.",
+      "sections": [
+        {
+          "title": "A household vow to Surya",
+          "text": "Mahanti describes married women observing a Chaitra bright-eighth vow to Surya for their children’s well-being. His brief entry names no food or household katha. He also says the vow is no longer observed, but gives no survey or locality-level evidence for that conclusion; its present prevalence remains unknown.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed53/PDF69, Ashoka ashtami brata"
+        },
+        {
+          "title": "Rama and the festival story",
+          "text": "In Mahanti’s separate festival account, Ravana is protected by Durga. Following Vibhishana’s advice, Rama worships her; she withdraws her support on the eighth day. Rama defeats Ravana and celebrates with a chariot procession of Shiva and Durga. This is the author’s attributed legend, not a dated founding event or a recovered story of the household Surya vow.",
+          "evidence_class": "ritual_narrative",
+          "source_ids": [
+            "osha-mahanti"
+          ],
+          "locator": "Printed107–108/PDF123–124, Ashoka astami puja"
+        },
+        {
+          "title": "The public procession as a separate setting",
+          "text": "Incredible India places Asokastami at Lingaraja in Bhubaneswar and describes the Rukuna Ratha procession to Rameswara Temple. Its Rama-origin account is presented here as mythology. The page’s general invitation to experience local gastronomy names neither an observance-specific dish nor a verified serving place.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ashoka-incredible"
+          ],
+          "locator": "Historical Roots and Celebratory Myths; The Spectacle of the Rukuna Rath Yatra; Engaging in the Festivities"
+        },
+        {
+          "title": "Eight buds in a textual prescription",
+          "text": "The opening of chapter CXXXIII in the Garuda Purana translation attributed to Manmatha Nath Dutt prescribes eating eight ashoka flower buds on Chaitra’s bright eighth when joined with Punarvasu. Its prayer addresses ashoka as dear to Hara and seeks release from grief. This is a ritual prescription and promise within the text, not evidence of a health effect.",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-ashoka-garuda"
+          ],
+          "locator": "Chapter CXXXIII opening paragraph, before Mahanavami"
+        },
+        {
+          "title": "What this adds to food history",
+          "text": "The bud passage records ritual consumption rather than a complete cooked meal. It does not identify the household Surya vow’s offerings, a fast-breaking dish, an Odisha recipe or a present serving custom. Nothing in the inspected passage supplies curd or a preparation method. The text is recorded for cultural comparison, not as a foraging or eating recommendation.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "History: distinguish witnesses from origins",
+          "text": "The digital host labels Dutt’s translation1908; that bibliographic attribution does not date the Sanskrit passage, its arrival in Odisha or the beginning of the household vow. A dated local text, a securely identified edition and situated accounts are needed to connect the three settings historically. Mahanti’s compilation and a tourism retelling cannot establish uninterrupted continuity.",
+          "evidence_class": "research_limit",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "Significance: care and the wish to lose sorrow",
+          "text": "Concern for children, the textual prayer against grief and the festival’s story of recovery offer different ways to explore care and hope. This is an editorial comparison. It leaves room for participants to explain their own meanings rather than fitting every practice into one origin story. In food research, the most useful next question is what each community actually offers, shares and eats.",
+          "evidence_class": "editorial_interpretation",
+          "source_ids": [],
+          "locator": ""
+        },
+        {
+          "title": "For a seasonal visitor",
+          "text": "Treat Chaitra as a traditional calendar label requiring a year-specific local check. The public procession and household vow need separate access information. No current date, food seller, tasting arrangement or consenting household host has been established. The named flower in a religious text must not be turned into a visitor menu.",
+          "evidence_class": "visitor_context",
+          "source_ids": [],
+          "locator": ""
+        }
+      ],
+      "food_names": [
+        "Eight ashoka flower buds — comparative textual prescription only; Odisha household menu unverified"
+      ],
+      "related_food_paths": [
+        "food/preparation-and-variation"
+      ],
+      "questions": [
+        "Can an original Odia household katha or dated witness identify the Surya vow and its transmission?",
+        "What evidence supports continuity, change or non-observance in named localities?",
+        "Can an identifiable print edition and Sanskrit passage verify the digital Garuda Purana transcription?",
+        "Does an inspected Balarama Dasa Ramayana passage connect Sita and ashoka buds, as a later article suggests?",
+        "What foods are offered, shared and eaten in each household or temple setting, with recipes and local names?",
+        "Can a current authoritative schedule and willing host establish a specific visitor opportunity?"
+      ],
+      "coverage_status": "research_note",
+      "origin_date": null,
+      "annual_date": null,
+      "serving_places": [],
+      "local_review": null,
+      "source_ids": [
+        "osha-mahanti",
+        "osha-ashoka-garuda",
+        "osha-ashoka-incredible"
+      ],
+      "canonical_path": "culture/osha/ashoka-astami-brata.md",
+      "route": "/culture/osha/ashoka-astami-brata/",
+      "checked_on": "2026-10-10"
     }
   ],
   "sources": {
@@ -4086,6 +5642,123 @@
           "scope": "Distinct full-moon names and months; not proof of what Dash meant by unnamed Purnima Osha.",
           "method": "Saved original PDF40,42 rendered and visually inspected",
           "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-sankata-chaturthi",
+          "checked_at": "2026-10-09T12:30:32.609244+00:00",
+          "locator": "Printed43–44 / PDF59–60",
+          "scope": "Sankati and Binayak recurring Ganesh vows, dark and bright fourth respectively. No named food in this passage.",
+          "method": "Saved original PDF pages rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-radhastami-brata",
+          "checked_at": "2026-10-09T13:32:16.376951+00:00",
+          "locator": "Printed48 / PDF64",
+          "scope": "Bhadrava bright eighth, flower dress, song and midday fast-breaking prasada; Sakhigopal foot-viewing on Kartika Aonla Navami separately described.",
+          "method": "Saved original PDF rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-shibaratri-brata",
+          "checked_at": "2026-10-09T14:31:03.137244+00:00",
+          "locator": "Printed 103–106 / PDF 119–122; printed 44 / PDF 60 Pradosha comparison",
+          "scope": "Jagara vigil, Mahadipa fast-breaking, gaja pitha, abhisheka materials and Chitrabhanu hunter narrative. Printed 105–106/PDF 121–122 visually inspected; other selected pages read as saved text. No universal menu or current ritual timetable adopted.",
+          "method": "Saved PDF and text; selected images visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-janmastami-brata",
+          "checked_at": "2026-10-09T17:04:03.553487+00:00",
+          "locator": "Printed 47, 81–82 / PDF 63, 97–98",
+          "scope": "Odisha brata, midnight vigil, Nandotsava fast-breaking and unnamed offerings. Dahi-handi passage explicitly concerns Maharashtra/north India.",
+          "method": "Saved PDF text and all three cited pages visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-09-pusa-rabibara",
+          "checked_at": "2026-10-09T17:13:30.870802+00:00",
+          "locator": "Printed63/PDF79, weekly Rabibara paragraph",
+          "scope": "General Sunday worship, single evening meal and almsgiving; not evidence that all rules apply to the Pausa vow.",
+          "method": "Saved text reused"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-binayaka",
+          "checked_at": "2026-10-09T22:24:09.667720+00:00",
+          "locator": "Printed43–44/PDF59–60 and printed79–81/PDF95–97",
+          "scope": "Monthly dark/bright Chaturthi distinction; annual Ganesh Puja school/home practices and attributed birth story. Saved text reused; PDF95–97 additionally rendered and visually inspected.",
+          "method": "Saved evidence reused"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-skanda",
+          "checked_at": "2026-10-09T22:33:59.473934+00:00",
+          "locator": "Printed53/PDF69",
+          "scope": "Chaitra dark sixth, Kartikeya worship; author says panjis list it but it is not observed in the state. Author assertion retained, not a current prevalence finding.",
+          "method": "Saved evidence reused; Mahanti page additionally rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-guru-purnima",
+          "checked_at": "2026-10-09T23:29:16.622704+00:00",
+          "locator": "Printed22/PDF38",
+          "scope": "Ashadha/Vyasa/Guru Purnima identity, Vyasa birth attribution and guru-disciple account. Author’s decline assertion and religious chronology footnote not promoted to verified findings.",
+          "method": "Saved evidence reused; Ayyar selected pages newly rendered and visually read"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-shiva-pradosha",
+          "checked_at": "2026-10-10T00:42:52.636789+00:00",
+          "locator": "Printed44/PDF60, Shiva pradosha brata paragraph",
+          "scope": "Recurring fortnightly vow, fasting and printed moonrise wording visually checked. No named dish in this paragraph. Broad prevalence and efficacy claims not independently verified.",
+          "method": "Saved PDF text reused; page rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-tarini",
+          "checked_at": "2026-10-10T01:28:46.593134+00:00",
+          "locator": "Printed46/PDF62 Tarini paragraph; printed158/PDF174 Tara-Tarini comparison reused from saved text",
+          "scope": "Ashadha bright fourth, fasting and red thread in Tarini account; separate Chaitra Tara-Tarini yatra. No household dish or katha established.",
+          "method": "Saved text reused; printed46 rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-bajra-mahakali",
+          "checked_at": "2026-10-10T03:37:47.474988+00:00",
+          "locator": "Printed49/PDF65, Bajra Mahakali paragraph",
+          "scope": "Aswina amabasya, fasting, generic pitha and katha reading. Decline and fertility-effect claims not adopted as measured facts.",
+          "method": "Saved PDF rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-mahastami",
+          "checked_at": "2026-10-10T04:37:25.193690+00:00",
+          "locator": "Printed51/PDF67, household Mahastami paragraph; printed86/PDF102, public Durga Puja paragraph",
+          "scope": "Household fruit and worn brata; public bhoga and fast-breaking sequence kept separate. Same publication reused, not independent corroboration.",
+          "method": "Saved original rendered and visually inspected",
+          "local_capture": "work/osha-deep-study/mahanti.pdf",
+          "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+          "visually_inspected_pdf_pages": [
+            67,
+            102
+          ]
+        },
+        {
+          "source_id": "osha-mahanti",
+          "run_id": "2026-10-10-ashoka-astami",
+          "checked_at": "2026-10-10T05:33:53.174138+00:00",
+          "locator": "Printed53/PDF69 household entry; printed107–108/PDF123–124 festival legend",
+          "scope": "Surya household entry separated from festival Rama-Durga legend; unsupported extinction claim held.",
+          "method": "Saved original rendered and visually inspected",
+          "local_capture": "work/osha-deep-study/mahanti.pdf",
+          "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+          "visually_inspected_pdf_pages": [
+            69,
+            123,
+            124
+          ]
         }
       ]
     },
@@ -4331,6 +6004,70 @@
           "scope": "Benatia and Purnima are named without individual dates, stories or foods. The nearby Kartika/Shiva parenthesis follows Bada Osha.",
           "method": "Saved original PDF page rendered and visually inspected",
           "status": "saved_evidence_reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-sankata-chaturthi",
+          "checked_at": "2026-10-09T12:30:32.609244+00:00",
+          "locator": "Printed16–18 / PDF2–4",
+          "scope": "Magha and Shiva–Parvati; body prints Bundi and note17 Bindi, with fried-rice, molasses and coconut account.",
+          "method": "Saved original PDF pages rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-radhastami-brata",
+          "checked_at": "2026-10-09T13:32:16.376951+00:00",
+          "locator": "Printed16 / PDF2",
+          "scope": "Radhastami listed as worship of Radha; no dedicated story or food.",
+          "method": "Saved source text reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-shibaratri-brata",
+          "checked_at": "2026-10-09T14:31:03.137244+00:00",
+          "locator": "Printed 16 / PDF 2",
+          "scope": "Inventory identifies Shibaratri Brata in Phalguna as Shiva worship; no dedicated food or story.",
+          "method": "Saved original text reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-janmastami-brata",
+          "checked_at": "2026-10-09T17:04:03.553487+00:00",
+          "locator": "Printed 16 / PDF 2",
+          "scope": "Inventory identifies Shri Krishna Janmastami Brata in Bhadrab as Krishna worship.",
+          "method": "Saved text reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-09-pusa-rabibara",
+          "checked_at": "2026-10-09T17:13:30.870802+00:00",
+          "locator": "Printed16/PDF2",
+          "scope": "Pusa Rabibara in Pausa, sun worship; separate Rabinarayan entry in Margasira.",
+          "method": "Saved text reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-10-binayaka",
+          "checked_at": "2026-10-09T22:24:09.667720+00:00",
+          "locator": "Printed16/PDF2",
+          "scope": "Binayaka Brata in Bhadrab, dedicated to Ganesh.",
+          "method": "Saved evidence reused"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-10-skanda",
+          "checked_at": "2026-10-09T22:33:59.473934+00:00",
+          "locator": "Printed16/PDF2",
+          "scope": "Skanda Sasthi Brata listed in Chaitra; no named food or narrative in this entry.",
+          "method": "Saved evidence reused; Mahanti page additionally rendered and visually inspected"
+        },
+        {
+          "source_id": "osha-review2006",
+          "run_id": "2026-10-10-guru-purnima",
+          "checked_at": "2026-10-09T23:29:16.622704+00:00",
+          "locator": "Printed16/PDF2",
+          "scope": "Guru Purnima Brata assigned to Pausa; no specific story or food in entry.",
+          "method": "Saved evidence reused; Ayyar selected pages newly rendered and visually read"
         }
       ]
     },
@@ -4589,7 +6326,22 @@
         "run_id": "2026-10-07-nuakhai",
         "locator": "Printed pp.28–31 / PDF14–17; pp.28–29 visually inspected",
         "scope": "Saved original reused for Nuakhai food and kinship account. No new fieldwork or independent publication."
-      }
+      },
+      "inspection_history": [
+        {
+          "source_id": "osha-kesavan-jiuntia",
+          "run_id": "2026-10-10-mahastami",
+          "checked_at": "2026-10-10T04:37:25.193690+00:00",
+          "locator": "Printed22/PDF8, second story paragraph",
+          "scope": "Author reports Malathi and Mathana Kumar story from a participant and observes Bhai Jiuntia recitation. Synopsis, not a recovered complete Odia booklet. Participant-requested village pseudonym preserved.",
+          "method": "Saved original rendered and visually inspected",
+          "local_capture": "work/osha-jiuntia/kesavan.pdf",
+          "sha256": "74b53a32a1f3e0514225d64b7af8e98ac3c0dc3a2bbeb933f82c55dfc95943cc",
+          "visually_inspected_pdf_pages": [
+            8
+          ]
+        }
+      ]
     },
     "osha-barpali-pua": {
       "id": "osha-barpali-pua",
@@ -5161,7 +6913,25 @@
         "retrieved_at": "2026-10-09T00:07:30.415998+00:00",
         "method": "Publisher PDF retrieved; cited PDF pages rendered and visually inspected",
         "transport_note": "Public-document-only request with certificate verification disabled after expiry errors; no persistent TLS change. Publisher URL, issue date and byline checked against document."
-      }
+      },
+      "inspection_history": [
+        {
+          "source_id": "osha-jagannath-festivals2003",
+          "run_id": "2026-10-09-radhastami-brata",
+          "checked_at": "2026-10-09T13:32:16.376951+00:00",
+          "locator": "Printed39 / PDF3",
+          "scope": "Radhastami row: eighth of Bhadraba bright fortnight. No food or historical origin supplied.",
+          "method": "Saved original text reused"
+        },
+        {
+          "source_id": "osha-jagannath-festivals2003",
+          "run_id": "2026-10-09-janmastami-brata",
+          "checked_at": "2026-10-09T17:04:03.553487+00:00",
+          "locator": "Printed 39 / PDF 3, Krishna Janma & Lila",
+          "scope": "Puri Janma, following Nandotsav and subsequent Krishna-lila sequence; no recipe.",
+          "method": "Saved text reused"
+        }
+      ]
     },
     "osha-markandeswar2013": {
       "id": "osha-markandeswar2013",
@@ -5231,6 +7001,432 @@
         "retrieved_at": "2026-10-09T03:18:55.461686+00:00",
         "method": "Temple HTML and web text inspected"
       }
+    },
+    "osha-dash-festivals2006": {
+      "id": "osha-dash-festivals2006",
+      "title": "Uniqueness of Odiya Festivals",
+      "author": "Pratap Kumar Dash",
+      "publisher": "Information & Public Relations Department, Government of Odisha; Orissa Review",
+      "published_on": "2006-12",
+      "accessed_on": "2026-10-09",
+      "resource": "https://magazines.odisha.gov.in/orissareview/dec-2006/engpdf/dec.pdf",
+      "locator": "Printed48/PDF48 title and byline; printed49/PDF49 Sankata paragraph",
+      "scope": "Authorial cultural description, not a household survey. Selected Sankata food passage only; same author as April2006 article. PDF text inspected, page images unavailable; surrounding calendar and health generalisations not adopted.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-sankata/dec2006-scoped-reading.json",
+        "sha256": "dab81c01852d8978e79f38542f04f1a5bc25348e31785d7a5a1d3e22645498fb",
+        "retrieved_at": "2026-10-09T12:30:32.609244+00:00",
+        "method": "Scoped reading notes from web-extracted PDF; not original PDF bytes"
+      }
+    },
+    "osha-radhastami-shubhapallaba2020": {
+      "id": "osha-radhastami-shubhapallaba2020",
+      "title": "ରାଧାଷ୍ଟମୀ ବ୍ରତ - ସମ୍ପୂର୍ଣ୍ଣ ପୂଜା ବହି",
+      "author": "Web post: Admin; verse signatures include Kshetramohan, Kshetra and Kshetrabasi; historical author identity unresolved",
+      "publisher": "Shubhapallaba, Old Odia Literature Collections",
+      "published_on": "2020-08-25",
+      "resource": "https://collection.shubhapallaba.com/2020/08/radhastami-osha-full-book.html",
+      "locator": "Opening chapter and Krishna–Satyabhama dialogue; Kalindi/lotus and Narada/meal episodes; Brata Suchana and Brata Bidhana; final verse signatures",
+      "scope": "Odia verse transcription on an identified literary publisher’s site. Narrative and directions inspected; printed exemplar, composition date and editorial fidelity unestablished. Primary evidence of this transmitted text, not historical events or statewide practice.",
+      "accessed_on": "2026-10-09",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-radhastami/shubhapallaba.html",
+        "sha256": "8386925ed15c44968953361511ff6522a25b63d4efaac84f1fc908dc6c8f23bb",
+        "retrieved_at": "2026-10-09T13:32:16.376951+00:00",
+        "method": "Direct verified-TLS public HTML retrieval; selected text read"
+      }
+    },
+    "osha-radhastami-padma": {
+      "id": "osha-radhastami-padma",
+      "title": "The Greatness of Rādhāṣṭamī: Padma Purana, Brahma-khanda chapter7",
+      "author": "N. A. Deshpande, translator as credited by host",
+      "publisher": "Wisdomlib hosted English translation",
+      "published_on": null,
+      "resource": "https://www.wisdomlib.org/hinduism/book/the-padma-purana/d/doc365291.html",
+      "locator": "Brahma-khanda chapter7, verses13–24 and25–42; page update21September2019",
+      "scope": "Hosted primary-text translation used as a narrative comparison. Original print edition and Sanskrit manuscript not collated; host’s1951 metadata not adopted as verified edition or composition date. No Odisha transmission inferred.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected; no original binary capture saved"
+    },
+    "osha-radhastami-rgd2026": {
+      "id": "osha-radhastami-rgd2026",
+      "title": "Radha Govind Dham Konark: Radhashtami programme announcement",
+      "author": "Radha Govind Dham Konark",
+      "publisher": "Radha Govind Dham Konark",
+      "published_on": null,
+      "resource": "https://www.rgdkonark.co.in/",
+      "locator": "Home-page Upcoming Event banner and address footer",
+      "scope": "Institution’s own announcement for19September2026,9:30AM–2:00PM sankirtan. Still labelled upcoming when read9October2026; event performance, food, access and future dates not verified.",
+      "accessed_on": "2026-10-09",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-radhastami/konark.html",
+        "sha256": "75320d48595f676c316ce7810efdb4448b9561ddd706dea11fa5b635c012db7b",
+        "retrieved_at": "2026-10-09T13:32:16.376951+00:00",
+        "method": "Direct verified-TLS public HTML retrieval; selected text read"
+      }
+    },
+    "osha-jagannath-behera2019": {
+      "id": "osha-jagannath-behera2019",
+      "title": "Fairs and Festivals of Lord Jagannath",
+      "author": "Manas Chandra Behera",
+      "publisher": "Odisha Review, Government of Odisha",
+      "published_on": "2019-06/07",
+      "resource": "https://magazines.odisha.gov.in/Orissareview/2019/Jun-July/engpdf/Fairs-and-Festivals-of-Lord-Jagannath-100-106.pdf",
+      "locator": "Printed100/PDF1 byline; printed103/PDF4 Radhastami paragraph",
+      "scope": "Signed calendar description: Sudarsan taken to four ashrams. PDF text inspected; page images not inspected. Not a current route, access or food-service check.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected; no original binary capture saved"
+    },
+    "osha-shivaratri-shiva40": {
+      "id": "osha-shivaratri-shiva40",
+      "title": "The glory of Śivarātri: Shiva Purana, Kotirudra-samhita chapter 40",
+      "author": "J. L. Shastri credited by host; print-edition credits not inspected",
+      "publisher": "Wisdomlib hosted English translation",
+      "published_on": null,
+      "resource": "https://www.wisdomlib.org/hinduism/book/shiva-purana-english/d/doc226541.html",
+      "locator": "Kotirudra-samhita 40, verses 4–20, 27–39, 49–85 and 89–95; host updated 3 October 2019",
+      "scope": "Complete chapter web text inspected. Primary-text translation used for the Gurudruha narrative; no Odisha transmission or original Sanskrit manuscript established. Host 1950 metadata is not adopted as verified edition/composition date. Direct HTML capture returned HTTP 522; web text remained readable.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected; no local original binary capture saved"
+    },
+    "osha-shibaratri-gopabandhu": {
+      "id": "osha-shibaratri-gopabandhu",
+      "title": "ଶିବରାତ୍ରି, in ଅବକାଶଚିନ୍ତା",
+      "author": "Gopabandhu Das, as attributed by the chapter and collection",
+      "publisher": "Odia Wikisource transcription",
+      "published_on": null,
+      "resource": "https://or.wikisource.org/wiki/ଅବକାଶଚିନ୍ତା/ଶିବରାତ୍ରି",
+      "locator": "Opening fasting/vigil couplet through concluding appeal to make a whole life Shivaratri; page revision oldid=58885; collection table of contents",
+      "scope": "Odia poem transcription read as literary evidence, not a ritual manual or household survey. Original scanned edition, print page and composition date not inspected. No verse or literary translation reproduced; concise prose reading only. Native culture-trails.json already cites a different poem in this collection; that is reuse context, not independent corroboration.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected; no local original binary capture saved"
+    },
+    "osha-bhagavata-krishna-birth": {
+      "id": "osha-bhagavata-krishna-birth",
+      "title": "Srimad-Bhagavatam: Krishna’s birth and Nanda’s celebration",
+      "author": "A. C. Bhaktivedanta Swami Prabhupada, translation and commentary",
+      "publisher": "VedaBase; Bhaktivedanta Book Trust International content",
+      "published_on": null,
+      "resource": "https://vedabase.io/en/library/sb/10/3/",
+      "additional_urls": [
+        "https://vedabase.io/en/library/sb/10/3/50/",
+        "https://vedabase.io/en/library/sb/10/3/51/",
+        "https://vedabase.io/en/library/sb/10/5/14/"
+      ],
+      "locator": "10.3 chapter summary and verses 7–10, 28–30, 46–51; 10.5.14 translation",
+      "scope": "Primary religious text in one published translation; birth narrative and dairy celebration are sacred narrative, not verified history or an Odisha menu. Chapter/verse URLs are one textual witness, not independent corroboration. Original composition date and Odia transmission not established.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected"
+    },
+    "osha-odisha-festivals-overview": {
+      "id": "osha-odisha-festivals-overview",
+      "title": "Fairs & Festivals: Janmastami",
+      "author": "Government of Odisha portal; individual author not stated",
+      "publisher": "Government of Odisha",
+      "published_on": null,
+      "resource": "https://odisha.gov.in/index.php/en/explore-odisha/fairs-festivals",
+      "locator": "Janmastami subsection; site footer displayed Last Updated 08/10/2026",
+      "scope": "Institutional general description of household, math and temple observance and fast-breaking after midnight birth. Footer update is not the subsection publication date. No named dishes, annual date or serving offer established.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected"
+    },
+    "osha-iskcon-bhubaneswar-calendar2026": {
+      "id": "osha-iskcon-bhubaneswar-calendar2026",
+      "title": "ISKCON Bhubaneswar: Janmastami calendar entry 2026",
+      "author": "ISKCON Bhubaneswar",
+      "publisher": "ISKCON Bhubaneswar",
+      "published_on": null,
+      "resource": "https://www.iskconbhubaneswar.com/",
+      "locator": "Events calendar: Janmastami, September 04, 2026",
+      "scope": "Institution’s announced calendar only. Does not verify an event occurred, a statewide date, food menu, access or public serving availability.",
+      "accessed_on": "2026-10-09",
+      "capture_method": "Web text inspected",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-janmastami/iskcon.html",
+        "sha256": "93a9606467839fb42450d91dd12bd8430568ed8e3b2be3fff3681031e879ead8",
+        "method": "Verified-TLS HTML retrieval"
+      }
+    },
+    "osha-pusa-pothi": {
+      "id": "osha-pusa-pothi",
+      "title": "ପୁଷ ରବିବାର ବ୍ରତ କଥା · Pusha Rabibara Brata Katha",
+      "author": "Unknown; Commons attribution",
+      "publisher": "Project Pothi scan hosted on Wikimedia Commons; original publisher not established",
+      "published_on": null,
+      "resource": "https://commons.wikimedia.org/wiki/File:Pusha_Rabibara_Brata_Katha.pdf",
+      "original_file": "https://upload.wikimedia.org/wikipedia/commons/5/55/Pusha_Rabibara_Brata_Katha.pdf",
+      "locator": "PDF1 digital cover; PDF2–8 original-text images, with directions and offerings on PDF7 and ending on PDF8; no original printed page numbers used",
+      "scope": "All eight pages visually inspected. Short narrative synopsis and selected clear food terms, not a diplomatic transcription or critical edition. Commons labels the work eighteenth-century and supplies 8 February 1917 publication metadata, but the inspected fragment has no verified imprint; neither date adopted as established. Digitiser Prateek Pattanaik; Bratabali series label supplied by Commons.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-pusa/pusa.pdf",
+        "sha256": "7564ee693259dd69493975684d8a9fb7b8aed3a55d4f0a2417c3b046e1dd58cb",
+        "pdf_pages": 8,
+        "method": "Verified-TLS PDF retrieval; all eight pages rendered and visually inspected"
+      },
+      "accessed_on": "2026-10-09"
+    },
+    "osha-muan-nanda2023": {
+      "id": "osha-muan-nanda2023",
+      "title": "ମୁଆଁ · Muan",
+      "author": "ଡ. ଜୟଶ୍ରୀ ନନ୍ଦ (Dr Jayashree Nanda)",
+      "publisher": "Antaranga Kalinga",
+      "published_on": "2023-02-09",
+      "resource": "https://antarangakalinga.org/muan-2/",
+      "locator": "Visible author credit and opening market-name paragraph; later Dhanu-muan, chuda and mudhi subsections read for scope only",
+      "scope": "Attributed cultural essay and personal recollection, not a government survey or verified current vendor list. Used narrowly for the reported market name Pusha Rabibara muan. Web datePublished 9 February 2023, dateModified 19 January 2026; adjacent preparations and health assertions not adopted for this vow.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-pusa/muan.html",
+        "sha256": "9537ec88ce818d556ed1773236177cb6de8fc475dec4752ca3b1d1f02f122d36",
+        "method": "Verified-TLS HTML retrieval; text inspected"
+      },
+      "accessed_on": "2026-10-09"
+    },
+    "osha-binayaka-dharmagrantha": {
+      "id": "osha-binayaka-dharmagrantha",
+      "title": "ବିନାୟକ ବ୍ରତକଥା · Binayaka Brata Katha",
+      "author": null,
+      "publisher": "Dharmagrantha Store, Alisha Bazar, Cuttack; named on cover",
+      "published_on": null,
+      "resource": "https://drive.google.com/uc?export=download&id=12JXOi753dG0dGBS9HU-R0oLX_dLhwqPs",
+      "discovery_url": "https://www.odiabook.in/2022/12/binayaka-brata-katha-odia-book-pdf_4.html",
+      "locator": "PDF1–2 duplicate cover images; PDF3–6 printed1–4 ritual directions; PDF6–14 printed4–12 katha; PDF15 advertisement. All 15 pages visually inspected.",
+      "scope": "Undated new-impression booklet in Odia script, containing Sanskrit verses and Odia explanation. Concise synopsis and selected clear food directions, not a full translation or critical edition. No date or named author verified. Publisher is not treated as author; third-party listing date is not publication date. No identity with the 1936 booklet established.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-binayaka/binayaka.pdf",
+        "sha256": "8bb0ae691ba5736fec47dd0826aee70fbc00cfca864808dda3a109124860fed2",
+        "pdf_pages": 15,
+        "method": "Verified-TLS public PDF retrieval; all pages rendered and visually inspected"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-gazette1937-binayaka": {
+      "id": "osha-gazette1937-binayaka",
+      "title": "The Orissa Gazette, 29 October 1937: catalogue entry 172, Binayaka Brata Katha",
+      "author": "Office of the Director of Public Instruction, Orissa",
+      "publisher": "Government of Orissa; digital copy hosted by Odisha Law Department",
+      "published_on": "1937-10-29",
+      "resource": "https://law.odisha.gov.in/sites/default/files/2021-01/Appendix%20to%20the%20Odisha%20Gazette%201937%20No.1%20of%20October%2029,1937.pdf",
+      "locator": "Printed17/PDF17, left column entry 172 under Polyglot—Religion; PDF1 catalogue date and registration period",
+      "scope": "Contemporary bibliographic record of an 8-page 1936 booklet; not the booklet itself, the first edition of the tradition, an origin date, or evidence of sales/readership. Bracketed3October1936 recorded literally without interpreting its field semantics.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-binayaka/gazette.pdf",
+        "sha256": "615dd6dcb66d018000377e685a9367fd70ed37fc40fcfe8e85d09dbed9955e55",
+        "pdf_pages": 18,
+        "method": "Verified-TLS public PDF retrieval; entry 172 visually inspected; catalogue heading read in web extraction"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-ayyar1921-skanda": {
+      "id": "osha-ayyar1921-skanda",
+      "title": "South Indian Festivities [Illustrated]: Skanda Sashti",
+      "author": "P. V. Jagadisa Ayyar",
+      "publisher": "Higginbothams Limited, Madras; scan hosted by Rare Book Society of India",
+      "published_on": "1921",
+      "resource": "https://rarebooksocietyofindia.org/book_archive/196174216674_10156536880671675.pdf",
+      "locator": "Title page PDF6; contents PDF11; chapter XXIII printed146–150/PDF151–155, all five chapter pages visually inspected",
+      "scope": "Historical South Indian comparison only. Arpisi bright sixth, attributed Subrahmanyam narratives and kavadi milk/sugar note do not establish Odisha calendar, katha or food practice. Publication year is not an observance origin date.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-skanda/holidays.pdf",
+        "sha256": "f60578ac1427262297e044489ae842b3d5512501ae3ce61e6ffff84cd5c3fd56",
+        "method": "Verified-TLS PDF retrieval; title, contents and chapter pages rendered and visually read"
+      },
+      "accessed_on": "2026-10-10",
+      "inspection_history": [
+        {
+          "source_id": "osha-ayyar1921-skanda",
+          "run_id": "2026-10-10-guru-purnima",
+          "checked_at": "2026-10-09T23:29:16.622704+00:00",
+          "locator": "Printed85–86/PDF94–95, chapter XIV opening two pages; title PDF6 reused",
+          "scope": "1921 South Indian Vyasa Puja comparison: Ashadha full moon, monastic setting, rice/lime ritual and distribution. Same saved book as Skanda chapter, not independent corroboration or Odisha food evidence.",
+          "method": "Saved evidence reused; Ayyar selected pages newly rendered and visually read"
+        }
+      ]
+    },
+    "osha-karttikeya-panda2010": {
+      "id": "osha-karttikeya-panda2010",
+      "title": "Karttikeya: A Unique Image of Orissan Art",
+      "author": "Kalyan Kumar Panda",
+      "publisher": "Odisha Information and Public Relations Department, Orissa Review",
+      "published_on": "2010-11",
+      "resource": "https://magazines.odisha.gov.in/Orissareview/2010/November/engpdf/37-39.pdf",
+      "locator": "Printed37–39/PDF1–3; adopted art context limited to printed37–38",
+      "scope": "Attributed interpretation of the Kosalesvara image and explicit disagreement over sixth-century dating. Deity iconography does not date the Skanda Sasthi vow. Original archaeological works not independently checked.",
+      "capture": {
+        "method": "Web PDF text inspected; direct HTTPS download failed expired certificate; screenshot unavailable"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-guru-vk2024": {
+      "id": "osha-guru-vk2024",
+      "title": "Gurupurnima Celebration at Rourkela",
+      "author": "Vivekananda Kendra, Rourkela branch",
+      "publisher": "Vivekananda Kendra Kanyakumari",
+      "published_on": "2024-07-21",
+      "resource": "https://blog.vrmvk.org/2024/07/gurupurnima-celebration-at-rourkela.html",
+      "locator": "Dated post; Vedvyas Sanskrit College and GRP Training School paragraphs, including both prasad statements",
+      "scope": "Organiser-reported events on 21 July 2024, not independent attendance verification or a statewide household tradition. Prasad dishes unnamed; no present serving offer established.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-guru-purnima/rourkela.html",
+        "sha256": "cea786ea69bba5e2446813d24753823e5d16ead94afa5273dcca3284b362efbc",
+        "method": "Direct verified-TLS HTML retrieval and text inspection; web open failed"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-guru-rkm2026": {
+      "id": "osha-guru-rkm2026",
+      "title": "Ramakrishna Math Bhubaneswar: List of Celebrations for 2026–2027",
+      "author": null,
+      "publisher": "Ramakrishna Math, Bhubaneswar",
+      "published_on": null,
+      "resource": "https://rkmbbsr.org/wp-content/uploads/2026/04/Celebration-List-for-2026-27-for-website.pdf",
+      "locator": "PDF1 Odia row6 and anna-prasad note; PDF2 English row6, C.P. legend and almanac heading",
+      "scope": "Institutional announcement: Guru Purnima on 29 July 2026, Ashadha Purnima, cooked prasad planned. Does not verify that distribution occurred, its menu, numbers or current availability. URL upload directory is not a verified publication date.",
+      "capture": {
+        "method": "Web PDF text inspected; direct retrieval HTTP403; web screenshot did not return inspectable pixels"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-guru-rkm-history": {
+      "id": "osha-guru-rkm-history",
+      "title": "History of Ramakrishna Math and Ramakrishna Mission, Bhubaneswar",
+      "author": "Swami Tannishthananda",
+      "publisher": "Ramakrishna Math, Bhubaneswar, souvenir",
+      "published_on": null,
+      "resource": "https://rkmbbsr.org/wp-content/uploads/2025/04/History-of-RKM-BBSR_Centenary-Souvenir.pdf",
+      "locator": "Printed21/PDF1 author and title; printed45/PDF25 reminiscence and adjacent 1923 event context",
+      "scope": "Retrospective institutional history quoting Swami Brahmeswarananda. The 1924 passage says probably Guru Purnima; not a secure festival date or earliest observance. Adjacent large prasad figure concerns 1923 Vasanti Puja, not Guru Purnima. No original memoir edition or publication date verified.",
+      "capture": {
+        "method": "Web PDF text inspected at specified pages; direct HTTP403 and screenshot cache miss retained"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-pradosha-skanda": {
+      "id": "osha-pradosha-skanda",
+      "title": "Skanda Purana, Brahma-khanda, Brahmottara-khanda: Pradosha chapters 6–7",
+      "author": "G. V. Tagare (English translation attribution on host)",
+      "publisher": "Wisdomlib, digital presentation of translated primary text",
+      "published_on": null,
+      "accessed_on": "2026-10-10",
+      "resource": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc423669.html",
+      "related_urls": [
+        "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc423670.html"
+      ],
+      "locator": "Section 3, chapters 6 (verses 1–81) and 7 (verses 1–164); timing 6.5 and 7.2; food 7.52–56 and 7.71; narrative 6.16–75 and 7.78–159",
+      "scope": "One translated textual witness across adjacent chapters, not two independent corroborations. Comparative ritual narrative and prescription; no dated Odisha lineage or locally attested menu. Host generic year 1950 not adopted as verified edition date; last-updated 15 August 2020 is website metadata.",
+      "capture": {
+        "method": "Web text of both complete chapters read with numbered verse locators; no Sanskrit collation or print-edition dating claimed"
+      }
+    },
+    "osha-tarini-mallebrein2004": {
+      "id": "osha-tarini-mallebrein2004",
+      "title": "Creating a kshetra: Goddess Tarini of Ghatgaon and her Development from a Forest Goddess to Pan-Orissan Deity",
+      "author": "Cornelia Mallebrein",
+      "publisher": "Journal of Social Sciences 8(2), 155–165 (2004)",
+      "published_on": "2004",
+      "resource": "https://krepublishers.com/02-Journals/JSS/JSS-08-0-000-000-2004-Web/JSS-08-2-085-178-2004-Abst-PDF/JSS-08-2-155-165-2004-150-Mallebrein/JSS-08-2-155-165-2004-Mallebrein_Tx.pdf",
+      "related_urls": [
+        "https://www.researchgate.net/publication/228768760_Creating_a_kshetra_Goddess_Tarini_of_Ghatgaon_and_her_Development_from_a_Forest_Goddess_to_Pan-Orissan_Deity",
+        "https://hsbiblio.uni-tuebingen.de/xmlui/handle/10900/52188"
+      ],
+      "locator": "Printed155–159 and164 notes1/13/23; web author-copy text with printed page markers",
+      "scope": "Author’s 2002 fieldwork, published2004. Scoped historical observations, reported management accounts and attributed legends. Not present operations or evidence of the household Ashadha Brata menu. Printed157 gives1978 for anna bhoga; printed158 gives1975. Conflict unresolved. Same paper across publisher and author-copy hosts, not independent corroboration. University bibliography verifies2004; ResearchGate display2017 is not used as publication year.",
+      "capture": {
+        "method": "Author-uploaded full-text webpage inspected for selected sections; publisher PDF and author-copy PDF download unavailable. Original page images not recovered. University bibliography inspected."
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-tarini-kendujhar": {
+      "id": "osha-tarini-kendujhar",
+      "title": "Maa Tarini Pitha Ghatagaon",
+      "author": null,
+      "publisher": "Kendujhar district administration, Government of Odisha",
+      "published_on": null,
+      "resource": "https://kendujhar.odisha.gov.in/en/tourism/tourist-places/maa-tarini-pitha-ghatagaon",
+      "locator": "Culture & Heritage introduction, coconut-offering sentence",
+      "scope": "District description supports Ghatagaon shrine and coconut offering association. Not a household Brata menu, current service offer or dated origin. Unquantified crowds, inconsistent festival wording, dated travel claims and inference of antiquity from form are not adopted.",
+      "capture": {
+        "method": "Official webpage text retrieved and inspected"
+      },
+      "accessed_on": "2026-10-10"
+    },
+    "osha-mangala-gauri-kashi": {
+      "id": "osha-mangala-gauri-kashi",
+      "title": "Skanda Purana, Kashi-khanda, Purvardha, chapter49: Mangala Gauri comparison",
+      "author": "G. V. Tagare (English translation attributed by host)",
+      "publisher": "Wisdom Library, hosted English translation",
+      "published_on": null,
+      "accessed_on": "2026-10-10",
+      "resource": "https://www.wisdomlib.org/hinduism/book/the-skanda-purana/d/doc423787.html",
+      "locator": "Chapter49 verses26–44,55–69a,80b–93",
+      "scope": "Translated primary textual comparison situated in Kashi; not a recovered Odia Srabani katha or evidence that the observances are equivalent. Original composition date and print edition not verified. Host generic1950 metadata not adopted as edition year.",
+      "capture": {
+        "method": "Webpage text inspected; Sanskrit and original print edition not inspected",
+        "retrieved_at": "2026-10-10T02:35:03.229119+00:00",
+        "host_last_updated": "2020-09-10"
+      }
+    },
+    "osha-bajra-pothi": {
+      "id": "osha-bajra-pothi",
+      "title": "Bajra Mahakali Brata O Phuleri Osha Katha — Project Pothi scan",
+      "author": null,
+      "publisher": "Original publisher unidentified; Wikimedia Commons / Project Pothi digital host",
+      "published_on": null,
+      "accessed_on": "2026-10-10",
+      "resource": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bajra_Mahakali_Brata_O_Phuleri_Osha_Katha.pdf",
+      "related_urls": [
+        "https://commons.wikimedia.org/wiki/File:Bajra_Mahakali_Brata_O_Phuleri_Osha_Katha.pdf",
+        "https://or.wikisource.org/wiki/ବଜ୍ର_ମହାକାଳୀ_ବ୍ରତ_ଓ_ଫୁଲେରୀ_ଓଷା_କଥା"
+      ],
+      "locator": "PDF1 digital cover; PDF2–11 original-text images; food passages PDF3–5; resolution PDF8–11",
+      "scope": "One Odia prose narrative visually inspected. Scan and Wikisource transcription are one textual witness, not independent corroboration. Commons gives1February1934 and16th/16th–17th-century claims, but no visible original imprint supports dating in this scan; dates not adopted. Household geography and current practice unverified.",
+      "capture": {
+        "path": "/Users/ahimanikya/Documents/codex/2026-09-27/odisha-facts-and-growth/work/osha-bajra/bajra.pdf",
+        "sha256": "584827b9424b2dc82c3f8552651c04bd782c62cfc08541c0bdf1fcf9f72fa19f",
+        "retrieved_at": "2026-10-10T03:37:47.474988+00:00",
+        "method": "Verified-TLS download after sandbox DNS and web cache failures; all11 PDF pages rendered and visually inspected",
+        "pdf_pages": 11,
+        "credited_digitiser": "Prateek Pattanaik, Project Pothi (repository credit)",
+        "repository_upload_date": "2017-02-12",
+        "repository_license_claim": "CC0",
+        "rights_for_republication": null
+      }
+    },
+    "osha-durgastami-book-lead": {
+      "id": "osha-durgastami-book-lead",
+      "title": "Bhai Jiuntia Osha Katha ba Durgastami Brata o Durgashrimala — bookseller record HAR390",
+      "resource": "https://www.exoticindiaart.com/book/details/vijiuntia-osha-katha-or-durgastami-vrata-and-durgashrimala-oriya-har390/",
+      "publisher": "Exotic India Art, seller catalogue; lists Dharma Grantha Store, Cuttack as book publisher",
+      "published_on": null,
+      "accessed_on": "2026-10-10",
+      "locator": "Product title and Specifications, item HAR390; web extraction lines33,73–80",
+      "scope": "Primary evidence of this seller record only: linked title, listed publisher and22 pages. Contents, imprint and edition date not inspected; not proof of universal ritual equivalence, historical origin, current stock or an independently read katha.",
+      "book_title_odia": "ଭାଇଜିଉନ୍ତିଆ ଓଷା କଥା ବା ଦୁର୍ଗାଷ୍ଟମୀ ବ୍ରତ ଓ ଦୁର୍ଗାଶ୍ରୀମାଳା",
+      "listed_pages": 22,
+      "book_publication_date": null,
+      "contents_inspected": false
+    },
+    "osha-ashoka-garuda": {
+      "id": "osha-ashoka-garuda",
+      "title": "Garuda Purana, Dutt translation: Asokastami Vratas etc., chapter CXXXIII",
+      "resource": "https://www.wisdomlib.org/hinduism/book/the-garuda-purana-dutt/d/doc122613.html",
+      "publisher": "Wisdom Library digital transcription",
+      "translator": "Manmatha Nath Dutt (host attribution)",
+      "published_on": null,
+      "translation_year_as_listed": 1908,
+      "web_last_updated": "2018-05-17",
+      "accessed_on": "2026-10-10",
+      "locator": "Chapter CXXXIII opening paragraph, before Mahanavami; web line65",
+      "scope": "Primary religious prescription in English translation: eight ashoka flower buds, Chaitra bright eighth with Punarvasu, prayer addressing ashoka as dear to Hara. Host-attributed1908 translation not original Sanskrit composition date. Print facsimile not inspected. No local Odisha practice, recipe, botanical identification or health effect established."
+    },
+    "osha-ashoka-incredible": {
+      "id": "osha-ashoka-incredible",
+      "title": "Asokastami — Incredible India",
+      "resource": "https://www.incredibleindia.gov.in/en/odisha/bhubaneswar/asokastami",
+      "publisher": "Ministry of Tourism, Government of India",
+      "published_on": null,
+      "accessed_on": "2026-10-10",
+      "locator": "Historical Roots and Celebratory Myths; The Spectacle of the Rukuna Rath Yatra; Engaging in the Festivities; Timings",
+      "scope": "Institutional tourism interpretation of Bhubaneswar festival and Rama legend. No dated foundation record, named household menu, serving venue or current event timetable. Deity roster and crowd generalisations not adopted; generic gastronomy wording not a dish-level association."
     }
   },
   "next_observances": [
@@ -5559,6 +7755,185 @@
       "retry_after": "2026-10-16",
       "evidence_path": "references/data/osha-identity-audit.json",
       "guide_path": "culture/osha-identity-guide.md"
+    },
+    {
+      "name": "Radhastami Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-jagannath-festivals2003",
+        "osha-radhastami-shubhapallaba2020",
+        "osha-radhastami-padma",
+        "osha-jagannath-behera2019",
+        "osha-radhastami-rgd2026"
+      ],
+      "note": "Odia narrative transcription and distinct food roles saved; original edition, manuscript rows and local menu unresolved.",
+      "profile_path": "culture/osha/radhastami-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Sankata Chaturthi",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-dash-festivals2006"
+      ],
+      "note": "Rice-cake descriptions recovered; deity/calendar and food-name/process differences unresolved.",
+      "profile_path": "culture/osha/sankata-chaturthi.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Shibaratri Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-shivaratri-shiva40",
+        "osha-shibaratri-gopabandhu"
+      ],
+      "note": "Jagara, hunter narratives, named gaja pitha and attributed Odia poem saved; original local text, chronology and preparation unresolved.",
+      "profile_path": "culture/osha/shibaratri-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Shri Krishna Janmastami Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-bhagavata-krishna-birth",
+        "osha-odisha-festivals-overview",
+        "osha-jagannath-festivals2003",
+        "osha-iskcon-bhubaneswar-calendar2026"
+      ],
+      "note": "Birth narrative, fast-breaking difference and distinct food roles saved; local text, history and named dishes unresolved.",
+      "profile_path": "culture/osha/janmastami-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Pusa Rabibara Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-pusa-pothi",
+        "osha-muan-nanda2023",
+        "osha-mahanti"
+      ],
+      "note": "Odia narrative, textual offerings and attributed muan market name saved; dating, manuscript comparison and local preparation unresolved.",
+      "profile_path": "culture/osha/pusa-rabibara-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Binayaka Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-binayaka-dharmagrantha",
+        "osha-gazette1937-binayaka",
+        "osha-mahanti"
+      ],
+      "note": "Narrative, modaka allocation and separate 1936 bibliographic witness saved; edition dating, calendar variants and local preparation unresolved.",
+      "profile_path": "culture/osha/binayaka-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Skanda Sasthi Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-karttikeya-panda2010",
+        "osha-ayyar1921-skanda"
+      ],
+      "note": "Odisha calendar/prevalence discrepancy preserved; no local food established. South Indian 1921 comparison is not an Odia katha.",
+      "profile_path": "culture/osha/skanda-sasthi-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Guru Purnima Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-review2006",
+        "osha-mahanti",
+        "osha-ayyar1921-skanda",
+        "osha-guru-rkm-history",
+        "osha-guru-vk2024",
+        "osha-guru-rkm2026"
+      ],
+      "note": "Pausa/Ashadha conflict retained; institutional prasad reports and announcement distinguished; household katha, history and dishes unresolved.",
+      "profile_path": "culture/osha/guru-purnima-brata.md",
+      "retry_after": "2026-10-16"
+    },
+    {
+      "name": "Shiva Pradosha Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-pradosha-skanda"
+      ],
+      "note": "Printed timing discrepancy and comparative Puranic narrative/offerings saved. Local text, chronology, menu and access unresolved.",
+      "profile_path": "culture/osha/shiva-pradosha-brata.md",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "name": "Tarini Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-tarini-mallebrein2004",
+        "osha-tarini-kendujhar"
+      ],
+      "note": "Shrine legend, scoped historical food roles and1975/1978 conflict saved. Household text, menu, chronology and visitor service unresolved.",
+      "profile_path": "culture/osha/tarini-brata.md",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "name": "Mangala Gouri (Shrabani) Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-mangala-gauri-kashi"
+      ],
+      "note": "Existing Gouri page reused for separate Srabani and Kashi comparisons. No duplicate profile; local katha, identity linkage and specific pitha/meal unresolved.",
+      "profile_path": "culture/osha/gouri-brata.md",
+      "identity_equivalence_established": false,
+      "retry_after": "2026-10-17"
+    },
+    {
+      "name": "Bajra Mahakali Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-bajra-pothi"
+      ],
+      "note": "One Odia narrative visually inspected; aradra, greens and prasad roles saved. Imprint, chronology, precise recipe and local practice unresolved.",
+      "profile_path": "culture/osha/bajra-mahakali-brata.md",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "name": "Mahastami Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-durgastami-book-lead"
+      ],
+      "note": "Household fruit and public bhoga scopes separated; linked book title is a discovery lead, not a read text or universal identity. Full katha, history and local menu unresolved.",
+      "profile_path": "culture/osha/mahastami-brata.md",
+      "retry_after": "2026-10-17"
+    },
+    {
+      "name": "Ashoka Astami Brata",
+      "status": "profile_checkpoint_saved",
+      "source_ids": [
+        "osha-mahanti",
+        "osha-ashoka-garuda",
+        "osha-ashoka-incredible"
+      ],
+      "note": "Household Surya vow, Rukuna festival legend and Garuda bud prescription separated. Extinction claim held; full local text, chronology and food remain open.",
+      "profile_path": "culture/osha/ashoka-astami-brata.md",
+      "retry_after": "2026-10-17"
     }
   ],
   "research_batches": [
@@ -5607,15 +7982,16 @@
       "id": "OSHA-B06",
       "scope": "Extend remaining brata inventory in bounded batches and then verify annual dates/consented public food offers",
       "status": "in_progress",
-      "checkpoint": "Remaining Benatia and Purnima inventory leads audited. Benatia remains unidentified; three existing full-moon reading routes are distinguished in a new guide. Profile count remains39.",
-      "next_step": "Reconcile the fifteen local profile additions since saved PR145 revision05dd64803dd416c0c2c937a2defcc8e54e148b41, plus the Osha identity guide, into the existing destination review branch after reading current destination instructions and checking for overlapping work. Preserve native edits and the existing PR metadata approval boundary; validate the website candidate and distinguish push from publication. Benatia/Purnima identity and original June2013 issue retry16October2026; other dated textual/local holds remain unchanged.",
+      "checkpoint": "All six additional Mahanti leads have bounded coverage; Ashoka Astami profile52 separates household, textual and festival settings. Local histories and publication remain open.",
+      "next_step": "Reconcile the accumulated52 local profiles, identity guide and revised seasonal dataset with the existing PR145 candidate after reading destination current instructions/state; preserve repository-native edits and prior metadata auto-review boundary. The eight missing Brata leads and six selected additional Mahanti leads now have bounded coverage, not complete histories. Ashoka original Odia text, continuity and local food retry17October2026. Preserve all prior source holds; do not invent additional inventory to avoid the website deliverable.",
       "retry_after": "2026-10-14",
-      "retry_scope": "Sukutuni identified original katha/calendar/food evidence; Bali Trutiya parent volume/imprint, author identity, second witness, locality and boat-jhoti conflict. Sita Navami original Odia katha, Baisakha/Jyestha conflict, local foods and advertised-versus-observed event evidence. Rambha Trutiya local katha, food, textual edition and scope comparison:15October. Nagala katha, catalogue images, chronology and local food:15October. Naga Panchami textual/local food and historical evidence:15October. Ananta local text, calendar and preparation evidence:15October. Rabinarayana full text, calendar and food preparation: 15 October. Somnath primary literary dating, manuscripts and household preparation: 15 October. Kukkuti local manuscript, Odia text and preparation: 15 October. Santoshi Odia text, local chronology and household food:15October. Kedar parent edition, Gazette identity and local food:15October. Rai Damodara original katha, calendar conflict, chronology and household food:15October. Magha original katha, Sarala passage, vow chronology and household/fair food:15October. Baisakha catalogue/original text, chronology and household preparation:15October. Guru Panchami identity, chronology, calendar, local katha and food:15October. Rushi Panchami full katha, chronology and food preparation:15October. Gouri local identity, calendar, original text and food:16October. Bipattarini Odia text, local identity, calendar and foods:16October. Benatia/Purnima local identity and June2013 original issue:16October."
+      "retry_scope": "Sukutuni identified original katha/calendar/food evidence; Bali Trutiya parent volume/imprint, author identity, second witness, locality and boat-jhoti conflict. Sita Navami original Odia katha, Baisakha/Jyestha conflict, local foods and advertised-versus-observed event evidence. Rambha Trutiya local katha, food, textual edition and scope comparison:15October. Nagala katha, catalogue images, chronology and local food:15October. Naga Panchami textual/local food and historical evidence:15October. Ananta local text, calendar and preparation evidence:15October. Rabinarayana full text, calendar and food preparation: 15 October. Somnath primary literary dating, manuscripts and household preparation: 15 October. Kukkuti local manuscript, Odia text and preparation: 15 October. Santoshi Odia text, local chronology and household food:15October. Kedar parent edition, Gazette identity and local food:15October. Rai Damodara original katha, calendar conflict, chronology and household food:15October. Magha original katha, Sarala passage, vow chronology and household/fair food:15October. Baisakha catalogue/original text, chronology and household preparation:15October. Guru Panchami identity, chronology, calendar, local katha and food:15October. Rushi Panchami full katha, chronology and food preparation:15October. Gouri local identity, calendar, original text and food:16October. Bipattarini Odia text, local identity, calendar and foods:16October. Benatia/Purnima local identity and June2013 original issue:16October. Sankata identity, Odia text, complete preparation and original December2006 page images:16October. Radhastami original edition, author attribution, manuscript rows and local dishes:16October. Shibaratri original text, history, gaja preparation, poem facsimile and government page recovery: 16 October. Janmastami Odia text, history, local foods and original Jeuta/Banabhoji evidence: 16 October. Pusa Rabibara parent edition, dates, manuscript CY-1907 and local pitha/muan: 16 October. Binayaka edition/calendar comparison,1936 copy, manuscript leads and local modaka: 16 October. Skanda dated local panji, practice, katha and food: 16 October. Guru Purnima Pausa identity, local text/history and dishes/fulfilment: 16 October. Shiva Pradosha local text, timing, chronology and food: 17 October. Tarini original evidence, anna-bhoga date conflict and household food:17October. Srabani original text, edition and local food:17October; prior Gouri16October hold retained. Bajra Mahakali original imprint, aradra and local food/calendar:17October. Mahastami original text, local identity and food roles:17October. Ashoka Astami Odia text, historical continuity and local food:17October."
     }
   ],
   "historical_method": "Separate primary text, dated description, ritual narrative, editorial interpretation and unresolved chronology. No text-attribution date is automatically an observance origin.",
   "visitor_policy": "No current annual dates, venues, stock, prices, access or host consent verified.",
   "human_review_claimed": false,
   "fieldwork_conducted": false,
-  "website_status": "candidate_preparation"
+  "website_status": "candidate_preparation",
+  "coverage_audit": "references/data/osha-coverage-audit.json"
 }

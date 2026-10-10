@@ -437,3 +437,7 @@ Bali Trutiya, Sita Navami and Rambha Trutiya reconciled with scoped original-tex
 ## 2026-10-09 · Osha expansion checkpoint
 
 Fifteen additional profiles and the Osha identity guide reconciled. Related names and cultural comparisons remain distinct.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Thirteen additional profiles, coverage audit and later revisions reconciled. Related names and cultural comparisons remain distinct.

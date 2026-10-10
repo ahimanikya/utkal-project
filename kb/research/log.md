@@ -468,3 +468,7 @@ Reconciled three B06 profiles into the existing review candidate. Eight narrativ
 ## 2026-10-09 · Osha expansion checkpoint
 
 Reconciled accumulated Osha research:39 profiles,10 narrative checkpoints and29 research notes, plus an identity guide. No merge or publication.
+
+## 2026-10-09 · Osha expansion checkpoint
+
+Reconciled accumulated Osha research:52 profiles,13 narrative checkpoints and39 research notes, plus existing identity guide. No merge or publication.

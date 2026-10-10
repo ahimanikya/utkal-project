@@ -111,3 +111,63 @@ The [Talagaja entry](talagaja.md) distinguishes reported fresh consumption from 
 ## 2026-10-09 · Bipattarini Brata: regional food roles
 
 [Bipattarini Brata](../culture/osha/bipattarini-brata.md). Bipattarini research distinguishes offerings from fast-breaking foods and keeps a Rajpur, West Bengal account separate from unverified Odisha recipes.
+
+
+## 2026-10-09 · Sankata Chaturthi: rice and preparation
+
+[Sankata Chaturthi](../culture/osha/sankata-chaturthi.md). Sankata Chaturthi research preserves differing rice treatments and food names without turning partial descriptions into a single tested recipe.
+
+
+## 2026-10-09 · Radhastami: distinguish food roles
+
+[Radhastami Brata](../culture/osha/radhastami-brata.md). Radhastami research separates a narrative meal, textual offerings and fast-breaking prasada before seeking locally named dishes and preparation.
+
+
+## 2026-10-09 · Janmastami: identify the food occasion
+
+[Janmastami Brata](../culture/osha/janmastami-brata.md). Janmastami connects fasting and shared prasada with preparation research; narrative dairy, unnamed household offerings and later Puri rituals require separate food evidence.
+
+
+## 2026-10-09 · Pusa Rabibara: pitha and muan
+
+[Pusa Rabibara Brata](../culture/osha/pusa-rabibara-brata.md). Pusa Rabibara’s textual pitha offering and reported muan market name connect to preparation research; neither establishes a universal recipe or current serving place.
+
+
+## 2026-10-10 · Binayaka: modaka and distribution
+
+[Binayaka Brata](../culture/osha/binayaka-brata.md). Binayaka’s modaka prescription connects to preparation research; its food name and ghee reference do not establish a complete local recipe.
+
+
+## 2026-10-10 · Guru Purnima: food roles before recipes
+
+[Guru Purnima Brata](../culture/osha/guru-purnima-brata.md). Reported prasad and announced cooked prasad do not identify dishes or recipes; preparation research must preserve each event and food role.
+
+
+## 2026-10-10 · Pradosha: textual offerings and local recipes
+
+[Shiva Pradosha Brata](../culture/osha/shiva-pradosha-brata.md). A translated ritual offering list does not establish an Odisha dish or recipe; preparation research must identify the local food and its role before comparison.
+
+
+## 2026-10-10 · Tarini: household vow and shrine food
+
+[Tarini Brata](../culture/osha/tarini-brata.md). Tarini research separates household fasting, shrine offerings, cooked prasad and a local sweet; each food role needs its own preparation and locality evidence.
+
+
+## 2026-10-10 · Srabani: retain the named offering
+
+[Gouri and Srabani research](../culture/osha/gouri-brata.md) keeps Mahanti’s generic pitha offering separate from other vows’ prescriptions. A named recipe, maker and fast-breaking meal still require local evidence.
+
+
+## 2026-10-10 · Aradra in a brata narrative
+
+[Bajra Mahakali](../culture/osha/bajra-mahakali-brata.md). Bajra Mahakali’s text names aradra and seven greens, but a textual food name is not a complete recipe or verified current preparation.
+
+
+## 2026-10-10 · Mahastami food roles
+
+[Mahastami Brata](../culture/osha/mahastami-brata.md). Compare offered food, shared prasad and the meal ending a fast; a broad bhoga label does not identify a recipe.
+
+
+## 2026-10-10 · Ritual consumption and local recipes
+
+[Ashoka Astami](../culture/osha/ashoka-astami-brata.md). A textual item consumed in a rite is not automatically a household recipe or visitor dish; Ashoka Astami keeps those food roles distinct.

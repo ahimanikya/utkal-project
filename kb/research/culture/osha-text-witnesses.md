@@ -11,7 +11,7 @@ human_review_claimed: false
 
 # Osha texts and manuscript references
 
-Sudasa, Budhei, Dutiya, Nagala, Rabinarayana and Somnath have identifiable catalogue references at the Odisha State Museum. The selected register now contains thirty-two catalogue records, including four comparative Varanasi records, and four recovered digital texts: two Sudasa, one Somnath and one Kedar. Some catalogue rows combine several works; none establishes an earliest date for an observance. The original twelve-record table below is followed by the Nagala, Rabinarayana and Somnath extensions.
+Sudasa, Budhei, Dutiya, Nagala, Rabinarayana and Somnath have identifiable catalogue references at the Odisha State Museum. The selected register now contains thirty-two catalogue records, including four comparative Varanasi records, and five recovered digital texts: two Sudasa, one Somnath, one Kedar and one Pusa Rabibara. Some catalogue rows combine several works; none establishes an earliest date for an observance. The original twelve-record table below is followed by the Nagala, Rabinarayana and Somnath extensions.
 
 ## Catalogue references
 
@@ -86,3 +86,15 @@ A separate museum-catalogue OCR lead, item148 on printed85, includes Kukkuti in 
 ## 2026-10-08 · Kedar digital witness
 
 [Kedar Brata](osha/kedar-brata.md) adds OSHA-T004, the eleven-page Project Pothi scan. All pages visually inspected; narrative/directions occupy PDF2–11. Repository author and dating fields are not an original imprint. One recovered file does not establish an independent textual variant or early historical origin.
+
+## 2026-10-09 · Pusa Rabibara scan inspected
+
+The eight-page [Project Pothi scan](../sources/osha-pusa-pothi.md) contains a digital cover and seven original-text images, now visually inspected. [Pusa Rabibara](osha/pusa-rabibara-brata.md) has a concise narrative and selected offerings. Parent imprint, composition date and Commons dating claims remain unverified; CY-1907 is an indexed manuscript lead only.
+
+## 2026-10-10 · Binayaka booklet inspected
+
+The 15-page [Dharmagrantha Store scan](../sources/osha-binayaka-dharmagrantha.md) has two cover images, 12 printed text pages and an advertisement, all visually inspected. [Binayaka](osha/binayaka-brata.md) preserves its narrative and 21-modaka allocation. A separate Gazette record dates another booklet to 1936; this date is not assigned to the scan. ORPR-231 and ORPR-214 remain indexed discovery leads, outside the verified manuscript register.
+
+## 2026-10-10 · Bajra Mahakali digital witness
+
+OSHA-T007 records an11-page [Project Pothi scan](../sources/osha-bajra-pothi.md), all visually inspected. [Bajra Mahakali](osha/bajra-mahakali-brata.md) now has a narrative and food-role synopsis. Commons dating remains unverified; one scan and its transcription are one witness. Seven digital texts and32 catalogue records are research holdings, not statewide totals.

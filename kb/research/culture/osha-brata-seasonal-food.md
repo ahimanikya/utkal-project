@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The thirty-nine selected profiles include ten narrative checkpoints and twenty-nine early research notes. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The fifty-two selected profiles include thirteen narrative checkpoints and thirty-nine early research notes. These are selected reading pages, including overlapping traditions, not a statewide festival count. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -56,8 +56,21 @@ The thirty-nine selected profiles include ten narrative checkpoints and twenty-n
 | [Baisakha Brata](osha/baisakha-brata.md) | Baisakha month | Havishanna or kechudi; comparative hospitality narrative |
 | [Guru Panchami](osha/guru-panchami.md) | Calendar and same-name identity unresolved | Teachers, sages and Brihaspati; fasting described, menu unknown |
 | [Rushi Panchami](osha/rushi-panchami.md) | Bhadrava bright fifth | Seven sages and Puri temple story; milk and fruit offerings, household menu unknown |
-| [Gouri Brata](osha/gouri-brata.md) | Aswina account; related Srabani identity held | Ritual drawings and literary vigil; food comparison scoped to Mangala Gauri |
+| [Gouri Brata](osha/gouri-brata.md) | Aswina account; related Srabani identity held | Ritual drawings, literary vigil and separate Srabani/Kashi food comparisons |
 | [Bipattarini Brata](osha/bipattarini-brata.md) | Odisha calendar unresolved; Bengali Ashar comparison | Protection narrative and Rajpur fruit/sweets account; Odisha menu unknown |
+| [Sankata Chaturthi](osha/sankata-chaturthi.md) | Magha account; recurring-vow identity unresolved | Bindi/hundi rice-cake descriptions; names, process and food roles remain under study |
+| [Radhastami Brata](osha/radhastami-brata.md) | Bhadrava bright eighth | Odia narrative, offerings and fast-breaking prasada; specific local dishes unknown |
+| [Shibaratri Brata](osha/shibaratri-brata.md) | Phalguna dark fortnight | Jagara, hunter stories and gaja pitha offering; preparation unresolved |
+| [Shri Krishna Janmastami Brata](osha/janmastami-brata.md) | Bhadrava dark eighth | Birth story, fasting and Nandotsava prasada; local dishes unresolved |
+| [Pusa Rabibara Brata](osha/pusa-rabibara-brata.md) | Pausa Sundays | Odia bride-and-sun narrative, textual offerings and a reported muan name |
+| [Binayaka Brata](osha/binayaka-brata.md) | Bhadrava bright fourth; textual alternatives under study | Krishna–Yudhishthira dialogue, 21 modaka and a 1936 publication witness |
+| [Skanda Sasthi Brata](osha/skanda-sasthi-brata.md) | Chaitra in Odisha accounts; local rule unresolved | Calendar and practice discrepancy; no local food established |
+| [Guru Purnima Brata](osha/guru-purnima-brata.md) | Ashadha in institutional accounts; Dash gives Pausa | Teacher and parent reverence; reported prasad, unnamed dishes |
+| [Shiva Pradosha Brata](osha/shiva-pradosha-brata.md) | Trayodashi in both fortnights; timing unresolved | Comparative story and offerings; no Odisha menu established |
+| [Tarini Brata](osha/tarini-brata.md) | Ashadha bright fourth in Mahanti | Shrine food history separated from unverified household menu |
+| [Bajra Mahakali Brata](osha/bajra-mahakali-brata.md) | Aswina amabasya | Odia narrative, aradra and shared prasad; dating and recipes open |
+| [Mahastami Brata](osha/mahastami-brata.md) | Aswina bright eighth | Household fruit; public bhoga and Bhai Jiuntia comparisons kept in scope |
+| [Ashoka Astami Brata](osha/ashoka-astami-brata.md) | Chaitra bright eighth | Household Surya vow, textual buds and Rukuna festival remain separate |
 
 ## What the collection connects
 
@@ -100,3 +113,9 @@ The expanded [Janhi profile](osha/janhi.md) records flowers, a song fragment, pl
 ## 2026-10-09 · Benatia and Purnima: identity checkpoint
 
 [Which Osha?](osha-identity-guide.md) records the Benatia gap and distinguishes three existing full-moon reading routes. No additional festival profile or menu is inferred. The collection remains39 profiles; original identities return on16October.
+
+## 2026-10-09 · Osha coverage audit
+
+[What the collection still needs](osha-coverage-audit.md) preserves the audit against the original 39 profiles. All eight missing Brata leads from the original audit now have bounded profiles, ending with Guru Purnima. This closes that page-coverage gap, not their unresolved histories. Shiva Pradosha and Tarini have bounded profiles; Mangala Gouri/Shrabani is covered as a separate comparison in the existing Gouri page. Bajra Mahakali now has a narrative checkpoint. Mahastami now has a bounded research note. Ashoka Astami now has a bounded profile, completing this selected six-lead extension; full histories, local foods and website reconciliation remain open. These are research leads, not verified statewide festival counts.
+
+Inventory coverage guides future research without treating names as verified aliases, local menus or a statewide festival count.

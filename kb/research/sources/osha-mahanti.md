@@ -110,3 +110,55 @@ Printed46 / PDF62, Tarini Brata paragraph. Tarini Brata is a separately named ob
 ## 2026-10-09 · Osha identity audit
 
 Printed24,26 / PDF40,42; saved Pandu and Rai Damodara profiles retain their additional locators — Distinct full-moon names and months; not proof of what Dash meant by unnamed Purnima Osha. [Identity guide](../culture/osha-identity-guide.md).
+
+## 2026-10-09 · Sankata Chaturthi reading
+
+Printed43–44 / PDF59–60. Sankati and Binayak recurring Ganesh vows, dark and bright fourth respectively. No named food in this passage. [Scoped profile](../culture/osha/sankata-chaturthi.md).
+
+## 2026-10-09 · Radhastami reading
+
+Printed48 / PDF64. Bhadrava bright eighth, flower dress, song and midday fast-breaking prasada; Sakhigopal foot-viewing on Kartika Aonla Navami separately described. [Profile](../culture/osha/radhastami-brata.md).
+
+## 2026-10-09 · Shibaratri reading
+
+Printed 103–106 / PDF 119–122; printed 44 / PDF 60 Pradosha comparison. Jagara vigil, Mahadipa fast-breaking, gaja pitha, abhisheka materials and Chitrabhanu hunter narrative. Printed 105–106/PDF 121–122 visually inspected; other selected pages read as saved text. No universal menu or current ritual timetable adopted. [Profile](../culture/osha/shibaratri-brata.md).
+
+## 2026-10-09 · Janmastami reading
+
+Printed 47, 81–82 / PDF 63, 97–98. Odisha brata, midnight vigil, Nandotsava fast-breaking and unnamed offerings. Dahi-handi passage explicitly concerns Maharashtra/north India. [Profile](../culture/osha/janmastami-brata.md).
+
+## 2026-10-09 · Pusa Rabibara comparison
+
+Printed63/PDF79, weekly Rabibara paragraph. General Sunday worship, single evening meal and almsgiving; not evidence that all rules apply to the Pausa vow. [Profile](../culture/osha/pusa-rabibara-brata.md).
+
+## 2026-10-10 · Binayaka comparison
+
+Printed43–44/PDF59–60 and printed79–81/PDF95–97. Monthly dark/bright Chaturthi distinction; annual Ganesh Puja school/home practices and attributed birth story. Saved text reused; PDF95–97 additionally rendered and visually inspected. [Profile](../culture/osha/binayaka-brata.md).
+
+## 2026-10-10 · Skanda Sasthi comparison
+
+Printed53/PDF69. Chaitra dark sixth, Kartikeya worship; author says panjis list it but it is not observed in the state. Author assertion retained, not a current prevalence finding. [Profile](../culture/osha/skanda-sasthi-brata.md).
+
+## 2026-10-10 · Guru Purnima reading
+
+Printed22/PDF38. Ashadha/Vyasa/Guru Purnima identity, Vyasa birth attribution and guru-disciple account. Author’s decline assertion and religious chronology footnote not promoted to verified findings. [Profile](../culture/osha/guru-purnima-brata.md).
+
+## 2026-10-10 · Pradosha page inspection
+
+Printed44/PDF60 rendered and visually inspected. The moonrise wording is present in print; no named dish is supplied. [Profile](../culture/osha/shiva-pradosha-brata.md).
+
+## 2026-10-10 · Tarini paragraph inspection
+
+Printed46/PDF62 visually checked: named regional vow, fasting and thread; no dish. Separate Tara-Tarini yatra kept distinct. [Profile](../culture/osha/tarini-brata.md).
+
+## 2026-10-10 · Bajra Mahakali paragraph inspection
+
+Printed49/PDF65 visually checked for Aswina amabasya, fasting, pitha and story-reading. No named varieties or measured prevalence. [Profile](../culture/osha/bajra-mahakali-brata.md).
+
+## 2026-10-10 · Mahastami food-scope inspection
+
+Printed51/PDF67 and86/PDF102 visually inspected. Household fruit and public-festival bhoga kept separate in the [Mahastami profile](../culture/osha/mahastami-brata.md). Reuse of the same compilation, not independent confirmation.
+
+## 2026-10-10 · Ashoka Astami inspection
+
+Printed53/PDF69 and107–108/PDF123–124 visually inspected for household description and separately attributed festival legend. Unsupported non-observance claim held. [Profile](../culture/osha/ashoka-astami-brata.md). Same compilation reused, not independent corroboration.

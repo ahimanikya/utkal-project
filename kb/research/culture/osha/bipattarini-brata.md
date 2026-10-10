@@ -69,3 +69,7 @@ Use this page to learn what to ask about, rather than as a food booking or festi
 [Preparation And Variation](../../food/preparation-and-variation.md). Bipattarini research distinguishes offerings from fast-breaking foods and keeps a Rajpur, West Bengal account separate from unverified Odisha recipes.
 
 [Osha collection](../osha-brata-seasonal-food.md) · [Seasonal food guide](../../visitor-index/seasonal-food-guide.md). No local interviews or human review claimed.
+
+## 2026-10-10 · Related Tarini reading
+
+[Tarini Brata](tarini-brata.md). Tarini and Bipattarini share protective themes, but name similarity does not establish identical vows, calendars, narratives or foods.

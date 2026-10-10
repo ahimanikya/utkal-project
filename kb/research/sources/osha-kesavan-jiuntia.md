@@ -20,3 +20,7 @@ Location: Printed pp.15,19,31–35 / PDF pp.1,5,17–21; food process p.33 / PDF
 ## 2026-10-07 · Nuakhai extension
 
 Saved original reused: printed28–31 / PDF14–17; food sequence on28–29 visually inspected. [Nuakhai](../culture/osha/nuakhai.md). This extends the same publication, not independent corroboration or new fieldwork.
+
+## 2026-10-10 · Bhai Jiuntia narrative extension
+
+Printed22/PDF8 visually inspected for the participant-reported Malathi and Mathana Kumar synopsis and author-observed group recitation. Added to [Bhai Jiuntia](../culture/osha/bhai-jiuntia.md); original booklet, imprint and full text remain unrecovered. Same publication reused; no new project fieldwork.
