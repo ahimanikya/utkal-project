@@ -1,0 +1,120 @@
+{
+  "recorded_at": "2026-10-10T03:44:17.688901+00:00",
+  "program_item": "UTP-A500-028",
+  "work_id": "UTP-WORK-213",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "specs/tourism-fieldwork/conference-route-drafts.md",
+  "reuse": [
+    {
+      "path": "research/collections/tourism-experience-shortlist.md",
+      "sha256": "610f66b45b234c2232b2aabd68235b119d1bafecb111e6c703552a3252338aab"
+    },
+    {
+      "path": "research/references/data/tourism-experience-shortlist.json",
+      "sha256": "7c669d265fbc870c75931a3a76a99505927f1d0edcd238cfa943a066bbaa69db"
+    },
+    {
+      "path": "specs/tourism-fieldwork/host-confirmation.md",
+      "sha256": "b9526f9ebbfc06e8d45cdf3386a124053bf8b578c858b8a017e1d246783e407c"
+    },
+    {
+      "path": "specs/tourism-fieldwork/operator-readiness.md",
+      "sha256": "6732dfcbd836e47d248683c5bb2a74f04ce25921abded432b28e0edba7584811"
+    },
+    {
+      "path": "specs/tourism-fieldwork/kala-bhoomi.md",
+      "sha256": "d9e1d0fe73a1e0bdf46b013c55fd7070aad249a5a6df3d1d54202fc88396674c"
+    },
+    {
+      "path": "specs/tourism-fieldwork/dhauli.md",
+      "sha256": "03ea303fd365ef163854c5491f568c475837e2a3b86cb30f1eb0d877e019ddd1"
+    },
+    {
+      "path": "specs/tourism-fieldwork/raghurajpur.md",
+      "sha256": "4ec6b569edd04ed1bfb14a89a4911d5a0abcf215b168e1e6eddc2d791d65c3f1"
+    },
+    {
+      "path": "specs/tourism-fieldwork/pipili.md",
+      "sha256": "615923187e0fac181c1115ac145b677883bf84f526d205a172cee195c18007aa"
+    },
+    {
+      "path": "research/facilities/nimantran-bhubaneswar.md",
+      "sha256": "41a25a10298046db26e71830ef5f019c9ac6a6345f87efa7294842d33695cf20"
+    },
+    {
+      "path": "research/food/korakhai.md",
+      "sha256": "962117f3b537995ffbf6a3bb48ac14315ca56c8454378d290523e0ef912ac59b"
+    }
+  ],
+  "verification": {
+    "candidate_mapping": {
+      "H": [
+        {
+          "id": "UTP-EXP-B03",
+          "title": "Kala Bhoomi",
+          "status": "desk_lead"
+        },
+        {
+          "id": "UTP-EXP-B01",
+          "title": "Dhauli",
+          "status": "desk_lead"
+        }
+      ],
+      "C": [
+        {
+          "id": "UTP-EXP-P01",
+          "title": "Raghurajpur",
+          "status": "desk_lead"
+        },
+        {
+          "id": "UTP-EXP-P02",
+          "title": "Pipili appliqué",
+          "status": "desk_lead"
+        }
+      ],
+      "F": [
+        {
+          "id": "UTP-EXP-B07",
+          "title": "Nimantran meal enquiry",
+          "status": "desk_lead"
+        },
+        {
+          "id": "UTP-EXP-B05",
+          "title": "Old Town korakhai",
+          "status": "desk_lead"
+        }
+      ]
+    },
+    "scope": "Each candidate contains one anchor, optional extension, visitor learning purpose, specific evidence needed, reduce/defer choice. Food participation need not include tasting. Puri district not presented as Puri city or a guaranteed half-day.",
+    "timing_example": {
+      "synthetic": true,
+      "components_minutes": {
+        "assembly": 15,
+        "outward": 35,
+        "anchor_including_admission": 80,
+        "meal_and_rest": 45,
+        "return_transfer": 35,
+        "contingency": 30
+      },
+      "available_minutes": 240,
+      "base_required_minutes": 240,
+      "optional_activity_minutes": 35,
+      "overrun_before_extra_transfers": 35
+    },
+    "handoff": "Unknown inputs are not zero; arithmetic fit only sends a candidate for human review. Appointment, quote, funded trial and public listing remain separate. Private needs/contacts excluded from public Git.",
+    "research_overlap": "Read research map and searched existing conference/food collection; used existing IDs and fieldwork records without duplicate provider records or new research tasks."
+  },
+  "limitations": [
+    "Same-assistant planning and source-scope review; no independent local or participant review.",
+    "Existing KB source dates retained; no new web verification, site visit, provider enquiry, appointment, quote or route measurement.",
+    "Synthetic timing example does not establish feasibility for any location or group. WORK169, WORK170 and WORK171 remain open.",
+    "Repository preparation only; no website route, online offer, contact or commercial activation."
+  ],
+  "delivery": "Pending required PR checks and exact-head repository merge; no website deployment required."
+}
