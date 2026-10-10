@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6f4c2bcddc253b84457207e34a25502774a6b3685e717b41c46d2672742c324c`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `3bbdfb43f7e80b693c619e2eb6635e14201d65fa448f7872f7a00783ff63816e`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 26/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 27 of 500 substantive items delivered with individual evidence. Continue a useful eligible backlog item; preserve scope and publication controls. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -222,7 +222,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-209 · Global Connections town learning candidate section | completed | applied | Ahimanikya Satapathy | Delivered public desk proposal. No counterpart agreement or activity established. | — |
 | UTP-WORK-210 · Validate delivery receipt consistency | completed | applied | Ahimanikya Satapathy | Delivered checker consistency fix; remote actions still require genuine verification. | — |
 | UTP-WORK-211 · Rice and seed keepers editorial article | completed | applied | Ahimanikya Satapathy | Repository article delivered; a later website adaptation needs contextual media and its own publication checks. | — |
-| UTP-WORK-212 · Share the current language atlas selection | in_progress | reviewed | Ahimanikya Satapathy | Deliver through passing PR, exact-head merge and approved website deployment; verify live selection restoration. | — |
+| UTP-WORK-212 · Share the current language atlas selection | completed | applied | Ahimanikya Satapathy | Published; native browser share-dialog completion remains an explicitly recorded verification limitation. | — |
 
 ## Pending human review and decisions
 
@@ -786,6 +786,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REL-088 · Photo journey stale-audio cancellation published | published | https://utkalproject.org/knowledge/chilika/#photo-journey | UTP-DEC-225 |
 | UTP-REL-089 · Portable maritime reading published | published | https://utkalproject.org/stories/maritime-memory/ | UTP-DEC-225 |
 | UTP-REL-090 · Town heritage learning candidate published | published | https://utkalproject.org/global-connections/#town-learning | UTP-DEC-225 |
+| UTP-REL-091 · Language atlas selection sharing published | published | https://utkalproject.org/languages/atlas/ | UTP-DEC-225 |
 
 ## Sources and assets
 
@@ -823,7 +824,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-299 | 2026-10-09T22:28:59.509048+00:00 | PR165 passed required checks and merged the exact reviewed head. Both validator tooling files match main. Item22 delivered with 22 passing tests; duplicate IDs and malformed authority now produce findings without changing input. | Continue the next eligible independent deliverable. |
 | UTP-EVT-300 | 2026-10-09T22:36:10.122757+00:00 | Prepared Konark and Mamallapuram reciprocal heritage learning candidate using existing Konark research and a UNESCO counterpart source. Historical comparison is separated from proposed activity, costs, participation and municipal status. | Merge tested documentation and record delivery; no outreach or activity launch. |
 | UTP-EVT-301 | 2026-10-09T22:51:23.876912+00:00 | PR166 passed final required checks after generated-index corrections and merged the exact reviewed head. Konark–Mamallapuram heritage learning candidate and source/navigation records verified on main. Item23 delivered as a desk proposal, not an agreed partnership. | Continue independent work; outreach and activity decisions remain separate. |
 | UTP-EVT-302 | 2026-10-09T23:38:15.704755+00:00 | Prepared public Konark–Mamallapuram proposal section with licensed full-frame photograph, source references, distinct heritage facts and reciprocal output ideas. 601 site tests pass; desktop/mobile layouts and source keyboard focus checked. Search scope unchanged. | Publish tested exact head and verify actual live output. |
@@ -833,6 +833,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-306 | 2026-10-10T01:35:16.640582+00:00 | Expanded existing rice story after reinspection of three original sources. Article joins culinary preferences, named seed conservation and historical seed enterprise with reader questions; current availability and field review remain separate. | Run repository checks and deliver the reviewed draft through a tested PR. |
 | UTP-EVT-307 | 2026-10-10T01:41:03.227123+00:00 | PR169 passed required checks and merged the exact reviewed head. Expanded rice and seed keepers article delivered in the KB with source reinspection, reader prompts and explicit historical limits. Item26 is a repository draft delivery, not a website release. | Continue independent backlog work; contextual media and website adaptation remain separate. |
 | UTP-EVT-308 | 2026-10-10T02:47:13.165868+00:00 | Atlas shared links now preserve allowed rendered selection controls. 512 full and 92 coastal tests pass, including Census round trips; desktop/mobile share presentation and reload restoration checked. Native share completion remains unverified in the in-app browser. | Publish tested changes through required checks and save live receipt. |
+| UTP-EVT-309 | 2026-10-10T02:55:27.221013+00:00 | PR170 passed checks, exact reviewed head merged and authorized main publication succeeded. Live atlas restores the selected Census view; sharing script and dependency match the tested build byte-for-byte. Item27 delivered, with native-dialog completion explicitly unverified. | Continue the next eligible item; no additional approval required within DEC225 scope. |
 
 ## Deferred extensions
 

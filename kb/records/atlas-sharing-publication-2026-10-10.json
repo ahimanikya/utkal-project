@@ -1,0 +1,55 @@
+{
+  "recorded_at": "2026-10-10T02:55:27.221013+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-027",
+  "work_id": "UTP-WORK-212",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/170",
+  "reviewed_head": "1ef8d794e0f2d3f262a96c5c54dc2c1d9225534d",
+  "merge_commit": "3d2a37230dd39ba7d3591fd4b422f5c5f78d4fff",
+  "merged_at": "2026-10-10T02:50:43Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38018288182",
+    "conclusion": "success",
+    "full_tests": 512,
+    "coastal_tests": 92,
+    "additional_built_client_checks": "Built module executed in Node against a simulated document and navigator: native share URL, clipboard URL, failed-clipboard fallback/focus and native cancellation passed. This is a client-wiring check, not actual native-dialog completion."
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38018488570",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "3d2a37230dd39ba7d3591fd4b422f5c5f78d4fff"
+  },
+  "live": {
+    "checked_at": "2026-10-10T02:54:14.413367+00:00",
+    "url": "https://utkalproject.org/languages/atlas/",
+    "status": 200,
+    "share_label_and_explanation": true,
+    "atlas_noindex_follow": true,
+    "sitemap_entries": 11,
+    "assets": [
+      {
+        "path": "/_astro/PageShare.astro_astro_type_script_index_0_lang.Nu31SBdu.js",
+        "status": 200,
+        "sha256": "dbb2d93bfa3220a7bc21604d288e4be4f8fec1647b39a1132ca987aa2e79c557",
+        "matches_tested_build": true
+      },
+      {
+        "path": "/_astro/search.O7VOqgCy.js",
+        "status": 200,
+        "sha256": "74fb8dc6593a45abd40c2b9e6b249b57d02988a7c06c52033d2804faf7fee204",
+        "matches_tested_build": true
+      }
+    ],
+    "browser": "Live selected Santali/rural/share/Mayurbhanj controls, one-district result and row restored correctly. Share label and explanatory text visually checked.",
+    "screenshot": "records/evidence/atlas-sharing/live.png",
+    "restored_row": "Mayurbhanj 6,11,079 26.26% 75.53%"
+  },
+  "review": "records/atlas-sharing-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant code and visual review; no independent accessibility or language review.",
+    "Desktop viewport simulation, not physical-device or screen-reader testing.",
+    "The in-app browser left native sharing pending without an inspectable dialog; no recipient transmission, clipboard success or native share completion is claimed. Generated URLs, control wiring and reload restoration were checked separately."
+  ]
+}

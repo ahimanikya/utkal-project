@@ -5602,7 +5602,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "26/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
+      "next_action": "27 of 500 substantive items delivered with individual evidence. Continue a useful eligible backlog item; preserve scope and publication controls.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -6229,12 +6229,12 @@
       "id": "UTP-WORK-212",
       "title": "Share the current language atlas selection",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Deliver through passing PR, exact-head merge and approved website deployment; verify live selection restoration.",
+      "next_action": "Published; native browser share-dialog completion remains an explicitly recorded verification limitation.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -6245,7 +6245,8 @@
         "Language atlas sharing preserves the rendered language, residence, sort and bounded district filter in a reloadable link; only allowlisted public controls are shared and unrelated query/fragment data are excluded. Verify default/invalid/Unicode state and Census selection round trips, browser sharing and restored controls at desktop/mobile sizes, full/coastal tests, exact-head PR merge, authorized deployment and live evidence. No Census data or search eligibility changes."
       ],
       "evidence": [
-        "records/atlas-sharing-review-2026-10-10.json"
+        "records/atlas-sharing-review-2026-10-10.json",
+        "records/atlas-sharing-publication-2026-10-10.json"
       ]
     }
   ],
@@ -16436,6 +16437,21 @@
       ],
       "evidence": [
         "records/global-town-learning-publication-2026-10-10.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-091",
+      "title": "Language atlas selection sharing published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/languages/atlas/",
+      "refs": [
+        "UTP-WORK-212",
+        "UTP-REV-180",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/atlas-sharing-publication-2026-10-10.json"
       ]
     }
   ],
