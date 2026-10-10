@@ -1,0 +1,90 @@
+{
+  "recorded_at": "2026-10-10T05:47:36.267515+00:00",
+  "program_item": "UTP-A500-030",
+  "work_id": "UTP-WORK-215",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "reuse": {
+    "research_map_read": true,
+    "kb_query": "tourism outcome measurement",
+    "basis": "Existing pilot and Boita measures lacked an operational blank outcome-review sheet with explicit denominators and missing-data handling.",
+    "inputs": [
+      {
+        "path": "kb/specs/tourism-experience-pilot.md",
+        "sha256": "3408adada77112ef1d71ef2eaf803bd439d52ddabe3f1d388a81ceb800a517ee"
+      },
+      {
+        "path": "kb/specs/boita-tourism-discussion-framework.md",
+        "sha256": "e86450d157c365fd153595a331ecbaeafd19c8119b2c863ca2b7360312555a0a"
+      },
+      {
+        "path": "kb/specs/tourism-fieldwork/operator-readiness.md",
+        "sha256": "386554d798929bd92674fce088132dffa5f8b3b54524f90d069dfd8a168e0475"
+      },
+      {
+        "path": "kb/specs/tourism-fieldwork/cost-tracker.md",
+        "sha256": "dc5da7200a74b604c861368fe9d4888ecf89317d859887bbc05674320e4974d8"
+      },
+      {
+        "path": "kb/specs/tourism-fieldwork/conference-route-drafts.md",
+        "sha256": "8b1a950b6edeeaf4cb873ead148d033349e33adfa546b9494ce2b88f7f3a41f6"
+      }
+    ]
+  },
+  "verification": {
+    "output": "specs/tourism-fieldwork/outcome-review.md",
+    "definitions": "Eight measure families distinguish unique records, started versus planned trials, question-level responses, host participation, obligations and adoption events.",
+    "synthetic_only": [
+      {
+        "case": "Delivery denominator",
+        "planned": 5,
+        "started": 3,
+        "completed_as_agreed": 2,
+        "changed": 1,
+        "cancelled_before_start": 2,
+        "check": "2/3 of started trials is distinct from 2/5 of planned trials; pre-start cancellations stay reported."
+      },
+      {
+        "case": "Question responses",
+        "eligible": 12,
+        "invited": 10,
+        "responding": 6,
+        "positive": 4,
+        "check": "Response rate6/10=60%; positive responses4/6, not4/10. Invitation coverage10/12 remains separate."
+      },
+      {
+        "case": "Payments and refunds",
+        "agreed_due": 8000,
+        "payments": [
+          3000,
+          2000
+        ],
+        "refund": 500,
+        "net_paid": 4500,
+        "outstanding": 3500,
+        "check": "Refund reduces net paid; payments do not create new obligations."
+      },
+      {
+        "case": "No denominator or baseline",
+        "check": "Manual definition review requires not calculable for denominator0 and baseline unavailable rather than invented improvement."
+      }
+    ],
+    "boundaries": "No fabricated completed review sheet, minimum response threshold, success target, host consent or actual human decision. Restricted intake and public summary are separate.",
+    "linked_handoff": [
+      "specs/tourism-fieldwork/index.md",
+      "specs/tourism-fieldwork/operator-readiness.md"
+    ]
+  },
+  "limitations": [
+    "Same-assistant planning and consistency review; no independent practitioner, participant or statistical review.",
+    "Preparation only: no field observations, baseline, actual feedback, payments, appointments or government response collected.",
+    "No new external research or operating-fact verification. Existing KB definitions are reused; synthetic arithmetic probes are not trial outcomes.",
+    "WORK169–175 field, trial, proposal and external-engagement dependencies remain open. No outreach, intake, spending, commercial activation or website deployment."
+  ],
+  "delivery": "Pending passing PR checks and exact-head documentation merge; no website code or publication change."
+}
