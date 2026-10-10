@@ -6193,6 +6193,36 @@
         "records/delivery-consistency-review-2026-10-10.json",
         "records/delivery-consistency-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-211",
+      "title": "Rice and seed keepers editorial article",
+      "category": "research_and_editorial",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Complete repository checks and merge exact passing head; record draft delivery.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-179"
+      ],
+      "acceptance_criteria": [
+        "Expand the existing rice-kept-for-taste draft into a connected reader-facing article with named seed-keeper and women seed-enterprise accounts, scoped culinary preferences, useful questions and source notes. Reinspect original publications; preserve dated claims, farmer preferences versus recipe rules, and seed versus grain distinctions. No invented interview, current supply, health or income claim. Save claim/reuse review, KB navigation and merged documentation receipt; no website publication or search eligibility change."
+      ],
+      "evidence": [
+        "records/rice-story-review-2026-10-10.json",
+        "records/rice-story-evidence-2026-10-10.json",
+        "research/stories/rice-kept-for-taste.md"
+      ],
+      "reuse_before_research": [
+        "research/stories/rice-kept-for-taste.md",
+        "research/food/rice-varieties.md",
+        "research/references/data/rice-economy.json"
+      ]
     }
   ],
   "decisions": [
@@ -14848,6 +14878,27 @@
       ],
       "limitations": [
         "Same-assistant review; offline consistency checks cannot verify remote execution. Legacy absent fields remain supported."
+      ]
+    },
+    {
+      "id": "UTP-REV-179",
+      "title": "Rice and seed keepers article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-211",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/rice-story-review-2026-10-10.json",
+        "records/rice-story-evidence-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source review; fieldwork, current availability and specialist review remain open."
       ]
     }
   ],

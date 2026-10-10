@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-10T01:35:16.640582+00:00",
+  "program_item": "UTP-A500-026",
+  "work_id": "UTP-WORK-211",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "verification": {
+    "sources": "Three original publications re-opened; used identity, date, food-use rows and historical seed-production passages checked against article. Claim scope in companion evidence.",
+    "editorial": "Expanded existing short nucleus into connected article with a clear opening, three evidence-based sections, reader questions and end source notes. No invented encounter, quotations, current operation or health benefits.",
+    "reuse": "Existing story, source IDs, variety collection and economic dataset reused; no new observation or duplicate concept.",
+    "rights": "Original paraphrase and framing; no copied photographs or extended quotations. Future media brief preserves identity and rights requirements.",
+    "publication": "Knowledge repository only; visual website and native-language/specialist reviews not claimed.",
+    "repository": "Research validator passed: 1093 concepts, 3704 links, 38 arithmetic checks. Whole bundle passed: 1245 concepts, 4950 links. Registers, program and generated workbench consistent; diff whitespace check passed.",
+    "ci_remediation": "Initial CI38013820546 failed the classification check because two registered relationship explanations had been shortened. Restored their exact existing explanations; related reading remains clear, original mappings unchanged. Classification and dependent generated indexes rechecked before rerun."
+  },
+  "evidence": [
+    "research/stories/rice-kept-for-taste.md",
+    "records/rice-story-evidence-2026-10-10.json"
+  ],
+  "limitations": [
+    "Same-assistant source and editorial review; no independent specialist or speaker review.",
+    "No fieldwork, interview, current enterprise confirmation or seed availability check.",
+    "Existing research scope issues remain; source retrieval is not independent corroboration."
+  ],
+  "delivery": "Pending repository checks and exact-head PR merge; no website deployment required."
+}
