@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-10T14:14:01.864422+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-036",
+  "work_id": "UTP-WORK-221",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/179",
+  "reviewed_head": "eeb880d2739b491a3a8d4ad178a9e828fd430077",
+  "merge_commit": "1910ce56cf16559cdb51bc42340a2dfaab625843",
+  "merged_at": "2026-10-10T14:13:45Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38058256290",
+    "conclusion": "success",
+    "repository_checks": "Required validation passed on reviewed head. Local research/classification,4983KB links, registers/program, workbench build/check and six Python/three Node tests passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, internal research index, workbench reference fingerprint and governance records only. No public website source, selected content, assets, edition, workflow or search eligibility changed."
+  },
+  "output": {
+    "path": "research/stories/coast-and-culture.md",
+    "sha256": "1b6819f0f52a05fa61c15fe0156f27d8a837f647ac6c6d0e5f37da3acfdc4f14",
+    "matches_fetched_merge": true
+  },
+  "review": "records/coastal-materials-story-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source and editorial review; no independent human, local practitioner or language review.",
+    "Dsource retrieval includes unrelated spam links; only the attributed process passage consistent with saved canonical narrative is used. No market or employment claim used.",
+    "District Raghurajpur endpoint timed out; no new claim relies on that retrieval.",
+    "No field visit, workshop appointment, current access, timed itinerary or image permissions established. KB-only draft; no website publication or search expansion."
+  ]
+}
