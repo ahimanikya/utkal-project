@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-10T10:04:20.003459+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-034",
+  "work_id": "UTP-WORK-219",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/177",
+  "reviewed_head": "2765e84877aacf0e8973522dae651fde043cb2dc",
+  "merge_commit": "4d007deb8256b266e2780d5f7c75fc15bc2c071b",
+  "merged_at": "2026-10-10T10:03:49Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38043409146",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed against2765e848: governance, research classification, workbench, language atlas, full-site and coastal build/tests, design checks. Local4976KB links and six Python/three Node workbench tests passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, story index, internal research index, workbench references and evidence only. No public website source, selected content, assets, workflow, edition or search eligibility changed."
+  },
+  "output": {
+    "path": "research/stories/western-odisha.md",
+    "sha256": "5ae594adddd9bf5bbf39dcf684b607460ea54f8c6d6645bf6fe175cb334a05ff",
+    "matches_fetched_merge": true
+  },
+  "review": "records/western-odisha-story-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source and editorial review; no independent language, literary, community or local visitor review.",
+    "Interview text re-inspected through web reader; PDF screenshots failed and direct PDF retrieval failed certificate verification. No lyrics, poem transcription or translated excerpt reproduced.",
+    "Three-part Rangabati account is the lyricist’s recollection; no original broadcast recovered. Official forest-life account is attributed and does not establish household income or conservation outcomes.",
+    "KB article only. No field visit, household invitation, current festival programme, workshop appointment, memorial access, itinerary timing or media permission verified. Illustrated website edition remains separate work."
+  ]
+}
