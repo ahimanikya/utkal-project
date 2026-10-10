@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-10T16:47:17.200299+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-039",
+  "work_id": "UTP-WORK-224",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/182",
+  "reviewed_head": "12a3d96369395a65419294c387ab93eb034cf7b2",
+  "merge_commit": "d0d548e31c17ef50b3d76fa8becbdc9c497633f3",
+  "merged_at": "2026-10-10T16:46:52Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38068787953",
+    "conclusion": "success",
+    "repository_checks": "Required validation passed on reviewed head. Local research/classification,4991KB links, registers/program, workbench build/check and six Python/three Node tests passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, internal research index, workbench reference fingerprint and governance records only. No public website source, selected content, assets, edition, workflow or search eligibility changed."
+  },
+  "output": {
+    "path": "research/handlooms/kotpad.md",
+    "sha256": "27c7827792391a703acfcb9d5195a068233c0aa66f581434f68ca05fba54bc8e",
+    "matches_fetched_merge": true
+  },
+  "review": "records/kotpad-profile-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source and editorial review; practitioner, community terminology and independent human review remain open.",
+    "Award announcement extracted text checked through web PDF reader; screenshot cache miss and direct retrieval returned HTML, so no fresh visual inspection of the award row is claimed.",
+    "No botanical identity, quantified environmental benefit, product certification, current dye recipe or universal gender-role claim independently established.",
+    "Film catalogue metadata checked, not the complete film or current screening availability. No source photograph or film reproduced; no new reuse rights assumed.",
+    "No fieldwork, current stock, GI renewal, workshop invitation or human review claimed. KB-only profile; existing website narrative and search eligibility remain separate."
+  ]
+}
