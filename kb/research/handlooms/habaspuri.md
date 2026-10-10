@@ -1,7 +1,7 @@
 ---
 type: "Textile"
 title: "Habaspuri"
-description: "Habaspuri — research and reuse notes."
+description: "Look closely at Habaspuri’s border and end panel: a source-led introduction to a Kalahandi textile, with its unresolved history preserved."
 tags: ["handlooms", "kalahandi"]
 status: "draft"
 generated: {"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}
@@ -9,12 +9,57 @@ sources: [{"id": "weaving-centres", "title": "Important handloom centres", "reso
 verified: [{"by": "codex/gpt-6", "at": "2026-09-27T08:03:15+00:00"}]
 geography: "Kalahandi"
 aliases: ["Habaspuri", "habaspuri"]
-verification_scope: "Sourced knowledge paragraph checked against the cited extract; story and next-research sections are proposals."
+verification_scope: "10 October 2026: selected construction passages and organization listings inspected; no fieldwork, authentication or current service confirmation."
 stale_after: "2027-09-27T00:00:00Z"
-readiness: "Research nucleus; feature needs local detail and media"
+readiness: "Reader draft with source-reviewed construction; practitioner review, local detail and media remain open."
+revised_on: "2026-10-10"
+human_review_claimed: false
 ---
 
 # Habaspuri
+
+**Begin at the border. Then let the end of the saree change what you notice.**
+
+A textile can invite two kinds of attention: the first glance that draws you towards its colour, and the slower look that asks how the pattern became part of the cloth. Habaspuri offers a reason to take that second look—and to place Kalahandi on your map of Odisha’s weaving traditions.
+
+## A pattern with more than one direction
+
+In *Mapping Indian Textiles* (2017), **Ruchira Ghose** describes Habaspuri as a cotton-based textile. Her account identifies temple motifs made with additional warp threads along the border, and additional weft designs in the pallav—the decorated end of the saree. Fish, flowers and kumbha appear among the motifs she records. She describes pit or frame looms fitted with a dobby.[^handloom-mapping2017]
+
+The undated official Odisha weaver directory also describes its listed Habaspuri saree as plain weave with extra-warp and extra-weft designs.[^handloom-weaver-directory]
+
+These descriptions give you something specific to ask about. Choose a border detail and an end-panel detail. If a knowledgeable maker is willing, ask how each was formed and which part of the process they would show first to a beginner. The finished surface can become an introduction to decisions you had not known to look for.
+
+This is a reading invitation, not a way to authenticate a saree from a photograph. A published description of a tradition cannot tell us who made a particular piece or whether a seller has described it accurately.
+
+## Give the place and the maker their own names
+
+The official directory associates Habaspuri saree with **Chichaiguda Weavers Co-operative Society** in Kalahandi. A departmental list headed **as at 1 September 2026** also names that society beside Habaspuri Saree & Fabrics and a registration date of **17 July 2012**.[^handloom-weaver-directory][^handloom-gi-list-2026]
+
+That is an institutional connection worth preserving. It is not a current shop listing, a confirmed workshop invitation or proof of the maker of an individual purchase. The registration date is not being used here as the society’s founding date.
+
+For a cloth you encounter, ask for the maker or production group, fibre description and place of making. If the seller knows only part of that story, keep the answer partial. A name supported by evidence is more useful than a complete-sounding story assembled from assumptions.
+
+## Carry a detail home
+
+You do not need to master textile terminology before enjoying the work. Choose one detail that holds your attention and find out what its maker calls it. Ask before unfolding, handling or photographing the piece. If you buy it, keep its care instructions and attribution with the receipt.
+
+A future visit to a weaving centre would need a willing host, an agreed time and clarity about any demonstration fee. No arrangement is established by this page. The pleasure to plan for is an unhurried encounter with a particular cloth and the person able to explain it.
+
+For a wider reading path, [Woven in Odisha](../stories/woven-odisha.md) sets out the proposed maker-led approach. [From loom to market](../stories/handlooms-from-loom-to-market.md) follows other named textile works and the institutions that help cloth reach its audience. Habaspuri deserves its own introduction within that wider story.
+
+<details>
+<summary>Sources, unresolved history and earlier research</summary>
+
+The construction description above was checked on 10 October 2026 against Ghose’s original PDF page 68 and the directory’s page 4, row 14. The GI list’s heading and page 5, row 87 were inspected separately. These are attributed documentary accounts; no independent practitioner review or physical textile inspection has taken place. Directory images are not reproduced and their reuse rights are not assumed.
+
+The earlier **“technique remains unverified”** sentence below records an early 2 October checkpoint. The construction evidence added later that day and rechecked above supersedes that narrow gap. Current workshops and the continuity/revival narrative remain unverified.
+
+The Ugrasen Meher revival lead and the society’s formation chronology remain held. An indexed account suggesting 2013 formation and a departmental entry carrying a 2012 GI date may concern different events; neither is silently turned into a founding date. Original report context and society records are still needed. No new retrieval of that held study or local contact is claimed in this update.
+
+Creative direction: **Ahimanikya Satapathy**. Reader profile and source review: current AI assistant. Earlier text remains in Git revision `67028f14` and is retained below as dated research history. Sources keep their original authorship. No newly claimed human approval, maker relationship, stock availability or legal certification.
+
+### Earlier research checkpoints
 
 ## Sourced knowledge
 
@@ -65,3 +110,11 @@ The [undated official Odisha weaver directory](https://handlooms.nic.in/assets/i
 ## Cooperative chronology remains open
 
 The newly recovered departmental GI list names Chichaiguda society against a 17 July 2012 registration. This conflicts with a straightforward reading of the previously held 2013 formation claim. Neither source establishes the society’s actual formation date in the evidence reviewed here. Retain both scopes and seek the original registration and study context.
+
+</details>
+
+[^handloom-mapping2017]: Ruchira Ghose, [Mapping Indian Textiles](https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf), August 2017, PDF p.68, “Habaspur Sari and Fabric”. Selected technique passage; the report’s adjacent global-ikat-origin and Kotpad botanical assertions are not used here.
+
+[^handloom-weaver-directory]: [Official Odisha weaver and cooperative directory](https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf), undated, PDF p.4, row14. Saved official PDF re-inspected; live endpoint returned 502 during this review. A documented product association, not confirmation of present operations.
+
+[^handloom-gi-list-2026]: [Departmental GI handloom list](https://handlooms.gov.in/assets/img/104GIregisteredHandloomProducts.pdf), as at 1 September 2026, PDF pp.1,5 / row87. Organization and listed registration date only; current renewal and authorized-user status were not checked.

@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `238504489fe2168c5b2f047247bb188d1fc36f39fc61ef2ab0511af649cca10a`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `78fd3fa2b260efe10701ac590e9e800592ef13b645ff93c9842955f36363ce2a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -233,6 +233,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-220 · Taste Odisha meal and preparation reader story | completed | applied | Ahimanikya Satapathy | KB article delivered. Local/Odia review, recipe testing and illustrated website preparation remain separate work. | — |
 | UTP-WORK-221 · Coastal stone, painting and cloth reader journey | completed | applied | Ahimanikya Satapathy | KB story delivered. Practitioner review, actual access arrangements and illustrated website treatment remain separate work. | — |
 | UTP-WORK-222 · Make Growing Odisha a reader story about what growth measures | completed | applied | Ahimanikya Satapathy | KB story delivered. Independent economics review, participant reporting and illustrated website treatment remain separate work. | — |
+| UTP-WORK-223 · Give Habaspuri a coherent source-led textile profile | in_progress | reviewed | Ahimanikya Satapathy | Pass required checks and merge the reviewed documentation head. | — |
 
 ## Pending human review and decisions
 
@@ -710,6 +711,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-188 | pass_with_limitations | False | Same-assistant factual and editorial review; no independent cook, local/Odia reader or food-history review.; Selected source passages inspected; recipes not tested. Boiled/steamed manda terminology remains unresolved rather than assigned to invented regional versions.; 2019 restaurant collaboration and2021 contributor recipe are historical descriptions. No current menu, business affiliation, household invitation or relationship verified.; KB article only; no original imagery, field tasting, contributor consent, website publication or search expansion. The earlier production plan remains open. |
 | UTP-REV-189 | pass_with_limitations | False | Same-assistant source and editorial review; no independent human, local practitioner or language review.; Dsource retrieval includes unrelated spam links; only the attributed process passage consistent with saved canonical narrative is used. No market or employment claim used.; District Raghurajpur endpoint timed out; no new claim relies on that retrieval.; No field visit, workshop appointment, current access, timed itinerary or image permissions established. KB-only draft; no website publication or search expansion. |
 | UTP-REV-190 | pass_with_limitations | False | Same-assistant source and editorial review; no independent economist, participant or human editorial review.; Bounded source passages and two survey tables checked; not a comprehensive refresh of every economic series. Source estimates and displayed rounding retained.; No producer interview, field visit, household income, job creation, environmental outcome or commercial project completion established.; KB-only reader draft with a six-year table. No new photography, website publication, search eligibility or participant media permission. |
+| UTP-REV-191 | pass_with_limitations | False | Same-assistant documentary and editorial review; no independent practitioner or human editorial review.; The directory was re-inspected from a saved official PDF because its live endpoint returned 502. It does not establish current operations, stock or visiting arrangements.; The held Ugrasen Meher revival lead and cooperative formation chronology remain unresolved; no new retrieval of the held study or society registration records.; No textile authentication, current GI renewal, authorized-user status, maker interview, field visit or image reuse permission established. KB-only reader draft; no website publication or search expansion. |
 
 ## Publication and application history
 
@@ -845,7 +847,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-320 | 2026-10-10T08:59:34.877933+00:00 | Expanded the Buddhist circuit outline through clay inscriptions, relic containers and traveller testimony. Recovered two original PDFs and checked a historical museum briefing. Preserved distinct site identities, uncertain religious identification and the canonical related-reading explanation. | Complete checks and exact-head documentation PR. |
 | UTP-EVT-321 | 2026-10-10T09:04:24.999075+00:00 | PR176 passed required checks and merged the exact reviewed head. Expanded Buddhist circuit article matches fetched merge; item33 delivered to KB with source recovery and visiting limits retained. No website deployment. | Continue independent backlog work; do not infer image rights or current local access from this article. |
 | UTP-EVT-322 | 2026-10-10T09:59:13.095778+00:00 | Expanded western Odisha reader article reviewed against four existing source routes. Preserved lyricist recollection and official account boundaries; PDF retrieval limitations documented. Local checks passed; item34 awaits exact-head PR delivery. | Run required checks, merge reviewed documentation and save delivery receipt before counting. |
 | UTP-EVT-323 | 2026-10-10T10:04:20.003459+00:00 | PR177 passed required checks and merged the exact reviewed head. Western Odisha article matches fetched merge; item34 delivered toKB with source and visitor limitations retained. No website deployment. | Continue eligible independent backlog work without inferring current local arrangements. |
@@ -855,6 +856,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-327 | 2026-10-10T14:14:01.864422+00:00 | PR179 passed required checks and exact reviewed head merged. Coastal materials article matches fetched merge; item36 delivered toKB. Public website unchanged. | Continue eligible backlog; practitioner and current visitor checks remain open. |
 | UTP-EVT-328 | 2026-10-10T14:41:25.133027+00:00 | Growing Odisha expanded into a sourced reader story. Fish/port endpoints and six construction years checked, two PDF tables visually reviewed; livelihood questions left open. Item37 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 | UTP-EVT-329 | 2026-10-10T14:44:24.543401+00:00 | PR180 passed required checks and exact reviewed head merged. Growing Odisha article matches fetched merge; item37 delivered toKB. Public website unchanged. | Continue eligible backlog; independent review and participant reporting remain open. |
+| UTP-EVT-330 | 2026-10-10T15:25:00.272253+00:00 | Habaspuri fragments developed into a source-led reader profile. Three documentary pages visually checked; technique gap clarified and earlier research preserved. Revival, formation and current access remain open. Item38 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 
 ## Deferred extensions
 

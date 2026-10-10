@@ -1,0 +1,70 @@
+{
+  "recorded_at": "2026-10-10T15:25:00.272253+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-038",
+  "work_id": "UTP-WORK-223",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/handlooms/habaspuri.md",
+  "brief": {
+    "reader": "Reader curious about Kalahandi weaving, or a visitor preparing informed questions.",
+    "reason_to_read": "Learn to notice border and end-panel construction without treating a source description as authentication.",
+    "memorable_detail": "Extra-warp border patterns and extra-weft end-panel patterns invite two directions of attention.",
+    "visual_treatment": "Original source pages were rendered and inspected; no directory photograph reproduced. Practitioner-led illustrated treatment remains future work.",
+    "next_step": "Ask a willing maker about a particular detail, provenance and care without assuming a visit or sale is available."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "Habaspuri"
+    ],
+    "inputs": [
+      "research/handlooms/habaspuri.md",
+      "research/stories/handlooms-from-loom-to-market.md",
+      "research/stories/woven-odisha.md",
+      "research/references/data/handloom-markets.json"
+    ],
+    "queue_pointers_inspected": [
+      "RES-012",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "2f159d98cc014f392429f6c0e1d6d78f222d5e6641b735bfe12e2ea8315d1662",
+    "preserved": "Original body retained in full as dated research history; original source IDs reused. Earlier technique gap superseded explicitly, while revival and cooperative chronology remain unresolved. Research automation datasets and queues unchanged."
+  },
+  "sources": [
+    {
+      "id": "handloom-mapping2017",
+      "url": "https://ignca.gov.in/PDF_data/Report_Mapping_Indian_Textiles.pdf",
+      "inspection": "Direct HTTPS recovery after web reader size limit. Title/imprint checked on PDF pp.2–3; p.68 rendered and inspected for Habaspur cotton, extra-warp border, extra-weft pallav motifs and pit/frame loom with dobby. Adjacent origin and botanical assertions excluded.",
+      "sha256": "276ac0e84f6f9f77787da53fd5eb76d87cfd1f4e8b332d947282ef3c53b3a861"
+    },
+    {
+      "id": "handloom-weaver-directory",
+      "url": "https://handlooms.nic.in/assets/img/Weavers%20Database/Odisha637322660372253324.pdf",
+      "inspection": "Saved official 31-page PDF re-inspected after live endpoint returned 502. Page4 row14 rendered: Chichaiguda cooperative, Kalahandi, Habaspuri saree, plain weave with extra-warp/extra-weft designs. No contact details reproduced.",
+      "sha256": "6d782f16e9a7eef8b8f6bf3f5e7676d8c7050647ca816b79b822ae54174688b0"
+    },
+    {
+      "id": "handloom-gi-list-2026",
+      "url": "https://handlooms.gov.in/assets/img/104GIregisteredHandloomProducts.pdf",
+      "inspection": "Direct HTTPS retrieval after web timeout. Page1 heading as at1September2026 and column meanings checked; page5 row87 rendered and inspected for listed textile, organization and17July2012 registration date. No formation date inferred.",
+      "sha256": "75b749635aef809b6a80a46e61c469fe9514b8cfd62cc159061f3788f02943e1"
+    }
+  ],
+  "verification": {
+    "claims": "Construction attributed to specific documents; institutional listing distinguished from current service and society formation. Original research body preservation asserted against HEAD.",
+    "local_checks": "1093 research concepts,303 relationships,1247 KB concepts/4988 links; registers/program, workbench build/check; six Python and three Node tests; whitespace pass.",
+    "visual": "Three original source pages rendered and inspected. No public website or asset change."
+  },
+  "limitations": [
+    "Same-assistant documentary and editorial review; no independent practitioner or human editorial review.",
+    "The directory was re-inspected from a saved official PDF because its live endpoint returned 502. It does not establish current operations, stock or visiting arrangements.",
+    "The held Ugrasen Meher revival lead and cooperative formation chronology remain unresolved; no new retrieval of the held study or society registration records.",
+    "No textile authentication, current GI renewal, authorized-user status, maker interview, field visit or image reuse permission established. KB-only reader draft; no website publication or search expansion."
+  ],
+  "delivery": "Pending required checks and exact-head documentation merge; deployment not required."
+}
