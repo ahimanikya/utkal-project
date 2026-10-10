@@ -1,0 +1,45 @@
+{
+  "recorded_at": "2026-10-10T04:47:38.430277+00:00",
+  "program_item": "UTP-A500-029",
+  "work_id": "UTP-WORK-214",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "verification": {
+    "problem": "Item27 browser check left native sharing pending, with no manual link exposed until an error.",
+    "implementation": "Expose the current allowlisted URL synchronously before invoking device sharing or clipboard. Retain read-only manual fallback on pending, success, cancellation and failure; focus and select it when automatic sharing is unavailable or fails. Preserve native API receiver and existing URL privacy rules.",
+    "tests": {
+      "full": 520,
+      "coastal": 92,
+      "failed": 0,
+      "new": "Eight asynchronous regression tests cover unresolved native and clipboard actions, payload/receiver, success, subsequent URL, absent API, both failures and cancellation."
+    },
+    "browser": {
+      "desktop": "1440×1000: actual pending native share leaves visible URL; keyboard selection and focus verified.",
+      "mobile": "390×844: document width390, manual input fits and focus outline visible.",
+      "restored_controls": [
+        "018000",
+        "rural",
+        "share",
+        "Mayurbhanj"
+      ],
+      "restored_result": "1 of 30 districts · SANTALI · rural areas"
+    },
+    "content": "No historical claims, dataset, source credits or assets changed.",
+    "search": "No search eligibility changes; publication build retains eleven indexable routes."
+  },
+  "screenshots": [
+    "records/evidence/share-fallback/desktop.png",
+    "records/evidence/share-fallback/mobile.png"
+  ],
+  "limitations": [
+    "Same-assistant implementation, code and visual review; no independent accessibility review.",
+    "Desktop viewport simulation, not physical-device or screen-reader testing.",
+    "Native sharing remained pending in the in-app browser. The manual link was visible and keyboard-accessible, and opening its URL restored the selection; no actual recipient transmission or native-dialog completion is claimed. Clipboard success/failure and cancellation were verified with injected platform test doubles."
+  ],
+  "delivery": "Pending exact-head PR checks, merge, authorized main publication and live evidence."
+}

@@ -6281,6 +6281,30 @@
         "specs/tourism-fieldwork/operator-readiness.md",
         "specs/tourism-fieldwork/host-confirmation.md"
       ]
+    },
+    {
+      "id": "UTP-WORK-214",
+      "title": "Immediate manual fallback for page sharing",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the tested reviewed head and publish, then verify the actual live fallback.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-WORK-212",
+        "UTP-REV-182"
+      ],
+      "acceptance_criteria": [
+        "Expose a read-only current page link before native sharing or clipboard work settles, retaining a usable manual fallback on cancellation or failure. Test unresolved actions, success, failure, cancellation and subsequent URLs; verify actual browser fallback and restored atlas selection on desktop/mobile, full/coastal suites, exact-head PR, approved deployment and live evidence. No new data sharing, search eligibility or factual changes."
+      ],
+      "evidence": [
+        "records/share-fallback-review-2026-10-10.json"
+      ]
     }
   ],
   "decisions": [
@@ -15003,6 +15027,28 @@
         "Existing KB source dates retained; no new web verification, site visit, provider enquiry, appointment, quote or route measurement.",
         "Synthetic timing example does not establish feasibility for any location or group. WORK169, WORK170 and WORK171 remain open.",
         "Repository preparation only; no website route, online offer, contact or commercial activation."
+      ]
+    },
+    {
+      "id": "UTP-REV-182",
+      "title": "Manual page sharing fallback review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-214",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/share-fallback-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant implementation, code and visual review; no independent accessibility review.",
+        "Desktop viewport simulation, not physical-device or screen-reader testing.",
+        "Native sharing remained pending in the in-app browser. The manual link was visible and keyboard-accessible, and opening its URL restored the selection; no actual recipient transmission or native-dialog completion is claimed. Clipboard success/failure and cancellation were verified with injected platform test doubles."
       ]
     }
   ],
