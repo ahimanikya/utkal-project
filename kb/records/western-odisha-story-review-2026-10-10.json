@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-10T09:59:13.095778+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-034",
+  "work_id": "UTP-WORK-219",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/western-odisha.md",
+  "brief": {
+    "reader": "Curious visitor or diaspora reader seeking a western Odisha journey beyond a familiar song or textile label.",
+    "reason_to_visit": "Explore regional language, literature, making and landscape with a particular interest and confirmed access.",
+    "memorable_detail": "The lyricist recalls Rangabati as the duet concluding a three-part radio sequence.",
+    "next_step": "Choose one focus, a credited edition or recording, and check the intended local arrangements.",
+    "visual_treatment": "Future permission-cleared food, maker or landscape images; no generated documentary evidence or named household scene."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "western Odisha",
+      "Nuakhai",
+      "Dhanuyatra",
+      "Gangadhar"
+    ],
+    "inputs": [
+      "research/stories/western-odisha.md",
+      "research/voices/collection.json",
+      "research/places/debrigarh-hirakud.md",
+      "research/handlooms/bargarh.md",
+      "research/references/data/research-queue.json"
+    ],
+    "queue_pointers_inspected": [
+      "RES-014",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "a621aad2a278c70697553a028a5ba3a9b3ce399b0d3c7de73561597152981150",
+    "preserved": "Original Journey Concept type retained; prior draft in Git65900524 and its craft anchors and pending field tasks retained. No duplicate entities, structured observation or research automation queue status changed."
+  },
+  "sources": [
+    {
+      "id": "sambalpur-culture",
+      "url": "https://sambalpur.odisha.gov.in/en/tourism/culture-Heritage",
+      "inspection": "Full web-reader page; introduction and Nuakhai subsection. New rice, elder distribution, gatherings and broad August/September season. No universal household assertion or current date adopted."
+    },
+    {
+      "id": "rangabati-interview-2022",
+      "url": "https://magazines.odisha.gov.in/Orissareview/2022/Jan/engpdf/page52-56.pdf",
+      "inspection": "Parsed5-page source; p52 credits, p53 answer1, p54 answer2. Three-part recollection and mother-tongue inspiration attributed. No new historical date, community generalization, original poem wording or lyrics adopted."
+    },
+    {
+      "id": "gangadhar-sambalpur",
+      "url": "https://sambalpur.odisha.gov.in/en/about-district/eminent-personalities",
+      "inspection": "Full web-reader page; Gangadhar paragraph supports Barpali/weaving-family connection and named works. No full book inspected."
+    },
+    {
+      "id": "debrigarh-pmo20260830",
+      "url": "https://www.pmindia.gov.in/en/news_updates/pms-address-in-the-137th-episode-of-mann-ki-baat/",
+      "inspection": "Dhodrokusum/Maithili Bhue passage re-inspected. Identity and reported involvement only; no wages, visitor counts or numerical outcome claims."
+    }
+  ],
+  "retrieval_limits": [
+    "Initial lowercase culture-heritage URL was unavailable; exact existing culture-Heritage URL succeeded.",
+    "PDF screenshot attempts returned cache miss and503. Direct HTTPS download failed expired-certificate verification; no TLS bypass performed."
+  ],
+  "verification": {
+    "claims": "Four source passages compared with narrative. Original editorial invitations do not claim observed visits or conversations. Same-district biography/culture pages share publisher; official testimonial account is not independent outcome evaluation.",
+    "continuity": "Existing story/index expanded, preserving original concept and open practical work. Website data, search eligibility and imported research queues unchanged.",
+    "checks": "PASS:1093 research concepts,303 explained relationships,1247 KB concepts,4976 local KB links, registers and program consistency, workbench build/check, six Python and three Node workbench tests, whitespace check.",
+    "visual_check": "Not applicable to Markdown-only KB delivery; no image/layout or website output changed. Source PDF image inspection attempted and failed as recorded."
+  },
+  "limitations": [
+    "Same-assistant source and editorial review; no independent language, literary, community or local visitor review.",
+    "Interview text re-inspected through web reader; PDF screenshots failed and direct PDF retrieval failed certificate verification. No lyrics, poem transcription or translated excerpt reproduced.",
+    "Three-part Rangabati account is the lyricist’s recollection; no original broadcast recovered. Official forest-life account is attributed and does not establish household income or conservation outcomes.",
+    "KB article only. No field visit, household invitation, current festival programme, workshop appointment, memorial access, itinerary timing or media permission verified. Illustrated website edition remains separate work."
+  ],
+  "delivery": "Pending exact-head documentation PR and merge; no website release required."
+}

@@ -6409,6 +6409,30 @@
         "research/stories/buddhist-odisha.md",
         "records/buddhist-circuit-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-219",
+      "title": "Western Odisha harvest, literary place and landscape reader story",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Publish the reviewed KB article through a passing exact-head documentation PR; completion requires merge receipt.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-187"
+      ],
+      "acceptance_criteria": [
+        "Expand the existing western Odisha journey outline into a connected reader article about harvest hospitality, literary place and landscape, reusing canonical voices and place records. Verify bounded original source passages, preserve the earlier concept, credit named people and distinguish cultural description from visitor access, household testimony or measured livelihood outcomes. Validate research classification, KB links and derived indexes; pass PR checks and merge exact reviewed documentation with a delivery receipt. No website deployment or search eligibility change."
+      ],
+      "evidence": [
+        "records/western-odisha-story-review-2026-10-10.json",
+        "research/stories/western-odisha.md"
+      ]
     }
   ],
   "decisions": [
@@ -15246,6 +15270,29 @@
         "Bounded source passages inspected, not entire excavation or travel volumes. Inscription readings remain the published researchers’ readings.",
         "Tourism brochure and two old tourism pages returned404. No current display inventory, opening time, mobility assessment, guide availability, transport timing or field visit verified.",
         "KB article only; image rights and illustrated website preparation remain open. No outreach, spending, new search eligibility or website deployment."
+      ]
+    },
+    {
+      "id": "UTP-REV-187",
+      "title": "Western Odisha reader story and source attribution review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-219",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/western-odisha-story-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source and editorial review; no independent language, literary, community or local visitor review.",
+        "Interview text re-inspected through web reader; PDF screenshots failed and direct PDF retrieval failed certificate verification. No lyrics, poem transcription or translated excerpt reproduced.",
+        "Three-part Rangabati account is the lyricist’s recollection; no original broadcast recovered. Official forest-life account is attributed and does not establish household income or conservation outcomes.",
+        "KB article only. No field visit, household invitation, current festival programme, workshop appointment, memorial access, itinerary timing or media permission verified. Illustrated website edition remains separate work."
       ]
     }
   ],

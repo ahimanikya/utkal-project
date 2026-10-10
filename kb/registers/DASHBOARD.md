@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a021a86d7b2865100e3885f655163790335d8a11259799973d158bbddad23e92`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9956a8bde3fbab2e57b666f7bd42e5cdce96e7ab7319bead34d81d9658bb334c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -229,6 +229,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-216 · Loom-to-market reader article and creator credits | completed | applied | Ahimanikya Satapathy | KB article delivered; illustrated website edition remains separate and needs appropriate imagery and editorial review. | — |
 | UTP-WORK-217 · Connect Koraput literature, food and cloth in a visitor reading story | completed | applied | Ahimanikya Satapathy | KB article delivered; illustrated website edition and any local conversations remain separate work. | — |
 | UTP-WORK-218 · Buddhist circuit reader story and archaeological distinctions | completed | applied | Ahimanikya Satapathy | KB article delivered. An illustrated website edition, archaeological review and current visiting arrangements remain separate work. | — |
+| UTP-WORK-219 · Western Odisha harvest, literary place and landscape reader story | in_progress | reviewed | Ahimanikya Satapathy | Publish the reviewed KB article through a passing exact-head documentation PR; completion requires merge receipt. | — |
 
 ## Pending human review and decisions
 
@@ -702,6 +703,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-184 | pass_with_limitations | False | Same-assistant editorial and source review; no independent textile specialist, maker or language review.; No interview, field visit, current stock, authenticity certification, workshop availability, income or measured livelihood impact claimed.; Directory is undated. Product examples do not establish other retail-piece makers, present lead times or image reuse rights. No PDF image reproduced.; KB article draft only; no website deployment, search eligibility change, outreach, commercial activation or source-dataset rewrite. |
 | UTP-REV-185 | pass_with_limitations | False | Same-assistant source and editorial review; no independent literary scholar, community, maker or language review.; The novel and film were not read or watched in full; no dialogue, poem, fictional episode or documentary observation invented.; Six web source pages rechecked; the Kotpad report relies on the saved 1 October inspection after a fresh web-reader request failed.; KB draft only. No field visit, host contact, current stock, food provenance, operating access, timed itinerary, website deployment or search eligibility change. |
 | UTP-REV-186 | pass_with_limitations | False | Same-assistant source and editorial review; no independent archaeologist, epigrapher, religious community or local visitor review.; Bounded source passages inspected, not entire excavation or travel volumes. Inscription readings remain the published researchers’ readings.; Tourism brochure and two old tourism pages returned404. No current display inventory, opening time, mobility assessment, guide availability, transport timing or field visit verified.; KB article only; image rights and illustrated website preparation remain open. No outreach, spending, new search eligibility or website deployment. |
+| UTP-REV-187 | pass_with_limitations | False | Same-assistant source and editorial review; no independent language, literary, community or local visitor review.; Interview text re-inspected through web reader; PDF screenshots failed and direct PDF retrieval failed certificate verification. No lyrics, poem transcription or translated excerpt reproduced.; Three-part Rangabati account is the lyricist’s recollection; no original broadcast recovered. Official forest-life account is attributed and does not establish household income or conservation outcomes.; KB article only. No field visit, household invitation, current festival programme, workshop appointment, memorial access, itinerary timing or media permission verified. Illustrated website edition remains separate work. |
 
 ## Publication and application history
 
@@ -837,7 +839,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-312 | 2026-10-10T04:47:38.430277+00:00 | Sharing now exposes a manual link before the device operation settles. Eight new regression cases and desktop/mobile pending-state checks passed; native-dialog completion remains unclaimed. | Passing required PR checks, exact-head merge, authorized deployment and live verification before counting delivery. |
 | UTP-EVT-313 | 2026-10-10T04:55:15.351334+00:00 | PR172 passed checks and merged the exact reviewed head; approved main deployment succeeded. Live code matches the tested build, manual link copying works while native sharing waits, and search eligibility remains unchanged. Item29 complete. | Continue eligible sequential backlog work. |
 | UTP-EVT-314 | 2026-10-10T05:47:36.267515+00:00 | Prepared a tourism trial outcome-review pack from existing pilot and Boita measures: denominators, unanswered and cancelled cases, host payments, blank decision sheet and evidence handoff. Synthetic checks are separate from field outcomes; no trial or contact occurred. | Validate KB links and records, then merge exact reviewed documentation after required PR checks. |
 | UTP-EVT-315 | 2026-10-10T05:51:37.435274+00:00 | PR173 passed required checks and merged the exact reviewed head. Tourism outcome-review pack delivered and matched against fetched merge; item30 complete. No website deployment or actual trial result. | Continue independent eligible backlog work; future evidence collection and engagement remain separately authorized activities. |
@@ -847,6 +848,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-319 | 2026-10-10T07:56:29.279059+00:00 | PR175 passed all required checks after correcting the content-type mismatch, then merged the exact reviewed head. The expanded Koraput article matches fetched merge; item32 delivered to KB. No website deployment or field confirmation claimed. | Continue an eligible backlog item and retain the article’s image and local-review dependencies. |
 | UTP-EVT-320 | 2026-10-10T08:59:34.877933+00:00 | Expanded the Buddhist circuit outline through clay inscriptions, relic containers and traveller testimony. Recovered two original PDFs and checked a historical museum briefing. Preserved distinct site identities, uncertain religious identification and the canonical related-reading explanation. | Complete checks and exact-head documentation PR. |
 | UTP-EVT-321 | 2026-10-10T09:04:24.999075+00:00 | PR176 passed required checks and merged the exact reviewed head. Expanded Buddhist circuit article matches fetched merge; item33 delivered to KB with source recovery and visiting limits retained. No website deployment. | Continue independent backlog work; do not infer image rights or current local access from this article. |
+| UTP-EVT-322 | 2026-10-10T09:59:13.095778+00:00 | Expanded western Odisha reader article reviewed against four existing source routes. Preserved lyricist recollection and official account boundaries; PDF retrieval limitations documented. Local checks passed; item34 awaits exact-head PR delivery. | Run required checks, merge reviewed documentation and save delivery receipt before counting. |
 
 ## Deferred extensions
 
