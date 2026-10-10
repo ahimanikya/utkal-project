@@ -1,0 +1,48 @@
+{
+  "recorded_at": "2026-10-10T02:47:13.165868+00:00",
+  "program_item": "UTP-A500-027",
+  "work_id": "UTP-WORK-212",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "verification": {
+    "problem": "Global page sharing stripped atlas selection although atlas restored selection from URLs.",
+    "implementation": "Only rendered language option codes and allowlisted residence/sort values are shared; district text is bounded to 200 characters and trimmed. Incoming query parameters and fragments never forwarded. Existing Explore and private-data exclusions retained.",
+    "tests": {
+      "full": 512,
+      "coastal": 92,
+      "failed": 0,
+      "new": "Three regression tests including 27 Census selection round trips: groups and mother-tongue entries, all residence and order choices; invalid values, Unicode, bounds and unrelated query rejection."
+    },
+    "browser": {
+      "restored_url": "http://127.0.0.1:4381/languages/atlas/?language=018000&residence=rural&sort=share&district=Mayurbhanj",
+      "restored_controls": [
+        "018000",
+        "rural",
+        "share",
+        "Mayurbhanj"
+      ],
+      "result": "1 of 30 districts · SANTALI · rural areas",
+      "row": "Mayurbhanj 6,11,079 26.26% 75.53%",
+      "desktop": "1440×1000 share label and explanatory text fit.",
+      "mobile": "390×844, document width 390; readable share label and text, visible keyboard focus. Viewport reset.",
+      "share_attempt": "Enter activated button and pending native share state; reloaded without claiming clipboard/native completion."
+    },
+    "content": "No population dataset, Census interpretation, attribution or historical scope changed.",
+    "search": "Publication remains eleven indexable routes; atlas keeps its existing noindex status."
+  },
+  "screenshots": [
+    "records/evidence/atlas-sharing/desktop.png",
+    "records/evidence/atlas-sharing/mobile.png"
+  ],
+  "limitations": [
+    "Same-assistant code and visual review; no independent accessibility or language review.",
+    "Desktop viewport simulation, not physical-device or screen-reader testing.",
+    "The in-app browser left native sharing pending without an inspectable dialog; no recipient transmission, clipboard success or native share completion is claimed. Generated URLs, control wiring and reload restoration were checked separately."
+  ],
+  "delivery": "Pending exact-head PR checks, merge, main publish-site workflow and live evidence."
+}

@@ -330,6 +330,16 @@
         "records/rice-story-merged-2026-10-10.json"
       ],
       "completed_at": "2026-10-10T01:41:03.227123+00:00"
+    },
+    {
+      "id": "UTP-A500-027",
+      "title": "Keep language atlas selections in shared links",
+      "status": "in_progress",
+      "work_id": "UTP-WORK-212",
+      "acceptance": "Language atlas sharing preserves the rendered language, residence, sort and bounded district filter in a reloadable link; only allowlisted public controls are shared and unrelated query/fragment data are excluded. Verify default/invalid/Unicode state and Census selection round trips, browser sharing and restored controls at desktop/mobile sizes, full/coastal tests, exact-head PR merge, authorized deployment and live evidence. No Census data or search eligibility changes.",
+      "evidence": [
+        "records/atlas-sharing-review-2026-10-10.json"
+      ]
     }
   ],
   "followup_candidates": [
@@ -349,5 +359,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-10T01:41:03.227123+00:00"
+  "updated_at": "2026-10-10T02:47:13.165868+00:00"
 }

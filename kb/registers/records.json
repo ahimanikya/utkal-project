@@ -6224,6 +6224,29 @@
         "research/food/rice-varieties.md",
         "research/references/data/rice-economy.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-212",
+      "title": "Share the current language atlas selection",
+      "category": "website",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Deliver through passing PR, exact-head merge and approved website deployment; verify live selection restoration.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-180"
+      ],
+      "acceptance_criteria": [
+        "Language atlas sharing preserves the rendered language, residence, sort and bounded district filter in a reloadable link; only allowlisted public controls are shared and unrelated query/fragment data are excluded. Verify default/invalid/Unicode state and Census selection round trips, browser sharing and restored controls at desktop/mobile sizes, full/coastal tests, exact-head PR merge, authorized deployment and live evidence. No Census data or search eligibility changes."
+      ],
+      "evidence": [
+        "records/atlas-sharing-review-2026-10-10.json"
+      ]
     }
   ],
   "decisions": [
@@ -14900,6 +14923,28 @@
       ],
       "limitations": [
         "Same-assistant source review; fieldwork, current availability and specialist review remain open."
+      ]
+    },
+    {
+      "id": "UTP-REV-180",
+      "title": "Language atlas sharing review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-212",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/atlas-sharing-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant code and visual review; no independent accessibility or language review.",
+        "Desktop viewport simulation, not physical-device or screen-reader testing.",
+        "The in-app browser left native sharing pending without an inspectable dialog; no recipient transmission, clipboard success or native share completion is claimed. Generated URLs, control wiring and reload restoration were checked separately."
       ]
     }
   ],

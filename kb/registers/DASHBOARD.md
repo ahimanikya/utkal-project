@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `47c5edf413b7f2e41bf74fdfd70c876c9d9d0914b35399d9573d44e3ea92c34d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6f4c2bcddc253b84457207e34a25502774a6b3685e717b41c46d2672742c324c`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -222,6 +222,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-209 · Global Connections town learning candidate section | completed | applied | Ahimanikya Satapathy | Delivered public desk proposal. No counterpart agreement or activity established. | — |
 | UTP-WORK-210 · Validate delivery receipt consistency | completed | applied | Ahimanikya Satapathy | Delivered checker consistency fix; remote actions still require genuine verification. | — |
 | UTP-WORK-211 · Rice and seed keepers editorial article | completed | applied | Ahimanikya Satapathy | Repository article delivered; a later website adaptation needs contextual media and its own publication checks. | — |
+| UTP-WORK-212 · Share the current language atlas selection | in_progress | reviewed | Ahimanikya Satapathy | Deliver through passing PR, exact-head merge and approved website deployment; verify live selection restoration. | — |
 
 ## Pending human review and decisions
 
@@ -688,6 +689,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-177 | pass_with_limitations | False | Same-assistant source, editorial and visual review; no independent local, language or architectural review.; Desktop browser viewport simulation, not physical-device or screen-reader testing. No-JavaScript reading verified from rendered HTML, not a browser session with scripting disabled.; Proposal only; no outreach, counterpart consent, cost confirmation, partnership or exchange established. |
 | UTP-REV-178 | pass_with_limitations | False | Same-assistant review; offline consistency checks cannot verify remote execution. Legacy absent fields remain supported. |
 | UTP-REV-179 | pass_with_limitations | False | Same-assistant source review; fieldwork, current availability and specialist review remain open. |
+| UTP-REV-180 | pass_with_limitations | False | Same-assistant code and visual review; no independent accessibility or language review.; Desktop viewport simulation, not physical-device or screen-reader testing.; The in-app browser left native sharing pending without an inspectable dialog; no recipient transmission, clipboard success or native share completion is claimed. Generated URLs, control wiring and reload restoration were checked separately. |
 
 ## Publication and application history
 
@@ -821,7 +823,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-298 | 2026-10-09T22:23:21.355695+00:00 | Reproduced ambiguous duplicate IDs and malformed authority crashes in standalone program checker. Added validated registry lookup and safe authority handling; 22 tests pass and valid/invalid inputs remain untouched. | Merge tested tooling and verify remote receipt. |
 | UTP-EVT-299 | 2026-10-09T22:28:59.509048+00:00 | PR165 passed required checks and merged the exact reviewed head. Both validator tooling files match main. Item22 delivered with 22 passing tests; duplicate IDs and malformed authority now produce findings without changing input. | Continue the next eligible independent deliverable. |
 | UTP-EVT-300 | 2026-10-09T22:36:10.122757+00:00 | Prepared Konark and Mamallapuram reciprocal heritage learning candidate using existing Konark research and a UNESCO counterpart source. Historical comparison is separated from proposed activity, costs, participation and municipal status. | Merge tested documentation and record delivery; no outreach or activity launch. |
 | UTP-EVT-301 | 2026-10-09T22:51:23.876912+00:00 | PR166 passed final required checks after generated-index corrections and merged the exact reviewed head. Konark–Mamallapuram heritage learning candidate and source/navigation records verified on main. Item23 delivered as a desk proposal, not an agreed partnership. | Continue independent work; outreach and activity decisions remain separate. |
@@ -831,6 +832,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-305 | 2026-10-10T00:44:04.221594+00:00 | PR168 passed required checks and merged the exact reviewed head. Delivery receipts now reject supplied contradictory commit, validation, workflow, approval, outcome and Actions URL evidence. Item25 delivered as repository tooling without a website deployment. | Continue independent backlog work. |
 | UTP-EVT-306 | 2026-10-10T01:35:16.640582+00:00 | Expanded existing rice story after reinspection of three original sources. Article joins culinary preferences, named seed conservation and historical seed enterprise with reader questions; current availability and field review remain separate. | Run repository checks and deliver the reviewed draft through a tested PR. |
 | UTP-EVT-307 | 2026-10-10T01:41:03.227123+00:00 | PR169 passed required checks and merged the exact reviewed head. Expanded rice and seed keepers article delivered in the KB with source reinspection, reader prompts and explicit historical limits. Item26 is a repository draft delivery, not a website release. | Continue independent backlog work; contextual media and website adaptation remain separate. |
+| UTP-EVT-308 | 2026-10-10T02:47:13.165868+00:00 | Atlas shared links now preserve allowed rendered selection controls. 512 full and 92 coastal tests pass, including Census round trips; desktop/mobile share presentation and reload restoration checked. Native share completion remains unverified in the in-app browser. | Publish tested changes through required checks and save live receipt. |
 
 ## Deferred extensions
 
