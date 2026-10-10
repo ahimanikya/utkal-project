@@ -5603,7 +5603,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "28/500 substantive items completed with individual evidence. Continue useful eligible work; confirmed itineraries and field-dependent tasks remain open.",
+      "next_action": "29/500 substantive items completed with individual evidence. Continue useful eligible work; confirmed itineraries and field-dependent tasks remain open.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -6286,24 +6286,26 @@
       "id": "UTP-WORK-214",
       "title": "Immediate manual fallback for page sharing",
       "category": "website",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge the tested reviewed head and publish, then verify the actual live fallback.",
+      "next_action": "Published and verified; native share-sheet completion remains platform-dependent.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
         "UTP-WORK-189",
         "UTP-WORK-212",
-        "UTP-REV-182"
+        "UTP-REV-182",
+        "UTP-REL-092"
       ],
       "acceptance_criteria": [
         "Expose a read-only current page link before native sharing or clipboard work settles, retaining a usable manual fallback on cancellation or failure. Test unresolved actions, success, failure, cancellation and subsequent URLs; verify actual browser fallback and restored atlas selection on desktop/mobile, full/coastal suites, exact-head PR, approved deployment and live evidence. No new data sharing, search eligibility or factual changes."
       ],
       "evidence": [
-        "records/share-fallback-review-2026-10-10.json"
+        "records/share-fallback-review-2026-10-10.json",
+        "records/share-fallback-publication-2026-10-10.json"
       ]
     }
   ],
@@ -16555,6 +16557,21 @@
       ],
       "evidence": [
         "records/atlas-sharing-publication-2026-10-10.json"
+      ]
+    },
+    {
+      "id": "UTP-REL-092",
+      "title": "Immediate manual page sharing fallback published",
+      "status": "published",
+      "authorization": "UTP-DEC-225",
+      "destination": "https://utkalproject.org/languages/atlas/",
+      "refs": [
+        "UTP-WORK-214",
+        "UTP-REV-182",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/share-fallback-publication-2026-10-10.json"
       ]
     }
   ],

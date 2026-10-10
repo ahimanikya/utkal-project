@@ -1,0 +1,54 @@
+{
+  "recorded_at": "2026-10-10T04:55:15.351334+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-029",
+  "work_id": "UTP-WORK-214",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/172",
+  "reviewed_head": "91b1022bc9c3f47846630a9d94b81d3a8ef4e149",
+  "merge_commit": "27d892a3359a81a6c3952bbd51453446a8f3d9a0",
+  "merged_at": "2026-10-10T04:51:05Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38025333143",
+    "conclusion": "success",
+    "full_tests": 520,
+    "coastal_tests": 92
+  },
+  "deployment": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38025493957",
+    "conclusion": "success",
+    "workflow": "publish-site.yml",
+    "publish_approved": true,
+    "head": "27d892a3359a81a6c3952bbd51453446a8f3d9a0"
+  },
+  "live": {
+    "checked_at": "2026-10-10T04:53:59.666438+00:00",
+    "url": "https://utkalproject.org/languages/atlas/",
+    "status": 200,
+    "share_label_and_explanation": true,
+    "atlas_noindex_follow": true,
+    "sitemap_entries": 11,
+    "assets": [
+      {
+        "path": "/_astro/PageShare.astro_astro_type_script_index_0_lang.5BBJEBAi.js",
+        "status": 200,
+        "sha256": "d660eb55d8471fdd5bca86379c2d7b628987eab6743f79c65677cff9e046ef35",
+        "matches_tested_build": true
+      },
+      {
+        "path": "/_astro/search.O7VOqgCy.js",
+        "status": 200,
+        "sha256": "74fb8dc6593a45abd40c2b9e6b249b57d02988a7c06c52033d2804faf7fee204",
+        "matches_tested_build": true
+      }
+    ],
+    "browser": "Actual live native operation remained pending while the readonly link was visible. Keyboard select/copy succeeded; session clipboard matched the exact selected atlas URL. Selected controls and one-district result remained correct.",
+    "manual_copy_matches": true,
+    "screenshot": "records/evidence/share-fallback/live.png"
+  },
+  "review": "records/share-fallback-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant implementation, code and visual review; no independent accessibility review.",
+    "Desktop viewport simulation, not physical-device or screen-reader testing.",
+    "Native sharing remained pending in the in-app browser. The manual link was visible and keyboard-accessible, and opening its URL restored the selection; no actual recipient transmission or native-dialog completion is claimed. Clipboard success/failure and cancellation were verified with injected platform test doubles."
+  ]
+}
