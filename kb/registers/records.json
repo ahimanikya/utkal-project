@@ -6384,6 +6384,30 @@
         "research/stories/koraput.md",
         "records/koraput-reading-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-218",
+      "title": "Buddhist circuit reader story and archaeological distinctions",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Validate the article and records; merge exact reviewed documentation after required checks.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-186"
+      ],
+      "acceptance_criteria": [
+        "Expand the existing Buddhist-circuit journey into a connected reader article with a source-attributed clay-seal opening, distinct site identities, religious interpretation and excavation distinguished, and useful visit/reading questions. Reuse the research map and canonical source records; verify bounded original passages where accessible and report retrieval limits. Preserve the original draft and avoid invented field scenes, university enrolment, guide availability or a timed itinerary. Validate KB, subject classification and derived indexes; pass PR checks, merge exact reviewed documentation and save receipt. No website deployment or search eligibility expansion."
+      ],
+      "evidence": [
+        "records/buddhist-circuit-review-2026-10-10.json",
+        "research/stories/buddhist-odisha.md"
+      ]
     }
   ],
   "decisions": [
@@ -15198,6 +15222,29 @@
         "The novel and film were not read or watched in full; no dialogue, poem, fictional episode or documentary observation invented.",
         "Six web source pages rechecked; the Kotpad report relies on the saved 1 October inspection after a fresh web-reader request failed.",
         "KB draft only. No field visit, host contact, current stock, food provenance, operating access, timed itinerary, website deployment or search eligibility change."
+      ]
+    },
+    {
+      "id": "UTP-REV-186",
+      "title": "Buddhist circuit article and source distinction review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-218",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/buddhist-circuit-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source and editorial review; no independent archaeologist, epigrapher, religious community or local visitor review.",
+        "Bounded source passages inspected, not entire excavation or travel volumes. Inscription readings remain the published researchers’ readings.",
+        "Tourism brochure and two old tourism pages returned404. No current display inventory, opening time, mobility assessment, guide availability, transport timing or field visit verified.",
+        "KB article only; image rights and illustrated website preparation remain open. No outreach, spending, new search eligibility or website deployment."
       ]
     }
   ],

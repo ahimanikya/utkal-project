@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-10T08:59:34.877933+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-033",
+  "work_id": "UTP-WORK-218",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/buddhist-odisha.md",
+  "reuse": {
+    "research_map_read": true,
+    "query": "query_research.py buddhist --json; existing source URLs and Lalitgiri museum briefing title searched before new retrieval.",
+    "inputs": [
+      "research/stories/buddhist-odisha.md",
+      "research/history/buddhist-learning.md",
+      "research/places/ratnagiri.md",
+      "research/places/udayagiri-buddhist.md",
+      "research/places/lalitgiri.md",
+      "research/facilities/lalitgiri-site-museum.md",
+      "research/sources/history-asi-udayagiri2007.md"
+    ],
+    "earlier_draft_sha256": "feb230233aa96d11b1c7b79365a1a3a251ffdeacc03b6ee3db9f5948a21796d4",
+    "preserved": "Original Journey Concept type and source identities retained. Earlier draft is in Git parent40ddd73d; its opening, image intentions and fieldwork boundaries retained in development note."
+  },
+  "sources": [
+    {
+      "id": "history-asi-udayagiri2007",
+      "url": "https://asi.nic.in/admin/publications/ePublicationReportsDetails/download/47",
+      "method": "Web reader size limit; direct HTTP200PDF succeeded.",
+      "sha256": "2b921c421b2b6bc3df1ffeee5d118cfa82e475cc4b851618b17d9888d7df8750",
+      "locator": "Foreword/preface; PDFpp12,19,141,159 (contents and printedpp1,123,141); printedp141 also visually inspected.",
+      "inspection": "Simhaprastha/Madhavapura identities, named report/readings credits, fragmentary readings and D.Mitra Ratnagiri excavation interval. Full first name not printed in inspected source, so article uses D.Mitra."
+    },
+    {
+      "id": "history-xuanzang-li1996",
+      "url": "https://bdkamerica.org/download/1865",
+      "method": "Web reader unavailable; direct HTTP200PDF succeeded.",
+      "sha256": "34b0813a57b0c5a4196f5763f28d18d0869d2c25426fc50055ddd23c32648d8f",
+      "locator": "PDFpp285–286/printed269–270; p269 also visually inspected.",
+      "inspection": "Uda-wide monasteries and monks, then Pushpagiri and religious signs. Regional figures not monastery enrolment; no invented equivalence to excavated institution. An initially renderedp331 was unrelated and not used."
+    },
+    {
+      "id": "lalitgiri-pib-2018",
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=186679",
+      "method": "Full web-reader briefing, dated20December2018.",
+      "locator": "Museum briefing paragraphs attributed to DGASI.",
+      "inspection": "Three stone caskets, nested steatite/silver/gold sets in two, reported bone relics,1985find and museum purpose. Announcement predates planned inauguration; actual inauguration/current displays or relic personal identity not inferred."
+    }
+  ],
+  "retrieval_limits": [
+    {
+      "url": "https://odishatourism.gov.in/content/dam/tourism/odishatourismbrochures/BuddhistCircuit.pdf",
+      "result": "404 web reader and direct request"
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/lalitgiri.html",
+      "result": "404 web reader; search snippet not used as source proof"
+    },
+    {
+      "url": "https://odishatourism.gov.in/content/tourism/en/discover/attractions/buddhist-sites/ratnagiri.html",
+      "result": "404 web reader"
+    }
+  ],
+  "verification": {
+    "claims": "Published archaeological reading, historical museum briefing and religious travel testimony remain separate. Reader questions and proposed attention are original editorial suggestions; no invented presence, speech or observations.",
+    "media": "Two relevant PDF pages rendered and inspected; none copied to repository or repurposed as licensed imagery.",
+    "continuity": "Existing story and index updated; no new site identities or structured automation dataset changes.",
+    "local_correction": "Classification validator required the existing exact related-reading explanation. Restored its canonical text and link without changing relationship data.",
+    "checks": "PASS: 1093 research concepts, subject classification with303 explained relationships, catalogue1247, 4974 local KB links, registers/program consistency, editorial workbench regeneration/check, six Python and three Node workbench tests, whitespace check."
+  },
+  "limitations": [
+    "Same-assistant source and editorial review; no independent archaeologist, epigrapher, religious community or local visitor review.",
+    "Bounded source passages inspected, not entire excavation or travel volumes. Inscription readings remain the published researchers’ readings.",
+    "Tourism brochure and two old tourism pages returned404. No current display inventory, opening time, mobility assessment, guide availability, transport timing or field visit verified.",
+    "KB article only; image rights and illustrated website preparation remain open. No outreach, spending, new search eligibility or website deployment."
+  ],
+  "delivery": "Pending exact-head documentation PR and merge; no website release required."
+}
