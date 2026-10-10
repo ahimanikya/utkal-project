@@ -45,7 +45,11 @@ For a notebook, keep four things together: the rice name as given, the broad pla
 
 ## Continue reading
 
-[Odisha’s rice collection](../food/rice-varieties.md) connects named varieties and food-use evidence. [Pakhala](../food/pakhala.md) follows one familiar meal into different preparations. [Rice economics](../economy/rice-economy.md) separates grain, seed and the costs behind farm returns.
+[Odisha’s rice collection](../food/rice-varieties.md) — Connects source-attributed names, food uses and historical cultivation without assuming identical seed accessions.
+
+[Pakhala](../food/pakhala.md) follows one familiar meal into different preparations.
+
+[Rice economics](../economy/rice-economy.md) — Separates seed production, grain sales and farmer returns.
 
 ## Sources and context
 

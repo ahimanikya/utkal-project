@@ -15,7 +15,8 @@
     "reuse": "Existing story, source IDs, variety collection and economic dataset reused; no new observation or duplicate concept.",
     "rights": "Original paraphrase and framing; no copied photographs or extended quotations. Future media brief preserves identity and rights requirements.",
     "publication": "Knowledge repository only; visual website and native-language/specialist reviews not claimed.",
-    "repository": "Research validator passed: 1093 concepts, 3704 links, 38 arithmetic checks. Whole bundle passed: 1245 concepts, 4950 links. Registers, program and generated workbench consistent; diff whitespace check passed."
+    "repository": "Research validator passed: 1093 concepts, 3704 links, 38 arithmetic checks. Whole bundle passed: 1245 concepts, 4950 links. Registers, program and generated workbench consistent; diff whitespace check passed.",
+    "ci_remediation": "Initial CI38013820546 failed the classification check because two registered relationship explanations had been shortened. Restored their exact existing explanations; related reading remains clear, original mappings unchanged. Classification and dependent generated indexes rechecked before rerun."
   },
   "evidence": [
     "research/stories/rice-kept-for-taste.md",
