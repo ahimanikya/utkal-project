@@ -6334,6 +6334,30 @@
         "specs/tourism-fieldwork/outcome-review.md",
         "records/tourism-outcome-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-216",
+      "title": "Loom-to-market reader article and creator credits",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the reviewed article draft after required checks.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-184"
+      ],
+      "acceptance_criteria": [
+        "Expand the existing loom-to-market draft into a connected reader article with source-attributed textile construction, named documented creators, the dated Boyanika institutional account and useful visitor questions. Reuse existing identities and mark retrieval limitations; no invented interviews, income, current stock, authenticity guarantee or image rights. Preserve earlier draft material, save claim/reuse review, validate KB links, pass PR checks and merge exact reviewed documentation. No website deployment or search eligibility change."
+      ],
+      "evidence": [
+        "records/loom-market-story-review-2026-10-10.json",
+        "research/stories/handlooms-from-loom-to-market.md"
+      ]
     }
   ],
   "decisions": [
@@ -15102,6 +15126,29 @@
         "Preparation only: no field observations, baseline, actual feedback, payments, appointments or government response collected.",
         "No new external research or operating-fact verification. Existing KB definitions are reused; synthetic arithmetic probes are not trial outcomes.",
         "WORK169–175 field, trial, proposal and external-engagement dependencies remain open. No outreach, intake, spending, commercial activation or website deployment."
+      ]
+    },
+    {
+      "id": "UTP-REV-184",
+      "title": "Loom-to-market narrative and creator attribution review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-216",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/loom-market-story-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant editorial and source review; no independent textile specialist, maker or language review.",
+        "No interview, field visit, current stock, authenticity certification, workshop availability, income or measured livelihood impact claimed.",
+        "Directory is undated. Product examples do not establish other retail-piece makers, present lead times or image reuse rights. No PDF image reproduced.",
+        "KB article draft only; no website deployment, search eligibility change, outreach, commercial activation or source-dataset rewrite."
       ]
     }
   ],
