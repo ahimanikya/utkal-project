@@ -5602,7 +5602,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "24/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
+      "next_action": "25/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225"
@@ -6174,12 +6174,12 @@
       "id": "UTP-WORK-210",
       "title": "Validate delivery receipt consistency",
       "category": "project_operations",
-      "status": "in_progress",
-      "readiness": "reviewed",
+      "status": "completed",
+      "readiness": "applied",
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Current AI assistant",
       "authorization": "UTP-DEC-225",
-      "next_action": "Merge exact passing head and record tooling delivery.",
+      "next_action": "Delivered checker consistency fix; remote actions still require genuine verification.",
       "blockers": [],
       "refs": [
         "UTP-DEC-225",
@@ -6190,7 +6190,8 @@
         "Reject contradictory delivery evidence: a supplied deployment head must match the merge, recorded workflow and approval must match the authorized publication path, supplied CI/deployment run URLs must belong to UTP, and supplied validation must pass. Preserve legacy receipt shapes and docs-only exemptions. Fault-injection and read-only tests, passing required PR check, exact-head merge and tooling delivery receipt; no website deployment required."
       ],
       "evidence": [
-        "records/delivery-consistency-review-2026-10-10.json"
+        "records/delivery-consistency-review-2026-10-10.json",
+        "records/delivery-consistency-merged-2026-10-10.json"
       ]
     }
   ],

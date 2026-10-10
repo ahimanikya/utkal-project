@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `6c9add132d8c3c6a1a2a044aa488f749aff3df70cc1f94e38cbcd9f935a8aae0`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `a8a969622f4298088d683199759c15bd8ef734dac2e6e842de19f714649b78e5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 24/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 25/500 substantive items completed with evidence. Continue the next eligible independent deliverable; do not count repeated checks or blocked work. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -220,7 +220,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-207 · Autonomous checker registry and authority shape validation | completed | applied | Ahimanikya Satapathy | Tested tooling merged and verified on main; delivery receipt recorded. | — |
 | UTP-WORK-208 · Konark and Mamallapuram reciprocal heritage learning proposal | completed | applied | Ahimanikya Satapathy | Desk candidate merged. Counterpart interest, contacts, costs and any activity remain future human decisions. | — |
 | UTP-WORK-209 · Global Connections town learning candidate section | completed | applied | Ahimanikya Satapathy | Delivered public desk proposal. No counterpart agreement or activity established. | — |
-| UTP-WORK-210 · Validate delivery receipt consistency | in_progress | reviewed | Ahimanikya Satapathy | Merge exact passing head and record tooling delivery. | — |
+| UTP-WORK-210 · Validate delivery receipt consistency | completed | applied | Ahimanikya Satapathy | Delivered checker consistency fix; remote actions still require genuine verification. | — |
 
 ## Pending human review and decisions
 
@@ -819,7 +819,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-295 | 2026-10-09T16:37:01.176098+00:00 | PR163 passed required validation, merged exact reviewed head and deployed. Live Reading catalog matches tested output with chapters, sources and credited photo; separate museum choice and eleven-route sitemap retained. Twentieth substantive item completed. | Continue the next eligible independent deliverable. |
 | UTP-EVT-296 | 2026-10-09T17:17:09.710172+00:00 | Prepared five-part Boita desk framework with separate governance and enterprise proposals, evidence-state distinctions, barrier record, measures and proposed requests. Field-based WORK173 remains open. | Merge tested documentation and verify repository delivery. |
 | UTP-EVT-297 | 2026-10-09T17:22:56.316407+00:00 | PR164 passed required checks and merged exact reviewed head. Boita discussion framework and navigation verified on main. Item21 delivered as documentation; field-based WORK173 and operational dependencies remain open. | Continue the next eligible independent deliverable. |
 | UTP-EVT-298 | 2026-10-09T22:23:21.355695+00:00 | Reproduced ambiguous duplicate IDs and malformed authority crashes in standalone program checker. Added validated registry lookup and safe authority handling; 22 tests pass and valid/invalid inputs remain untouched. | Merge tested tooling and verify remote receipt. |
@@ -829,6 +828,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-302 | 2026-10-09T23:38:15.704755+00:00 | Prepared public Konark–Mamallapuram proposal section with licensed full-frame photograph, source references, distinct heritage facts and reciprocal output ideas. 601 site tests pass; desktop/mobile layouts and source keyboard focus checked. Search scope unchanged. | Publish tested exact head and verify actual live output. |
 | UTP-EVT-303 | 2026-10-09T23:46:56.857225+00:00 | PR167 passed required checks and merged the exact reviewed head. Approved main publication succeeded; live town proposal matches tested markup except one responsive-image filename hash; licensed source-image bytes match. Sources and eleven-entry sitemap verified; noindex preserved. Item24 delivered. | Continue independent backlog work; outreach and partnership decisions remain separate. |
 | UTP-EVT-304 | 2026-10-10T00:40:46.949773+00:00 | Delivery consistency gap reproduced with 39 invalid cases; checker now rejects supplied commit, CI, workflow, approval and run-URL contradictions. All 29 tests pass and actual records remain valid. | Required PR check and exact-head merge before counting item25. |
+| UTP-EVT-305 | 2026-10-10T00:44:04.221594+00:00 | PR168 passed required checks and merged the exact reviewed head. Delivery receipts now reject supplied contradictory commit, validation, workflow, approval, outcome and Actions URL evidence. Item25 delivered as repository tooling without a website deployment. | Continue independent backlog work. |
 
 ## Deferred extensions
 

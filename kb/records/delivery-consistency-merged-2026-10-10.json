@@ -1,0 +1,26 @@
+{
+  "recorded_at": "2026-10-10T00:44:04.221594+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-025",
+  "work_id": "UTP-WORK-210",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/168",
+  "reviewed_head": "730ee674fe2b856e81a9f8d7ddda29c1efd7e710",
+  "merge_commit": "29120aa8321b8c7cea0aeffd1fce45d51236c454",
+  "merged_at": "2026-10-10T00:43:52Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38010119354",
+    "conclusion": "success",
+    "targeted_tests": 29,
+    "repository_checks": "Required validate job passed; current program, registers, catalogue, bundle and workbench checks passed. New fault injections demonstrate supplied contradictions are rejected."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "Repository checker, tests and progress records only; no website source, asset, edition or workflow change. Git delivery verified; no website deployment claimed."
+  },
+  "review": "records/delivery-consistency-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant review, not independent human review.",
+    "Offline consistency checks cannot establish that a GitHub run, approval, deployment or live observation actually occurred.",
+    "Historical receipts with absent optional fields remain supported; this change rejects supplied contradictions, not every omission."
+  ]
+}
