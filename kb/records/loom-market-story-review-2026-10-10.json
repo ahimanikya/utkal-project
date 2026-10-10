@@ -57,7 +57,12 @@
     "claims": "Factual paragraphs map to the four existing source identities; reflective opening and visitor questions are original editorial suggestions, not observed scenes or testimony.",
     "continuity": "Existing story expanded in place; original metadata retained with revision date. Structured datasets and research automation queue untouched.",
     "media": "PDF images inspected for named-work attribution only; no imagery copied into public Git.",
-    "checks": "PASS: catalogue current, 4972 local KB links, register/program consistency, editorial workbench and whitespace checks."
+    "checks": "PASS: catalogue current, 4972 local KB links, register/program consistency, editorial workbench and whitespace checks.",
+    "ci_correction": {
+      "failed_run": "https://github.com/ahimanikya/utkal-project/actions/runs/38032560294",
+      "cause": "Internal research search-index.json was stale after revised metadata and body.",
+      "correction": "Regenerated with tools/research/reindex.py and validated research. Website search selection untouched."
+    }
   },
   "limitations": [
     "Same-assistant editorial and source review; no independent textile specialist, maker or language review.",
