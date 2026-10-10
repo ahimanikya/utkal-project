@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-10T09:04:24.999075+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-033",
+  "work_id": "UTP-WORK-218",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/176",
+  "reviewed_head": "cfb53e25e64069fab2b54989fb1f6076bf3fbeb4",
+  "merge_commit": "6ed44d4bec22818e39fb6d7e6f57c537da10d760",
+  "merged_at": "2026-10-10T09:03:42Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38039869185",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed: governance, research and subject relationships, language atlas, workbench, full-site build/tests, design-system checks and coastal edition. Local 4974 KB links and six Python/three Node workbench tests passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, story index, internal research index, workbench fingerprint and evidence only. No public website source, selected content, assets, edition, workflow or search eligibility changed."
+  },
+  "output": {
+    "path": "research/stories/buddhist-odisha.md",
+    "sha256": "8a7bf873d77f2769079e2adc1e61f0e8baed50f81a8d8d4a2546e22fd282e5bd",
+    "matches_fetched_merge": true
+  },
+  "review": "records/buddhist-circuit-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source and editorial review; no independent archaeologist, epigrapher, religious community or local visitor review.",
+    "Bounded source passages inspected, not entire excavation or travel volumes. Inscription readings remain the published researchers’ readings.",
+    "Tourism brochure and two old tourism pages returned404. No current display inventory, opening time, mobility assessment, guide availability, transport timing or field visit verified.",
+    "KB article only; image rights and illustrated website preparation remain open. No outreach, spending, new search eligibility or website deployment."
+  ]
+}
