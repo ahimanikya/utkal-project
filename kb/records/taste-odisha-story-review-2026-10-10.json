@@ -1,0 +1,81 @@
+{
+  "recorded_at": "2026-10-10T11:05:04.042086+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-035",
+  "work_id": "UTP-WORK-220",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/taste-odisha.md",
+  "brief": {
+    "reader": "Curious first-time visitor or diaspora reader seeking an approachable food encounter.",
+    "reason_to_explore": "Follow the cook and the preparation rather than an undifferentiated dish checklist.",
+    "memorable_detail": "Enduri’s turmeric leaf is part of its preparation, with named knowledge contributors kept visible.",
+    "visual_treatment": "Future permitted process images and whole servings; no existing source photographs copied.",
+    "next_step": "Choose a small tasting focus; ask about actual preparation, availability and ingredients."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "pakhala",
+      "pitha"
+    ],
+    "inputs": [
+      "research/stories/taste-odisha.md",
+      "research/food/pakhala.md",
+      "research/food/pitha.md",
+      "research/food/dalma.md",
+      "research/food/chhena-poda.md",
+      "research/food/preparation-and-variation.md",
+      "research/references/data/food-preparations.json"
+    ],
+    "queue_pointers_inspected": [
+      "RES-011",
+      "RES-022",
+      "RES-039"
+    ],
+    "earlier_draft_sha256": "c5fc0938114e2e863616e44ed84119afdc50e0a56468583f1a947b2066bada35",
+    "preserved": "Existing Campaign Concept and source identities retained. Earlier text in Git298d342c; campaign line, three formats, audience directions and unfinished clone/media proposals retained. No research automation dataset or queue status changed."
+  },
+  "sources": [
+    {
+      "id": "food-tourism",
+      "url": "https://apps.odishatourism.gov.in/the-taste-of-odisha",
+      "inspection": "Full page; Pakhala, Sijha Manda, Enduri and Chennapoda subsections. Bounded descriptions only; promotional health and universal claims excluded."
+    },
+    {
+      "id": "chef",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/chef-tzac-odia-cuisine-is-an-evolved-cuisine",
+      "inspection": "Mansita Mishra27November2019 byline and interview. Alka Jena/Rachit Kirtiman/Thomas Zacharias collaboration credits; menu pakhala and Habisa Dalma. Historical scope explicitly retained; no current booking or household access invitation."
+    },
+    {
+      "id": "food-crri-rice2015",
+      "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "inspection": "Web reader failed; directHTTP200PDF2582188bytes. Title/foreword/preface PDFpp2,4,6; selected preparation pp23,30,32,35,42. Enduri PDFp30/printed19 rendered and inspected. Compilation combines primary and secondary sources; no village provenance assigned to each recipe.",
+      "sha256": "e4d5894ef8492225462e69f4ec5ff76f80ea56c20234ffa2cdb8475bca3c3999"
+    },
+    {
+      "id": "food-chhenapoda-chef2021",
+      "url": "https://apps.odishatourism.gov.in/blog-detail/chhenapoda",
+      "inspection": "29July2021 date/byline and chocolate adaptation inspected. No origin/inventor, popularity, sales or current restaurant claims adopted."
+    }
+  ],
+  "retrieval_limits": [
+    "ICAR PDF unavailable through web reader; successful direct verified HTTPS recovery documented above."
+  ],
+  "verification": {
+    "claims": "Source-to-section review distinguishes documented versions, named historical accounts and original reader invitations. No invented meals, testimony, universal recipe, medicinal benefit or current venue assertion.",
+    "local_checks": "Research1093 concepts; subject classification303 relationships; wholeKB1247 concepts and4980 links; register/program consistency; workbench build/check and six Python/three Node tests; whitespace pass.",
+    "media": "PDFp30 rendered and inspected for source accuracy only. No source media reproduced; website visual check not applicable to KB-only change."
+  },
+  "limitations": [
+    "Same-assistant factual and editorial review; no independent cook, local/Odia reader or food-history review.",
+    "Selected source passages inspected; recipes not tested. Boiled/steamed manda terminology remains unresolved rather than assigned to invented regional versions.",
+    "2019 restaurant collaboration and2021 contributor recipe are historical descriptions. No current menu, business affiliation, household invitation or relationship verified.",
+    "KB article only; no original imagery, field tasting, contributor consent, website publication or search expansion. The earlier production plan remains open."
+  ],
+  "delivery": "Pending checked exact-head documentation PR; no website release needed."
+}
