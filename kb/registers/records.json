@@ -5204,7 +5204,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
       "authorization": "UTP-DEC-202",
-      "next_action": "Prepare recipient-specific discussion pack and a measurement plan for Founder review.",
+      "next_action": "Use the WORK215 outcome-review pack when trial evidence exists. Prepare recipient-specific discussion and outcome material for Founder review; no outreach or actual trial outcome is implied.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-173"
@@ -6306,6 +6306,32 @@
       "evidence": [
         "records/share-fallback-review-2026-10-10.json",
         "records/share-fallback-publication-2026-10-10.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-215",
+      "title": "Tourism trial outcome review and measurement pack",
+      "category": "planning",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Merge the reviewed preparation after required checks; field-dependent work remains open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-WORK-175",
+        "UTP-WORK-172",
+        "UTP-REV-183"
+      ],
+      "acceptance_criteria": [
+        "Turn existing tourism and Boita measures into a usable trial outcome-review pack: pre-trial baseline and question, explicit denominators, separate delivery/feedback/host-payment evidence, unanswered and stopped cases, blank review sheet, and evidence-to-decision handoff. Reuse existing preparation; preserve field and engagement tasks as open. Check arithmetic with clearly synthetic cases, definitions, privacy boundaries and KB links; passing PR and exact-head documentation merge receipt. No field intake, outreach, spending or website deployment."
+      ],
+      "evidence": [
+        "records/tourism-outcome-review-2026-10-10.json",
+        "specs/tourism-fieldwork/outcome-review.md"
       ]
     }
   ],
@@ -15051,6 +15077,30 @@
         "Same-assistant implementation, code and visual review; no independent accessibility review.",
         "Desktop viewport simulation, not physical-device or screen-reader testing.",
         "Native sharing remained pending in the in-app browser. The manual link was visible and keyboard-accessible, and opening its URL restored the selection; no actual recipient transmission or native-dialog completion is claimed. Clipboard success/failure and cancellation were verified with injected platform test doubles."
+      ]
+    },
+    {
+      "id": "UTP-REV-183",
+      "title": "Tourism trial outcome measurement preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-215",
+        "UTP-WORK-175",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/tourism-outcome-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant planning and consistency review; no independent practitioner, participant or statistical review.",
+        "Preparation only: no field observations, baseline, actual feedback, payments, appointments or government response collected.",
+        "No new external research or operating-fact verification. Existing KB definitions are reused; synthetic arithmetic probes are not trial outcomes.",
+        "WORK169–175 field, trial, proposal and external-engagement dependencies remain open. No outreach, intake, spending, commercial activation or website deployment."
       ]
     }
   ],

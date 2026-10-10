@@ -8,6 +8,7 @@ Prepare six research visits that can support useful stories and credible visitor
 - [Confirmation checklist](host-confirmation.md): operating facts, access, costs and separate recording/publication permissions.
 - [Three conference visitor route drafts](conference-route-drafts.md): heritage, craft and food candidates, with a return-deadline worksheet; local confirmation is still required before actual itineraries.
 - [Operator readiness and trial decision pack](operator-readiness.md): turn dated findings into a scoped assessment, resolve unknowns and prepare a human trial decision without implying a booking.
+- [Trial outcome review](outcome-review.md): agree the question and baseline, record visitor and host evidence with explicit denominators, and prepare an honest next-step decision after an actual trial.
 - [Six introduction drafts](outreach-drafts.md): recipient-specific wording for Founder review.
 - [Quote and expense tracker](cost-tracker.md) and [editable workbook](cost-tracker.xlsx): replace assumptions with quotes, commitments and payments without double counting.
 - [MICE route follow up](mice-follow-up.md): latest retrieval limits and an unsent departmental enquiry.

@@ -99,6 +99,8 @@ The [₹59,340 six-visit allowance](../tourism-pilot-capacity.md) is a **constru
 
 ## After an actual trial
 
+Use the [outcome-review pack](outcome-review.md) to agree the observation method before the trial and assemble results afterwards. It defines denominators, missing-data treatment and a blank decision handoff; no trial results are prefilled.
+
 Keep **not trialled / completed / cancelled / stopped early** explicit. Save planned versus actual activity, reasons for changes, dated observations, feedback with permission, costs committed/paid/outstanding and any refund due. Link each unresolved barrier to an owner and next action. A cancelled or shortened trial is useful evidence and must not be rewritten as a successful full visit.
 
 Recommend one next step: revise and reassess, consider another bounded trial, defer, or send the supported scope for editorial review. Host willingness, a paid fee or a successful visit does not itself approve a public listing. Public text should contain only supported facts and permitted material, with its check date and limitations. The [Founder TODO](../founder-todo.md) and WORK169–172 field/itinerary dependencies remain open.
