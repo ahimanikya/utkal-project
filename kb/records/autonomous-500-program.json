@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 25,
+  "completed_items": 26,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -320,14 +320,16 @@
     {
       "id": "UTP-A500-026",
       "title": "Develop the rice and seed keepers story for readers",
-      "status": "in_progress",
+      "status": "completed",
       "work_id": "UTP-WORK-211",
       "acceptance": "Expand the existing rice-kept-for-taste draft into a connected reader-facing article with named seed-keeper and women seed-enterprise accounts, scoped culinary preferences, useful questions and source notes. Reinspect original publications; preserve dated claims, farmer preferences versus recipe rules, and seed versus grain distinctions. No invented interview, current supply, health or income claim. Save claim/reuse review, KB navigation and merged documentation receipt; no website publication or search eligibility change.",
       "evidence": [
         "records/rice-story-review-2026-10-10.json",
         "records/rice-story-evidence-2026-10-10.json",
-        "research/stories/rice-kept-for-taste.md"
-      ]
+        "research/stories/rice-kept-for-taste.md",
+        "records/rice-story-merged-2026-10-10.json"
+      ],
+      "completed_at": "2026-10-10T01:41:03.227123+00:00"
     }
   ],
   "followup_candidates": [
@@ -347,5 +349,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-10T01:33:24.757021+00:00"
+  "updated_at": "2026-10-10T01:41:03.227123+00:00"
 }
