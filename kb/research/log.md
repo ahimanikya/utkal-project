@@ -480,3 +480,7 @@ Raja joins the53-profile review candidate with a new page on interpreting dated 
 ## 2026-10-10 · Seasonal navigation review
 
 Saved seasonal-navigation audit reconciled into the existing 53-profile draft collection. Month filters keep recurrence, unresolved identities and the solar transition separate; food-role notes stay visible. No fresh cultural research or publication.
+
+## 2026-10-10 · Prathamastami review
+
+Prathamastami joins fifteen narrative checkpoints in the53-profile review candidate. No new source research, merge or publication.

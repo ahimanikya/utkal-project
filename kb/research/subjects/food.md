@@ -87,3 +87,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Seasonal navigation audit
 
 [Reading the observance year](../culture/osha-seasonal-navigation.md) distinguishes offerings, shared meals, story foods, ritual materials and food comparisons before seasonal visitor use.
+
+
+## 2026-10-10 · Prathamastami: relationships and preparations
+
+[Prathamastami](../culture/osha/prathamastami.md) relates family gifts and blessings to [Enduri](../food/enduri-pitha.md), while retaining the differing scope of an offering list, a recipe and a personal account.

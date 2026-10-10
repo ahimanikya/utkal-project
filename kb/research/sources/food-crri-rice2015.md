@@ -21,3 +21,8 @@ Institutional compilation combining primary and secondary information. Book date
 ## Contributor context
 
 The preface credits Ananya Mahila Bikas Samiti at Sankilo, Cuttack, for information on several Odisha foods. It also describes secondary-source compilation. This does not establish an individual recipe’s village provenance.
+
+
+## 2026-10-10 · Prathamastami scope reading
+
+Printed19 / PDF30, Enduri/Haldi Patra entry. Saved original page image and text inspected; rice/black-gram batter, dairy filling and two steaming arrangements. [Profile](../culture/osha/prathamastami.md).

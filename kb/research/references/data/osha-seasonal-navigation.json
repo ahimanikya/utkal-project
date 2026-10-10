@@ -675,46 +675,96 @@
       "name": "Prathamastami",
       "profile_path": "culture/osha/prathamastami.md",
       "route": "/culture/osha/prathamastami/",
-      "source_checked_on": "2026-10-07",
+      "source_checked_on": "2026-10-10",
       "calendar_status": "source_month",
       "month_ids": [
         "margasira"
       ],
       "unresolved_month_ids": [],
-      "calendar_note": "Margasira reused from the existing profile; seasonal entry previously left month blank. Fortnight conflict remains.",
+      "calendar_note": "Margasira is supported; dark-eighth descriptions do not silently erase the saved temple-fortnight conflict.",
       "traditional_month_verbatim": "Margasira",
-      "calendar_rule_verbatim": null,
+      "calendar_rule_verbatim": "Dark eighth in Mahanti and Sarangi; conflicting indexed temple fortnight retained; no annual date adopted.",
       "food_terms_verbatim": [
-        "enduri pitha"
+        "enduri pitha",
+        "kheeri",
+        "radish dalma (Sarangi account)",
+        "fish (Sarangi account)"
       ],
-      "food_role_note": "Enduri is an offering associated with honouring the eldest child; other-season availability is not excluded.",
+      "food_role_note": "Enduri and kheeri are offerings; radish dalma and fish belong to Sarangi’s account. The CRRI filling and personal gift account are separately scoped; no universal menu or current offer.",
       "current_serving_availability": null,
       "annual_date": null,
       "source_ids": [
+        "osha-mahanti",
+        "osha-kanji-sarangi2018",
+        "food-crri-rice2015",
         "food-tourism",
-        "osha-mahanti"
+        "osha-pratham-svanir",
+        "osha-pratham-bharati",
+        "osha-pratham-text-lead"
       ],
       "evidence_sections": [
         {
-          "section_title": "Family and food",
+          "section_title": "The child, the mother and the maternal uncle",
           "evidence_class": "documented_description",
-          "source_ids": [
-            "osha-mahanti",
-            "food-tourism"
-          ],
-          "locator": "Mahanti p.59; Tourism Enduri Pitha section"
-        },
-        {
-          "section_title": "The calendar and history",
-          "evidence_class": "research_limit",
           "source_ids": [
             "osha-mahanti"
           ],
-          "locator": "Printed p.59; prior calendar-conflict register"
+          "locator": "Printed59 / PDF75, Prathamastami osha"
+        },
+        {
+          "section_title": "An Odia account names a fuller offering",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Prathamastami paragraph, web line172; preceding sentences before the Kanji Anla transition"
+        },
+        {
+          "section_title": "What happens inside the leaf",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "food-crri-rice2015",
+            "food-tourism"
+          ],
+          "locator": "Das printed19 / PDF30, Enduri Pitha or Haldi Patra Pitha; Tourism Enduri Pitha heading"
+        },
+        {
+          "section_title": "Food also travels between people",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pratham-svanir"
+          ],
+          "locator": "Opening first-person paragraphs, web lines14–16; Article metadata"
+        },
+        {
+          "section_title": "Kinship in a temple setting",
+          "evidence_class": "documented_description",
+          "source_ids": [
+            "osha-pratham-bharati",
+            "osha-mahanti"
+          ],
+          "locator": "IGNCA PDF2, section7 Association; Mahanti printed59 / PDF75 final paragraph"
+        },
+        {
+          "section_title": "A historical lead, with its missing link visible",
+          "evidence_class": "research_limit",
+          "source_ids": [
+            "osha-pratham-text-lead"
+          ],
+          "locator": "Printed65 / digital78, footnote30; OCR title/imprint2–3; original recovery incomplete"
+        },
+        {
+          "section_title": "A season to enquire about, not a fixed itinerary",
+          "evidence_class": "visitor_context",
+          "source_ids": [
+            "osha-mahanti",
+            "osha-kanji-sarangi2018"
+          ],
+          "locator": "Mahanti printed59 / PDF75; Sarangi web172–173; preserved calendar-conflict register"
         }
       ],
-      "profile_digest": "6c2fbe5acfa6cdfe341a25e4ae2af16324f3d3cd140ef1b9d0a15ada8afcf4e6",
-      "seasonal_entry_digest": "296b007b2296540fa374a897e3d1c72090a8bb1a5073f1beea24111799b09107"
+      "profile_digest": "67167d01c95934df300cbbda2e0ab15a3a9aaa11f4b0193f0030410ad56bbebf",
+      "seasonal_entry_digest": "8d05d974c5e89198334b0aa7055258fb9e41c2576260740ce71c097de2304aa0"
     },
     {
       "profile_id": "OSHA-011",
@@ -4080,5 +4130,12 @@
   ],
   "source_fetches": [],
   "next_step": "Reconcile this navigation candidate into the existing draft website collection, using visible status labels and source-scoped food notes, then test recurrence, conflicts, multi-month filtering and empty results.",
-  "implementation_scope": "Existing collection month/recurrence filters and food-role notes in draft PR145; not public release."
+  "implementation_scope": "Existing collection month/recurrence filters and food-role notes in draft PR145; not public release.",
+  "revision_history": [
+    {
+      "run_id": "2026-10-10-prathamastami",
+      "at": "2026-10-10T14:41:06.609060+00:00",
+      "scope": "Prathamastami row refreshed from revised profile and seasonal entry; prior draft implementation receipt retained, new row not yet pushed."
+    }
+  ]
 }

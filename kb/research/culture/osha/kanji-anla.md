@@ -61,3 +61,5 @@ Our torani-kanji food entry is a useful comparison for rice-water cooking. Its m
 [Torani kanji](../../food/torani-kanji.md): Compare rice-water cooking without treating the modern household recipe as an exact ritual recipe.
 
 [Seasonal food guide](../../visitor-index/seasonal-food-guide.md) · [Osha collection](../osha-brata-seasonal-food.md). No interviews, human cultural review, food experiment or image permissions are claimed.
+
+[Related reading](prathamastami.md) — Adjacent seasonal accounts retain distinct offering roles and conflicting next-day/evening timing; related reading is not an identity merge.

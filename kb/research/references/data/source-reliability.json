@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-10-10T09:43:50.199797+00:00",
+  "updated_at": "2026-10-10T15:24:02.890568+00:00",
   "scope": "Discovery and retrieval reliability; not a factual quality score or complete source verification.",
   "feeds": [
     {
@@ -9589,6 +9589,116 @@
         }
       ],
       "note": "Scoped cultural research, not weekly revision monitoring. Retrieved article text is available; failed byte/screenshot retrievals remain unavailable. Similar author accounts not assumed independent."
+    },
+    {
+      "run_id": "2026-10-10-prathamastami",
+      "at": "2026-10-10T14:41:06.609060+00:00",
+      "source_checks": [
+        {
+          "source_id": "osha-pratham-bharati",
+          "url": "https://ignca.gov.in/asi_reports/orkhurda019.pdf",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "retrieved",
+          "locator": "PDF2, section7 Association; PDF1 identity and PDF4 credits",
+          "scope": "Institutional site inventory records Prathamastami and a ritual visit by Lingaraja to his uncle. Its building-age field does not date the festival. No current timetable, food service or Utkal human review established.",
+          "method": "Original PDF downloaded; PDF2 visually inspected"
+        },
+        {
+          "source_id": "osha-pratham-svanir",
+          "url": "https://svanir.com/blog/prathamastami-celebrating-the-first-born",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "retrieved",
+          "locator": "Opening paragraphs, especially first-person recollection of Sunanda aunty and mother-in-law; web lines14–16",
+          "scope": "Published first-person account of receiving enduri and learning its meaning. Operator blog is not a dated serving offer. Health, exclusivity, harvest-origin and temple-service claims are not adopted.",
+          "method": "Original HTML and article metadata inspected"
+        },
+        {
+          "source_id": "osha-pratham-text-lead",
+          "url": "https://www.wisdomlib.org/history/book/studies-in-the-cult-of-jagannatha/ocr/1883728/78",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "retrieved_ocr_lead_only",
+          "locator": "Printed65 / digital78, Jagannatha in Orissan Dharmasastra, footnote30",
+          "scope": "Discovery lead only: unproofread OCR points to Smrtisarasangraha, edited by Pandit Govinda Rath, Cuttack1915, and attributes a seventeenth-century date to its author. Neither original chapter image nor cited edition recovered; no first-attestation, composition or observance-origin date adopted.",
+          "method": "OCR page retrieved; linked source/PDF/image tool fetches failed; direct full-PDF download timed out"
+        },
+        {
+          "source_id": "osha-mahanti",
+          "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "saved_evidence_reused",
+          "locator": "Printed59 / PDF75, Prathamastami paragraph",
+          "scope": "Saved PDF and newly rendered page inspected; household sequence and enduri/kheeri; no fresh retrieval."
+        },
+        {
+          "source_id": "food-crri-rice2015",
+          "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "saved_evidence_reused",
+          "locator": "Printed19 / PDF30, Enduri/Haldi Patra entry",
+          "scope": "Saved original page image and text inspected; rice/black-gram batter, dairy filling and two steaming arrangements."
+        },
+        {
+          "source_id": "food-tourism",
+          "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "saved_evidence_reused",
+          "locator": "Enduri Pitha heading",
+          "scope": "Saved institutional association reused, not freshly fetched."
+        },
+        {
+          "source_id": "osha-kanji-sarangi2018",
+          "url": "https://samadhwani.com/1311",
+          "checked_at": "2026-10-10T14:41:06.609060+00:00",
+          "status": "retrieved_existing_source_new_scope",
+          "locator": "Prathamastami paragraph and following Manabasa paragraph; web lines172–173",
+          "scope": "Existing source identity reused; original article re-opened and HTML captured. Named foods and sequence remain author-specific."
+        }
+      ],
+      "failed_fetches": [
+        {
+          "url": "https://www.deccanchronicle.com/southern-states/andhra-pradesh/15th-century-inscription-found-at-simhachalam-temple-1888500",
+          "status": "unavailable",
+          "method": "web open",
+          "error": "Internal Error",
+          "scope": "Secondary inscription discovery lead; no claim adopted",
+          "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+          "retry_after": "2026-10-17"
+        },
+        {
+          "url": "https://www.wisdomlib.org/history/book/studies-in-the-cult-of-jagannatha/ocr/1883728/78",
+          "status": "unavailable",
+          "method": "sandbox urllib before permitted network retry",
+          "error": "DNS resolution unavailable",
+          "scope": "Local HTML later recovered; earlier failed attempt retained",
+          "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+          "retry_after": "2026-10-17"
+        },
+        {
+          "url": "https://archive.org/details/studies-in-the-cult-of-jagannatha-1991",
+          "status": "unavailable",
+          "method": "web linked original",
+          "error": "Internal Error",
+          "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+          "retry_after": "2026-10-17"
+        },
+        {
+          "url": "https://www.wisdomlib.org/uploads/ocr/essays/jagannatha/studies-in-the-cult-of-jagannatha-1991.pdf",
+          "status": "unavailable",
+          "method": "web linked PDF then direct permitted urllib",
+          "error": "Internal Error; direct download read timeout after30seconds",
+          "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+          "retry_after": "2026-10-17"
+        },
+        {
+          "url": "https://www.wisdomlib.org/uploads/ocr/essays/jagannatha/studies-in-the-cult-of-jagannatha-1991/78.png",
+          "status": "unavailable",
+          "method": "web linked image",
+          "error": "Internal Error",
+          "attempted_at": "2026-10-10T14:41:06.609060+00:00",
+          "retry_after": "2026-10-17"
+        }
+      ],
+      "note": "Scoped cultural research; not weekly release/revision checks. Failed original-image/PDF retrieval is not unchanged evidence."
     }
   ]
 }

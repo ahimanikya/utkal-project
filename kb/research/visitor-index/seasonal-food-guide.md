@@ -223,3 +223,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 [Reading the observance year](../culture/osha-seasonal-navigation.md) now supplies a local navigation candidate. It keeps conflicting months, recurring vows and Raja’s solar transition separate; a browsing group is not a confirmed event or food offer.
 
 [Reading the observance year without inventing dates](../culture/osha-seasonal-navigation.md). Food roles and timing categories inform enquiries; they do not establish serving availability.
+
+
+## 2026-10-10 · Prathamastami enquiry notes
+
+[Prathamastami](../culture/osha/prathamastami.md) now has a fuller family and food narrative. Ask which enduri version is being prepared and on what confirmed date. An operator’s personal blog about receiving pitha is not a public serving offer; all availability and consent fields remain unknown.

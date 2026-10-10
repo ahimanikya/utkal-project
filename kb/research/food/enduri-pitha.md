@@ -57,3 +57,10 @@ Enduri/Haldi Patra uses rice–black-gram batter, coconut/paneer filling and tur
 ## Observance reading
 
 [Osha and food culture](../culture/osha-brata-seasonal-food.md) links the preparation to source-attributed observances; it does not establish one universal ritual recipe.
+
+
+## 2026-10-10 · Prathamastami: food roles and technique
+
+[Prathamastami](../culture/osha/prathamastami.md) now distinguishes ritual offering, a documented filling and personal food gifting. The saved CRRI2015 entry (printed19/PDF30) describes a steamer or cloth tied over a covered pot. Sarangi’s2018 Prathamastami paragraph names enduri alongside other foods and her Manabasa paragraph also includes enduri; association does not mean exclusive availability. These are attributed descriptions, not a tested recipe or universal household menu.
+
+[Related reading](../culture/osha/prathamastami.md) — Preparation and festival context explain different parts of the same food association; neither establishes a universal recipe.

@@ -2070,7 +2070,7 @@
       "source_path": "food/enduri-pitha.md",
       "project_path": "kb/research/food/enduri-pitha.md",
       "project_counterpart_present": true,
-      "copy_state": "byte_identical",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [],
       "source_ids": [
         "food-tourism"
@@ -13937,7 +13937,7 @@
       "source_path": "food/preparation-and-variation.md",
       "project_path": null,
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_10_raja_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "food",
         "arts",
@@ -13984,8 +13984,8 @@
       "layer": "research_concept",
       "source_path": "sources/food-crri-rice2015.md",
       "project_path": null,
-      "project_counterpart_present": false,
-      "copy_state": "new_local_research_record",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [],
       "source_ids": [
         "food-crri-rice2015"
@@ -19309,7 +19309,7 @@
       "source_path": "culture/osha-brata-seasonal-food.md",
       "project_path": "kb/research/culture/osha-brata-seasonal-food.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_10_raja_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "everyday",
         "food",
@@ -19330,7 +19330,7 @@
       "source_path": "visitor-index/seasonal-food-guide.md",
       "project_path": "kb/research/visitor-index/seasonal-food-guide.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_10_raja_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "food",
         "everyday",
@@ -19369,7 +19369,7 @@
       "source_path": "sources/osha-mahanti.md",
       "project_path": "kb/research/sources/osha-mahanti.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_10_raja_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "everyday",
         "food"
@@ -19642,7 +19642,7 @@
       "source_path": "culture/osha/kanji-anla.md",
       "project_path": "kb/research/culture/osha/kanji-anla.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_07_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "everyday",
         "food"
@@ -19652,7 +19652,8 @@
         "osha-mahanti",
         "osha-kanji-sarangi2018",
         "osha-kanji-mahakud2021"
-      ]
+      ],
+      "review_candidate": "https://github.com/ahimanikya/utkal-project/pull/145"
     },
     {
       "id": "culture/osha/bada",
@@ -19701,15 +19702,21 @@
       "source_path": "culture/osha/prathamastami.md",
       "project_path": "kb/research/culture/osha/prathamastami.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_07_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "everyday",
         "food"
       ],
       "source_ids": [
         "osha-mahanti",
-        "food-tourism"
-      ]
+        "osha-kanji-sarangi2018",
+        "food-crri-rice2015",
+        "food-tourism",
+        "osha-pratham-svanir",
+        "osha-pratham-bharati",
+        "osha-pratham-text-lead"
+      ],
+      "review_candidate": "https://github.com/ahimanikya/utkal-project/pull/145"
     },
     {
       "id": "culture/osha/sabitri",
@@ -20255,7 +20262,7 @@
       "source_path": "sources/osha-kanji-sarangi2018.md",
       "project_path": "kb/research/sources/osha-kanji-sarangi2018.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_2026_10_07_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "everyday",
         "food",
@@ -20263,7 +20270,8 @@
       ],
       "source_ids": [
         "osha-kanji-sarangi2018"
-      ]
+      ],
+      "review_candidate": "https://github.com/ahimanikya/utkal-project/pull/145"
     },
     {
       "id": "sources/osha-kanji-mahakud2021",
@@ -22325,13 +22333,65 @@
       "source_path": "culture/osha-seasonal-navigation.md",
       "project_path": "kb/research/culture/osha-seasonal-navigation.md",
       "project_counterpart_present": true,
-      "copy_state": "reconciled_review_candidate",
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
       "subject_ids": [
         "everyday",
         "food",
         "arts"
       ],
-      "source_ids": []
+      "source_ids": [],
+      "review_candidate": "https://github.com/ahimanikya/utkal-project/pull/145"
+    },
+    {
+      "id": "sources/osha-pratham-bharati",
+      "title": "Bharati Matha heritage documentation, OR/KDA/BSR-16",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-pratham-bharati.md",
+      "project_path": "kb/research/sources/osha-pratham-bharati.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
+      "subject_ids": [
+        "everyday",
+        "food"
+      ],
+      "source_ids": [
+        "osha-pratham-bharati"
+      ]
+    },
+    {
+      "id": "sources/osha-pratham-svanir",
+      "title": "Prathamastami - Celebrating the First Born",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-pratham-svanir.md",
+      "project_path": "kb/research/sources/osha-pratham-svanir.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
+      "subject_ids": [
+        "everyday",
+        "food"
+      ],
+      "source_ids": [
+        "osha-pratham-svanir"
+      ]
+    },
+    {
+      "id": "sources/osha-pratham-text-lead",
+      "title": "Studies in the Cult of Jagannatha: Prathamastami textual lead",
+      "kind": "Research Source",
+      "layer": "research_concept",
+      "source_path": "sources/osha-pratham-text-lead.md",
+      "project_path": "kb/research/sources/osha-pratham-text-lead.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_2026_10_10_prathamastami_candidate",
+      "subject_ids": [
+        "everyday",
+        "food"
+      ],
+      "source_ids": [
+        "osha-pratham-text-lead"
+      ]
     }
   ],
   "shared_publications": [
@@ -23956,7 +24016,11 @@
         "references/data/raja-research.json",
         "sources/osha-raja-mohapatra2006.md",
         "culture/osha-seasonal-navigation.md",
-        "references/data/osha-seasonal-navigation.json"
+        "references/data/osha-seasonal-navigation.json",
+        "references/data/prathamastami-research.json",
+        "sources/osha-pratham-bharati.md",
+        "sources/osha-pratham-svanir.md",
+        "sources/osha-pratham-text-lead.md"
       ],
       "project_records": [
         "kb/research/product/destination-and-tour-book.md",
@@ -23982,8 +24046,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1453,
-    "updated_at": "2026-10-10T12:03:21.358785+00:00",
+    "records_mapped": 1456,
+    "updated_at": "2026-10-10T15:24:02.890568+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24661,6 +24725,11 @@
       "run_id": "2026-10-10-navigation-review",
       "at": "2026-10-10T12:03:21.358785+00:00",
       "scope": "Seasonal-navigation derivative reconciled; source checking dates and native records preserved."
+    },
+    {
+      "run_id": "2026-10-10-prathamastami-review",
+      "at": "2026-10-10T15:24:02.890568+00:00",
+      "scope": "Prathamastami sources reconciled; native food and subject prose preserved."
     }
   ]
 }

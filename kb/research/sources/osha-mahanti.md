@@ -166,3 +166,8 @@ Printed53/PDF69 and107–108/PDF123–124 visually inspected for household descr
 ## 2026-10-10 · Raja reading
 
 Printed116–119 / PDF132–135 visually inspected. [Raja](../culture/osha/raja-parba.md) uses source-specific belief, preparation and sharing descriptions. Decline, storage and physiological claims held; same publication reused, not independent corroboration.
+
+
+## 2026-10-10 · Prathamastami scope reading
+
+Printed59 / PDF75, Prathamastami paragraph. Saved PDF and newly rendered page inspected; household sequence and enduri/kheeri; no fresh retrieval. [Profile](../culture/osha/prathamastami.md).

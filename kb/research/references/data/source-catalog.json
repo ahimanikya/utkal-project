@@ -31,6 +31,17 @@
         "locator": "Poda Pitha and Enduri Pitha headings only",
         "scope": "Alternate route for existing publication; not an independent source. No medical or origin claims adopted."
       }
+    ],
+    "inspection_history": [
+      {
+        "run_id": "2026-10-10-prathamastami",
+        "source_id": "food-tourism",
+        "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+        "checked_at": "2026-10-10T14:41:06.609060+00:00",
+        "status": "saved_evidence_reused",
+        "locator": "Enduri Pitha heading",
+        "scope": "Saved institutional association reused, not freshly fetched."
+      }
     ]
   },
   "chef": {
@@ -4079,7 +4090,18 @@
         30
       ],
       "previous_unavailable_route": "https://icar-nrri.in/wp-content/uploads/2023/05/final_book_ldas.pdf"
-    }
+    },
+    "inspection_history": [
+      {
+        "run_id": "2026-10-10-prathamastami",
+        "source_id": "food-crri-rice2015",
+        "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+        "checked_at": "2026-10-10T14:41:06.609060+00:00",
+        "status": "saved_evidence_reused",
+        "locator": "Printed19 / PDF30, Enduri/Haldi Patra entry",
+        "scope": "Saved original page image and text inspected; rice/black-gram batter, dairy filling and two steaming arrangements."
+      }
+    ]
   },
   "food-poda-regions-mint2023": {
     "id": "food-poda-regions-mint2023",
@@ -7443,6 +7465,15 @@
           134,
           135
         ]
+      },
+      {
+        "run_id": "2026-10-10-prathamastami",
+        "source_id": "osha-mahanti",
+        "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+        "checked_at": "2026-10-10T14:41:06.609060+00:00",
+        "status": "saved_evidence_reused",
+        "locator": "Printed59 / PDF75, Prathamastami paragraph",
+        "scope": "Saved PDF and newly rendered page inspected; household sequence and enduri/kheeri; no fresh retrieval."
       }
     ]
   },
@@ -7878,6 +7909,15 @@
         "checked_at": "2026-10-07T18:14:46.767625+00:00",
         "locator": "Margasira road-sweeping, song and Bata paragraphs before Prathamastami (web lines162–171)",
         "scope": "Existing publication identity reused; newly scoped passage inspected through web extraction. Previous Kanji scope preserved."
+      },
+      {
+        "run_id": "2026-10-10-prathamastami",
+        "source_id": "osha-kanji-sarangi2018",
+        "url": "https://samadhwani.com/1311",
+        "checked_at": "2026-10-10T14:41:06.609060+00:00",
+        "status": "retrieved_existing_source_new_scope",
+        "locator": "Prathamastami paragraph and following Manabasa paragraph; web lines172–173",
+        "scope": "Existing source identity reused; original article re-opened and HTML captured. Named foods and sequence remain author-specific."
       }
     ]
   },
@@ -8953,5 +8993,46 @@
     "scope": "Dated authorial cultural description, not an origin document or household survey. Calendar and regional food descriptions remain attributed. Publisher authority does not validate every historical or social generalisation.",
     "capture_method": "Web-reader original PDF text; PDF screenshots unavailable; no local original-byte capture",
     "lineage_note": "Similar wording and motifs occur in Mahanti; textual dependence is unassessed. Do not count as independent corroboration merely because there are two source IDs."
+  },
+  "osha-pratham-bharati": {
+    "id": "osha-pratham-bharati",
+    "title": "Bharati Matha heritage documentation, OR/KDA/BSR-16",
+    "publisher": "Indira Gandhi National Centre for the Arts",
+    "author": "Lister: Jaya Shankar Naik; form reviewer: Dr S. Pradhan",
+    "published_on": null,
+    "resource": "https://ignca.gov.in/asi_reports/orkhurda019.pdf",
+    "locator": "PDF2, section7 Association; PDF1 identity and PDF4 credits",
+    "scope": "Institutional site inventory records Prathamastami and a ritual visit by Lingaraja to his uncle. Its building-age field does not date the festival. No current timetable, food service or Utkal human review established.",
+    "capture_method": "Original PDF downloaded; PDF2 visually inspected",
+    "accessed_on": "2026-10-10"
+  },
+  "osha-pratham-svanir": {
+    "id": "osha-pratham-svanir",
+    "title": "Prathamastami - Celebrating the First Born",
+    "author": "Soumya",
+    "publisher": "Svanir Wilderness Ecostay blog",
+    "resource": "https://svanir.com/blog/prathamastami-celebrating-the-first-born",
+    "published_on": "2025-11-12",
+    "publication_date_basis": "Article JSON-LD datePublished 2025-11-12T23:18:07+0530; visible byline date Nov12 omits year",
+    "modified_on": "2026-09-24",
+    "locator": "Opening paragraphs, especially first-person recollection of Sunanda aunty and mother-in-law; web lines14–16",
+    "scope": "Published first-person account of receiving enduri and learning its meaning. Operator blog is not a dated serving offer. Health, exclusivity, harvest-origin and temple-service claims are not adopted.",
+    "capture_method": "Original HTML and article metadata inspected",
+    "accessed_on": "2026-10-10"
+  },
+  "osha-pratham-text-lead": {
+    "id": "osha-pratham-text-lead",
+    "title": "Studies in the Cult of Jagannatha: Prathamastami textual lead",
+    "editor": "K. C. Mishra; chapter author not established in this run",
+    "publisher": "Institute of Orissan Culture, Bhubaneswar; OCR hosted by Wisdom Library",
+    "published_on": "1991",
+    "publication_date_basis": "OCR title/imprint pages2–3 and University of Hyderabad library catalogue item49491; original imprint image not inspected",
+    "resource": "https://www.wisdomlib.org/history/book/studies-in-the-cult-of-jagannatha/ocr/1883728/78",
+    "locator": "Printed65 / digital78, Jagannatha in Orissan Dharmasastra, footnote30",
+    "scope": "Discovery lead only: unproofread OCR points to Smrtisarasangraha, edited by Pandit Govinda Rath, Cuttack1915, and attributes a seventeenth-century date to its author. Neither original chapter image nor cited edition recovered; no first-attestation, composition or observance-origin date adopted.",
+    "capture_method": "OCR page retrieved; linked source/PDF/image tool fetches failed; direct full-PDF download timed out",
+    "bibliographic_url": "https://igmlnet.uohyd.ac.in/chamo/lib/item?id=chamo:49491",
+    "evidence_status": "discovery_only",
+    "accessed_on": "2026-10-10"
   }
 }

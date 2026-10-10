@@ -5300,6 +5300,36 @@
       "content_type": "Cultural Research Guide",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/osha-pratham-bharati",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/osha-pratham-svanir",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/osha-pratham-text-lead",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food"
+      ],
+      "content_type": "Research Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -8746,6 +8776,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "Food roles and timing categories inform enquiries; they do not establish serving availability."
+    },
+    {
+      "from": "culture/osha/prathamastami",
+      "to": "food/enduri-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Preparation and festival context explain different parts of the same food association; neither establishes a universal recipe."
+    },
+    {
+      "from": "food/enduri-pitha",
+      "to": "culture/osha/prathamastami",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Preparation and festival context explain different parts of the same food association; neither establishes a universal recipe."
+    },
+    {
+      "from": "culture/osha/prathamastami",
+      "to": "culture/osha/kanji-anla",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Adjacent seasonal accounts retain distinct offering roles and conflicting next-day/evening timing; related reading is not an identity merge."
+    },
+    {
+      "from": "culture/osha/kanji-anla",
+      "to": "culture/osha/prathamastami",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Adjacent seasonal accounts retain distinct offering roles and conflicting next-day/evening timing; related reading is not an identity merge."
     }
   ],
   "relationship_types": {

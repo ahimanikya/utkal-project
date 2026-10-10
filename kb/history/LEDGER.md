@@ -1086,3 +1086,7 @@ Raja joins the existing review collection. A companion page distinguishes histor
 ## UTP-HIS-OSHA-NAVIGATION-20261010 · Reading the observance year
 
 The existing collection gains shared month labels, recurrence and unresolved-identity views, with food roles alongside names. Saved research reused; no annual dates, current food offers, human review or publication claimed. [Checkpoint](../records/osha-navigation-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-PRATHAMASTAMI-20261010 · Prathamastami family and food evidence
+
+Prathamastami gains a fuller family and food narrative. Source-specific offerings, preparation, personal gifting and temple kinship remain distinct; the historical textual lead is unconfirmed. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-prathamastami-review-2026-10-10.json).

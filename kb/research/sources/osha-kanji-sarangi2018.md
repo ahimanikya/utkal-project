@@ -22,3 +22,8 @@ Locator: Paragraph beginning with Margasira Krishna Ashtami / Prathamastami; Kan
 ## 2026-10-07 · Bata inspected passage
 
 Existing publication identity reused; newly scoped passage inspected through web extraction. Previous Kanji scope preserved. Margasira road-sweeping, song and Bata paragraphs before Prathamastami (web lines162–171). [Bata Osha](../culture/osha/bata.md). Reuse of one publication is not independent corroboration.
+
+
+## 2026-10-10 · Prathamastami scope reading
+
+Prathamastami paragraph and following Manabasa paragraph; web lines172–173. Existing source identity reused; original article re-opened and HTML captured. Named foods and sequence remain author-specific. [Profile](../culture/osha/prathamastami.md).

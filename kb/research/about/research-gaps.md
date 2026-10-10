@@ -434,3 +434,7 @@ Original texts, local food preparation, unresolved names and current visitor evi
 ## 2026-10-10 · Raja and seasonal-food review
 
 Raja earlier witnesses, museum article and situated local accounts retry17October. Existing14–17October holds remain. No current serving offers verified.
+
+## 2026-10-10 · Prathamastami review
+
+Prathamastami original chapter image, cited1915 text and situated household accounts retry17October. Existing14–17October holds remain. No current serving offers verified.

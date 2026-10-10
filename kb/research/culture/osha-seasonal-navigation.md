@@ -71,3 +71,8 @@ Prepared 10 October 2026 from saved research. Original source-check dates are pr
 [Osha, brata: stories, seasons and food](osha-brata-seasonal-food.md). Calendar labels are a reading route into existing narratives, not new observance identities.
 
 [Exploring Odisha through seasonal food](../visitor-index/seasonal-food-guide.md). Food roles and timing categories inform enquiries; they do not establish serving availability.
+
+
+## 2026-10-10 · Prathamastami row revised locally
+
+The Prathamastami row now records source-specific offerings and revised provenance. It remains under Margasira with its finer calendar disagreement visible. This revision is reconciled into draftPR145; the earlier navigation implementation receipt is historical, not a claim that this new content is published.

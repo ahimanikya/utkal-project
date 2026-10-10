@@ -181,3 +181,8 @@ The [Raja service account](../visitor-index/seasonal-food-offer-evidence.md) nam
 ## 2026-10-10 · Raja preparation and food roles
 
 [Raja Parba](../culture/osha/raja-parba.md) connects preparation ahead, shared pitha and reported public sales. Its muan reference does not identify a recipe. The source’s several-day keeping claim is not food-storage guidance.
+
+
+## 2026-10-10 · Enduri and the occasion
+
+[Enduri](enduri-pitha.md) and [Prathamastami](../culture/osha/prathamastami.md) now connect the saved leaf-steaming method to gifts, blessings and source-specific offerings. A published paneer filling does not establish dairy in every version; alternative leaves remain unverified.

@@ -15,7 +15,7 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The fifty-three selected profiles include fourteen narrative checkpoints and thirty-nine early research notes. These are selected reading pages, including overlapping traditions, not a statewide festival count. Nuakhai and Raja are included as agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The fifty-three selected profiles include fifteen narrative checkpoints and thirty-eight early research notes. These are selected reading pages, including overlapping traditions, not a statewide festival count. Nuakhai and Raja are included as agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
@@ -129,3 +129,8 @@ A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md)
 [Read the observance year](osha-seasonal-navigation.md): common month groups, recurrence, unresolved identities and food roles across the existing collection.
 
 [Reading the observance year without inventing dates](osha-seasonal-navigation.md). Calendar labels are a reading route into existing narratives, not new observance identities.
+
+
+## 2026-10-10 · Prathamastami narrative checkpoint
+
+[Prathamastami](osha/prathamastami.md) connects maternal gifts, blessings, Enduri technique, an attributed fuller offering and temple kinship. Original historical witnesses and situated household review remain open.

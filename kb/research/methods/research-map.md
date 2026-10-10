@@ -449,3 +449,7 @@ Raja and public-food study reconciled using saved sources. Historical sales, und
 ## 2026-10-10 · Seasonal navigation review
 
 The seasonal-navigation derivative reuses saved profile/seasonal identities, section locators and source dates. It is not independent corroboration or an annual calendar.
+
+## 2026-10-10 · Prathamastami review
+
+Prathamastami and Enduri study reconciled using saved captures. Historical discovery leads remain distinct from inspected sources.
