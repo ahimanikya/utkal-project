@@ -1,0 +1,32 @@
+{
+  "recorded_at": "2026-10-10T11:33:04.817544+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-035",
+  "work_id": "UTP-WORK-220",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/178",
+  "reviewed_head": "1975657100d183ce90cba31cc6c6c7da64c19d8a",
+  "merge_commit": "801a0bf6e25e8232eae46902a927209cafa648bc",
+  "merged_at": "2026-10-10T11:23:23Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38047188103",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed for reviewed head: governance, research classification, workbench, language atlas, full-site and coastal build/tests and design checks. Local4980KB links, six Python/three Node workbench tests passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, internal research index, workbench references and records only. No public website source, selected content, assets, edition, workflow or search eligibility changed."
+  },
+  "output": {
+    "path": "research/stories/taste-odisha.md",
+    "sha256": "b84378807a0b8e4b728aa1b3bfc9c1a84761f9f4c3de64928b871367dc345b29",
+    "matches_fetched_merge": true
+  },
+  "review": "records/taste-odisha-story-review-2026-10-10.json",
+  "transport_note": "Merge command reported a connection reset. Subsequent GitHub read confirmed MERGED with exact head and merge commit; fetched origin/main contains identical article bytes. No unverified success inferred from the failed transport.",
+  "limitations": [
+    "Same-assistant factual and editorial review; no independent cook, local/Odia reader or food-history review.",
+    "Selected source passages inspected; recipes not tested. Boiled/steamed manda terminology remains unresolved rather than assigned to invented regional versions.",
+    "2019 restaurant collaboration and2021 contributor recipe are historical descriptions. No current menu, business affiliation, household invitation or relationship verified.",
+    "KB article only; no original imagery, field tasting, contributor consent, website publication or search expansion. The earlier production plan remains open."
+  ]
+}

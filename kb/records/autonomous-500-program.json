@@ -5,7 +5,7 @@
   "human_owner": "Ahimanikya Satapathy",
   "authorization": "UTP-DEC-225",
   "target_completed_items": 500,
-  "completed_items": 34,
+  "completed_items": 35,
   "counting_rule": "Count a bounded user-facing deliverable or substantive canonical-record repair once, after its acceptance evidence exists. Checks, individual commands, generated fields and repeat verification do not count. Failed, deferred or blocked items do not count. Never label automated source-link checks as factual review.",
   "selection": "Resume an in-progress item, otherwise choose one eligible task from current registers and verified coverage gaps. Read the project KB and search existing research first. Append the selected task with a concrete output and acceptance test before working. Keep blocked fieldwork separate and move to an independent task.",
   "publication_policy": "Founder explicitly authorizes the next 500 routine UTP backlog items without further approval prompts, including existing Git/website publication after meaningful tests and review. Record actual batch scope, PR, review and deployment evidence. This does not appoint AI personas, verify facts, authorize outreach or spending, activate held commercial projects, or change unrelated repositories.",
@@ -436,13 +436,15 @@
     {
       "id": "UTP-A500-035",
       "title": "Turn Taste Odisha into an attributed food-reading story",
-      "status": "in_progress",
+      "status": "completed",
       "work_id": "UTP-WORK-220",
       "acceptance": "Expand Taste Odisha’s existing campaign outline into a connected reader article using attributed meal, pitha-method and contemporary cook examples. Search existing KB and reuse source identities, verify bounded original passages and mark retrieval limits; avoid invented host testimony, universal recipes, health claims or current venue promises. Preserve original campaign directions, validate research classification, KB and derived indexes, pass required PR checks and save exact-head merge receipt. No website deployment or search eligibility expansion.",
       "evidence": [
         "records/taste-odisha-story-review-2026-10-10.json",
-        "research/stories/taste-odisha.md"
-      ]
+        "research/stories/taste-odisha.md",
+        "records/taste-odisha-story-merged-2026-10-10.json"
+      ],
+      "completed_at": "2026-10-10T11:33:04.817544+00:00"
     }
   ],
   "followup_candidates": [
@@ -462,5 +464,5 @@
     "status": "ACTIVE",
     "destination": "current chat"
   },
-  "updated_at": "2026-10-10T11:05:04.042086+00:00"
+  "updated_at": "2026-10-10T11:33:04.817544+00:00"
 }
