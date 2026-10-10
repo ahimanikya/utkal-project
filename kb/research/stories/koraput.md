@@ -1,5 +1,5 @@
 ---
-type: "Editorial story"
+type: "Journey Concept"
 title: "Koraput through a book a cup and a cloth"
 description: "A reader journey connecting Koraput, Gopinath Mohanty, coffee, Kalajeera rice and Kotpad textiles."
 tags: ["story", "tourism", "food", "handlooms"]

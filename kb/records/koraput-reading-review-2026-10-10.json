@@ -68,7 +68,12 @@
     "claims": "Source-attributed introduction and edition credit distinguished from original reader questions. No invented lived scene, attribution, translation or claim to close reading.",
     "continuity": "Existing story expanded in place and index label updated. No duplicate person/work/destination identity; structured research datasets and other automation queues untouched.",
     "checks": "PASS: research index validation (1093 concepts), whole-project catalogue (1247), 4973 local KB links, registers, program consistency, editorial workbench regeneration/check, six Python and three Node workbench tests, and whitespace checks.",
-    "initial_correction": "Local registers check rejected file paths in refs. Corrected refs to record IDs and put paths under evidence before PR."
+    "initial_correction": "Local registers check rejected file paths in refs. Corrected refs to record IDs and put paths under evidence before PR.",
+    "ci_correction": {
+      "failed_run": "https://github.com/ahimanikya/utkal-project/actions/runs/38035853833",
+      "cause": "Changing the existing Journey Concept type to Editorial story disagreed with the canonical subject classification.",
+      "correction": "Retained the original Journey Concept classification; regenerated derived indexes and ran the subject validator. No ontology expansion needed for this narrative revision."
+    }
   },
   "limitations": [
     "Same-assistant source and editorial review; no independent literary scholar, community, maker or language review.",
