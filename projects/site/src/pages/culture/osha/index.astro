@@ -4,13 +4,13 @@ import study from '../../../../../../kb/research/references/data/osha-culture.js
 const timing=(p)=>!p.traditional_month||p.slug==='shani-tota'?'recurring':p.traditional_month;
 const months=[...new Set(study.pages.map(timing).filter(m=>m!=='recurring'))];
 ---
-<Shell title="Osha, stories & the food year" description="Explore Odisha’s osha and brata through their stories, seasons, household practices and food." active="explore" related={false}>
+<Shell title="Osha, stories & the food year" description="Explore Odisha’s osha, brata and parba through their stories, seasons, household practices and food." active="explore" related={false}>
 <div class="wrap">
 <header class="osha-cover">
 <p class="eyebrow">Living traditions · A continuing collection</p>
 <p class="saying">Bara masa, tera parba</p>
 <h1>A year of stories.<br/><em>A place at the table.</em></h1>
-<p class="lead">Follow Odisha’s osha and brata through a grain offering, a knotted thread, a leaf-wrapped pitha—and the stories people tell around them.</p>
+<p class="lead">Follow Odisha’s osha, brata and parba through a grain offering, a knotted thread, a leaf-wrapped pitha—and the stories people tell around them.</p>
 <p>Some occasions gather a family around food. Others give meaning to restraint. Begin with an observance, then discover the story and the questions still worth asking.</p>
 <a href="#observances" class="utk-button">Explore the observances ↓</a>
 </header>
@@ -20,7 +20,7 @@ const months=[...new Set(study.pages.map(timing).filter(m=>m!=='recurring'))];
 <p id="osha-count" role="status" aria-live="polite">{study.pages.length} observances</p>
 <div class="osha-grid">{study.pages.map((p,i)=><article class="osha-card" data-month={timing(p)} data-search={[p.name,p.lead,...p.food_names,...p.sections.map(s=>s.text)].join(' ').toLowerCase()}><p class="eyebrow">{p.traditional_month||'Recurring condition'} · {p.observance_type}</p><h3><a href={p.route}>{p.name} <span aria-hidden="true">↗</span></a></h3><p>{p.lead}</p><p class="food-line">{p.food_names.length?p.food_names.join(' · '):'Food association still being researched'}</p><p class="reading-stage">{p.coverage_status==='narrative_checkpoint'?'Story & food checkpoint':'Early notes · history incomplete'}</p></article>)}</div><p id="osha-empty" hidden>No match in this first collection. Try another food or show all timings.</p>
 </section>
-<section class="osha-next"><div><p class="eyebrow">From reading to a visit</p><h2>Ask about the food.<br/><em>Listen for the story.</em></h2></div><div><p>Use the collection to find something you would like to learn about. Ask a cook which version they make, what the occasion means to them and whether it is available during your visit.</p><p>No serving place or current event date is confirmed here. A food sale and an invitation to private worship are different arrangements.</p><a href="/food/">Explore food & flavours →</a></div></section>
+<section class="osha-next"><div><p class="eyebrow">From reading to a visit</p><h2>Ask about the food.<br/><em>Listen for the story.</em></h2></div><div><p>Use the collection to find something you would like to learn about. Ask a cook which version they make, what the occasion means to them and whether it is available during your visit.</p><p>No serving place or current event date is confirmed here. A food sale and an invitation to private worship are different arrangements.</p><p><a href="/culture/osha/finding-seasonal-food/">Read a food notice before planning a visit →</a></p><a href="/food/">Explore food & flavours →</a></div></section>
 <section class="osha-research"><p><a href="/culture/osha/which-osha/">Which Osha? Find the right full-moon tradition →</a></p><h2>The next chapters</h2><p>We are tracing Odia katha editions and local histories, and extending regional accounts. Chaitra Mangala, Sathi and Nisha Mangalabara now have initial profiles. Pua Jiuntia, Bhai Jiuntia and Nuakhai now offer western Odisha reading routes. Bata, Pandu and Shani/Tota add further accounts of vows, offerings and recurring observances. The expanded collection keeps local practices, textual comparisons and unresolved food identities distinct. Further textual and regional research remains open. It is a research path, not a claim to have covered every observance.</p><a href="/contribute/">Share a source or suggest a correction →</a></section>
 <details class="osha-evidence"><summary>About the research</summary><p>Prepared with AI assistance under the direction of Ahimanikya Satapathy. Sources checked 7–10 October 2026; no local interviews or human factual review claimed. Each article links its sources and identifies unresolved claims. Legends are presented as narratives, not dated historical events.</p></details>
 </div>

@@ -80,3 +80,7 @@ Read this as a route into teacher-disciple culture and shared devotional food. A
 [Preparation and variation](../../food/preparation-and-variation.md). Reported prasad and announced cooked prasad do not identify dishes or recipes; preparation research must preserve each event and food role.
 
 [Osha collection](../osha-brata-seasonal-food.md) · [Seasonal food guide](../../visitor-index/seasonal-food-guide.md). No field interviews or human language review claimed.
+
+## 2026-10-10 · Seasonal public-food evidence
+
+The existing Math calendar evidence is reused in the [serving-evidence comparison](../../visitor-index/seasonal-food-offer-evidence.md). Its29July2026 date and cooked-prasad plan remain institution-specific; fulfilment, dishes and present availability are unknown.

@@ -210,3 +210,11 @@ Read the [Janhi profile](../culture/osha/janhi.md) before treating its culminati
 ## 2026-10-10 · Ashoka Astami: enquiry before a menu
 
 [Ashoka Astami](../culture/osha/ashoka-astami-brata.md) separates a household vow, a flower-bud prescription and Rukuna Ratha. The comparison does not verify an edible local preparation, serving place, current date or invitation.
+
+## 2026-10-10 · Seasonal public-food evidence
+
+The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an official2021 Raja takeaway programme, an undated operator account and a2026 cooked-prasad announcement. These are historical or announced services; current availability remains unknown.
+
+## 2026-10-10 · Raja: a new narrative on an existing seasonal entry
+
+[Raja Parba](../culture/osha/raja-parba.md) now explains Earth’s rest, preparation ahead and shared pitha. SEAS-001 retains its identity and unknown serving fields; historical OTDC sales do not establish a current visitor offer.

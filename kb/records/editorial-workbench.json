@@ -26,7 +26,7 @@
     },
     "with_flags": 227,
     "mapped_pages": 13,
-    "newer_records_outside_frozen_selection": 330
+    "newer_records_outside_frozen_selection": 333
   },
   "additional_ids": [
     "source:bhima-akademi",
@@ -86,6 +86,7 @@
     "source:food-koli-pectin2020",
     "source:food-koli-rprc",
     "source:food-nimantran-menu2023",
+    "source:food-otdc-raja-undated",
     "source:food-ou-ray2014",
     "source:food-ou-sasmita2017",
     "source:food-ou-sasmita2019",
@@ -94,6 +95,7 @@
     "source:food-palm-panda2021",
     "source:food-palm-ragul2022",
     "source:food-patrapoda-lopa2024",
+    "source:food-raja-otdc2021",
     "source:food-soul-pritisha2024",
     "source:food-sukhua-tripathy",
     "source:food-tala-manaswini2018",
@@ -281,6 +283,7 @@
     "source:osha-radhastami-padma",
     "source:osha-radhastami-rgd2026",
     "source:osha-radhastami-shubhapallaba2020",
+    "source:osha-raja-mohapatra2006",
     "source:osha-rambha-dutt1908",
     "source:osha-rambha-garuda-sanskrit",
     "source:osha-ray2020",
@@ -362,12 +365,12 @@
   ],
   "inputs": {
     "kb/records/editorial-workbench-selection.json": "11e1a66cec2f24379ce7e9f27b782bea26ccb55a7b242138135cad0897ea0fdb",
-    "kb/research/references/data/source-catalog.json": "861797f32bc681d916e1f730657bb4145592eb107b0dd5dcff988c5fb544f8a0",
-    "kb/research/search-index.json": "ae9d1b7511432d5d0884d961c78701fd39a2e1057197e3ee0f3f12273f1f620a",
+    "kb/research/references/data/source-catalog.json": "d24202ba800d9d0bb6a36fbd7844784145a9d7641b540cdc460a1e15f2eca583",
+    "kb/research/search-index.json": "2b66f6471a3647b7a4db1585da1a13154abd1b7bb1e444ed779c4f6f7cc316e0",
     "kb/research/food/collection.json": "ce9e8d35ad63b989d8f339087272465afedcbbde385a866d9a6409aac75bf3d2",
     "kb/research/voices/collection.json": "2caac5ad5d6a8a792ab0c93bc77b4773fe1889a93d0c081e6cff732e3c1dd1ca",
     "kb/research/references/data/food-preparations.json": "947ad5931899e0b1e9e21d8375c4d773e3deafd7f1344c6e0811f2d74191443e",
-    "projects/site/editions/coast.json": "b82e4d9e25bbc78309d1f1d17e10bfae611d7d25fb6d3b565de225640166424d"
+    "projects/site/editions/coast.json": "5193d8782bdb376a7c485c432d2975bfad9d3cc3272841dfef8c51263b8d2a7e"
   },
   "records": [
     {
@@ -4359,6 +4362,11 @@
       },
       "connections": [
         {
+          "id": "culture/osha/raja-parba",
+          "title": "Raja Parba",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/culture/osha/raja-parba.md"
+        },
+        {
           "id": "food/arisa-pitha",
           "title": "Arisa pitha",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/food/arisa-pitha.md"
@@ -4672,6 +4680,11 @@
           "id": "culture/osha/prathamastami",
           "title": "Prathamastami",
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/culture/osha/prathamastami.md"
+        },
+        {
+          "id": "culture/osha/raja-parba",
+          "title": "Raja Parba",
+          "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/culture/osha/raja-parba.md"
         },
         {
           "id": "food/chakuli",
@@ -15320,11 +15333,15 @@
           "url": "https://github.com/ahimanikya/utkal-project/blob/main/kb/research/sources/visitor-otdc.md"
         }
       ],
-      "related_source_ids": [],
+      "related_source_ids": [
+        "food-otdc-raja-undated"
+      ],
       "flags": [
+        "Shared reference URL",
         "Retrieval limitation recorded"
       ],
       "next_actions": [
+        "Compare locators and editions with food-otdc-raja-undated. A shared URL may be an index containing different publications. Keep citation IDs and do not infer either identical publications or independent corroboration.",
         "Read the capture history before reusing this source; identify which passage is still unavailable and whether a later capture resolves it.",
         "For the next story using this source, compare each proposed claim with its exact passage and recorded scope."
       ],

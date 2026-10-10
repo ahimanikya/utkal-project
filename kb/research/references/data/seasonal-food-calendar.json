@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
   "task_id": "RES-077",
-  "run_id": "2026-10-10-ashoka-astami",
-  "checked_at": "2026-10-10T05:33:53.174138+00:00",
-  "scope": "Fifty-three selected seasonal entries including Raja; fifty-two profiles. Overlapping research records, not statewide festival totals; textual consumption does not verify local serving.",
+  "run_id": "2026-10-10-raja",
+  "checked_at": "2026-10-10T08:45:12.916881+00:00",
+  "scope": "Fifty-three selected seasonal entries and fifty-three linked profiles; overlapping traditions are not statewide totals. No new current venue verified.",
   "user_direction": "Explore osha/brata/parba through food, season and everyday life; consider a visitor food calendar.",
   "entries": [
     {
@@ -12,30 +12,41 @@
       "observance_type": "festival",
       "foods": [
         "poda pitha",
-        "arisa pitha"
+        "arisa pitha",
+        "muan — Mahanti’s named preparation; recipe unresolved"
       ],
       "food_paths": [
         "food/poda-pitha",
         "food/arisa-pitha"
       ],
-      "traditional_month": null,
+      "traditional_month": "Mithuna Sankranti; solar transition described as Jyestha to Ashadha in Mohapatra",
       "season_window": "June association in saved 15 June 2026 report; not a reusable annual date",
-      "calendar_rule": null,
+      "calendar_rule": "Three festival days around Mithuna Sankranti; fourth-day observance described with regional variation. No reusable Gregorian date adopted.",
       "occurrence_year": null,
       "gregorian_date": null,
       "geography": "Odisha; locality and household distribution not established",
       "source_ids": [
         "food-tourism",
-        "food-air-raja2026"
+        "food-air-raja2026",
+        "osha-mahanti",
+        "osha-raja-mohapatra2006"
       ],
-      "source_locator": "Tourism Poda Pitha heading; saved Akashvani report third body paragraph",
+      "source_locator": "Tourism Poda Pitha heading; saved2026 report third paragraph; Mahanti printed116–119/PDF132–135; Mohapatra printed122–123/PDF1–2",
       "evidence_status": "documented_association",
-      "notes": "Reuse dated report with title/second-day discrepancy retained; cooking versions differ.",
+      "notes": "Existing Raja entry deepened without duplicate identity. Muan remains a named category without recipe. Dated service examples remain historical. Source calendar systems and names retained. Saved Akashvani title/second-day discrepancy remains unresolved.",
       "venue_ids": [],
       "current_serving_availability": null,
       "visitor_access": null,
       "host_consent": null,
-      "local_review": null
+      "local_review": null,
+      "historical_service_evidence_ids": [
+        "SFO-001",
+        "SFO-002"
+      ],
+      "service_evidence_path": "references/data/seasonal-public-food-evidence.json",
+      "profile_id": "OSHA-053",
+      "profile_path": "culture/osha/raja-parba.md",
+      "food_association_status": "documented_festival_food_with_source_specific_variation"
     },
     {
       "id": "SEAS-002",
@@ -1759,7 +1770,7 @@
       "status": "available",
       "method": "web rendered text",
       "checked_at": "2026-10-07T05:07:14.902375+00:00",
-      "locator": "Poda Pitha and Enduri Pitha headings only",
+      "locator": "Poda Pitha heading; saved food/poda-pitha.md",
       "scope": "Alternate route for existing publication; not an independent source. No medical or origin claims adopted."
     },
     {
@@ -1767,7 +1778,7 @@
       "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
       "status": "available",
       "checked_at": "2026-10-07T05:30:57.424485+00:00",
-      "locator": "Enduri Pitha section"
+      "locator": "Poda Pitha heading; saved food/poda-pitha.md"
     },
     {
       "source_id": "osha-ghadai2018",
@@ -3402,6 +3413,92 @@
       ],
       "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
       "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "food-raja-otdc2021",
+      "url": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "locator": "Printed8/PDF8; issue date and publisher on PDF1–2",
+      "scope": "Retrospective official account of Raja Utsav2021 takeaway: six named foods, six Bhubaneswar pickup areas,14–16June2021 and7am–11pm. Separate counters in Bhubaneswar, Cuttack and Sambalpur; hours not separately established for those counters. No present offer, price, recipe or sales quantity.",
+      "method": "Direct verified-TLS PDF download; text read, PDF8 rendered and visually inspected"
+    },
+    {
+      "source_id": "food-otdc-raja-undated",
+      "url": "https://otdc.odisha.gov.in/",
+      "status": "retrieved",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "locator": "Homepage Raja Mahotsav card and associated Read More modal staticBackdrop7",
+      "scope": "Operator retrospective describes June14–16 and named sales settings but gives no event year. Neither a2026 calendar nor current availability established; image filename and current retrieval date do not date the event.",
+      "method": "Direct verified-TLS HTML download and event-card/modal text inspection; web reader timed out"
+    },
+    {
+      "source_id": "osha-guru-rkm2026",
+      "url": "https://rkmbbsr.org/wp-content/uploads/2026/04/Celebration-List-for-2026-27-for-website.pdf",
+      "status": "saved_evidence_reused",
+      "original_checked_at": "2026-10-09T23:29:16.622704+00:00",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "locator": "PDF1 Odia row6 and anna-prasad note; PDF2 English row6, C.P. legend and almanac heading",
+      "scope": "Reuse only:29July2026 Guru Purnima and planned cooked prasad; no fresh retrieval or fulfilled service asserted."
+    },
+    {
+      "source_id": "osha-raja-mohapatra2006",
+      "url": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+      "status": "retrieved_text_only",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed122–123 / article PDF1–2; header and byline",
+      "scope": "Dated authorial cultural description, not an origin document or household survey. Calendar and regional food descriptions remain attributed. Publisher authority does not validate every historical or social generalisation.",
+      "method": "Web-reader original PDF text; PDF screenshots unavailable; no local original-byte capture"
+    },
+    {
+      "source_id": "osha-mahanti",
+      "run_id": "2026-10-10-raja",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed116–119 / PDF132–135, Raja parba",
+      "scope": "Festival belief, preparation ahead, pitha sharing, swing songs and author recollection. Universal, decline, storage and physiological claims not adopted.",
+      "method": "Saved original text and four newly rendered page images inspected",
+      "local_capture": "work/osha-deep-study/mahanti.pdf",
+      "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+      "visually_inspected_pdf_pages": [
+        132,
+        133,
+        134,
+        135
+      ],
+      "url": "https://www.esamskriti.com/essays/pdf/17%20FINAL%20Fading%20Festivals%20of%20Odisha%20%281%29.pdf",
+      "status": "saved_evidence_reused"
+    },
+    {
+      "source_id": "food-tourism",
+      "url": "https://odishatourism.gov.in/content/tourism/en/the-taste-of-odisha.html",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Poda Pitha heading; saved food/poda-pitha.md",
+      "scope": "Reuse previously saved scoped evidence; not fresh retrieval or independent corroboration."
+    },
+    {
+      "source_id": "food-air-raja2026",
+      "url": "https://newsonair.gov.in/raja-festival-begins-across-odisha/",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Article date 1:03 PM; third body paragraph, delicacies",
+      "scope": "Reuse previously saved scoped evidence; not fresh retrieval or independent corroboration."
+    },
+    {
+      "source_id": "food-raja-otdc2021",
+      "url": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed8/PDF8; issue date and publisher on PDF1–2",
+      "scope": "Reuse previously saved scoped evidence; not fresh retrieval or independent corroboration."
+    },
+    {
+      "source_id": "food-crri-rice2015",
+      "url": "https://icar-crri.in/wp-content/uploads/2023/05/final_book_ldas.pdf",
+      "status": "saved_evidence_reused",
+      "checked_at": "2026-10-10T08:45:12.916881+00:00",
+      "locator": "Printed9 / PDF20, Arisa Pitha entry",
+      "scope": "Saved ICAR-CRRI2015 institutional food compilation reused for preparation description; not a fresh fetch, tested recipe or Raja household survey."
     }
   ],
   "failed_fetches": [
@@ -4476,6 +4573,78 @@
       "method": "Web open",
       "reason": "Internal error; no article contents adopted and not classified unchanged",
       "checked_at": "2026-10-10T04:37:25.193690+00:00"
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Internal fetch error",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/what-s-new?page=15",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://puri.odisha.gov.in/en/quick-links",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://otdc.in/",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Inaccessible through reader",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Cache miss",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://odishatourism.gov.in/documents/35730/41982/April_June_2026.pdf/1337e308-cf61-f6da-5645-3b6bb9a1bc0e?t=1788761868821",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Cache miss",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": true
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/event",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Timeout",
+      "recovered_by_direct_fetch": false
+    },
+    {
+      "url": "https://otdc.odisha.gov.in/en/light/page/packages",
+      "status": "unavailable",
+      "checked_at": "2026-10-10T07:41:05.728681+00:00",
+      "method": "web reader",
+      "reason": "Cache miss",
+      "recovered_by_direct_fetch": false
     }
   ],
   "followup_candidates": [
@@ -4606,5 +4775,6 @@
       "scope": "Disambiguation of existing records; no additional calendar entries",
       "checked_at": "2026-10-09T10:20:30.651528+00:00"
     }
-  ]
+  ],
+  "public_food_evidence_register": "references/data/seasonal-public-food-evidence.json"
 }

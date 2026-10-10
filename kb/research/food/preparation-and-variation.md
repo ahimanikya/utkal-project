@@ -171,3 +171,13 @@ The [Talagaja entry](talagaja.md) distinguishes reported fresh consumption from 
 ## 2026-10-10 · Ritual consumption and local recipes
 
 [Ashoka Astami](../culture/osha/ashoka-astami-brata.md). A textual item consumed in a rite is not automatically a household recipe or visitor dish; Ashoka Astami keeps those food roles distinct.
+
+
+## 2026-10-10 · Seasonal public-food evidence
+
+The [Raja service account](../visitor-index/seasonal-food-offer-evidence.md) names six foods in a2021 takeaway programme. A menu assortment does not verify ingredients, technique or a common recipe across sellers.
+
+
+## 2026-10-10 · Raja preparation and food roles
+
+[Raja Parba](../culture/osha/raja-parba.md) connects preparation ahead, shared pitha and reported public sales. Its muan reference does not identify a recipe. The source’s several-day keeping claim is not food-storage guidance.

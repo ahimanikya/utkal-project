@@ -233,3 +233,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Ashoka Astami: household and public settings
 
 [Ashoka Astami](../culture/osha/ashoka-astami-brata.md) distinguishes care for children, a textual prayer against sorrow and a festival legend. Their relationship remains a question for local and textual research.
+
+
+## 2026-10-10 · Raja: food, rest and social life
+
+[Raja Parba](../culture/osha/raja-parba.md) considers rest, restrictions, singing and shared food through attributed accounts. No universal participant experience or ancient origin is asserted.

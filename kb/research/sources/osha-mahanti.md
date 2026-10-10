@@ -162,3 +162,7 @@ Printed51/PDF67 and86/PDF102 visually inspected. Household fruit and public-fest
 ## 2026-10-10 · Ashoka Astami inspection
 
 Printed53/PDF69 and107–108/PDF123–124 visually inspected for household description and separately attributed festival legend. Unsupported non-observance claim held. [Profile](../culture/osha/ashoka-astami-brata.md). Same compilation reused, not independent corroboration.
+
+## 2026-10-10 · Raja reading
+
+Printed116–119 / PDF132–135 visually inspected. [Raja](../culture/osha/raja-parba.md) uses source-specific belief, preparation and sharing descriptions. Decline, storage and physiological claims held; same publication reused, not independent corroboration.

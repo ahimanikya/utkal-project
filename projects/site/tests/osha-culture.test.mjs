@@ -23,3 +23,15 @@ test('food associations lead only to available preparation pages',()=>{
  assert.ok(links>0,'at least one independently published preparation is linked');
  assert.ok(read('/culture/osha/prathamastami/').includes('href="/food/enduri-pitha/"'));
 });
+
+test('seasonal food evidence keeps historical, undated and planned services distinct',()=>{
+ const html=read('/culture/osha/finding-seasonal-food/');
+ for(const label of ['A reported service in the past','An account without a year','A plan for distribution','No current serving offer is verified'])assert.ok(html.includes(label),label);
+ for(const id of ['SFO-001','SFO-002','SFO-003'])assert.ok(html.includes(`data-evidence-id="${id}"`));
+ assert.ok(html.includes('14–16 June 2021, as reported'));
+ assert.ok(html.includes('14–16 June printed without a year'));
+ assert.ok(html.includes('29 July 2026, as announced'));
+ for(const id of ['food-raja-otdc2021','food-otdc-raja-undated','osha-guru-rkm2026'])assert.ok(html.includes(`id="source-${id}"`));
+ for(const slug of ['raja-parba','guru-purnima-brata'])assert.ok(read('/culture/osha/'+slug+'/').includes('href="/culture/osha/finding-seasonal-food/"'));
+ assert.ok(read('/culture/osha/').includes('href="/culture/osha/raja-parba/"'));
+});

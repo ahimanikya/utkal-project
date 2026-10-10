@@ -441,3 +441,7 @@ Fifteen additional profiles and the Osha identity guide reconciled. Related name
 ## 2026-10-09 · Osha expansion checkpoint
 
 Thirteen additional profiles, coverage audit and later revisions reconciled. Related names and cultural comparisons remain distinct.
+
+## 2026-10-10 · Raja and seasonal-food review
+
+Raja and public-food study reconciled using saved sources. Historical sales, undated descriptions and announcements remain separate from current availability.

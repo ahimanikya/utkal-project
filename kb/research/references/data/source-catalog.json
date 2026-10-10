@@ -7427,6 +7427,22 @@
           123,
           124
         ]
+      },
+      {
+        "source_id": "osha-mahanti",
+        "run_id": "2026-10-10-raja",
+        "checked_at": "2026-10-10T08:45:12.916881+00:00",
+        "locator": "Printed116–119 / PDF132–135, Raja parba",
+        "scope": "Festival belief, preparation ahead, pitha sharing, swing songs and author recollection. Universal, decline, storage and physiological claims not adopted.",
+        "method": "Saved original text and four newly rendered page images inspected",
+        "local_capture": "work/osha-deep-study/mahanti.pdf",
+        "sha256": "8dd1d610e7e5df0dcb8f77a5a4a75c267fb3fb43480df2e24d39bbe312070f22",
+        "visually_inspected_pdf_pages": [
+          132,
+          133,
+          134,
+          135
+        ]
       }
     ]
   },
@@ -8892,5 +8908,50 @@
     "accessed_on": "2026-10-10",
     "locator": "Historical Roots and Celebratory Myths; The Spectacle of the Rukuna Rath Yatra; Engaging in the Festivities; Timings",
     "scope": "Institutional tourism interpretation of Bhubaneswar festival and Rama legend. No dated foundation record, named household menu, serving venue or current event timetable. Deity roster and crowd generalisations not adopted; generic gastronomy wording not a dish-level association."
+  },
+  "food-raja-otdc2021": {
+    "id": "food-raja-otdc2021",
+    "title": "Pitha Hits the Road Amid Raja Restrictions — Odisha Unravelled, July 2021, issue 8",
+    "author": null,
+    "publisher": "Department of Tourism, Government of Odisha",
+    "published_on": "2021-07",
+    "resource": "https://odishatourism.gov.in/documents/35730/41982/ODISHA%2BUNRAVELLED%2B%2BJULY%2B2021.pdf/f4b34a83-0523-98e2-9019-f5d1faac9bc1?t=1776688897355",
+    "locator": "Printed8/PDF8; issue date and publisher on PDF1–2",
+    "scope": "Retrospective official account of Raja Utsav2021 takeaway: six named foods, six Bhubaneswar pickup areas,14–16June2021 and7am–11pm. Separate counters in Bhubaneswar, Cuttack and Sambalpur; hours not separately established for those counters. No present offer, price, recipe or sales quantity.",
+    "accessed_on": "2026-10-10",
+    "capture": {
+      "method": "Direct verified-TLS PDF download; text read, PDF8 rendered and visually inspected",
+      "path": "work/osha-public-food/july2021.bin",
+      "sha256": "c2d9460581152be1002211f7c382d01fbe020ecc8a26e942fdec1447b943f59b"
+    }
+  },
+  "food-otdc-raja-undated": {
+    "id": "food-otdc-raja-undated",
+    "title": "OTDC: Raja Mahotsav event description",
+    "author": null,
+    "publisher": "Odisha Tourism Development Corporation",
+    "published_on": null,
+    "resource": "https://otdc.odisha.gov.in/",
+    "locator": "Homepage Raja Mahotsav card and associated Read More modal staticBackdrop7",
+    "scope": "Operator retrospective describes June14–16 and named sales settings but gives no event year. Neither a2026 calendar nor current availability established; image filename and current retrieval date do not date the event.",
+    "accessed_on": "2026-10-10",
+    "capture": {
+      "method": "Direct verified-TLS HTML download and event-card/modal text inspection; web reader timed out",
+      "path": "work/osha-public-food/otdc.bin",
+      "sha256": "c8ff77092496bcff31ca1e90d518efe208d19a52b03d87a54861db07ef8c32c9"
+    }
+  },
+  "osha-raja-mohapatra2006": {
+    "id": "osha-raja-mohapatra2006",
+    "title": "Raja Sankranti: The Festival of Swings",
+    "author": "Pravukalyan Mohapatra",
+    "publisher": "Orissa Review, Information and Public Relations Department, Government of Orissa",
+    "published_on": "2006-06",
+    "resource": "https://magazines.odisha.gov.in/Orissareview/june2006/engpdf/122-123.pdf",
+    "accessed_on": "2026-10-10",
+    "locator": "Printed122–123 / article PDF1–2; header and byline",
+    "scope": "Dated authorial cultural description, not an origin document or household survey. Calendar and regional food descriptions remain attributed. Publisher authority does not validate every historical or social generalisation.",
+    "capture_method": "Web-reader original PDF text; PDF screenshots unavailable; no local original-byte capture",
+    "lineage_note": "Similar wording and motifs occur in Mahanti; textual dependence is unassessed. Do not count as independent corroboration merely because there are two source IDs."
   }
 }

@@ -472,3 +472,7 @@ Reconciled accumulated Osha research:39 profiles,10 narrative checkpoints and29 
 ## 2026-10-09 · Osha expansion checkpoint
 
 Reconciled accumulated Osha research:52 profiles,13 narrative checkpoints and39 research notes, plus existing identity guide. No merge or publication.
+
+## 2026-10-10 · Raja and seasonal-food review
+
+Raja joins the53-profile review candidate with a new page on interpreting dated food notices. No new source research, merge or publication.

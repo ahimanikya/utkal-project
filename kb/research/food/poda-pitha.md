@@ -61,3 +61,8 @@ Reuse of saved attributed regional accounts; versions are not universal rules.
 **To establish:** Local variants remain open; CRRI book versions already captured separately.
 
 [Odisha’s poda and fire-cooking traditions](poda-and-fire-cooking.md) connects this account to other ingredients and cooking methods.
+
+
+## 2026-10-10 · Raja: preparing ahead and sharing
+
+[Raja Parba](../culture/osha/raja-parba.md). The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence.

@@ -15,10 +15,11 @@ human_review_claimed: false
 
 ## Stories to begin with
 
-The fifty-two selected profiles include thirteen narrative checkpoints and thirty-nine early research notes. These are selected reading pages, including overlapping traditions, not a statewide festival count. Nuakhai is included as an agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
+The fifty-three selected profiles include fourteen narrative checkpoints and thirty-nine early research notes. These are selected reading pages, including overlapping traditions, not a statewide festival count. Nuakhai and Raja are included as agrarian parba. The Chaitra Mangala story checkpoint uses an English synopsis; its full Odia text remains unread. The latter make their missing stories and histories explicit. None claims a securely established origin date.
 
 | Observance | Traditional month | Reading status |
 |---|---|---|
+| [Raja Parba](osha/raja-parba.md) | Mithuna Sankranti | Earth’s rest, preparation ahead, pitha sharing and a dated2006 witness |
 | [Khudurukuni Osha](osha/khudurukuni.md) | Bhadraba | Story and food checkpoint |
 | [Manabasa Gurubara](osha/manabasa-gurubara.md) | Margasira | Story and food checkpoint |
 | [Sudasa Brata](osha/sudasa-brata.md) | Recurring condition | Story and food checkpoint |
@@ -119,3 +120,7 @@ The expanded [Janhi profile](osha/janhi.md) records flowers, a song fragment, pl
 [What the collection still needs](osha-coverage-audit.md) preserves the audit against the original 39 profiles. All eight missing Brata leads from the original audit now have bounded profiles, ending with Guru Purnima. This closes that page-coverage gap, not their unresolved histories. Shiva Pradosha and Tarini have bounded profiles; Mangala Gouri/Shrabani is covered as a separate comparison in the existing Gouri page. Bajra Mahakali now has a narrative checkpoint. Mahastami now has a bounded research note. Ashoka Astami now has a bounded profile, completing this selected six-lead extension; full histories, local foods and website reconciliation remain open. These are research leads, not verified statewide festival counts.
 
 Inventory coverage guides future research without treating names as verified aliases, local menus or a statewide festival count.
+
+## 2026-10-10 · Seasonal public-food evidence
+
+A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md) connects Raja food history to a documented2021 takeaway programme. Programme dates, undated operator copy and an institutional prasad announcement remain distinct; no new observance profile or current offer is inferred.

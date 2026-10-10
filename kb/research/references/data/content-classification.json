@@ -5234,6 +5234,61 @@
       "content_type": "Cultural Observance",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "visitor-index/seasonal-food-offer-evidence",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "everyday",
+        "places"
+      ],
+      "content_type": "Visitor Research",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/food-raja-otdc2021",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "everyday",
+        "places"
+      ],
+      "content_type": "Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/food-otdc-raja-undated",
+      "primary_subject": "food",
+      "secondary_subjects": [
+        "everyday",
+        "places"
+      ],
+      "content_type": "Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha/raja-parba",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Observance",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "sources/osha-raja-mohapatra2006",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Source",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -8589,6 +8644,69 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "A textual item consumed in a rite is not automatically a household recipe or visitor dish; Ashoka Astami keeps those food roles distinct."
+    },
+    {
+      "from": "visitor-index/seasonal-food-offer-evidence",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Shows why a food association, dated historical service and current offer need separate evidence."
+    },
+    {
+      "from": "visitor-index/seasonal-food-offer-evidence",
+      "to": "culture/osha/guru-purnima-brata",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Reuses institution-specific date and prasad announcement without turning a plan into observed distribution."
+    },
+    {
+      "from": "visitor-index/seasonal-food-offer-evidence",
+      "to": "food/preparation-and-variation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Named programme foods do not establish recipes or all seller variants."
+    },
+    {
+      "from": "culture/osha/raja-parba",
+      "to": "food/poda-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence."
+    },
+    {
+      "from": "food/poda-pitha",
+      "to": "culture/osha/raja-parba",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence."
+    },
+    {
+      "from": "culture/osha/raja-parba",
+      "to": "food/arisa-pitha",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence."
+    },
+    {
+      "from": "food/arisa-pitha",
+      "to": "culture/osha/raja-parba",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "The Raja account connects preparation ahead and shared pitha with a pause in everyday work; dish-level pages retain their own preparation evidence."
+    },
+    {
+      "from": "culture/osha/raja-parba",
+      "to": "visitor-index/seasonal-food-offer-evidence",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A festival-food association and a dated public sale answer different questions; the serving-evidence study preserves that distinction for Raja."
+    },
+    {
+      "from": "visitor-index/seasonal-food-offer-evidence",
+      "to": "culture/osha/raja-parba",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "A festival-food association and a dated public sale answer different questions; the serving-evidence study preserves that distinction for Raja."
     }
   ],
   "relationship_types": {

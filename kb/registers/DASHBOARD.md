@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b558d5ad37e57062f8245387d5eacb126908cd07294f8af0d6d19bd469cb31f0`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `9d431cde8788e7f09b6b74c1803b7d308660c522afc4970fe5e717337b3738a5`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -197,7 +197,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-185 · Illustrated Kala Bhoomi, Dhauli and Pipili stories | completed | published | Ahimanikya Satapathy | Current museum displays and visitor arrangements, and independent local or specialist review remain follow-up research. | — |
 | UTP-WORK-186 · Three flexible illustrated visit plans | completed | published | Ahimanikya Satapathy | Use the published plans as starting points for WORK-171 after local confirmation of timings, capacity and costs. | — |
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
-| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-two profiles and an identity guide | in_progress | draft | Ahimanikya Satapathy | Complete review of the52-profile candidate and verify its branch/CI state. Preserve14–17October text and local-practice holds. Prepare one bounded annual-date and publicly documented food-offer evidence batch after saved-source search; no private host outreach, inferred consent or publication approval. | — |
+| UTP-WORK-2026100701 · Osha, stories and the food year: fifty-three profiles and dated food evidence | in_progress | draft | Ahimanikya Satapathy | Review the53-profile candidate and new dated-food evidence page; retain prior14–17October text, locality and operator holds. Source workspace remains scheduling authority. Earlier Raja witnesses and museum original retry17October. No current offer, human review or publication inferred. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
 
@@ -763,7 +763,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-259 | 2026-10-07T05:09:18.412523+00:00 | Founder-approved PR144 merged and Pages deployment succeeded. Three live plans, nine photographs, discovery links and three-item journey payloads verified. | Continue authorized research; provider-confirmed itinerary work remains separate. |
 | UTP-EVT-2026100701 | 2026-10-07T05:41:21.326668+00:00 | Prepared twelve source-linked observance profiles, seasonal food connections and thirteen website routes. Preserved deity/calendar disagreements and a sequential expansion inventory. | Continue katha evidence research and review website candidate. |
 | UTP-EVT-260 | 2026-10-07T06:43:37.928214+00:00 | Three illustrated food stories prepared with preserved journey IDs, portable-book reading and bounded backlog reconciliation. Automated and responsive browser checks passed. | Founder review of candidate; local arrangements remain deferred. |
 | UTP-EVT-261 | 2026-10-07T07:08:20.250505+00:00 | Founder-approved PR146 merged and GitHub Pages deployment succeeded. Three live stories, licensed image hashes, stable journey IDs, book photographs and discovery/visit-plan links verified. | Continue authorized research; field-dependent verification remains deferred. |
@@ -773,6 +772,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-2026100801 | 2026-10-08T01:15:40.768038+00:00 | Reconciled three B06 profiles;24 selected observance pages and a collection route prepared for review. No merge or publication. | Continue OSHA-B06 with Nagala Chaturthi, checking identity against Naga Panchami before adding a profile. Earlier textual/locality gaps retain14October retries; Rambha gaps15October. Source workspace remains scheduling authority. |
 | UTP-EVT-2026100901 | 2026-10-09T10:24:29.876536+00:00 | Reconciled fifteen additional profiles and identity guide;39 observance pages prepared for review. No merge or publication. | Review the 39-profile candidate and identity guide; prepare a bounded source-grounded coverage audit for still-absent observances rather than repeat held identity searches. Existing textual/local/annual-date holds remain dated14–16October. Source workspace remains scheduling authority; no publication approval inferred. |
 | UTP-EVT-2026101001 | 2026-10-10T06:33:48.232029+00:00 | Reconciled thirteen additional profiles and revisions;52 observance pages prepared for review. No merge or publication. | Complete review of the52-profile candidate and verify its branch/CI state. Preserve14–17October text and local-practice holds. Prepare one bounded annual-date and publicly documented food-offer evidence batch after saved-source search; no private host outreach, inferred consent or publication approval. |
+| UTP-EVT-2026101002 | 2026-10-10T09:43:50.199797+00:00 | Raja and dated food evidence prepared for existing draft review branch.53 profiles; no merge or publication. | Review the53-profile candidate and new dated-food evidence page; retain prior14–17October text, locality and operator holds. Source workspace remains scheduling authority. Earlier Raja witnesses and museum original retry17October. No current offer, human review or publication inferred. |
 
 ## Deferred extensions
 

@@ -1078,3 +1078,7 @@ Fifteen additional profiles and an Osha identity guide join the existing review 
 ## UTP-HIS-OSHA-EXPANSION-20261010 · More observances and distinct food contexts
 
 Thirteen additional profiles and later revisions join the existing review candidate. Original texts, attributed narratives, calendar differences and local food gaps remain explicit. No human review, merge or publication claimed. [Checkpoint](../records/osha-expansion-checkpoint-2026-10-10.json).
+
+## UTP-HIS-OSHA-RAJA-20261010 · Raja and dated food evidence
+
+Raja joins the existing review collection. A companion page distinguishes historical services, undated operator descriptions and planned distribution from present availability. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-raja-review-2026-10-10.json).

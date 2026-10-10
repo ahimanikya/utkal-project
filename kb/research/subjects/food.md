@@ -79,3 +79,8 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-07 · Osha and food
 
 [The ritual food year](../culture/osha-brata-seasonal-food.md) connects dishes and observances.
+
+
+## 2026-10-10 · Seasonal public-food evidence
+
+[From festival food to a dated serving record](../visitor-index/seasonal-food-offer-evidence.md) explains how historical service reports and institutional announcements can support food history while current offers remain unverified.
