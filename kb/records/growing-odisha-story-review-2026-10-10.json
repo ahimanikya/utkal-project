@@ -1,0 +1,104 @@
+{
+  "recorded_at": "2026-10-10T14:41:25.133027+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-037",
+  "work_id": "UTP-WORK-222",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/growing-odisha.md",
+  "brief": {
+    "reader": "Resident, diaspora reader or entrepreneur seeking to understand Odisha growth headlines.",
+    "reason_to_read": "Connect the scale of activity with specific livelihood questions that deserve separate reporting.",
+    "memorable_detail": "Coastal cargo is42.06% of Paradip throughput; the total is not all overseas exports.",
+    "visual_treatment": "Six-year construction table retains the2020–21 dip and estimate labels. Future photo/video needs consenting participants.",
+    "next_step": "Choose a measure and participant-led reporting question without assuming the answer."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "fisheries",
+      "construction"
+    ],
+    "inputs": [
+      "research/stories/growing-odisha.md",
+      "research/economy/gdp-story.md",
+      "research/economy/comparison-01-fisheries.md",
+      "research/economy/comparison-05-port-logistics.md",
+      "research/economy/construction.md",
+      "research/statistics/fisheries.md",
+      "research/trade/paradip-throughput.md",
+      "research/references/data/industry-growth-data.json",
+      "research/about/statistics-storytelling.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-015",
+      "RES-017",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "3c4e6e0c71ec21b89ae5816c89093bf28c45eb46c4854ceb30e9fc28af3a59c1",
+    "preserved": "Campaign Concept, title, line and three subjects retained. Earlier draft in807c8e78; poster/video and investment-milestone directions preserved. No research automation datasets or queue statuses changed."
+  },
+  "sources": [
+    {
+      "ids": [
+        "comparison-1-1",
+        "sector-survey"
+      ],
+      "url": "https://assembly.odisha.gov.in/WriteReadData/News/OES%202026%20WEB%20UPLOAD.pdf",
+      "inspection": "Web reader rejected size; direct verified HTTPS recovery 35,142,032 bytes. PDF pp419/440 (printed372/393) rendered and visually inspected: Table1.4 construction row/units/estimate headings and Table4.1 total-fish endpoints. Same publication, not independent sources.",
+      "sha256": "1af94ebd625a031f4ffb93f2d5307dee91efd1b26b27fea7a98c40cf4677e65c"
+    },
+    {
+      "id": "weekly-fisheries-jul2026",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2282817&lang=2&reg=48",
+      "inspection": "9July2026 date and Background: total12.70 lakh MT and freshwater8.27 lakh MT for2025–26. No mission-attributed outcome or income claim."
+    },
+    {
+      "id": "maritime-paradip-2016",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=1513070",
+      "inspection": "18December2017 table, Paradip row2015–16 column76.39million tonnes."
+    },
+    {
+      "id": "maritime-paradip-2026",
+      "url": "https://paradipport.gov.in/all_news/paradip-port-registers-historic-high-cargo-handling-in-fy-25-26-best-ever-in-its-history/",
+      "inspection": "1April2026 release: cargo156.45MMT, coastal65.81MMT/42.06%, wider hinterland, future-project language. No ranking or promotional causal claims adopted."
+    }
+  ],
+  "verification": {
+    "calculations": [
+      {
+        "measure": "fish",
+        "start": 469.5,
+        "end": 1191.8,
+        "calculated_change_pct": 153.8
+      },
+      {
+        "measure": "port",
+        "start": 76.39,
+        "end": 156.45,
+        "calculated_change_pct": 104.8
+      },
+      {
+        "measure": "construction",
+        "start": 25976.11,
+        "end": 42144.69,
+        "calculated_change_pct": 62.2
+      }
+    ],
+    "construction_conversion": "All six source values inINR lakh divided by100 match canonicalINR crore series; annual decline and2ndRE/1stRE headings visually verified.",
+    "claims": "Production, throughput, real GSVA and income/employment distinguished; participant examples are reporting questions, not testimony. Later fisheries release separate from survey interval.",
+    "local_checks": "1093research concepts,303relationships,1247KB concepts/4986links; program/register checks; workbench build/check and six Python/three Node tests; whitespace pass.",
+    "visual": "Both PDF table pages rendered and inspected. No public website or visual asset change."
+  },
+  "limitations": [
+    "Same-assistant source and editorial review; no independent economist, participant or human editorial review.",
+    "Bounded source passages and two survey tables checked; not a comprehensive refresh of every economic series. Source estimates and displayed rounding retained.",
+    "No producer interview, field visit, household income, job creation, environmental outcome or commercial project completion established.",
+    "KB-only reader draft with a six-year table. No new photography, website publication, search eligibility or participant media permission."
+  ],
+  "delivery": "Pending required checks and exact-head documentation merge; deployment not required."
+}
