@@ -1,0 +1,34 @@
+{
+  "recorded_at": "2026-10-10T07:56:29.279059+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-032",
+  "work_id": "UTP-WORK-217",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/175",
+  "reviewed_head": "d8e305b2edac9b4b45b57e464af3d10d3f0d7df6",
+  "merge_commit": "cab5451ed8a689e0520f6ae0cf2d34abb0e0b898",
+  "merged_at": "2026-10-10T07:55:46Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38035971509",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed: records, research/subject classification, language atlas, editorial workbench, full site, design system and coastal edition. Local 4973 KB links and six Python/three Node workbench tests passed.",
+    "earlier_failed_runs": [
+      "https://github.com/ahimanikya/utkal-project/actions/runs/38035853833"
+    ]
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, story index, internal research index, workbench links and evidence only. No website content selection, source, image, edition or search eligibility changed."
+  },
+  "output": {
+    "path": "research/stories/koraput.md",
+    "sha256": "e2f8ae143e3be881428de8cf2841112da73f1cde6b8c885e50370a272a346ffe",
+    "matches_fetched_merge": true
+  },
+  "review": "records/koraput-reading-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source and editorial review; no independent literary scholar, community, maker or language review.",
+    "The novel and film were not read or watched in full; no dialogue, poem, fictional episode or documentary observation invented.",
+    "Six web source pages rechecked; the Kotpad report relies on the saved 1 October inspection after a fresh web-reader request failed.",
+    "KB draft only. No field visit, host contact, current stock, food provenance, operating access, timed itinerary, website deployment or search eligibility change."
+  ]
+}
