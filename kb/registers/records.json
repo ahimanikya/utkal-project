@@ -6434,6 +6434,30 @@
         "research/stories/western-odisha.md",
         "records/western-odisha-story-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-220",
+      "title": "Taste Odisha meal and preparation reader story",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Deliver the reviewed KB draft through passing exact-head PR and save receipt before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-188"
+      ],
+      "acceptance_criteria": [
+        "Expand Taste Odisha’s existing campaign outline into a connected reader article using attributed meal, pitha-method and contemporary cook examples. Search existing KB and reuse source identities, verify bounded original passages and mark retrieval limits; avoid invented host testimony, universal recipes, health claims or current venue promises. Preserve original campaign directions, validate research classification, KB and derived indexes, pass required PR checks and save exact-head merge receipt. No website deployment or search eligibility expansion."
+      ],
+      "evidence": [
+        "records/taste-odisha-story-review-2026-10-10.json",
+        "research/stories/taste-odisha.md"
+      ]
     }
   ],
   "decisions": [
@@ -15294,6 +15318,29 @@
         "Interview text re-inspected through web reader; PDF screenshots failed and direct PDF retrieval failed certificate verification. No lyrics, poem transcription or translated excerpt reproduced.",
         "Three-part Rangabati account is the lyricist’s recollection; no original broadcast recovered. Official forest-life account is attributed and does not establish household income or conservation outcomes.",
         "KB article only. No field visit, household invitation, current festival programme, workshop appointment, memorial access, itinerary timing or media permission verified. Illustrated website edition remains separate work."
+      ]
+    },
+    {
+      "id": "UTP-REV-188",
+      "title": "Taste Odisha story and attributed preparation review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-220",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/taste-odisha-story-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant factual and editorial review; no independent cook, local/Odia reader or food-history review.",
+        "Selected source passages inspected; recipes not tested. Boiled/steamed manda terminology remains unresolved rather than assigned to invented regional versions.",
+        "2019 restaurant collaboration and2021 contributor recipe are historical descriptions. No current menu, business affiliation, household invitation or relationship verified.",
+        "KB article only; no original imagery, field tasting, contributor consent, website publication or search expansion. The earlier production plan remains open."
       ]
     }
   ],
