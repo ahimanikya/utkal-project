@@ -124,3 +124,8 @@ Inventory coverage guides future research without treating names as verified ali
 ## 2026-10-10 · Seasonal public-food evidence
 
 A [public-food evidence study](../visitor-index/seasonal-food-offer-evidence.md) connects Raja food history to a documented2021 takeaway programme. Programme dates, undated operator copy and an institutional prasad announcement remain distinct; no new observance profile or current offer is inferred.
+## 2026-10-10 · Seasonal navigation audit
+
+[Read the observance year](osha-seasonal-navigation.md): common month groups, recurrence, unresolved identities and food roles across the existing collection.
+
+[Reading the observance year without inventing dates](osha-seasonal-navigation.md). Calendar labels are a reading route into existing narratives, not new observance identities.

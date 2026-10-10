@@ -5289,6 +5289,17 @@
       "content_type": "Source",
       "classification_basis": "editorial_scope",
       "publication_status": "not_determined_by_classification"
+    },
+    {
+      "concept_id": "culture/osha-seasonal-navigation",
+      "primary_subject": "everyday",
+      "secondary_subjects": [
+        "food",
+        "arts"
+      ],
+      "content_type": "Cultural Research Guide",
+      "classification_basis": "editorial_scope",
+      "publication_status": "not_determined_by_classification"
     }
   ],
   "observation_topics": {
@@ -8707,6 +8718,34 @@
       "type": "related_reading",
       "basis": "editorial_context",
       "explanation": "A festival-food association and a dated public sale answer different questions; the serving-evidence study preserves that distinction for Raja."
+    },
+    {
+      "from": "culture/osha-seasonal-navigation",
+      "to": "culture/osha-brata-seasonal-food",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Calendar labels are a reading route into existing narratives, not new observance identities."
+    },
+    {
+      "from": "culture/osha-brata-seasonal-food",
+      "to": "culture/osha-seasonal-navigation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Calendar labels are a reading route into existing narratives, not new observance identities."
+    },
+    {
+      "from": "culture/osha-seasonal-navigation",
+      "to": "visitor-index/seasonal-food-guide",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Food roles and timing categories inform enquiries; they do not establish serving availability."
+    },
+    {
+      "from": "visitor-index/seasonal-food-guide",
+      "to": "culture/osha-seasonal-navigation",
+      "type": "related_reading",
+      "basis": "editorial_context",
+      "explanation": "Food roles and timing categories inform enquiries; they do not establish serving availability."
     }
   ],
   "relationship_types": {

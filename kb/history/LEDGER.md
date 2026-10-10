@@ -1082,3 +1082,7 @@ Thirteen additional profiles and later revisions join the existing review candid
 ## UTP-HIS-OSHA-RAJA-20261010 · Raja and dated food evidence
 
 Raja joins the existing review collection. A companion page distinguishes historical services, undated operator descriptions and planned distribution from present availability. Saved sources reused; no interviews, human review, merge or publication claimed. [Checkpoint](../records/osha-raja-review-2026-10-10.json).
+
+## UTP-HIS-OSHA-NAVIGATION-20261010 · Reading the observance year
+
+The existing collection gains shared month labels, recurrence and unresolved-identity views, with food roles alongside names. Saved research reused; no annual dates, current food offers, human review or publication claimed. [Checkpoint](../records/osha-navigation-review-2026-10-10.json).

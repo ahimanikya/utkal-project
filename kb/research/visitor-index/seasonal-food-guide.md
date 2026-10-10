@@ -218,3 +218,8 @@ The [dated serving-evidence study](seasonal-food-offer-evidence.md) records an o
 ## 2026-10-10 · Raja: a new narrative on an existing seasonal entry
 
 [Raja Parba](../culture/osha/raja-parba.md) now explains Earth’s rest, preparation ahead and shared pitha. SEAS-001 retains its identity and unknown serving fields; historical OTDC sales do not establish a current visitor offer.
+## 2026-10-10 · Seasonal navigation audit
+
+[Reading the observance year](../culture/osha-seasonal-navigation.md) now supplies a local navigation candidate. It keeps conflicting months, recurring vows and Raja’s solar transition separate; a browsing group is not a confirmed event or food offer.
+
+[Reading the observance year without inventing dates](../culture/osha-seasonal-navigation.md). Food roles and timing categories inform enquiries; they do not establish serving availability.

@@ -445,3 +445,7 @@ Thirteen additional profiles, coverage audit and later revisions reconciled. Rel
 ## 2026-10-10 · Raja and seasonal-food review
 
 Raja and public-food study reconciled using saved sources. Historical sales, undated descriptions and announcements remain separate from current availability.
+
+## 2026-10-10 · Seasonal navigation review
+
+The seasonal-navigation derivative reuses saved profile/seasonal identities, section locators and source dates. It is not independent corroboration or an annual calendar.

@@ -39,5 +39,12 @@ if r.get('public_food_evidence_register'):
    check(all(i in ids for i in entry.get('historical_service_evidence_ids',[])),'Unresolved seasonal service evidence')
   for f in evidence['failed_fetches']:check(f['status']=='unavailable','Public-food failed fetch misclassified')
 
+# Validate the optional derivative whenever seasonal data is checked.
+if r.get('navigation_register'):
+ from validate_osha_navigation import validate as validate_navigation
+ navigation_path=K/r['navigation_register']
+ check(navigation_path.is_file(),'Missing seasonal navigation register')
+ if navigation_path.is_file():errors.extend(validate_navigation(json.loads(navigation_path.read_text()),K))
+
 print(json.dumps({'result':'FAIL' if errors else 'PASS','errors':errors,'selected_observances':len(r['entries']),'provisional_associations':sum(e['evidence_status']=='provisional_indexed_association' for e in r['entries']),'scope':'Reference and evidence-boundary consistency only.'},indent=2))
 raise SystemExit(bool(errors))

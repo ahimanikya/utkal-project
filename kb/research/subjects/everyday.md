@@ -238,3 +238,6 @@ Subject membership is editorial classification. It does not establish historical
 ## 2026-10-10 · Raja: food, rest and social life
 
 [Raja Parba](../culture/osha/raja-parba.md) considers rest, restrictions, singing and shared food through attributed accounts. No universal participant experience or ancient origin is asserted.
+## 2026-10-10 · Seasonal navigation audit
+
+[Reading the observance year](../culture/osha-seasonal-navigation.md) connects traditional calendar labels, recurring vows and household food roles without assigning annual dates.

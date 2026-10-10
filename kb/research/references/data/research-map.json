@@ -22316,6 +22316,22 @@
       "source_ids": [
         "osha-raja-mohapatra2006"
       ]
+    },
+    {
+      "id": "culture/osha-seasonal-navigation",
+      "title": "Reading the observance year without inventing dates",
+      "kind": "Cultural Research Guide",
+      "layer": "research_concept",
+      "source_path": "culture/osha-seasonal-navigation.md",
+      "project_path": "kb/research/culture/osha-seasonal-navigation.md",
+      "project_counterpart_present": true,
+      "copy_state": "reconciled_review_candidate",
+      "subject_ids": [
+        "everyday",
+        "food",
+        "arts"
+      ],
+      "source_ids": []
     }
   ],
   "shared_publications": [
@@ -23938,7 +23954,9 @@
         "sources/food-otdc-raja-undated.md",
         "culture/osha/raja-parba.md",
         "references/data/raja-research.json",
-        "sources/osha-raja-mohapatra2006.md"
+        "sources/osha-raja-mohapatra2006.md",
+        "culture/osha-seasonal-navigation.md",
+        "references/data/osha-seasonal-navigation.json"
       ],
       "project_records": [
         "kb/research/product/destination-and-tour-book.md",
@@ -23964,8 +23982,8 @@
     "Local duplicate-named untracked files in the earlier review clone are excluded from committed counts and left untouched."
   ],
   "current_counts": {
-    "records_mapped": 1452,
-    "updated_at": "2026-10-10T09:43:50.199797+00:00",
+    "records_mapped": 1453,
+    "updated_at": "2026-10-10T12:03:21.358785+00:00",
     "scope": "Original audit plus explicit extensions."
   },
   "extension_history": [
@@ -24638,6 +24656,11 @@
       "run_id": "2026-10-10-raja-review",
       "at": "2026-10-10T09:43:50.199797+00:00",
       "scope": "Raja and public-food evidence reconciled; native food and subject prose preserved."
+    },
+    {
+      "run_id": "2026-10-10-navigation-review",
+      "at": "2026-10-10T12:03:21.358785+00:00",
+      "scope": "Seasonal-navigation derivative reconciled; source checking dates and native records preserved."
     }
   ]
 }
