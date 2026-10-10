@@ -5043,7 +5043,7 @@
       "human_owner": "Ahimanikya Satapathy",
       "execution_owner": "Unassigned; desk assistance may be scoped to the current AI assistant. Field roles require human appointment.",
       "authorization": "UTP-DEC-202",
-      "next_action": "Draft heritage, craft and food itineraries using confirmed records.",
+      "next_action": "Use the WORK213 desk candidates and return-deadline worksheet after WORK170 local confirmations. Prepare three actual itinerary drafts with dated transfer, appointment, access and cost evidence; desk routes alone do not complete this task.",
       "blockers": [],
       "dependencies": [
         "UTP-WORK-170"
@@ -5069,7 +5069,8 @@
       "evidence": [
         "specs/tourism-experience-pilot.md",
         "research/collections/tourism-policy-opportunity.md",
-        "models/tourism-experience-record.md"
+        "models/tourism-experience-record.md",
+        "specs/tourism-fieldwork/conference-route-drafts.md"
       ]
     },
     {
@@ -6247,6 +6248,37 @@
       "evidence": [
         "records/atlas-sharing-review-2026-10-10.json",
         "records/atlas-sharing-publication-2026-10-10.json"
+      ]
+    },
+    {
+      "id": "UTP-WORK-213",
+      "title": "Conference visitor desk routes and return deadline worksheet",
+      "category": "planning",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Deliver checked route preparation through a passing PR; locally supported itinerary task remains open.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-171",
+        "UTP-WORK-189",
+        "UTP-REV-181"
+      ],
+      "acceptance_criteria": [
+        "Prepare three distinct conference visitor desk routes for heritage, craft and food using existing experience IDs, with one anchor, optional extensions, a reader purpose, access/permission questions and reduce-or-defer choices. Include a return-deadline worksheet, an explicitly synthetic feasibility example, confirmation and release handoffs, and food participation alternatives. Preserve WORK171 as open until local evidence supports actual itineraries. Validate reuse, arithmetic, KB links and governance records; passing PR and exact-head documentation merge receipt, no website deployment or outreach."
+      ],
+      "evidence": [
+        "records/conference-route-drafts-review-2026-10-10.json",
+        "specs/tourism-fieldwork/conference-route-drafts.md"
+      ],
+      "reuse_before_research": [
+        "research/collections/tourism-experience-shortlist.md",
+        "specs/tourism-fieldwork/index.md",
+        "specs/tourism-fieldwork/operator-readiness.md",
+        "specs/tourism-fieldwork/host-confirmation.md"
       ]
     }
   ],
@@ -14946,6 +14978,30 @@
         "Same-assistant code and visual review; no independent accessibility or language review.",
         "Desktop viewport simulation, not physical-device or screen-reader testing.",
         "The in-app browser left native sharing pending without an inspectable dialog; no recipient transmission, clipboard success or native share completion is claimed. Generated URLs, control wiring and reload restoration were checked separately."
+      ]
+    },
+    {
+      "id": "UTP-REV-181",
+      "title": "Conference visitor route draft review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-213",
+        "UTP-WORK-171",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/conference-route-drafts-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant planning and source-scope review; no independent local or participant review.",
+        "Existing KB source dates retained; no new web verification, site visit, provider enquiry, appointment, quote or route measurement.",
+        "Synthetic timing example does not establish feasibility for any location or group. WORK169, WORK170 and WORK171 remain open.",
+        "Repository preparation only; no website route, online offer, contact or commercial activation."
       ]
     }
   ],
