@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4fa9e4633138649563502ef236388db7510f02d9af77df6be3b6b1f26c32254d`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `b39f4a33398658b63f4ab527f2223182dc9dfc95c90d18919d72056354806c55`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 29/500 substantive items completed with individual evidence. Continue useful eligible work; confirmed itineraries and field-dependent tasks remain open. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | 30/500 substantive items completed with individual evidence. Continue useful eligible work; confirmed itineraries and field-dependent tasks remain open. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -225,7 +225,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-212 · Share the current language atlas selection | completed | applied | Ahimanikya Satapathy | Published; native browser share-dialog completion remains an explicitly recorded verification limitation. | — |
 | UTP-WORK-213 · Conference visitor desk routes and return deadline worksheet | completed | applied | Ahimanikya Satapathy | Desk route preparation delivered; WORK171 remains open for locally supported itinerary drafts. | — |
 | UTP-WORK-214 · Immediate manual fallback for page sharing | completed | applied | Ahimanikya Satapathy | Published and verified; native share-sheet completion remains platform-dependent. | — |
-| UTP-WORK-215 · Tourism trial outcome review and measurement pack | in_progress | reviewed | Ahimanikya Satapathy | Merge the reviewed preparation after required checks; field-dependent work remains open. | — |
+| UTP-WORK-215 · Tourism trial outcome review and measurement pack | completed | applied | Ahimanikya Satapathy | Preparation delivered; use after actual authorization and trial evidence. WORK172 and WORK175 remain open. | — |
 
 ## Pending human review and decisions
 
@@ -831,7 +831,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-305 | 2026-10-10T00:44:04.221594+00:00 | PR168 passed required checks and merged the exact reviewed head. Delivery receipts now reject supplied contradictory commit, validation, workflow, approval, outcome and Actions URL evidence. Item25 delivered as repository tooling without a website deployment. | Continue independent backlog work. |
 | UTP-EVT-306 | 2026-10-10T01:35:16.640582+00:00 | Expanded existing rice story after reinspection of three original sources. Article joins culinary preferences, named seed conservation and historical seed enterprise with reader questions; current availability and field review remain separate. | Run repository checks and deliver the reviewed draft through a tested PR. |
 | UTP-EVT-307 | 2026-10-10T01:41:03.227123+00:00 | PR169 passed required checks and merged the exact reviewed head. Expanded rice and seed keepers article delivered in the KB with source reinspection, reader prompts and explicit historical limits. Item26 is a repository draft delivery, not a website release. | Continue independent backlog work; contextual media and website adaptation remain separate. |
 | UTP-EVT-308 | 2026-10-10T02:47:13.165868+00:00 | Atlas shared links now preserve allowed rendered selection controls. 512 full and 92 coastal tests pass, including Census round trips; desktop/mobile share presentation and reload restoration checked. Native share completion remains unverified in the in-app browser. | Publish tested changes through required checks and save live receipt. |
@@ -841,6 +840,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-312 | 2026-10-10T04:47:38.430277+00:00 | Sharing now exposes a manual link before the device operation settles. Eight new regression cases and desktop/mobile pending-state checks passed; native-dialog completion remains unclaimed. | Passing required PR checks, exact-head merge, authorized deployment and live verification before counting delivery. |
 | UTP-EVT-313 | 2026-10-10T04:55:15.351334+00:00 | PR172 passed checks and merged the exact reviewed head; approved main deployment succeeded. Live code matches the tested build, manual link copying works while native sharing waits, and search eligibility remains unchanged. Item29 complete. | Continue eligible sequential backlog work. |
 | UTP-EVT-314 | 2026-10-10T05:47:36.267515+00:00 | Prepared a tourism trial outcome-review pack from existing pilot and Boita measures: denominators, unanswered and cancelled cases, host payments, blank decision sheet and evidence handoff. Synthetic checks are separate from field outcomes; no trial or contact occurred. | Validate KB links and records, then merge exact reviewed documentation after required PR checks. |
+| UTP-EVT-315 | 2026-10-10T05:51:37.435274+00:00 | PR173 passed required checks and merged the exact reviewed head. Tourism outcome-review pack delivered and matched against fetched merge; item30 complete. No website deployment or actual trial result. | Continue independent eligible backlog work; future evidence collection and engagement remain separately authorized activities. |
 
 ## Deferred extensions
 

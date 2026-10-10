@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-10T05:51:37.435274+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-030",
+  "work_id": "UTP-WORK-215",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/173",
+  "reviewed_head": "518d1b338b08c009b64893ce6ca7f2c851f391ab",
+  "merge_commit": "e4d749dea221a5684e9cd42d37bf9cbf08059629",
+  "merged_at": "2026-10-10T05:51:03Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38028750372",
+    "conclusion": "success",
+    "repository_checks": "Required validate job passed; synthetic arithmetic, definition/authority review, 4974 KB links, catalogue/registers, editorial workbench and program consistency checked."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB measurement preparation, navigation and evidence only; no website code, route, edition, asset, data selection or workflow change. No actual field intake or engagement."
+  },
+  "output": {
+    "path": "specs/tourism-fieldwork/outcome-review.md",
+    "sha256": "f07919d9fdf679a127e88ff230e162fe61b1fcc094ae4893d585fb59bf1f28cc",
+    "matches_fetched_merge": true
+  },
+  "review": "records/tourism-outcome-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant planning and consistency review; no independent practitioner, participant or statistical review.",
+    "Preparation only: no field observations, baseline, actual feedback, payments, appointments or government response collected.",
+    "No new external research or operating-fact verification. Existing KB definitions are reused; synthetic arithmetic probes are not trial outcomes.",
+    "WORK169–175 field, trial, proposal and external-engagement dependencies remain open. No outreach, intake, spending, commercial activation or website deployment."
+  ]
+}
