@@ -62,6 +62,11 @@
       "failed_run": "https://github.com/ahimanikya/utkal-project/actions/runs/38032560294",
       "cause": "Internal research search-index.json was stale after revised metadata and body.",
       "correction": "Regenerated with tools/research/reindex.py and validated research. Website search selection untouched."
+    },
+    "ci_correction_followup": {
+      "failed_run": "https://github.com/ahimanikya/utkal-project/actions/runs/38032669397",
+      "cause": "Editorial workbench source fingerprint became stale after research index regeneration.",
+      "correction": "Regenerated workbench output, then passed check mode, Python workbench tests and Node workbench tests. Frozen editorial selection unchanged."
     }
   },
   "limitations": [
