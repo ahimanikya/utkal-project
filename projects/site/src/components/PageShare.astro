@@ -1,7 +1,8 @@
 ---
 const results=Astro.url.pathname==='/explore/';
+const atlas=Astro.url.pathname==='/languages/atlas/';
 ---
-<div class="page-share" data-page-share><button class="utk-button utk-button--secondary" type="button" data-share-button hidden>{results?'Share these results':'Share this page'}</button>{results&&<p>Your search words and selected filters are included in the link.</p>}<p data-share-status role="status"></p><label data-share-fallback hidden>Page link<input readonly type="url" aria-label="Page link to copy"/></label></div>
+<div class="page-share" data-page-share><button class="utk-button utk-button--secondary" type="button" data-share-button hidden>{results?'Share these results':atlas?'Share this selection':'Share this page'}</button>{results&&<p>Your search words and selected filters are included in the link.</p>}{atlas&&<p>Your selected language, area, order and district search are included in the link.</p>}<p data-share-status role="status"></p><label data-share-fallback hidden>Page link<input readonly type="url" aria-label="Page link to copy"/></label></div>
 <script>
 import {pageShareURL} from '../lib/page-share.mjs';
 const root=document.querySelector<HTMLElement>('[data-page-share]');
@@ -10,11 +11,14 @@ if(root){const button=root.querySelector<HTMLButtonElement>('[data-share-button]
  button.addEventListener('click',async()=>{
   const topics=[...document.querySelectorAll<HTMLElement>('[data-topic]')];
   const area=document.querySelector<HTMLSelectElement>('#region');
+  const language=document.querySelector<HTMLSelectElement>('#atlas-language');
   const url=pageShareURL(location,{
    q:document.querySelector<HTMLInputElement>('#search')?.value||'',
    topic:topics.find(link=>link.getAttribute('aria-current')==='true')?.dataset.topic||'All',
-   region:area?.value||'All',sort:document.querySelector<HTMLSelectElement>('#sort')?.value||'collection'
-  },{topics:topics.map(link=>link.dataset.topic),regions:[...(area?.options||[])].map(option=>option.value)});
+   region:area?.value||'All',sort:document.querySelector<HTMLSelectElement>(language?'#atlas-sort':'#sort')?.value||'collection',
+   language:language?.value||'',residence:document.querySelector<HTMLSelectElement>('#atlas-residence')?.value||'total',
+   district:document.querySelector<HTMLInputElement>('#atlas-query')?.value||''
+  },{topics:topics.map(link=>link.dataset.topic),regions:[...(area?.options||[])].map(option=>option.value),languages:[...(language?.options||[])].map(option=>option.value)});
   button.disabled=true;status.textContent='';fallback.hidden=true;
   try{if(navigator.share){await navigator.share({title:document.title,url});status.textContent='Sharing opened.';}else{await navigator.clipboard.writeText(url);status.textContent='Page link copied.';}}catch(error){if(error instanceof DOMException&&error.name==='AbortError'){status.textContent='Sharing cancelled.';}else{fallback.hidden=false;input.value=url;input.focus();input.select();status.textContent='Copy the link below.';}}finally{button.disabled=false;}
  });
