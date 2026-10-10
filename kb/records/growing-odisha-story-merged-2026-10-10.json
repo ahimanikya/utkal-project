@@ -1,0 +1,31 @@
+{
+  "recorded_at": "2026-10-10T14:44:24.543401+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-037",
+  "work_id": "UTP-WORK-222",
+  "pull_request": "https://github.com/ahimanikya/utkal-project/pull/180",
+  "reviewed_head": "d2fcc54b8d0ad2da5cbc206ff1dc64c0b94ff813",
+  "merge_commit": "9a7d099f86338c14728feb0650445a87420c731b",
+  "merged_at": "2026-10-10T14:44:21Z",
+  "validation": {
+    "url": "https://github.com/ahimanikya/utkal-project/actions/runs/38060646963",
+    "conclusion": "success",
+    "repository_checks": "Required validation passed on reviewed head. Local research/classification,4986KB links, registers/program, workbench build/check and six Python/three Node tests passed."
+  },
+  "deployment": {
+    "required": false,
+    "reason": "KB article, internal research index, workbench reference fingerprint and governance records only. No public website source, selected content, assets, edition, workflow or search eligibility changed."
+  },
+  "output": {
+    "path": "research/stories/growing-odisha.md",
+    "sha256": "b9092226d8701ad2c14db00dea8191e24f0143ab0d93b8e5d9d8f381880bcb48",
+    "matches_fetched_merge": true
+  },
+  "review": "records/growing-odisha-story-review-2026-10-10.json",
+  "limitations": [
+    "Same-assistant source and editorial review; no independent economist, participant or human editorial review.",
+    "Bounded source passages and two survey tables checked; not a comprehensive refresh of every economic series. Source estimates and displayed rounding retained.",
+    "No producer interview, field visit, household income, job creation, environmental outcome or commercial project completion established.",
+    "KB-only reader draft with a six-year table. No new photography, website publication, search eligibility or participant media permission."
+  ]
+}

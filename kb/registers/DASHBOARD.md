@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `2c50e7a7534e313904c9f675c639dbdb8c94cfbeea535a39359a02966c86070e`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `238504489fe2168c5b2f047247bb188d1fc36f39fc61ef2ab0511af649cca10a`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -199,7 +199,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-2026100602 · Home-page sharing preview: Human Natural Konark artwork | completed | published | Ahimanikya Satapathy | No remaining implementation work; external sharing caches may refresh on their own schedule. | — |
 | UTP-WORK-187 · Three illustrated food stories and publication backlog reconciliation | completed | published | Ahimanikya Satapathy | Published under UTP-REL-076. Keep current local arrangements and introductions deferred; northern verification remains WORK188. | — |
 | UTP-WORK-188 · Verify local arrangements behind published northern visitor guides | deferred | draft | Ahimanikya Satapathy | When fieldwork resumes, obtain dated local evidence for access, permissions, transport, kitchens and stays for Balasore, Chandipur, Mayurbhanj and Similipal. Use the local-confirmation model; no contact or confirmation has occurred. | — |
-| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 36 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
+| UTP-WORK-189 · Continue the next 500 substantive UTP backlog items | in_progress | draft | Ahimanikya Satapathy | Continue the next eligible substantive backlog item. 37 of 500 items delivered with linked evidence; no routine approval required within UTP-DEC-225. | — |
 | UTP-WORK-190 · Food discovery, portable reading collection and current review-queue repair | completed | published | Ahimanikya Satapathy | Published and live-verified. Continue through the program queue under DEC225. | — |
 | UTP-WORK-191 · Build the tourism opportunities information section | completed | reviewed | Ahimanikya Satapathy | Published information scope complete. Continue WORK166 and WORK171 only when new documentary or operating evidence is available. | — |
 | UTP-WORK-192 · Align saved food cards with canonical story introductions | completed | reviewed | Ahimanikya Satapathy | Repair published and live catalogue verified; preserve canonical food fields when future stories change. | — |
@@ -232,7 +232,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-219 · Western Odisha harvest, literary place and landscape reader story | completed | applied | Ahimanikya Satapathy | KB article delivered. Illustrated website preparation and local programme/access checks remain separate work. | — |
 | UTP-WORK-220 · Taste Odisha meal and preparation reader story | completed | applied | Ahimanikya Satapathy | KB article delivered. Local/Odia review, recipe testing and illustrated website preparation remain separate work. | — |
 | UTP-WORK-221 · Coastal stone, painting and cloth reader journey | completed | applied | Ahimanikya Satapathy | KB story delivered. Practitioner review, actual access arrangements and illustrated website treatment remain separate work. | — |
-| UTP-WORK-222 · Make Growing Odisha a reader story about what growth measures | in_progress | reviewed | Ahimanikya Satapathy | Deliver through checked exact-head PR and save merge receipt before counting. | — |
+| UTP-WORK-222 · Make Growing Odisha a reader story about what growth measures | completed | applied | Ahimanikya Satapathy | KB story delivered. Independent economics review, participant reporting and illustrated website treatment remain separate work. | — |
 
 ## Pending human review and decisions
 
@@ -845,7 +845,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-319 | 2026-10-10T07:56:29.279059+00:00 | PR175 passed all required checks after correcting the content-type mismatch, then merged the exact reviewed head. The expanded Koraput article matches fetched merge; item32 delivered to KB. No website deployment or field confirmation claimed. | Continue an eligible backlog item and retain the article’s image and local-review dependencies. |
 | UTP-EVT-320 | 2026-10-10T08:59:34.877933+00:00 | Expanded the Buddhist circuit outline through clay inscriptions, relic containers and traveller testimony. Recovered two original PDFs and checked a historical museum briefing. Preserved distinct site identities, uncertain religious identification and the canonical related-reading explanation. | Complete checks and exact-head documentation PR. |
 | UTP-EVT-321 | 2026-10-10T09:04:24.999075+00:00 | PR176 passed required checks and merged the exact reviewed head. Expanded Buddhist circuit article matches fetched merge; item33 delivered to KB with source recovery and visiting limits retained. No website deployment. | Continue independent backlog work; do not infer image rights or current local access from this article. |
 | UTP-EVT-322 | 2026-10-10T09:59:13.095778+00:00 | Expanded western Odisha reader article reviewed against four existing source routes. Preserved lyricist recollection and official account boundaries; PDF retrieval limitations documented. Local checks passed; item34 awaits exact-head PR delivery. | Run required checks, merge reviewed documentation and save delivery receipt before counting. |
@@ -855,6 +854,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-326 | 2026-10-10T14:03:01.044724+00:00 | Coastal outline expanded into connected stone, painting and cloth reader journey. Three primary source passages reviewed; current access and media gaps retained. Item36 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
 | UTP-EVT-327 | 2026-10-10T14:14:01.864422+00:00 | PR179 passed required checks and exact reviewed head merged. Coastal materials article matches fetched merge; item36 delivered toKB. Public website unchanged. | Continue eligible backlog; practitioner and current visitor checks remain open. |
 | UTP-EVT-328 | 2026-10-10T14:41:25.133027+00:00 | Growing Odisha expanded into a sourced reader story. Fish/port endpoints and six construction years checked, two PDF tables visually reviewed; livelihood questions left open. Item37 awaits checked merge. | Pass required checks and merge exact reviewed documentation. |
+| UTP-EVT-329 | 2026-10-10T14:44:24.543401+00:00 | PR180 passed required checks and exact reviewed head merged. Growing Odisha article matches fetched merge; item37 delivered toKB. Public website unchanged. | Continue eligible backlog; independent review and participant reporting remain open. |
 
 ## Deferred extensions
 
