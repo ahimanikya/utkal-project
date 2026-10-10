@@ -5,7 +5,7 @@ title: "Utkal Project dashboard"
 
 # Utkal Project · dashboard
 
-Generated from `records.json` and `activity.jsonl`. Source SHA-256: `4835bd7ec9017432ae15483adad5b7ec4f2540492693d3fbc57ce4355d7c19f7`.
+Generated from `records.json` and `activity.jsonl`. Source SHA-256: `58dfc07b7ac75f0df72d85f0afd0cc7d406c84657e1982c6fc9e8da08bcdc978`.
 
 Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports records; it grants no authority.
 
@@ -227,6 +227,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-WORK-214 · Immediate manual fallback for page sharing | completed | applied | Ahimanikya Satapathy | Published and verified; native share-sheet completion remains platform-dependent. | — |
 | UTP-WORK-215 · Tourism trial outcome review and measurement pack | completed | applied | Ahimanikya Satapathy | Preparation delivered; use after actual authorization and trial evidence. WORK172 and WORK175 remain open. | — |
 | UTP-WORK-216 · Loom-to-market reader article and creator credits | completed | applied | Ahimanikya Satapathy | KB article delivered; illustrated website edition remains separate and needs appropriate imagery and editorial review. | — |
+| UTP-WORK-217 · Connect Koraput literature, food and cloth in a visitor reading story | in_progress | reviewed | Ahimanikya Satapathy | Run final checks and merge the exact reviewed documentation through a passing PR. | — |
 
 ## Pending human review and decisions
 
@@ -698,6 +699,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-REV-182 | pass_with_limitations | False | Same-assistant implementation, code and visual review; no independent accessibility review.; Desktop viewport simulation, not physical-device or screen-reader testing.; Native sharing remained pending in the in-app browser. The manual link was visible and keyboard-accessible, and opening its URL restored the selection; no actual recipient transmission or native-dialog completion is claimed. Clipboard success/failure and cancellation were verified with injected platform test doubles. |
 | UTP-REV-183 | pass_with_limitations | False | Same-assistant planning and consistency review; no independent practitioner, participant or statistical review.; Preparation only: no field observations, baseline, actual feedback, payments, appointments or government response collected.; No new external research or operating-fact verification. Existing KB definitions are reused; synthetic arithmetic probes are not trial outcomes.; WORK169–175 field, trial, proposal and external-engagement dependencies remain open. No outreach, intake, spending, commercial activation or website deployment. |
 | UTP-REV-184 | pass_with_limitations | False | Same-assistant editorial and source review; no independent textile specialist, maker or language review.; No interview, field visit, current stock, authenticity certification, workshop availability, income or measured livelihood impact claimed.; Directory is undated. Product examples do not establish other retail-piece makers, present lead times or image reuse rights. No PDF image reproduced.; KB article draft only; no website deployment, search eligibility change, outreach, commercial activation or source-dataset rewrite. |
+| UTP-REV-185 | pass_with_limitations | False | Same-assistant source and editorial review; no independent literary scholar, community, maker or language review.; The novel and film were not read or watched in full; no dialogue, poem, fictional episode or documentary observation invented.; Six web source pages rechecked; the Kotpad report relies on the saved 1 October inspection after a fresh web-reader request failed.; KB draft only. No field visit, host contact, current stock, food provenance, operating access, timed itinerary, website deployment or search eligibility change. |
 
 ## Publication and application history
 
@@ -833,7 +835,6 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 
 | Event | Recorded at | Summary | Next action |
 |---|---|---|---|
-| UTP-EVT-308 | 2026-10-10T02:47:13.165868+00:00 | Atlas shared links now preserve allowed rendered selection controls. 512 full and 92 coastal tests pass, including Census round trips; desktop/mobile share presentation and reload restoration checked. Native share completion remains unverified in the in-app browser. | Publish tested changes through required checks and save live receipt. |
 | UTP-EVT-309 | 2026-10-10T02:55:27.221013+00:00 | PR170 passed checks, exact reviewed head merged and authorized main publication succeeded. Live atlas restores the selected Census view; sharing script and dependency match the tested build byte-for-byte. Item27 delivered, with native-dialog completion explicitly unverified. | Continue the next eligible item; no additional approval required within DEC225 scope. |
 | UTP-EVT-310 | 2026-10-10T03:44:17.688901+00:00 | Prepared heritage, craft and food conference-visitor desk candidates from six existing experience IDs, plus deadline feasibility worksheet and synthetic overloaded-plan example. No operating facts refreshed or appointments inferred; WORK171 awaits local confirmations. | Check KB records and links, then merge the exact reviewed documentation head after required checks. |
 | UTP-EVT-311 | 2026-10-10T03:48:33.894991+00:00 | PR171 passed required checks and merged the exact reviewed head. Three conference visitor desk candidates and feasibility handoff delivered to the KB; document matches fetched merge. Item28 complete, no website deployment or locally confirmed itinerary claimed. | Continue independent backlog work; local confirmation and actual itinerary work remain open. |
@@ -843,6 +844,7 @@ Accountable human: **Ahimanikya Satapathy**. Model 1.0.0. This view reports reco
 | UTP-EVT-315 | 2026-10-10T05:51:37.435274+00:00 | PR173 passed required checks and merged the exact reviewed head. Tourism outcome-review pack delivered and matched against fetched merge; item30 complete. No website deployment or actual trial result. | Continue independent eligible backlog work; future evidence collection and engagement remain separately authorized activities. |
 | UTP-EVT-316 | 2026-10-10T06:53:52.886313+00:00 | Expanded the existing loom-to-market story with named creator examples, construction details and visitor questions. Four existing source identities reused; two web-reader failures recovered by direct PDF inspection. No current stock, income, workshop or image-rights claim. | Validate KB and evidence consistency; merge the exact reviewed documentation after required checks. |
 | UTP-EVT-317 | 2026-10-10T07:01:59.984552+00:00 | PR174 passed required checks after two recorded generated-data corrections, then merged the exact reviewed head. Expanded textile article matches fetched merge; item31 delivered to KB. No website deployment or new image rights claimed. | Continue independent backlog work; retain illustrated-edition and maker-confirmation limits. |
+| UTP-EVT-318 | 2026-10-10T07:50:33.459654+00:00 | Expanded the existing Koraput journey into a reader article connecting Paraja, translation credit, coffee, registered rice and Kotpad documentary/craft. Six source pages rechecked; saved craft report inspection reused with fresh retrieval failure recorded. No fieldwork or novel/film close reading invented. | Validate records and merge the checked documentation PR. |
 
 ## Deferred extensions
 

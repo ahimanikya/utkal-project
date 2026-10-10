@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-10T07:50:33.459654+00:00",
+  "program_item": "UTP-A500-032",
+  "work_id": "UTP-WORK-217",
+  "authorization": "UTP-DEC-225",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/koraput.md",
+  "reuse": {
+    "research_map_read": true,
+    "existing_query": "Koraput, Gopinath, Paraja, coffee, Kalajeera, Kotpad; existing story, people, works, voices collection, food, rice and craft records inspected.",
+    "inputs": [
+      "research/stories/koraput.md",
+      "research/people/gopinath-mohanty.md",
+      "research/works/paraja.md",
+      "research/voices/collection.json",
+      "research/food/koraput-coffee.md",
+      "research/food/koraput-kalajeera-rice.md",
+      "research/food/rice-varieties.md",
+      "research/handlooms/kotpad.md",
+      "research/culture/textile-stories.json"
+    ],
+    "earlier_draft_sha256": "da3ae5469b9b00462632821093116d45058ff67bce817c5a0255c7a209a2e315",
+    "earlier_draft_preserved": "Git parent52784bef; original concept, proposed opening and fieldwork limits retained in development note."
+  },
+  "sources": [
+    {
+      "id": "koraput",
+      "url": "https://koraput.odisha.gov.in/en/about-district/about-us",
+      "inspection": "Web reader full page; setting and coffee/Kotpad references. Population, elevations, superlatives and transport schedules omitted."
+    },
+    {
+      "id": "gopinath-life",
+      "url": "https://gopinathmohanty.in/life-sketch/",
+      "inspection": "Web reader full page; early Koraput administrative posting and language interest. Conflicting award year and evaluative language omitted."
+    },
+    {
+      "id": "gopinath-paraja",
+      "url": "https://gopinathmohanty.in/literary-creations/immortal-novels/paraja/",
+      "inspection": "Web reader short introduction; attributed exploitation theme only. Outdated community label not adopted. Same memorial family as life sketch, not independent corroboration."
+    },
+    {
+      "id": "literature-paraja-oxford-reference",
+      "url": "https://academic.oup.com/book/35106/chapter/299186110",
+      "inspection": "Oxford-hosted references, Mohanty entry lines1964–1972; 1987 edition and Bikram K. Das credit. Bibliographic reference, not title-page inspection."
+    },
+    {
+      "id": "gi-kalajeera",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/814",
+      "inspection": "Official detail entry; product name, Registered status and certificate date2 January2024. No seller entitlement, packet or serving authenticated."
+    },
+    {
+      "id": "kotpad-film",
+      "url": "https://psbt.org/films/kotpad-weaving-the-story-of-a-race-against-time/",
+      "inspection": "Producer listing; Biswanath Rath, 2018,29minutes,Odia/English. No film viewing, free stream, awards or reuse rights claimed."
+    },
+    {
+      "id": "kotpad-textiles",
+      "url": "https://handlooms.nic.in/assets/img/EBOOK/Sustainability%20in%20the%20Handloom%20Traditions%20of%20India.pdf",
+      "inspection": "Reused handlooms/kotpad.md and culture/textile-stories.json bounded 1October inspection: printedp36/PDFp49 Mirgan,aul-root,palette. New web-reader Internal Error; not a new PDF verification."
+    }
+  ],
+  "verification": {
+    "claims": "Source-attributed introduction and edition credit distinguished from original reader questions. No invented lived scene, attribution, translation or claim to close reading.",
+    "continuity": "Existing story expanded in place and index label updated. No duplicate person/work/destination identity; structured research datasets and other automation queues untouched.",
+    "checks": "PASS: research index validation (1093 concepts), whole-project catalogue (1247), 4973 local KB links, registers, program consistency, editorial workbench regeneration/check, six Python and three Node workbench tests, and whitespace checks.",
+    "initial_correction": "Local registers check rejected file paths in refs. Corrected refs to record IDs and put paths under evidence before PR.",
+    "ci_correction": {
+      "failed_run": "https://github.com/ahimanikya/utkal-project/actions/runs/38035853833",
+      "cause": "Changing the existing Journey Concept type to Editorial story disagreed with the canonical subject classification.",
+      "correction": "Retained the original Journey Concept classification; regenerated derived indexes and ran the subject validator. No ontology expansion needed for this narrative revision."
+    }
+  },
+  "limitations": [
+    "Same-assistant source and editorial review; no independent literary scholar, community, maker or language review.",
+    "The novel and film were not read or watched in full; no dialogue, poem, fictional episode or documentary observation invented.",
+    "Six web source pages rechecked; the Kotpad report relies on the saved 1 October inspection after a fresh web-reader request failed.",
+    "KB draft only. No field visit, host contact, current stock, food provenance, operating access, timed itinerary, website deployment or search eligibility change."
+  ],
+  "delivery": "Pending checked exact-head documentation merge; no website release required."
+}
