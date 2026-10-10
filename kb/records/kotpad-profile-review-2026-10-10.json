@@ -1,0 +1,76 @@
+{
+  "recorded_at": "2026-10-10T16:40:54.208802+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-039",
+  "work_id": "UTP-WORK-224",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/handlooms/kotpad.md",
+  "brief": {
+    "reader": "Curious reader, textile learner or visitor seeking the names and process behind a cloth.",
+    "reason_to_read": "Connect colours, named motif documentation, a maker award record and a producer documentary listing.",
+    "memorable_detail": "An axe called tangi and a fish called machari in attributed documentation invite more specific questions.",
+    "visual_treatment": "Original textile-report page rendered and inspected; documented photographs and film linked at their credited sources.",
+    "next_step": "Look at the documented motifs or follow the producer viewing lead; arrange any maker encounter separately."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "Kotpad"
+    ],
+    "inputs": [
+      "research/handlooms/kotpad.md",
+      "research/culture/textile-stories.json",
+      "research/sources/textile-story-research.md",
+      "research/sources/kotpad-textiles.md",
+      "research/sources/handloom-padma2018.md",
+      "research/stories/handlooms-from-loom-to-market.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-012",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "83af7b3fb04febc314c4e502ed2b9e731bf8fea42cd7651661b1af5523d44ff7",
+    "preserved": "Original research body retained verbatim below the reader introduction. Stable source IDs reused, including motif/film IDs from existing story data. Earlier award-year correction retained. Research datasets, queue statuses and website narratives not edited."
+  },
+  "sources": [
+    {
+      "id": "kotpad-textiles",
+      "url": "https://handlooms.nic.in/assets/img/EBOOK/Sustainability%20in%20the%20Handloom%20Traditions%20of%20India.pdf",
+      "sha256": "75cd8ee969fab6d6584c40bd46d73f50717a119f1c6eb0b25b3b29808d9c3693",
+      "inspection": "Web timeout followed by original 146-page PDF recovered directly over HTTPS; hash matches prior capture. PDF p.49, printed36, extracted and rendered. Community, fibres, colour names and broad preparation sequence checked. Botanical, impact, duration and generalized gender-role claims excluded from new reader copy."
+    },
+    {
+      "id": "kotpad-motifs",
+      "url": "https://artsandculture.google.com/story/the-colours-and-motifs-of-kotpad-textiles-dastkari-haat-samiti/dQUh981u4j6aIg?hl=en",
+      "inspection": "Dastkari Haat documentation: 2017 object captions; crab, fish, vessel, axe motifs; tangi/machari labels; text/photographer/artisan credits. Universal dye ingredients, cultural interpretation and organic marketing claims not adopted."
+    },
+    {
+      "id": "kotpad-film",
+      "url": "https://psbt.org/films/kotpad-weaving-the-story-of-a-race-against-time/",
+      "inspection": "Producer catalogue: Biswanath Rath,2018,29min,Odia/English,natural-dye textile subject. Film not watched; awards, global impact and screening availability not asserted."
+    },
+    {
+      "id": "handloom-padma2018",
+      "url": "https://knowindia.india.gov.in/assets/doc/PadmaAwards2018.pdf",
+      "inspection": "Web PDF reader:25January2018 heading, Padma Shri heading onp2, p3serial58 Gobaradhan Panika Art-Weaving Odisha. Screenshot cache miss; direct download HTML, not usable PDF. Text check supports retained2018 correction; no ceremony date or fresh visual review."
+    }
+  ],
+  "verification": {
+    "claims": "Documented colour/material account, motif labels and credits, award year, film metadata source-attributed; interpretive paragraphs labelled by context as invitations. Earlier body preservation asserted against HEAD.",
+    "local_checks": "1093 research concepts,303 relationships,1247 KB concepts/4991 links; registers/program, workbench build/check; six Python and three Node tests; whitespace pass.",
+    "visual": "Original sustainability report PDF p49 rendered and inspected. Award PDF visual check unavailable. No website or new visual asset change."
+  },
+  "limitations": [
+    "Same-assistant source and editorial review; practitioner, community terminology and independent human review remain open.",
+    "Award announcement extracted text checked through web PDF reader; screenshot cache miss and direct retrieval returned HTML, so no fresh visual inspection of the award row is claimed.",
+    "No botanical identity, quantified environmental benefit, product certification, current dye recipe or universal gender-role claim independently established.",
+    "Film catalogue metadata checked, not the complete film or current screening availability. No source photograph or film reproduced; no new reuse rights assumed.",
+    "No fieldwork, current stock, GI renewal, workshop invitation or human review claimed. KB-only profile; existing website narrative and search eligibility remain separate."
+  ],
+  "delivery": "Pending required checks and reviewed-head documentation merge; deployment not required."
+}
