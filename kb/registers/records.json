@@ -6459,6 +6459,30 @@
         "research/stories/taste-odisha.md",
         "records/taste-odisha-story-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-221",
+      "title": "Coastal stone, painting and cloth reader journey",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Deliver through checked exact-head PR and save merge receipt before counting.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-189"
+      ],
+      "acceptance_criteria": [
+        "Expand the existing coast-and-culture outline into a connected, source-attributed reader story linking Konark, Raghurajpur and Pipili through materials and making. Reuse canonical narratives, verify bounded primary source passages, preserve earlier food/coast anchors and identify current-access gaps without inventing visits, maker testimony or a timed route. Validate research classification, KB and derived indexes; pass required PR checks and save exact-head merge receipt. No website deployment or search eligibility expansion."
+      ],
+      "evidence": [
+        "records/coastal-materials-story-review-2026-10-10.json",
+        "research/stories/coast-and-culture.md"
+      ]
     }
   ],
   "decisions": [
@@ -15342,6 +15366,29 @@
         "Selected source passages inspected; recipes not tested. Boiled/steamed manda terminology remains unresolved rather than assigned to invented regional versions.",
         "2019 restaurant collaboration and2021 contributor recipe are historical descriptions. No current menu, business affiliation, household invitation or relationship verified.",
         "KB article only; no original imagery, field tasting, contributor consent, website publication or search expansion. The earlier production plan remains open."
+      ]
+    },
+    {
+      "id": "UTP-REV-189",
+      "title": "Coastal materials reader journey source review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-221",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/coastal-materials-story-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source and editorial review; no independent human, local practitioner or language review.",
+        "Dsource retrieval includes unrelated spam links; only the attributed process passage consistent with saved canonical narrative is used. No market or employment claim used.",
+        "District Raghurajpur endpoint timed out; no new claim relies on that retrieval.",
+        "No field visit, workshop appointment, current access, timed itinerary or image permissions established. KB-only draft; no website publication or search expansion."
       ]
     }
   ],

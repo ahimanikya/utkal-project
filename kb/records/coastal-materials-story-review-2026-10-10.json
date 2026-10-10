@@ -1,0 +1,71 @@
+{
+  "recorded_at": "2026-10-10T14:03:01.044724+00:00",
+  "authorization": "UTP-DEC-225",
+  "program_item": "UTP-A500-036",
+  "work_id": "UTP-WORK-221",
+  "status": "pass_with_limitations",
+  "reviewer": {
+    "kind": "ai_assistant",
+    "name": "Current AI assistant"
+  },
+  "independent": false,
+  "output": "research/stories/coast-and-culture.md",
+  "brief": {
+    "reader": "First-time coastal visitor or returning reader curious about materials and making.",
+    "reason_to_explore": "Carry close attention from a carved wheel through a narrative painting to an assembled textile.",
+    "memorable_detail": "The material changes while the visitor keeps asking how a story is constructed. This is editorial comparison, not a lineage claim.",
+    "visual_treatment": "Future permitted monument detail and credited maker process photographs; none copied.",
+    "next_step": "Choose a focus and establish access/host details before turning the reading sequence into a route."
+  },
+  "reuse": {
+    "research_map_read": true,
+    "queries": [
+      "Raghurajpur",
+      "Konark"
+    ],
+    "inputs": [
+      "research/stories/coast-and-culture.md",
+      "research/stories/narratives/raghurajpur-painting-and-performance.md",
+      "research/stories/narratives/pipili-cloth-and-ceremony.md",
+      "research/places/konark.md",
+      "research/culture/raghurajpur-pattachitra.md",
+      "research/culture/pipili-applique.md",
+      "research/food/mahaprasad.md"
+    ],
+    "queue_pointers_inspected": [
+      "RES-005",
+      "RES-006",
+      "RES-007",
+      "RES-022"
+    ],
+    "earlier_draft_sha256": "4b39de399de67958902ff106171f8c86183c2a981a1060179994055b57c975fa",
+    "preserved": "Original Journey Concept and title retained; outline in bb6998a8, coastal/food anchors, audience directions and unfinished access/media work preserved. No queue status or shared research dataset changed."
+  },
+  "sources": [
+    {
+      "id": "konark",
+      "url": "https://whc.unesco.org/en/list/246",
+      "scope": "Description and OUV: period, patron, chariot, twelve pairs of wheels and relief subjects. Horse count conflict omitted."
+    },
+    {
+      "url": "https://www.pib.gov.in/newsite/PrintRelease.aspx?lang=2&reg=48&relid=104817",
+      "scope": "Sucharita Sahoo,11April2014: prepared cloth and narrative subjects, Gotipua. Dated feature; excludes household counts, current services and livelihood outcomes."
+    },
+    {
+      "url": "https://www.dsource.in/resource/traditional-pipli-applique-work-pipli-orissa/making-process",
+      "scope": "Named NID authors and process paragraphs only: cloth shapes, stitching, mirrors, stencil and lampshade ring. Unrelated spam links ignored; no following links or market claims."
+    }
+  ],
+  "verification": {
+    "claims": "All factual paragraphs matched to bounded inspected passages or explicitly linked canonical reading. Observation invitations distinguished from personal testimony; no invented scene or common artistic ancestry.",
+    "local_checks": "1093 research concepts,303 relationships,1247KB concepts/4983 links, program/register checks, workbench build/check and six Python/three Node tests passed.",
+    "media": "No media or website changes; website visual inspection not applicable."
+  },
+  "limitations": [
+    "Same-assistant source and editorial review; no independent human, local practitioner or language review.",
+    "Dsource retrieval includes unrelated spam links; only the attributed process passage consistent with saved canonical narrative is used. No market or employment claim used.",
+    "District Raghurajpur endpoint timed out; no new claim relies on that retrieval.",
+    "No field visit, workshop appointment, current access, timed itinerary or image permissions established. KB-only draft; no website publication or search expansion."
+  ],
+  "delivery": "Pending exact-head checked documentation PR; no website deployment needed."
+}
