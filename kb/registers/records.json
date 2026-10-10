@@ -6359,6 +6359,30 @@
         "research/stories/handlooms-from-loom-to-market.md",
         "records/loom-market-story-merged-2026-10-10.json"
       ]
+    },
+    {
+      "id": "UTP-WORK-217",
+      "title": "Connect Koraput literature, food and cloth in a visitor reading story",
+      "category": "research_and_writing",
+      "status": "in_progress",
+      "readiness": "reviewed",
+      "human_owner": "Ahimanikya Satapathy",
+      "execution_owner": "Current AI assistant",
+      "authorization": "UTP-DEC-225",
+      "next_action": "Run final checks and merge the exact reviewed documentation through a passing PR.",
+      "blockers": [],
+      "refs": [
+        "UTP-DEC-225",
+        "UTP-WORK-189",
+        "UTP-REV-185"
+      ],
+      "acceptance_criteria": [
+        "Develop the existing Koraput journey draft into a connected reading article linking Gopinath Mohanty and Paraja with selected food and textile knowledge. Verify bounded source claims, credit translation by edition, preserve the earlier concept and avoid fictional field scenes, generalized community testimony or an unverified timed itinerary. Save source and editorial review; validate KB/research/workbench, pass PR checks and merge exact reviewed documentation. No website deployment or search eligibility change."
+      ],
+      "evidence": [
+        "records/koraput-reading-review-2026-10-10.json",
+        "research/stories/koraput.md"
+      ]
     }
   ],
   "decisions": [
@@ -15150,6 +15174,29 @@
         "No interview, field visit, current stock, authenticity certification, workshop availability, income or measured livelihood impact claimed.",
         "Directory is undated. Product examples do not establish other retail-piece makers, present lead times or image reuse rights. No PDF image reproduced.",
         "KB article draft only; no website deployment, search eligibility change, outreach, commercial activation or source-dataset rewrite."
+      ]
+    },
+    {
+      "id": "UTP-REV-185",
+      "title": "Koraput literature and visitor reading article review",
+      "status": "pass_with_limitations",
+      "reviewer": {
+        "kind": "ai_assistant",
+        "name": "Current AI assistant"
+      },
+      "independent": false,
+      "refs": [
+        "UTP-WORK-217",
+        "UTP-DEC-225"
+      ],
+      "evidence": [
+        "records/koraput-reading-review-2026-10-10.json"
+      ],
+      "limitations": [
+        "Same-assistant source and editorial review; no independent literary scholar, community, maker or language review.",
+        "The novel and film were not read or watched in full; no dialogue, poem, fictional episode or documentary observation invented.",
+        "Six web source pages rechecked; the Kotpad report relies on the saved 1 October inspection after a fresh web-reader request failed.",
+        "KB draft only. No field visit, host contact, current stock, food provenance, operating access, timed itinerary, website deployment or search eligibility change."
       ]
     }
   ],
